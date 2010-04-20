@@ -44,6 +44,8 @@ en:
       vote_down: vote down
       flag: flag
       edit_others_posts: "edit other's posts"
+      edit_wiki_post: "edit wiki posts"
+      retag_others_questions: "retag others questions"
   activerecord:
     models:
       users: users

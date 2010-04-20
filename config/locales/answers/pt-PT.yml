@@ -16,6 +16,8 @@
   \n - só pode colocar uma resposta por pergunta."
     update:
       flash_notice: "resposta foi actualizada com sucesso."
+    revert:
+      title: "revert answer"
 
   activerecord:
     models:
@@ -24,5 +26,5 @@
     attributes:
       answer:
         link: ligação
-        created_at: answered
+        created_at: accepted
         body: conteúdo

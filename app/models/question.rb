@@ -24,7 +24,11 @@ class Question
 
   key :adult_content, Boolean, :default => false
   key :banned, Boolean, :default => false
-  key :answered, Boolean, :default => false
+  key :accepted, Boolean, :default => false
+
+  key :answered_with_id, String
+  belongs_to :answered_with, :class_name => "Answer"
+
   key :wiki, Boolean, :default => false
   key :language, String, :default => "en"
 
@@ -93,6 +97,7 @@ class Question
     opts[:per_page] ||= 10
     opts[:page]     ||= 1
     opts[:group_id] = question.group_id
+    opts[:banned] = false
 
     Question.paginate(opts.merge(:_keywords => {:$in => question.tags}, :_id => {:$ne => question.id}))
   end
@@ -132,7 +137,7 @@ class Question
       voter.on_activity(:vote_down_question, self.group)
       self.user.downvote!(self.group)
     end
-    on_activity
+    on_activity(false)
   end
 
   def remove_vote!(v, voter)
@@ -150,24 +155,24 @@ class Question
       voter.on_activity(:undo_vote_down_question, self.group)
       self.user.downvote!(self.group, -1)
     end
-    on_activity
+    on_activity(false)
   end
 
   def add_favorite!(fav, user)
     self.collection.update({:_id => self._id}, {:$inc => {:favorites_count => 1}},
                                                           :upsert => true)
-    on_activity
+    on_activity(false)
   end
 
 
   def remove_favorite!(fav, user)
     self.collection.update({:_id => self._id}, {:$inc => {:favorites_count => -1}},
                                                           :upsert => true)
-    on_activity
+    on_activity(false)
   end
 
-  def on_activity
-    update_activity_at
+  def on_activity(bring_to_front = true)
+    update_activity_at if bring_to_front
     self.collection.update({:_id => self._id}, {:$inc => {:hotness => 1}},
                                                          :upsert => true)
   end
@@ -191,6 +196,19 @@ class Question
     ids = ids.map do |id| id end
 
     self.collection.update({:_id => {:$in => ids}}, {:$set => {:banned => true}},
+                                                     :multi => true,
+                                                     :upsert => true)
+  end
+
+  def unban
+    self.collection.update({:_id => self._id}, {:$set => {:banned => false}},
+                                               :upsert => true)
+  end
+
+  def self.unban(ids)
+    ids = ids.map do |id| id end
+
+    self.collection.update({:_id => {:$in => ids}}, {:$set => {:banned => false}},
                                                      :multi => true,
                                                      :upsert => true)
   end
@@ -239,6 +257,10 @@ class Question
     if !valid
       self.errors.add(:body, "Your question looks like spam. you need to wait 20 senconds before posting another question.")
     end
+  end
+
+  def answered
+    self.answered_with_id.present?
   end
 
   def self.update_last_target(question_id, target)

@@ -1,7 +1,7 @@
 class AnswersController < ApplicationController
   before_filter :login_required, :except => [:show, :create]
   before_filter :check_permissions, :only => [:destroy]
-  before_filter :check_update_permissions, :only => [:edit, :update, :rollback]
+  before_filter :check_update_permissions, :only => [:edit, :update, :revert]
 
   helper :votes
 
@@ -34,17 +34,12 @@ class AnswersController < ApplicationController
     end
   end
 
-  def rollback
+  def revert
     @question = @answer.question
-    @question.updated_by = current_user
-
-    if @answer.rollback!(params[:version].to_i)
-      flash[:notice] = t(:flash_notice, :scope => "answers.update")
-      Magent.push("actors.judge", :on_rollback, @answer.id)
-    end
+    @answer.load_version(params[:version].to_i)
 
     respond_to do |format|
-      format.html { redirect_to history_question_answer_path(@question, @answer) }
+      format.html
     end
   end
 
@@ -95,11 +90,7 @@ class AnswersController < ApplicationController
           users.push(@question.user) if @question.user != current_user
           followers = []
 
-          if current_group.private || current_group.isolate
-            followers = @answer.user.followers(:group_id => current_group.id, :languages => [@question.language])
-          else
-            followers = @answer.user.followers(:languages => [@question.language])
-          end
+          followers = @answer.user.followers(:languages => [@question.language])
 
           (users - followers).each do |u|
             if !u.email.blank? && u.notification_opts.new_answer

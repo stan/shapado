@@ -12,7 +12,7 @@
     -last_target = question
     -owner = question.user
 
-  %li.item{:class => class_for_question(question)}
+  %li.entry.item{:class => class_for_question(question)}
     / Question Stats
     .stats
       .box.votes
@@ -20,7 +20,7 @@
           =format_number(question.votes_average)
         .text
           =t(:votes, :scope => "activerecord.attributes.question")
-      .box.answers{:class => question.answered ? "answered" : "", :title => question.answered ? t(".answered_tooltip") : "" }
+      .box.answers{:class => question.accepted ? "accepted" : "", :title => question.accepted ? t(".accepted_tooltip") : "" }
         .counter
           =format_number(question.answers_count)
         .text
@@ -46,7 +46,7 @@
               = hidden_field_tag "source", questions_path, :id =>  "source_#{question.id}"
               = image_submit_tag("dialog-ok.png", :name=>"vote_up", :value=>"1", :title => t("votes.control.to_vote_up"), :class => "quick-vote-button")
 
-      %h3= link_to title, question_path(question), :title => truncate(h(question.body), :length => 200)
+      %h3= link_to title, question_path(question), :title => truncate(strip_tags(question.body), :length => 200)
       .tag-list
         -question.tags.each do |tag|
           %span.tag{:class => "tag_#{h(tag)}"}
@@ -64,7 +64,7 @@
 -else
   %li.item{:class => "#{class_for_question(question)} #{local_assigns[:lite] ? 'lite' : ''}"}
     .stats
-      .box.answers{:class => question.answered ? "answered" : "" }
+      .box.answers{:class => question.accepted ? "accepted" : "" }
         .counter
           =format_number(question.answers_count)
         -if !local_assigns[:lite]

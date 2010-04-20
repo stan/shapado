@@ -2,7 +2,8 @@ desc "Setup application"
 task :bootstrap => [:environment, "setup:reset",
                     "setup:create_admin",
                     "setup:default_group",
-                    "setup:create_widgets"] do
+                    "setup:create_widgets",
+                    "setup:create_pages"] do
 end
 
 desc "Upgrade"
@@ -77,8 +78,34 @@ namespace :setup do
     user.save!
   end
 
+  desc "Create pages"
+  task :create_pages => [:environment] do
+    Dir.glob(RAILS_ROOT+"/db/fixtures/pages/*.markdown") do |page_path|
+      basename = File.basename(page_path, ".markdown")
+      title = basename.gsub(/\.(\w\w)/, "").titleize
+      language = $1
+
+      body = File.read(page_path)
+      Group.find_each do |group|
+        if group.pages.count(:title => title, :language => language) == 0
+          group.pages.create!(:title => title, :language => language, :body => body, :user_id => group.owner)
+        end
+      end
+    end
+  end
+
   desc "Reindex data"
   task :reindex => [:environment] do
+    class Question
+      def update_timestamps
+      end
+    end
+
+    class Answer
+      def update_timestamps
+      end
+    end
+
     Question.find_each do |question|
       question._keywords = []
       question.save(:validate => false)

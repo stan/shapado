@@ -26,12 +26,13 @@ en:
       viewed: viewed
       to_answer_question: to answer this question
       watch_tooltip: "watch this question"
-      answered_tooltip: "one of the answers was accepted as the correct answer"
+      accepted_tooltip: "one of the answers was accepted as the correct answer"
       unwatch_tooltip: "stop watching this question"
       favorite_tooltip: "add this question to your favorites"
       unfavorite_tooltip: "remove this question from your favorites"
       asked_on: "asked on"
       last_activity: last activity
+      retag: retag
       answers_title:
         one: "{{count}} answer"
         other: "{{count}} answers"
@@ -41,7 +42,7 @@ en:
       flag: flag
       add_comment: add comment...
     question:
-      answered_tooltip: This question has been answered
+      accepted_tooltip: This question has been accepted
     form:
       body_tip: what's your question? be descriptive.
       language_tip: select the language's question.
@@ -60,6 +61,7 @@ en:
     tags:
       title: tags
       tooltip: show questions tagged {{tag}}
+      filter: search for tags
     new:
       title: ask question
       how_to_ask: how to ask
@@ -75,15 +77,24 @@ en:
       success:      "you will now receive notifications by mail for every new answer to this question"
     unwatch:
       success:      "you will not receive notifications by mail for every new answer to this question anymore"
+    revert:
+      title: "revert question"
     move:
       title:        "move question: {{title}}"
       group_label:  "move to the group with slug:"
       submit:       "move!"
     move_to:
       success:      "question moved to {{group}}"
-      group_dont_exists: "the group {{group}} don't exists"
+      group_dont_exists: "the group {{group}} doesn't exist"
     shared:
       flag: flag
+    retag_form:
+      title:  "Update tags"
+      submit: "update tags!"
+      cancel: "cancel"
+    retag_to:
+      success: "The tags have been updated successfully."
+      failure: "Sorry, the tags could not be updated."
     model:
       messages:
         too_short: "seems too short. Please use more words than {{count}} to be more specific."

@@ -104,9 +104,40 @@ module ApplicationHelper
     end
   end
 
-  def markdown(txt)
-    txt = sanitize(txt.to_s, :tags => %w[b h1 h2 h3 i img sup sub strong br hr ul li ol em table tr td pre code blockquote a span font strike s div u span], :attributes => %w[href src title alt style])
-    RDiscount.new(txt, :smart).to_html
+  def markdown(txt, options = {})
+    if options[:sanitize] != false
+      txt = sanitize(txt.to_s, :tags => %w[b h1 h2 h3 i img sup sub strong br hr ul li ol em table tr td pre code blockquote a span font strike s div u span], :attributes => %w[href src title alt style])
+    end
+
+    RDiscount.new(render_page_links(txt), :smart).to_html
+  end
+
+  def render_page_links(text)
+    text.gsub(/\[\[(.+)\]\]/) do |m|
+      link = $1.split("|", 2)
+      page = Page.by_title(link.first, :group_id => current_group.id, :select => [:title, :slug])
+
+      page_name = link[1] ? link[1] : page.title
+
+      if page
+        %@<a href="/pages/#{page.slug}" class="page_link">#{page_name}</a>@
+      else
+        %@<a href="/pages/#{link.first.parameterize.to_s}?create=true&title=#{link.first}" class="missing_page">#{page_name}</a>@
+      end
+    end
+
+    text.gsub(/%(\S+)%/) do |m|
+      case $1
+        when 'site'
+          current_group.domain
+        when 'site_name'
+          current_group.name
+        when 'current_user'
+          current_user.login
+        else
+          m
+      end
+    end
   end
 
   def format_number(number)
@@ -153,8 +184,8 @@ module ApplicationHelper
   def class_for_question(question)
     klass = ""
 
-    if question.answered
-      klass << "answered"
+    if question.accepted
+      klass << "accepted"
     else
       klass << "unanswered"
     end
@@ -211,6 +242,22 @@ module ApplicationHelper
     end
 
     tags.join(', ')
+  end
+
+  def current_announcements(hide_time = nil)
+    conditions = {:starts_at.lte => Time.zone.now.to_i,
+                  :ends_at.gte => Time.zone.now.to_i,
+                  :order => "starts_at desc",
+                  :group_id.in => [current_group.id, nil]}
+    if hide_time
+      conditions[:updated_at] = {:$gt => hide_time}
+    end
+
+    if logged_in?
+      conditions[:only_anonymous] = false
+    end
+
+    Announcement.all(conditions)
   end
 end
 

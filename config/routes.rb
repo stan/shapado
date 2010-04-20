@@ -6,6 +6,7 @@ ActionController::Routing::Routes.draw do |map|
   map.signup '/signup', :controller => 'users', :action => 'new'
   map.moderate '/moderate', :controller => 'admin/moderate', :action => 'index'
   map.ban '/moderate/ban', :controller => 'admin/moderate', :action => 'ban'
+  map.unban '/moderate/unban', :controller => 'admin/moderate', :action => 'unban'
   map.facts '/facts', :controller => 'welcome', :action => 'facts'
   map.plans '/plans', :controller => 'doc', :action => 'plans'
   map.chat '/chat', :controller => 'doc', :action => 'chat'
@@ -22,11 +23,14 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :adsenses
   map.resources :adbards
   map.resources :badges
+  map.resources :pages, :member => {:css => :get, :js => :get}
+  map.resources :announcements, :collection => {:hide => :any }
 
 
   def build_questions_routes(router, options ={})
     router.with_options(options) do |route|
       route.resources :questions, :collection => {:tags => :get,
+                                                  :tags_for_autocomplete => :get,
                                                   :unanswered => :get,
                                                   :related_questions => :get},
                                 :member => {:solve => :get,
@@ -37,14 +41,16 @@ ActionController::Routing::Routes.draw do |map|
                                             :watch => :any,
                                             :unwatch => :any,
                                             :history => :get,
+                                            :revert => :get,
                                             :diff => :get,
-                                            :rollback => :put,
                                             :move => :get,
-                                            :move_to => :put} do |questions|
+                                            :move_to => :put,
+                                            :retag => :get,
+                                            :retag_to => :put} do |questions|
         questions.resources :answers, :member => {:flag => :get,
                                                   :history => :get,
                                                   :diff => :get,
-                                                  :rollback => :put}
+                                                  :revert => :get}
       end
     end
   end

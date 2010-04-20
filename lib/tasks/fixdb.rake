@@ -1,33 +1,45 @@
 desc "Fix all"
-task :fixall => [:environment, "fixdb:files", "fixdb:orphan_answers"] do
+task :fixall => [:environment, "fixdb:add_accepted"] do
 end
 
 namespace :fixdb do
-  desc "files"
-  task :files => [:environment] do
-    Group.upgrade_file_keys("logo", "custom_css", "custom_favicon")
+  desc "orphan answers"
+  task :add_accepted => [:environment] do
+    $stderr.puts "Updating #{Question.count} questions..."
 
-    puts " -------------------------- "
-    Group.find_each do |group|
-      puts ">>> #{group.name}"
-      if group.has_logo?
-        puts group.logo.mime_type rescue nil
+    Question.find_each do |question|
+      if question[:answered]
+        question[:accepted] = true
       end
 
-      if group.has_custom_css?
-        puts group.custom_css.mime_type rescue nil
+      if question.accepted
+        question.answered_with = question.answer
+      else
+        question.answered_with = question.answers.first(:votes_average.gt => 0)
       end
 
-      if group.has_custom_favicon?
-        puts group.custom_favicon.mime_type rescue nil
-      end
+      question.save(:validate => false)
+
+      print "."
+      $stdout.flush if rand(10) < 5
     end
   end
 
-  desc "orphan answers"
-  task :orphan_answers => [:environment] do
-    Question.find_each(:select => [:_id, :group_id]) do |question|
-      Answer.set({"question_id" => question.id}, {"group_id" => question.group_id})
+  desc "update last activity"
+  task :update_dates => [:environment] do
+    Question.find_each(:updated_at.gte => 2.hour.ago) do |q|
+      if q.last_target.nil? && q.created_at.present?
+        if q.answers.count > 0
+          answer = q.answers.first(:order => "updated_at desc")
+          if answer.comments.count > 0
+            Question.update_last_target(q.id, answer.comments.first(:order => "updated_at desc"))
+          else
+            Question.update_last_target(q.id, answer)
+          end
+        else
+          q.set(:updated_at => q.created_at.utc)
+        end
+      end
     end
   end
 end

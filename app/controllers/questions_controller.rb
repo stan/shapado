@@ -1,11 +1,12 @@
 class QuestionsController < ApplicationController
-  before_filter :login_required, :except => [:create, :index, :show, :tags, :unanswered, :related_questions]
+  before_filter :login_required, :except => [:create, :index, :show, :tags, :unanswered, :related_questions, :tags_for_autocomplete, :retag, :retag_to]
   before_filter :admin_required, :only => [:move, :move_to]
-  before_filter :check_permissions, :only => [:solve, :unsolve, :destroy]
+  before_filter :check_permissions, :only => [:solve, :unsolve, :destroy, :revert]
   before_filter :check_update_permissions, :only => [:edit, :update, :rollback]
   before_filter :check_favorite_permissions, :only => [:favorite, :unfavorite]
   before_filter :set_active_tag
   before_filter :check_age, :only => [:show]
+  before_filter :check_retag_permissions, :only => [:retag, :retag_to]
 
   tabs :default => :questions, :tags => :tags,
        :unanswered => :unanswered, :new => :ask_question
@@ -74,17 +75,11 @@ class QuestionsController < ApplicationController
     end
   end
 
-  def rollback
-    @question = current_group.questions.find_by_slug_or_id(params[:id])
-    @question.updated_by = current_user
-
-    if @question.rollback!(params[:version].to_i)
-      flash[:notice] = t(:flash_notice, :scope => "questions.update")
-      Magent.push("actors.judge", :on_rollback, @question.id)
-    end
+  def revert
+    @question.load_version(params[:version].to_i)
 
     respond_to do |format|
-      format.html { redirect_to history_question_path(@question) }
+      format.html
     end
   end
 
@@ -113,7 +108,7 @@ class QuestionsController < ApplicationController
 
   def unanswered
     set_page_title(t("questions.unanswered.title"))
-    conditions = scoped_conditions({:answered => false, :banned => false})
+    conditions = scoped_conditions({:answered_with_id => nil, :banned => false})
 
     if logged_in?
       if @active_subtab.to_s == "expert"
@@ -139,19 +134,32 @@ class QuestionsController < ApplicationController
   end
 
   def tags
+    conditions ={:group_id => current_group.id}.merge(language_conditions)
+    if params[:q].blank?
+      @tag_cloud = Question.tag_cloud(conditions)
+    else
+      @tag_cloud = Question.find_tags(/^#{Regexp.escape(params[:q])}/, conditions)
+    end
     respond_to do |format|
       format.html do
         set_page_title(t("layouts.application.tags"))
-        @tag_cloud = Question.tag_cloud({:group_id => current_group.id}.
-                        merge(language_conditions.merge(language_conditions)))
       end
+      format.js do
+        html = render_to_string(:partial => "tag_table", :object => @tag_cloud)
+        render :json => {:html => html}
+      end
+    end
+  end
+
+  def tags_for_autocomplete
+    respond_to do |format|
       format.js do
         result = []
         if q =params[:prefix]
           result = Question.find_tags(/^#{Regexp.escape(q)}/,
                                       :group_id => current_group.id)
         end
-        results = result.map do |t| t["name"] end.join("\n")
+        results = result.map do |t| "#{t["name"]};(#{t["count"].to_i})" end.join("\n")
         render :text => results
       end
     end
@@ -217,17 +225,12 @@ class QuestionsController < ApplicationController
         Magent.push("actors.judge", :on_ask_question, @question.id)
 
         flash[:notice] = t(:flash_notice, :scope => "questions.create")
+
         # TODO: move to magent
-        users = []; followers = []
-        if current_group.private || current_group.isolate
-          users = User.find_experts(@question.tags, [@question.language],
-                                                    :except => [current_user.id],
-                                                    :group_id => current_group.id)
-          followers = @question.user.followers(:group_id => current_group.id, :languages => [@question.language])
-        else
-          User.find_experts(@question.tags, [@question.language], :except => [current_user.id])
-          followers = @question.user.followers(:languages => [@question.language])
-        end
+        users = User.find_experts(@question.tags, [@question.language],
+                                                  :except => [current_user.id],
+                                                  :group_id => current_group.id)
+        followers = @question.user.followers(:group_id => current_group.id, :languages => [@question.language])
 
         (users - followers).each do |u|
           if !u.email.blank?
@@ -286,7 +289,8 @@ class QuestionsController < ApplicationController
   def solve
     @answer = @question.answers.find(params[:answer_id])
     @question.answer = @answer
-    @question.answered = true
+    @question.accepted = true
+    @question.answered_with = @answer if @question.answered_with.nil?
 
     respond_to do |format|
       if @question.save
@@ -319,7 +323,8 @@ class QuestionsController < ApplicationController
     @answer_owner = @question.answer.user
 
     @question.answer = nil
-    @question.answered = false
+    @question.accepted = false
+    @question.answered_with = nil if @question.answered_with == @question.answer
 
     respond_to do |format|
       if @question.save
@@ -360,7 +365,7 @@ class QuestionsController < ApplicationController
 
   def favorite
     @favorite = Favorite.new
-    @favorite.question_id = @question.id
+    @favorite.question = @question
     @favorite.user = current_user
     @favorite.group = @question.group
 
@@ -455,13 +460,56 @@ class QuestionsController < ApplicationController
       if @question.save
         Answer.set({"question_id" => @question.id}, {"group_id" => @group.id})
       end
-
       flash[:notice] = t("questions.move_to.success", :group => @group.name)
       redirect_to question_path(@question)
     else
       flash[:error] = t("questions.move_to.group_dont_exists",
                         :group => params[:question][:group])
       render :move
+    end
+  end
+
+  def retag_to
+    @question = Question.find_by_slug_or_id(params[:id])
+
+    @question.tags = params[:question][:tags]
+    if @question.save
+      if (Time.now - @question.created_at) < 8.days
+        @question.on_activity(true)
+      end
+
+      Magent.push("actors.judge", :on_retag_question, @question.id, current_user.id)
+
+      flash[:notice] = t("questions.retag_to.success", :group => @question.group.name)
+      respond_to do |format|
+        format.html {redirect_to question_path(@question)}
+        format.js {
+          render(:json => {:success => true,
+                   :message => flash[:notice], :tags => @question.tags }.to_json)
+        }
+      end
+    else
+      flash[:error] = t("questions.retag_to.failure",
+                        :group => params[:question][:group])
+      respond_to do |format|
+        format.html {render :retag}
+        format.js {
+          render(:json => {:success => false,
+                   :message => flash[:error] }.to_json)
+        }
+      end
+    end
+  end
+
+
+  def retag
+    @question = Question.find_by_slug_or_id(params[:id])
+    respond_to do |format|
+      format.html {render}
+      format.js {
+        render(:json => {:success => true, :html => render_to_string(:partial => "questions/retag_form",
+                                                   :member  => @question)}.to_json)
+      }
     end
   end
 
@@ -505,6 +553,24 @@ class QuestionsController < ApplicationController
           flash[:error] += ", <a href='#{new_user_session_path}'> #{t("global.please_login")} </a>"
           render(:json => {:status => :error, :message => flash[:error] }.to_json)
         end
+      end
+    end
+  end
+
+
+  def check_retag_permissions
+    @question = Question.find_by_slug_or_id(params[:id])
+    unless current_user.can_retag_others_questions_on?(current_group) ||  current_user.can_modify?(@question)
+      reputation = @question.group.reputation_constrains["retag_others_questions"]
+      flash[:error] = I18n.t("users.messages.errors.reputation_needed",
+                                    :min_reputation => reputation,
+                                    :action => I18n.t("users.actions.retag_others_questions"))
+      respond_to do |format|
+        format.html {render :retag}
+        format.js {
+          render(:json => {:success => false,
+                   :message => flash[:error] }.to_json)
+        }
       end
     end
   end
