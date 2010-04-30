@@ -33,6 +33,12 @@ en:
       asked_on: "asked on"
       last_activity: last activity
       retag: retag
+      request_closing: request closing
+      request_closing_details: request to close this question
+      close: close
+      ban: ban
+      retract_request: you have already made a request, would you line to retract it?
+      close_reason: "the question has been closed for the following reason:"
       answers_title:
         one: "{{count}} answer"
         other: "{{count}} answers"
@@ -42,7 +48,7 @@ en:
       flag: flag
       add_comment: add comment...
     question:
-      accepted_tooltip: This question has been accepted
+      accepted_tooltip: This question has an answer that has been accepted
     form:
       body_tip: what's your question? be descriptive.
       language_tip: select the language's question.
@@ -116,3 +122,4 @@ en:
         votes: votes
         language: language
         created_at: asked
+        closed: closed

@@ -5,7 +5,7 @@
 .answer.commentable{:class => "post-#{answer.id} #{solution ? "solution" : ""}" }
   %a{:name=>answer.id}
   .vote-col
-    =vote_box(answer, question_path(question))
+    =vote_box(answer, question_path(question), question.closed)
     -if solution
       =image_tag "correct.png", :width => 48, :alt => "correct_answer", :title => "chose as answer by the author"
   .body-col
@@ -53,7 +53,7 @@
             = country_flag(answer.user.country_code, answer.user.country_name)
     .controls
       .actions
-        = link_to t('activerecord.attributes.answer.link'), question_answer_path(@question, answer), :class => "bookmark"
+        = link_to t('activerecord.attributes.answer.link'), question_answer_path(@question.id, answer.id), :class => "bookmark"
         -if logged_in?
           -if answer.wiki || current_user.can_edit_others_posts_on?(answer.group) || current_user.can_modify?(answer)
             = link_to t("scaffold.edit"), edit_question_answer_path(@question, answer)
@@ -62,7 +62,7 @@
           = link_to t("comments.shared.add_comment"), "#", :class => "addNestedAnswer"
           -if current_user != answer.user
             = link_to t(".flag"), flag_question_answer_path(@question,answer), :class => "flag-link"
-          -if logged_in? && current_user.can_modify?(@question)
+          -if logged_in? && (current_user.mod_of?(@question.group) || current_user.can_modify?(@question))
             -unless @question.accepted
               = link_to t(".pick_answer"), solve_question_path(@question, :answer_id => answer)
             -if solution
@@ -71,13 +71,6 @@
           = link_to t(".history", :default => "history"), history_question_answer_path(@question, answer)
       .clear
       .forms
-        -form_tag comments_path, :class => "form commentForm nestedAnswerForm" do
-          -@comment = Comment.new
-          = render :partial => "comments/form", :locals => {:source => source, :commentable => answer}
-          .group.navform
-            = submit_tag t("comments.shared.comment_submit"), :class => "button"
-
-
         -if current_user != answer.user
           -flag = Flag.new
           -flag.flaggeable = answer
@@ -89,3 +82,11 @@
       -answer.comments.each do |comment|
         = render :partial => "comments/comment", :object => comment, :locals => {:source => source, :mini => true}
   .clear
+  .forms.comment-form
+    -form_tag comments_path, :class => "form commentForm nestedAnswerForm" do
+      -@comment = Comment.new
+      = render :partial => "comments/form", :locals => {:source => source, :commentable => answer}
+      .group.navform
+        = submit_tag t("comments.shared.comment_submit"), :class => "button"
+        = t("global.or")
+        = link_to t('scaffold.cancel'), '', :class => 'cancel_comment'

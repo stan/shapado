@@ -1,9 +1,10 @@
 class QuestionsController < ApplicationController
   before_filter :login_required, :except => [:create, :index, :show, :tags, :unanswered, :related_questions, :tags_for_autocomplete, :retag, :retag_to]
   before_filter :admin_required, :only => [:move, :move_to]
-  before_filter :check_permissions, :only => [:solve, :unsolve, :destroy, :revert]
-  before_filter :check_update_permissions, :only => [:edit, :update, :rollback]
-  before_filter :check_favorite_permissions, :only => [:favorite, :unfavorite]
+  before_filter :moderator_required, :only => [:close]
+  before_filter :check_permissions, :only => [:solve, :unsolve, :destroy]
+  before_filter :check_update_permissions, :only => [:edit, :update, :revert]
+  before_filter :check_favorite_permissions, :only => [:favorite, :unfavorite] #TODO remove this
   before_filter :set_active_tag
   before_filter :check_age, :only => [:show]
   before_filter :check_retag_permissions, :only => [:retag, :retag_to]
@@ -118,8 +119,7 @@ class QuestionsController < ApplicationController
       end
     end
 
-    @tag_cloud = Question.tag_cloud({:group_id => current_group.id}.
-                    merge(language_conditions.merge(language_conditions)), 25)
+    @tag_cloud = Question.tag_cloud(conditions, 25)
 
     @questions = Question.paginate({:order => current_order,
                                     :per_page => 25,
@@ -134,7 +134,7 @@ class QuestionsController < ApplicationController
   end
 
   def tags
-    conditions ={:group_id => current_group.id}.merge(language_conditions)
+    conditions = scoped_conditions({:answered_with_id => nil, :banned => false})
     if params[:q].blank?
       @tag_cloud = Question.tag_cloud(conditions)
     else
@@ -257,9 +257,16 @@ class QuestionsController < ApplicationController
   # PUT /questions/1.xml
   def update
     respond_to do |format|
-      @question.safe_update(%w[title body language tags wiki adult_content], params[:question])
+      @question.safe_update(%w[title body language tags wiki adult_content version_message], params[:question])
       @question.updated_by = current_user
       @question.last_target = @question
+
+      if (Time.now - @question.created_at) < 12.hours
+        @question.send(:generate_slug)
+      else
+        @question.slugs << @question.slug
+        @question.send(:generate_slug)
+      end
 
       if @question.valid? && @question.save
         flash[:notice] = t(:flash_notice, :scope => "questions.update")
@@ -275,7 +282,9 @@ class QuestionsController < ApplicationController
   # DELETE /questions/1
   # DELETE /questions/1.xml
   def destroy
-    @question.user.update_reputation(:delete_question, current_group)
+    if @question.user_id == current_user.id
+      @question.user.update_reputation(:delete_question, current_group)
+    end
     @question.destroy
 
     Magent.push("actors.judge", :on_destroy_question, current_user.id, @question.attributes)
@@ -352,6 +361,22 @@ class QuestionsController < ApplicationController
     end
   end
 
+  def close
+    @question = Question.find_by_slug_or_id(params[:id])
+
+    @question.closed = true
+    respond_to do |format|
+      if @question.save
+        format.html { redirect_to question_path(@question) }
+        format.json { head :ok }
+      else
+        flash[:error] = @question.errors.full_messages.join(", ")
+        format.html { redirect_to question_path(@question) }
+        format.json { render :json => @question.errors, :status => :unprocessable_entity  }
+      end
+    end
+  end
+
   def flag
     @question = Question.find_by_slug_or_id(params[:id])
     @flag = Flag.new
@@ -406,7 +431,7 @@ class QuestionsController < ApplicationController
         @question.remove_watcher(current_user)
       end
     end
-
+    flash[:notice] = t("unfavorites.create.success")
     respond_to do |format|
       format.html { redirect_to(question_path(@question)) }
       format.js {
@@ -473,6 +498,9 @@ class QuestionsController < ApplicationController
     @question = Question.find_by_slug_or_id(params[:id])
 
     @question.tags = params[:question][:tags]
+    @question.updated_by = current_user
+    @question.last_target = @question
+
     if @question.save
       if (Time.now - @question.created_at) < 8.days
         @question.on_activity(true)
@@ -519,7 +547,9 @@ class QuestionsController < ApplicationController
 
     if @question.nil?
       redirect_to questions_path
-    elsif !current_user.can_modify?(@question)
+    elsif !(current_user.can_modify?(@question) ||
+           (params[:action] != 'destroy' && current_user.mod_of?(@question.group)) ||
+           current_user.owner_of?(@question.group))
       flash[:error] = t("global.permission_denied")
       redirect_to question_path(@question)
     end
@@ -527,16 +557,30 @@ class QuestionsController < ApplicationController
 
   def check_update_permissions
     @question = current_group.questions.find_by_slug_or_id(params[:id])
-
-    if @question.nil?
-      redirect_to questions_path
-    elsif !(current_user.can_edit_others_posts_on?(@question.group) ||
-          current_user.can_modify?(@question))
-      reputation = @question.group.reputation_constrains["edit_others_posts"]
-      flash[:error] = I18n.t("users.messages.errors.reputation_needed",
-                                    :min_reputation => reputation,
-                                    :action => I18n.t("users.actions.edit_others_posts"))
-      redirect_to question_path(@question)
+    allow_update = true
+    unless @question.nil?
+      if !current_user.can_modify?(@question)
+        if @question.wiki
+          if !current_user.can_edit_wiki_post_on?(@question.group)
+            allow_update = false
+            reputation = @question.group.reputation_constrains["edit_wiki_post"]
+            flash[:error] = I18n.t("users.messages.errors.reputation_needed",
+                                        :min_reputation => reputation,
+                                        :action => I18n.t("users.actions.edit_wiki_post"))
+          end
+        else
+          if !current_user.can_edit_others_posts_on?(@question.group)
+            allow_update = false
+            reputation = @question.group.reputation_constrains["edit_others_posts"]
+            flash[:error] = I18n.t("users.messages.errors.reputation_needed",
+                                        :min_reputation => reputation,
+                                        :action => I18n.t("users.actions.edit_others_posts"))
+          end
+        end
+        return redirect_to question_path(@question) if !allow_update
+      end
+    else
+      return redirect_to questions_path
     end
   end
 
@@ -548,6 +592,10 @@ class QuestionsController < ApplicationController
         format.html do
           flash[:error] += ", [#{t("global.please_login")}](#{new_user_session_path})"
           redirect_to question_path(@question)
+        end
+        format.js do
+          flash[:error] += ", <a href='#{new_user_session_path}'> #{t("global.please_login")} </a>"
+          render(:json => {:status => :error, :message => flash[:error] }.to_json)
         end
         format.json do
           flash[:error] += ", <a href='#{new_user_session_path}'> #{t("global.please_login")} </a>"
@@ -582,11 +630,20 @@ class QuestionsController < ApplicationController
 
   def check_age
     @question = current_group.questions.find_by_slug_or_id(params[:id])
-    raise PageNotFound  unless @question
+
+    if @question.nil?
+      @question = current_group.questions.first(:slugs => params[:id])
+      if @question.present?
+        head :moved_permanently, :location => question_url(@question)
+        return
+      else
+        raise PageNotFound
+      end
+    end
 
     return if session[:age_confirmed] || is_bot? || !@question.adult_content
 
-    if !logged_in? || (Date.today.year.to_i - (current_user.birthday || Date.today).year.to_i) <  18
+    if !logged_in? || (Date.today.year.to_i - (current_user.birthday || Date.today).year.to_i) < 18
       render :template => "welcome/confirm_age"
     end
   end

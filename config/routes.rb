@@ -46,11 +46,13 @@ ActionController::Routing::Routes.draw do |map|
                                             :move => :get,
                                             :move_to => :put,
                                             :retag => :get,
-                                            :retag_to => :put} do |questions|
+                                            :retag_to => :put,
+                                            :close => :post} do |questions|
         questions.resources :answers, :member => {:flag => :get,
                                                   :history => :get,
                                                   :diff => :get,
                                                   :revert => :get}
+        questions.resources :close_requests
       end
     end
   end
@@ -78,7 +80,6 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :widgets, :member => {:move => :post}, :path_prefix => "/manage"
   map.resources :members, :path_prefix => "/manage"
-  map.manage '/manage', :controller => 'admin/manage', :action => 'properties'
 
   map.with_options :controller => 'admin/manage', :name_prefix => "manage_",
                    :path_prefix => "/manage" do |manage|

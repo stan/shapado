@@ -22,13 +22,15 @@ class PagesController < ApplicationController
   # GET /pages/1
   # GET /pages/1.json
   def show
-    return if self.check_page_permissions == false
-
-    @page = current_group.pages.by_slug(params[:id], :language => I18n.locale) || current_group.pages.by_slug(params[:id])
+    @page = current_group.pages.by_slug(params[:id], :language => Page.current_language) || current_group.pages.by_slug(params[:id])
 
     respond_to do |format|
       format.html do
         if @page.nil? && params[:create]
+          if self.check_page_permissions == false
+            return
+          end
+
           @page = Page.new(:title => params[:title], :slug => params[:id])
           render :action => "new"
         else
@@ -52,7 +54,6 @@ class PagesController < ApplicationController
 
   # GET /pages/1/edit
   def edit
-    @page = current_group.pages.by_slug(params[:id])
   end
 
   # POST /pages
@@ -81,7 +82,6 @@ class PagesController < ApplicationController
   # PUT /pages/1
   # PUT /pages/1.json
   def update
-    @page = current_group.pages.by_slug(params[:id])
     @page.safe_update(%w[title body tags wiki language adult_content css js], params[:page])
     @page.updated_by = current_user
 
@@ -110,7 +110,7 @@ class PagesController < ApplicationController
   end
 
   def css
-    @page = current_group.pages.by_slug(params[:id])
+    @page = current_group.pages.by_slug(params[:id], :language => Page.current_language) || current_group.pages.by_slug(params[:id])
 
     if @page.has_css?
       send_data(@page.css.try(:read).to_s, :filename => "#{params[:id]}.css", :type => "text/css",  :disposition => 'inline')
@@ -120,7 +120,7 @@ class PagesController < ApplicationController
   end
 
   def js
-    @page = current_group.pages.by_slug(params[:id])
+    @page = current_group.pages.by_slug(params[:id], :language => Page.current_language) || current_group.pages.by_slug(params[:id])
 
     if current_group.has_custom_js && @page.has_js?
       send_data(@page.js.try(:read).to_s, :filename => "#{params[:id]}.js", :type => "text/javascript",  :disposition => 'inline')
@@ -136,13 +136,15 @@ class PagesController < ApplicationController
       return false
     end
 
+    @page = current_group.pages.by_slug(params[:id], :language => Page.current_language) || current_group.pages.by_slug(params[:id])
+
     if !current_user.can_edit_wiki_post_on?(current_group)
       reputation = current_group.reputation_constrains["edit_wiki_post"]
 
       flash[:error] = I18n.t("users.messages.errors.reputation_needed",
                               :min_reputation => reputation,
                               :action => I18n.t("users.actions.edit_wiki_post"))
-      redirect_to root_path
+      redirect_to @page.present? ? page_path(@page) : root_path
       return false
     end
   end

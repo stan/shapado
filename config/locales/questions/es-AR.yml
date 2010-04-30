@@ -33,6 +33,12 @@ es-AR:
       asked_on: "preguntado en"
       last_activity: última actividad
       retag: re-etiquetar
+      request_closing: pedir cierre
+      request_closing_details: pide cerrar esta pregunta
+      close: close
+      ban: ban
+      retract_request: ya has hecho una petición, deseas retractarla?
+      close_reason: "the question has been closed for the following reason:"
       answers_title:
         one: "{{count}} respuesta"
         other: "{{count}} respuestas"
@@ -94,7 +100,7 @@ es-AR:
       cancel: "cancelar"
     retag_to:
       success: "Las etiquetas han sido actualizados con exito."
-      failure: "Discula, las etiquetas no han podido ser actualizado."
+      failure: "Discula, las etiquetas no han podido ser actualizadas."
     model:
       messages:
         too_short: "demasiado corto. Por favor, usa mas palabras que {{count}} para ser mas especifico."
@@ -116,3 +122,4 @@ es-AR:
         votes: votos
         language: idioma
         created_at: preguntado
+        closed: cerrada

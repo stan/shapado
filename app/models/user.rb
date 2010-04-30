@@ -68,6 +68,7 @@ class User
   validates_length_of       :name,     :maximum => 100
 
   validates_presence_of     :email,    :if => lambda { |e| !e.openid_login? }
+  validates_uniqueness_of   :email,    :if => lambda { |e| !e.openid_login? }
   validates_length_of       :email,    :within => 6..100, :allow_nil => true, :if => lambda { |e| !e.email.blank? }
   validates_format_of       :email,    :with => Devise::EMAIL_REGEX, :allow_blank => true
 
@@ -283,7 +284,7 @@ Time.zone.now ? 1 : 0)
                             {:$inc => {"membership_list.#{group.id}.activity_days" => 1}},
                             {:upsert => true})
           Magent.push("actors.judge", :on_activity, group.id, self.id)
-        elsif !last_day.utc.today?
+        elsif !last_day.utc.today? && (last_day.utc != Time.now.utc.yesterday)
           Rails.logger.info ">> Resetting act days!! last known day: #{last_day}"
           reset_activity_days!(group)
         end
