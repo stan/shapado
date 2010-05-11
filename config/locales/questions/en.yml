@@ -23,6 +23,7 @@ en:
       related_questions: related questions
       flags: reported as
       flag: flag
+      flagged_as: flagged as
       viewed: viewed
       to_answer_question: to answer this question
       watch_tooltip: "watch this question"
@@ -33,6 +34,7 @@ en:
       asked_on: "asked on"
       last_activity: last activity
       retag: retag
+      unauthenticated_retag: you need an account to retag questions
       request_closing: request closing
       request_closing_details: request to close this question
       close: close
@@ -42,6 +44,8 @@ en:
       answers_title:
         one: "{{count}} answer"
         other: "{{count}} answers"
+    retag:
+      title: retag
     answer:
       pick_answer: pick as solution
       unset_answer: unset as solution?
@@ -106,6 +110,7 @@ en:
         too_short: "seems too short. Please use more words than {{count}} to be more specific."
         too_many_tags: Sorry, you can only enter 6 tags maximum.
         empty_tags: Sorry, you need to use at least one tag.
+        title_too_long: "The title is too long. it should not contain more than 100 characters"
 
   activerecord:
     models:
@@ -122,4 +127,6 @@ en:
         votes: votes
         language: language
         created_at: asked
+        updated_at: updated
+        updated_by: updated by
         closed: closed

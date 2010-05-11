@@ -2,13 +2,18 @@
   groups:
     index:
       title: grupos
+      filter: "buscar grupos"
       actives: activos
       pendings: pendientes
+      oldest: antiguos
+      most_active: más activos
+      request_group: pedir un nuevo grupo
+      name: nombre
+    group:
       about: acerca de
       close: cerrar
       accept_group: aceptar este grupo
       close_group: cerrar este grupo
-      request_group: pedir un nuevo grupo
       allow_ads: permitir propaganda
       disallow_ads: prohibir propaganda
       accept_group_with_custom_ads: aceptar este grupo y permitir propaganda personalizada
@@ -53,4 +58,4 @@
         registered_only: solo las personas registradas pueden entrar a este sitio
         may_contain_adult_content: este sitio podria tener contenido para adultos
         wysiwyg_editor: habilitar un editor mas amigable para el usuario
-
+        fb_button: Activar el boton Like de Facebook (no muy amigable para la privacidad)

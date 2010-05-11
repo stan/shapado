@@ -6,8 +6,6 @@ class Answer < Comment
 
   key :body, String, :required => true
   key :language, String, :default => "en"
-  key :votes_count, Integer, :default => 0
-  key :votes_average, Integer, :default => 0
   key :flags_count, Integer, :default => 0
   key :banned, Boolean, :default => false
   key :wiki, Boolean, :default => false
@@ -20,7 +18,6 @@ class Answer < Comment
   key :question_id, String
   belongs_to :question
 
-  has_many :votes, :as => "voteable", :dependent => :destroy
   has_many :flags, :as => "flaggeable", :dependent => :destroy
 
   has_many :comments, :foreign_key => "commentable_id", :class_name => "Comment", :order => "created_at asc", :dependent => :destroy
@@ -32,7 +29,7 @@ class Answer < Comment
   filterable_keys :body
 
   validate :disallow_spam
-  validate :check_unique_answer, :if => lambda { |a| !a.group.forum }
+  validate :check_unique_answer, :if => lambda { |a| (!a.group.forum && !a.disable_limits?) }
 
   def check_unique_answer
     check_answer = Answer.first(:question_id => self.question_id,
@@ -44,34 +41,20 @@ class Answer < Comment
     end
   end
 
-  def add_vote!(v, voter)
-    self.collection.update({:_id => self._id}, {:$inc => {:votes_count => 1,
-                                                          :votes_average => v}},
-                                                         :upsert => true)
-
+  def on_add_vote(v, voter)
     if v > 0
       self.user.update_reputation(:answer_receives_up_vote, self.group)
       voter.on_activity(:vote_up_answer, self.group)
-      self.user.upvote!(self.group)
     else
       self.user.update_reputation(:answer_receives_down_vote, self.group)
       voter.on_activity(:vote_down_answer, self.group)
-      self.user.downvote!(self.group)
     end
   end
 
-  def remove_vote!(v, voter)
-    self.collection.update({:_id => self._id}, {:$inc => {:votes_count => -1,
-                                                          :votes_average => (-v)}},
-                                                         :upsert => true)
-
+  def on_remove_vote(v, voter)
     if v > 0
-      self.user.update_reputation(:answer_undo_up_vote, self.group)
-      voter.on_activity(:undo_vote_up_answer, self.group)
       self.user.upvote!(self.group, -1)
     else
-      self.user.update_reputation(:answer_undo_down_vote, self.group)
-      voter.on_activity(:undo_vote_down_answer, self.group)
       self.user.downvote!(self.group, -1)
     end
   end
@@ -98,21 +81,27 @@ class Answer < Comment
     Maruku.new(self.body).to_html
   end
 
+  def disable_limits?
+    self.user.present? && self.user.can_post_whithout_limits_on?(self.group)
+  end
+
   def disallow_spam
-    eq_answer = Answer.first({:body => self.body,
-                                :question_id => self.question_id,
-                                :group_id => self.group_id
-                              })
+    if new? && !disable_limits?
+      eq_answer = Answer.first({:body => self.body,
+                                  :question_id => self.question_id,
+                                  :group_id => self.group_id
+                                })
 
-    last_answer  = Answer.first(:user_id => self.user_id,
-                                 :question_id => self.question_id,
-                                 :group_id => self.group_id,
-                                 :order => "created_at desc")
+      last_answer  = Answer.first(:user_id => self.user_id,
+                                   :question_id => self.question_id,
+                                   :group_id => self.group_id,
+                                   :order => "created_at desc")
 
-    valid = (eq_answer.nil? || eq_answer.id == self.id) &&
-            ((last_answer.nil?) || (Time.now - last_answer.created_at) > 20)
-    if !valid
-      self.errors.add(:body, "Your answer looks like spam.")
+      valid = (eq_answer.nil? || eq_answer.id == self.id) &&
+              ((last_answer.nil?) || (Time.now - last_answer.created_at) > 20)
+      if !valid
+        self.errors.add(:body, "Your answer looks like spam.")
+      end
     end
   end
 

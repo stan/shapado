@@ -4,6 +4,7 @@ class Question
   include MongoMapperExt::Slugizer
   include MongoMapperExt::Tags
   include Support::Versionable
+  include Support::Voteable
 
   ensure_index :tags
   ensure_index :language
@@ -16,8 +17,6 @@ class Question
 
   key :answers_count, Integer, :default => 0, :required => true
   key :views_count, Integer, :default => 0
-  key :votes_count, Integer, :default => 0
-  key :votes_average, Integer, :default => 0
   key :hotness, Integer, :default => 0
   key :flags_count, Integer, :default => 0
   key :favorites_count, Integer, :default => 0
@@ -26,6 +25,7 @@ class Question
   key :banned, Boolean, :default => false
   key :accepted, Boolean, :default => false
   key :closed, Boolean, :default => false
+  key :closed_at, Time
 
   key :answered_with_id, String
   belongs_to :answered_with, :class_name => "Answer"
@@ -56,7 +56,6 @@ class Question
   belongs_to :last_target, :polymorphic => true
 
   has_many :answers, :dependent => :destroy
-  has_many :votes, :as => "voteable", :dependent => :destroy
   has_many :flags, :as => "flaggeable", :dependent => :destroy
   has_many :badges, :as => "source"
   has_many :comments, :as => "commentable", :order => "created_at asc", :dependent => :destroy
@@ -65,11 +64,10 @@ class Question
   validates_presence_of :user_id
   validates_uniqueness_of :slug, :scope => :group_id, :allow_blank => true
 
-  validates_length_of       :title,    :within => 5..100
-  validates_length_of       :body,     :minimum => 5, :allow_blank => true, :allow_nil => true
-  validates_true_for :tags, :logic => lambda { !tags.empty? && tags.size <= 6},
-                     :message => lambda { I18n.t("questions.model.messages.too_many_tags") if tags.size > 6
-                                          I18n.t("questions.model.messages.empty_tags") if tags.empty? }
+  validates_length_of       :title,    :within => 5..100, :message => lambda { I18n.t("questions.model.messages.title_too_long") }
+  validates_length_of       :body,     :minimum => 5, :allow_blank => true, :allow_nil => true, :if => lambda { |q| !q.disable_limits? }
+  validates_true_for :tags, :logic => lambda { tags.size <= 6},
+                     :message => lambda { I18n.t("questions.model.messages.too_many_tags") if tags.size > 6 }
 
   versionable_keys :title, :body, :tags
   filterable_keys :title, :body
@@ -88,11 +86,9 @@ class Question
 
   def tags=(t)
     if t.kind_of?(String)
-      t = t.downcase.split(",").join(" ").split(" ")
+      t = t.downcase.split(",").join(" ").split(" ").uniq
     end
-    t = t.collect do |tag|
-      tag.gsub("#", "sharp").gsub(".", "dot").gsub("www", "w3")
-    end
+
     self[:tags] = t
   end
 
@@ -126,37 +122,24 @@ class Question
                                                :upsert => true)
   end
 
-  def add_vote!(v, voter)
-    self.collection.update({:_id => self._id}, {:$inc => {:votes_count => 1,
-                                                          :votes_average => v}},
-                                                         :upsert => true,
-                                                         :safe => true)
+  def on_add_vote(v, voter)
     if v > 0
       self.user.update_reputation(:question_receives_up_vote, self.group)
       voter.on_activity(:vote_up_question, self.group)
-      self.user.upvote!(self.group)
     else
       self.user.update_reputation(:question_receives_down_vote, self.group)
       voter.on_activity(:vote_down_question, self.group)
-      self.user.downvote!(self.group)
     end
     on_activity(false)
   end
 
-  def remove_vote!(v, voter)
-    self.collection.update({:_id => self._id}, {:$inc => {:votes_count => -1,
-                                                          :votes_average => (-v)}},
-                                                         :upsert => true,
-                                                         :safe => true)
-
+  def on_remove_vote(v, voter)
     if v > 0
       self.user.update_reputation(:question_undo_up_vote, self.group)
       voter.on_activity(:undo_vote_up_question, self.group)
-      self.user.upvote!(self.group, -1)
     else
       self.user.update_reputation(:question_undo_down_vote, self.group)
       voter.on_activity(:undo_vote_down_question, self.group)
-      self.user.downvote!(self.group, -1)
     end
     on_activity(false)
   end
@@ -241,24 +224,36 @@ class Question
     watchers.include?(user._id)
   end
 
-  def check_useful
-    if !self.title.blank? && (self.title.split.count < 4)
-      self.errors.add(:title, I18n.t("questions.model.messages.too_short", :count => 4))
-    end
+  def disable_limits?
+    self.user.present? && self.user.can_post_whithout_limits_on?(self.group)
+  end
 
-    if !self.body.blank? && (self.body.split.count < 4)
-      self.errors.add(:body, I18n.t("questions.model.messages.too_short", :count => 3))
+  def check_useful
+    unless disable_limits?
+      if !self.title.blank? && self.title.gsub(/[^\x00-\x7F]/, "").size < 5
+        return
+      end
+
+      if !self.title.blank? && (self.title.split.count < 4)
+        self.errors.add(:title, I18n.t("questions.model.messages.too_short", :count => 4))
+      end
+
+      if !self.body.blank? && (self.body.split.count < 4)
+        self.errors.add(:body, I18n.t("questions.model.messages.too_short", :count => 3))
+      end
     end
   end
 
   def disallow_spam
-    last_question = Question.first( :user_id => self.user_id,
-                                    :group_id => self.group_id,
-                                    :order => "created_at desc")
+    if new? && !disable_limits?
+      last_question = Question.first( :user_id => self.user_id,
+                                      :group_id => self.group_id,
+                                      :order => "created_at desc")
 
-    valid = ((last_question.nil?) || (Time.now - last_question.created_at) > 20)
-    if !valid
-      self.errors.add(:body, "Your question looks like spam. you need to wait 20 senconds before posting another question.")
+      valid = (last_question.nil? || (Time.now - last_question.created_at) > 20)
+      if !valid
+        self.errors.add(:body, "Your question looks like spam. you need to wait 20 senconds before posting another question.")
+      end
     end
   end
 
@@ -276,6 +271,10 @@ class Question
   def can_be_requested_to_close_by?(user)
     ((self.user_id == user.id) && user.can_vote_to_close_own_question_on?(self.group)) ||
     user.can_vote_to_close_any_question_on?(self.group)
+  end
+
+  def can_be_deleted_by?(user)
+    (self.user_id == user.id) || (self.closed && user.can_delete_closed_questions_on?(self.group))
   end
 
   def close_reason

@@ -10,7 +10,7 @@
     &= @page.title
 
 -content_for :sidebar do
-  -if @page.wiki || (logged_in? && current_user.mod_of?(current_group) )
+  -if (logged_in? && current_user.can_edit_wiki_post_on?(current_group) )
     .block
       %h3
         =t("pages.actions.title")
@@ -23,6 +23,7 @@
 
 .markdown
   -if safe_page?(@page)
-    = RDiscount.new(render_page_links(@page.body)).to_html
+    -body = current_group.wysiwyg_editor ? CGI.unescapeHTML(@page.body) : @page.body
+    = RDiscount.new(render_page_links(body)).to_html
   -else
     = markdown(@page.body)

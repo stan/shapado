@@ -2,13 +2,17 @@ en:
   groups:
     index:
       title: groups
+      filter: "search for groups"
       actives: active
       pendings: pending
+      most_active: most active
+      request_group: request a new group
+      name: name
+    group:
       about: about
       close: close
       accept_group: accept this group
       close_group: close this group
-      request_group: request a new group
       allow_ads: allow ads
       disallow_ads: disallow ads
     show:
@@ -53,3 +57,4 @@ en:
         registered_only: only registered people can access the site
         may_contain_adult_content: this site may contain adult content
         wysiwyg_editor: Enable user-friendly editor
+        fb_button: Enable Facebook like button (not privacy friendly)

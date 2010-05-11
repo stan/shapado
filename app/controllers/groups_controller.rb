@@ -3,25 +3,38 @@ class GroupsController < ApplicationController
   before_filter :login_required, :except => [:index, :show, :logo, :css, :favicon]
   before_filter :check_permissions, :only => [:edit, :update, :close]
   before_filter :moderator_required , :only => [:accept, :destroy]
+  subtabs :index => [ [:most_active, "activity_rate desc"], [:newest, "created_at desc"],
+                      [:oldest, "created_at asc"], [:name, "name asc"]]
   # GET /groups
   # GET /groups.json
   def index
-    case params.fetch(:tab, "actives")
-      when "actives"
-        @state = "active"
+    @state = "active"
+    case params.fetch(:tab, "active")
       when "pendings"
         @state = "pending"
     end
 
-    @groups = Group.paginate(:per_page => 15,
-                             :page => params[:page],
-                             :state => @state,
-                             :order => "created_at desc",
-                             :private => false)
+    options = {:per_page => params[:per_page] || 15,
+               :page => params[:page],
+               :state => @state,
+               :order => current_order,
+               :private => false}
+
+    if params[:q].blank?
+      @groups = Group.paginate(options)
+    else
+      @groups = Group.filter(params[:q], options)
+    end
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html # index.html.haml
       format.json  { render :json => @groups }
+      format.js do
+        html = render_to_string(:partial => "group", :collection  => @groups)
+        pagination = render_to_string(:partial => "shared/pagination", :object => @groups,
+                                      :format => "html")
+        render :json => {:html => html, :pagination => pagination }
+      end
     end
   end
 
@@ -35,6 +48,9 @@ class GroupsController < ApplicationController
     else
       @group = current_group
     end
+
+    raise PageNotFound if @group.nil?
+
     @comments = @group.comments.paginate(:page => params[:page].to_i,
                                          :per_page => params[:per_page] || 10 )
 
@@ -74,7 +90,7 @@ class GroupsController < ApplicationController
     @group.owner = current_user
     @group.state = "active"
 
-    @group.widgets << TopGroupsWidget.create(:position => 0)
+    @group.widgets << TagCloudWidget.create(:position => 0)
     @group.widgets << TopUsersWidget.create(:position => 1)
     @group.widgets << BadgesWidget.create(:position => 2)
 
@@ -96,11 +112,11 @@ class GroupsController < ApplicationController
   def update
     @group.safe_update(%w[name legend description default_tags subdomain logo forum
                           custom_favicon language theme reputation_rewards reputation_constrains
-                          has_adult_content registered_only openid_only custom_css wysiwyg_editor], params[:group])
+                          has_adult_content registered_only openid_only custom_css wysiwyg_editor fb_button], params[:group])
 
     @group.safe_update(%w[isolate domain private has_custom_analytics has_custom_html has_custom_js], params[:group]) #if current_user.admin?
     @group.safe_update(%w[analytics_id analytics_vendor], params[:group]) if @group.has_custom_analytics
-    @group.safe_update(%w[footer _head _question_help _question_prompt head_tag custom_html], params[:group]) if @group.has_custom_html
+    @group.custom_html.update_attributes(params[:group][:custom_html] || {}) if @group.has_custom_html
 
     respond_to do |format|
       if @group.save

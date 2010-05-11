@@ -4,11 +4,16 @@
 class ApplicationController < ActionController::Base
   include AuthenticatedSystem
   include Subdomains
+  include Sweepers
 
   if AppConfig.exception_notification['activate']
     include ExceptionNotifiable
     include SuperExceptionNotifier
     include ExceptionNotifierHelper
+
+    self.exception_notifiable_silent_exceptions = []
+    self.exception_notifiable_silent_exceptions << SuperExceptionNotifier::CustomExceptionClasses::PageNotFound
+    self.exception_notifiable_silent_exceptions << ActionController::InvalidAuthenticityToken
 
     local_addresses.clear
 
@@ -226,8 +231,14 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def owner_required
+    unless current_user.owner_of?(current_group)
+      access_denied
+    end
+  end
+
   def is_bot?
-    request.user_agent =~ /\b(Baidu|Gigabot|Googlebot|libwww-perl|lwp-trivial|msnbot|SiteUptime|Slurp|WordPress|ZIBB|ZyBorg|Java|Yandex|Linguee|LWP::Simple|Exabot|ia_archiver|Purebot|Twiceler|StatusNet)\b/i
+    request.user_agent =~ /\b(Baidu|Gigabot|Googlebot|libwww-perl|lwp-trivial|msnbot|SiteUptime|Slurp|WordPress|ZIBB|ZyBorg|Java|Yandex|Linguee|LWP::Simple|Exabot|ia_archiver|Purebot|Twiceler|StatusNet|Baiduspider)\b/i
   end
 
   def build_date(params, name)
