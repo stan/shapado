@@ -423,7 +423,7 @@ Time.zone.now ? 1 : 0)
 
     config = self.membership_list[group]
     if config.nil? && init
-      self.membership_list[group] ||= Membership.new(:group_id => group)
+      config = Membership.new(:group_id => group)
     end
 
     config
