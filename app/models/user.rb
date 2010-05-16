@@ -149,7 +149,7 @@ class User
 
   def update_language_filter(filter)
     if LANGUAGE_FILTERS.include? filter
-      User.set({:_id => self.id}, {:language_filter => filter}  )
+      User.set({:_id => self.id}, {:language_filter => filter})
       true
     else
       false
@@ -215,6 +215,14 @@ Time.zone.now ? 1 : 0)
 
   def mod_of?(group)
     owner_of?(group) || role_on(group) == "moderator" || self.reputation_on(group) >= group.reputation_constrains["moderate"].to_i
+  end
+
+  def editor_of?(group)
+    if c = config_for(group, false)
+      c.is_editor
+    else
+      false
+    end
   end
 
   def user_of?(group)
@@ -337,6 +345,11 @@ Time.zone.now ? 1 : 0)
     UserStat.find_or_create_by_user_id(self._id, :select => fields+extra_fields)
   end
 
+  def badges_count_on(group)
+    config = config_for(group)
+    [config.bronze_badges_count, config.silver_badges_count, config.gold_badges_count]
+  end
+
   def badges_on(group, opts = {})
     self.badges.all(opts.merge(:group_id => group.id, :order => "created_at desc"))
   end
@@ -403,11 +416,17 @@ Time.zone.now ? 1 : 0)
     super(method, *args, &block)
   end
 
-  def config_for(group)
+  def config_for(group, init = true)
     if group.kind_of?(Group)
       group = group.id
     end
-    self.membership_list[group] ||= Membership.new(:group_id => group)
+
+    config = self.membership_list[group]
+    if config.nil? && init
+      self.membership_list[group] ||= Membership.new(:group_id => group)
+    end
+
+    config
   end
 
   def before_facebook_connect(fb_session)

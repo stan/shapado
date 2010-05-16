@@ -142,7 +142,14 @@ module ApplicationHelper
         when 'site_name'
           current_group.name
         when 'current_user'
-          current_user.login
+          if logged_in?
+            current_user.login
+          end
+        when 'hottest_today'
+          question = Question.first(:activity_at.gt => Time.zone.now.yesterday, :order => "hotness desc, views_count asc", :group_id => current_group.id, :select => [:slug, :title])
+          if question.present?
+            link_to(question.title, question_path(question))
+          end
         else
           m
       end
