@@ -46,6 +46,8 @@ class Group
   key :has_custom_js, Boolean, :default => true
   key :fb_button, Boolean, :default => true
 
+  key :logo_info, Hash, :default => {"width" => 215, "height" => 60}
+
   file_key :logo, :max_length => 2.megabytes
   file_key :custom_css, :max_length => 256.kilobytes
   file_key :custom_favicon, :max_length => 256.kilobytes
@@ -54,7 +56,8 @@ class Group
   filterable_keys :name
 
   has_many :ads, :dependent => :destroy
-  has_many :widgets, :dependent => :destroy, :order => "position asc", :polymorphic => true
+  has_many :widgets, :class_name => "Widget"
+
   has_many :badges, :dependent => :destroy
   has_many :questions, :dependent => :destroy
   has_many :answers, :dependent => :destroy
@@ -133,7 +136,31 @@ class Group
   end
 
   def footer
-    self.custom_html.footer
+    self.custom_html.footer[I18n.locale.to_s.split("-").first] || ""
+  end
+
+  def question_prompt=(value)
+    self.custom_html.question_prompt[I18n.locale.to_s.split("-").first] = value
+  end
+
+  def question_help=(value)
+    self.custom_html.question_help[I18n.locale.to_s.split("-").first] = value
+  end
+
+  def head=(value)
+    self.custom_html.head[I18n.locale.to_s.split("-").first] = value
+  end
+
+  def head_tag=(value)
+    self.custom_html.head_tag = value
+  end
+
+  def footer=(value)
+    self.custom_html.footer[I18n.locale.to_s.split("-").first] = value
+  end
+
+  def tag_list
+    TagList.first(:group_id => self.id) || TagList.create(:group_id => self.id)
   end
 
   def default_tags=(c)

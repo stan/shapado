@@ -4,18 +4,17 @@ javascripts:
   - jquery
   - jquery.tools.min
   - jquery-ui
-  - jquery.autovideo
-  - jquery.autocomplete
   - jquery.textarea
   - jquery.wysiwyg
-  - showdown
+  - jquery.autocomplete
+  - jquery.fcbkcomplete
   - jquery.notifyBar
+  - showdown
+  - highlight/prettify
   - components/search
   - application
-  - highlight/prettify
   - modules/sessions
   - modules/index_question
-  - modules/show_question
   - modules/retag
   - modules/new_question
   - modules/index_welcome
@@ -25,7 +24,18 @@ javascripts:
   - modules/tags_question
   - modules/members
   - modules/move_group
+  - modules/editor
+
+- show:
+  - modules/single/question
+  - jquery.autovideo
+  - modules/show_question
+
+- login:
   - openid/js/jquery.openid.min
+
+
+
 stylesheets:
 - base:
   - jquery-ui

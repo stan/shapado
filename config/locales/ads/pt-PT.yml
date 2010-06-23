@@ -1,12 +1,18 @@
-"pt-PT":
-  ads:
-    ad_links: add a new {{type}} ad
-    title: add a new {{type}} ad
-    name: "name:"
-    position: "position:"
-    index:
-      title: ads
-      add_adsense: add a new google adsense ad
-      add_adbard: add a new adbard ad
-    create:
-      success: "ad was successfully created."
+# Messages for Portuguese (Português)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Giro720
+# Author: Hamilton Abreu
+# Author: McDutchie
+pt-PT: 
+  ads: 
+    ad_links: Adicionar um novo anúncio {{type}}
+    create: 
+      success: O anúncio foi criado com êxito.
+    index: 
+      add_adbard: Adicionar um anúncio Ad Bard novo
+      add_adsense: Adicionar um novo anúncio do Google AdSense
+      title: Anúncios
+    name: "Nome:"
+    position: "Posição:"
+    title: Adicionar um novo anúncio {{type}}

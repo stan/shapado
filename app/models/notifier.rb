@@ -22,7 +22,7 @@ class Notifier < ActionMailer::Base
   end
 
   def new_answer(user, group, answer, following = false)
-    self.class.layout "notification_#{user.language.downcase}"
+    self.class.layout "notification"
     template_for user do
 
       scope = "mailers.notifications.new_answer"
@@ -134,7 +134,7 @@ class Notifier < ActionMailer::Base
     end
     I18n.locale = language
 
-    template_name = "#{@method_name}_#{language}"
+    template_name = "#{@method_name}"
     if Dir.glob(RAILS_ROOT+"/app/views/notifier/#{template_name}*").size == 0
       template_name = @method_name
     end

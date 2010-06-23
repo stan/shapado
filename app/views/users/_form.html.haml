@@ -33,20 +33,13 @@
   = f.label :website, t(:website, :scope => "activerecord.attributes.user"), :class => "label"
   = f.text_field :website, :class => "text_field"
 
--if !@user.new?
-  .group
-    =label_tag :avatar, t(:avatar, :scope => "activerecord.attributes.user"), :class => "label"
-    .avatar
-      = gravatar @user.email.to_s, :size => 128
-    =link_to t(".avatar_tip"), "http://gravatar.com", :target => "_blank"
-
 .group
   = f.label :bio, t(:bio, :scope => "activerecord.attributes.user", :default => "Bio"), :class => "label"
   = f.text_field :bio, :class => "text_field"
 
 -if AppConfig.enable_i18n
   .group
-    = f.label :languaje, t(:language, :scope => "activerecord.attributes.user"), :class => "label"
+    = f.label :language, t(:language, :scope => "activerecord.attributes.user"), :class => "label"
     = f.select :language, locales_options, {}, :class => "select"
 -else
   = f.hidden_field :language, :value => (current_group.language || AppConfig.default_language)
@@ -63,10 +56,12 @@
   .group
     = f.label :preferred_languages, t(:preferred_languages, :scope => "activerecord.attributes.user"), :class => "label"
     -AVAILABLE_LANGUAGES.each do |lang|
+      - (DEFAULT_USER_LANGUAGES.include? lang)? jsclass = '' : jsclass = 'jshide'
       .radio_option
-        = check_box_tag "user[preferred_languages][]", lang, @user.preferred_languages.include?(lang), :class => "checkbox"
-        %label.radio
+        = check_box_tag "user[preferred_languages][]", lang, @user.preferred_languages.include?(lang), :class => "langbox checkbox #{jsclass}"
+        %label.radio.langbox{:class=>jsclass}
           = language_desc(lang)
+    = link_to t('.show_more_lang'), nil, :class => 'show-more-lang'
 -else
   = hidden_field_tag "user[preferred_languages][]", (current_group.language || AppConfig.default_language)
 
@@ -86,3 +81,4 @@
   .group
     = f.check_box "notification_opts[reports]", :checked => @user.notification_opts.reports
     = t(".reports_notification")
+

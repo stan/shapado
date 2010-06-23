@@ -17,6 +17,25 @@ base: &common
   enable_groups: false
   default_language: en
   enable_i18n: false
+  default_timezone: "Tokyo"
+
+  smtp:
+    activate: false
+    server: "smtp.gmail.com"
+    port: 587
+    domain: "shapado.com"
+    login: "shapado@gmail.com"
+    password: "shapado123"
+
+  facebook:
+    activate: false
+    key: facebook api key
+    secret: facebook secret key
+
+  twitter:
+    activate: false
+    key: twitter api key
+    secret: twitter secret key
 
   exception_notification:
     activate: true

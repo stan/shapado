@@ -1,4 +1,11 @@
 ActionController::Routing::Routes.draw do |map|
+  map.oauth_authorize '/oauth/start', :controller => 'oauth', :action => 'start'
+  map.oauth_callback '/oauth/callback', :controller => 'oauth', :action => 'callback'
+
+  map.twitter_authorize '/twitter/start', :controller => 'twitter', :action => 'start'
+  map.twitter_callback '/twitter/callback', :controller => 'twitter', :action => 'callback'
+  map.twitter_share '/twitter/share', :controller => 'twitter', :action => 'share'
+
   map.devise_for :users, :path_names => { :sign_in => 'login', :sign_out => 'logout' }
   map.confirm_age_welcome 'confirm_age_welcome', :controller => 'welcome', :action => 'confirm_age'
   map.change_language_filter '/change_language_filter', :controller => 'welcome', :action => 'change_language_filter'
@@ -51,10 +58,13 @@ ActionController::Routing::Routes.draw do |map|
                                             :retag => :get,
                                             :retag_to => :put,
                                             :close => :post} do |questions|
+        questions.resources :comments
         questions.resources :answers, :member => {:flag => :get,
                                                   :history => :get,
                                                   :diff => :get,
-                                                  :revert => :get}
+                                                  :revert => :get} do |answers|
+          answers.resources :comments
+        end
         questions.resources :close_requests
       end
     end
@@ -76,8 +86,6 @@ ActionController::Routing::Routes.draw do |map|
                                      :css => :get},
                           :collection => { :autocomplete_for_group_slug => :get}
 
-
-  map.resources :comments
   map.resources :votes
   map.resources :flags
 

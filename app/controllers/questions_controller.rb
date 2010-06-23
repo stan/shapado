@@ -40,9 +40,15 @@ class QuestionsController < ApplicationController
 
     @langs_conds = scoped_conditions[:language][:$in]
 
-    add_feeds_url(url_for(:format => "atom"), t("feeds.questions"))
+    if logged_in?
+      feed_params = { :feed_token => current_user.feed_token }
+    else
+      feed_params = {  :lang => I18n.locale,
+                          :mylangs => current_languages }
+    end
+    add_feeds_url(url_for({:format => "atom"}.merge(feed_params)), t("feeds.questions"))
     if params[:tags]
-      add_feeds_url(url_for(:format => "atom", :tags => params[:tags]),
+      add_feeds_url(url_for({:format => "atom", :tags => params[:tags]}.merge(feed_params)),
                     "#{t("feeds.tag")} #{params[:tags].inspect}")
     end
     @tag_cloud = Question.tag_cloud(scoped_conditions, 25)
@@ -167,12 +173,16 @@ class QuestionsController < ApplicationController
     respond_to do |format|
       format.js do
         result = []
-        if q =params[:prefix]
-          result = Question.find_tags(/^#{Regexp.escape(q)}/,
+        if q = params[:tag]
+          result = Question.find_tags(/^#{Regexp.escape(q.downcase)}/i,
                                       :group_id => current_group.id)
         end
-        results = result.map do |t| "#{t["name"]};(#{t["count"].to_i})" end.join("\n")
-        render :text => results
+
+        results = result.map do |t|
+          {:caption => "#{t["name"]} (#{t["count"].to_i})", :value => t["name"]}
+        end
+
+        render :json => results
       end
     end
   end
@@ -186,7 +196,7 @@ class QuestionsController < ApplicationController
       return
     end
 
-    @tag_cloud = Question.tag_cloud(:_id => @question.id)
+    @tag_cloud = Question.tag_cloud(:_id => @question.id, :banned => false)
     options = {:per_page => 25, :page => params[:page] || 1,
                :order => current_order, :banned => false}
     options[:_id] = {:$ne => @question.answer_id} if @question.answer_id
@@ -195,7 +205,7 @@ class QuestionsController < ApplicationController
     @answer = Answer.new(params[:answer])
 
     if @question.user != current_user && !is_bot?
-      @question.viewed!
+      @question.viewed!(request.remote_ip)
 
       if (@question.views_count % 10) == 0
         sweep_question(@question)
@@ -245,6 +255,7 @@ class QuestionsController < ApplicationController
         sweep_question_views
 
         current_user.stats.add_question_tags(*@question.tags)
+        current_group.tag_list.add_tags(*@question.tags)
 
         current_user.on_activity(:ask_question, current_group)
         current_group.on_activity(:ask_question)
@@ -348,7 +359,7 @@ class QuestionsController < ApplicationController
         format.html { redirect_to question_path(@question) }
         format.json  { head :ok }
       else
-        @tag_cloud = Question.tag_cloud(:_id => @question.id)
+        @tag_cloud = Question.tag_cloud(:_id => @question.id, :banned => false)
         options = {:per_page => 25, :page => params[:page] || 1,
                    :order => current_order, :banned => false}
         options[:_id] = {:$ne => @question.answer_id} if @question.answer_id
@@ -384,7 +395,7 @@ class QuestionsController < ApplicationController
         format.html { redirect_to question_path(@question) }
         format.json  { head :ok }
       else
-        @tag_cloud = Question.tag_cloud(:_id => @question.id)
+        @tag_cloud = Question.tag_cloud(:_id => @question.id, :banned => false)
         options = {:per_page => 25, :page => params[:page] || 1,
                    :order => current_order, :banned => false}
         options[:_id] = {:$ne => @question.answer_id} if @question.answer_id

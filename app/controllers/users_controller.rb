@@ -23,10 +23,7 @@ class UsersController < ApplicationController
     respond_to do |format|
       format.html
       format.json {
-        except = [:password, :password_confirmation, :crypted_password,
-                  :encrypted_password, :password_salt, :salt, :email, :identity_url,
-                  :default_subtab, :ip, :language_filter ]
-        render :json => @users.to_json(:except => except)
+        render :json => @users.to_json(:only => %w[name login membership_list bio website location language])
       }
       format.js {
         html = render_to_string(:partial => "user", :collection  => @users)
@@ -41,12 +38,16 @@ class UsersController < ApplicationController
   # render new.rhtml
   def new
     @user = User.new
+    @user.timezone = AppConfig.default_timezone
   end
 
   def create
     @user = User.new
-    @user.safe_update(%w[login email name password_confirmation password preferred_languages
+    @user.safe_update(%w[login email name password_confirmation password preferred_languages website
                          language timezone identity_url bio hide_country], params[:user])
+    if params[:user]["birthday(1i)"]
+      @user.birthday = build_date(params[:user], "birthday")
+    end
     success = @user && @user.save
     if success && @user.errors.empty?
       # Protects against session fixation attacks, causes request forgery
@@ -65,6 +66,8 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by_login_or_id(params[:id])
     raise PageNotFound unless @user
+
+    set_page_title(t("users.show.title", :user => @user.login))
 
     @q_sort, order = active_subtab(:q_sort)
     @questions = @user.questions.paginate(:page=>params[:questions_page],
@@ -100,16 +103,14 @@ class UsersController < ApplicationController
       format.html
       format.atom
       format.json {
-        except = [:password, :password_confirmation, :crypted_password,
-                  :encrypted_password, :password_salt, :salt, :email, :identity_url,
-                  :default_subtab, :ip, :language_filter ]
-        render :json => @user.to_json(:except => except)
+        render :json => @user.to_json(:only => %w[name login membership_list bio website location language])
       }
     end
   end
 
   def edit
     @user = current_user
+    @user.timezone = AppConfig.default_timezone if @user.timezone.blank?
   end
 
   def update
@@ -209,6 +210,15 @@ class UsersController < ApplicationController
     respond_to do |format|
       format.json {render :json=>@users}
     end
+  end
+
+  def destroy
+    if false && current_user.delete # FIXME We need a better way to delete users
+      flash[:notice] = t("destroyed", :scope => "devise.registrations")
+    else
+      flash[:notice] = t("destroy_failed", :scope => "devise.registrations")
+    end
+    return redirect_to(:root)
   end
 
   protected

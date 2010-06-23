@@ -68,8 +68,8 @@ class Question
 
   validates_length_of       :title,    :within => 5..100, :message => lambda { I18n.t("questions.model.messages.title_too_long") }
   validates_length_of       :body,     :minimum => 5, :allow_blank => true, :allow_nil => true, :if => lambda { |q| !q.disable_limits? }
-  validates_true_for :tags, :logic => lambda { tags.size <= 6},
-                     :message => lambda { I18n.t("questions.model.messages.too_many_tags") if tags.size > 6 }
+  validates_true_for :tags, :logic => lambda { tags.size <= 9},
+                     :message => lambda { I18n.t("questions.model.messages.too_many_tags") if tags.size > 9 }
 
   versionable_keys :title, :body, :tags
   filterable_keys :title, :body
@@ -85,6 +85,10 @@ class Question
   validate :check_useful
 
   timestamps!
+
+  def first_tags
+    tags[0..5]
+  end
 
   def tags=(t)
     if t.kind_of?(String)
@@ -103,9 +107,13 @@ class Question
     Question.paginate(opts.merge(:_keywords => {:$in => question.tags}, :_id => {:$ne => question.id}))
   end
 
-  def viewed!
-    self.collection.update({:_id => self._id}, {:$inc => {:views_count => 1}},
-                                              :upsert => true)
+  def viewed!(ip)
+    view_count_id = "#{self.id}-#{ip}"
+    if ViewsCount.find(view_count_id).nil?
+      ViewsCount.create(:_id => view_count_id)
+      self.collection.update({:_id => self._id}, {:$inc => {:views_count => 1}},
+                                                :upsert => true)
+    end
   end
 
   def answer_added!
@@ -267,7 +275,7 @@ class Question
     self.collection.update({:_id => question_id},
                            {:$set => {:last_target_id => target.id,
                                       :last_target_type => target.class.to_s,
-                                      :last_target_date => target.updated_at}},
+                                      :last_target_date => target.updated_at.utc}},
                            :upsert => true)
   end
 

@@ -1,4 +1,6 @@
 *~
+.DS_Store
+*.orig
 coverage
 *.log
 *.sqlite3
@@ -7,3 +9,4 @@ config/shapado.yml
 data/*.dat
 config/database.yml
 base_packaged.*
+.directory

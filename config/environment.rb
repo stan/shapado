@@ -1,7 +1,7 @@
 # Be sure to restart your server when you modify this file
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.8' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
@@ -19,16 +19,16 @@ Rails::Initializer.run do |config|
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"
-  config.gem "mongo", :version => "1.0.1"
+  config.gem "mongo", :version => "1.0.3"
   config.gem "bson_ext", :version => "1.0.1", :lib => "bson"
   config.gem "rdiscount", :version => "1.6.3.1"
   config.gem "jnunemaker-validatable", :version => "1.8.4", :lib => "validatable"
-  config.gem "mongo_mapper", :version => "0.7.5", :source => "http://gemcutter.org"
+  config.gem "mongo_mapper", :version => "0.8.2", :source => "http://gemcutter.org"
   config.gem "compass", :version => "0.10.0.rc4", :lib => "compass", :source => "http://gemcutter.org"
   config.gem "fancy-buttons", :version => "0.5.1", :source => "http://gemcutter.org"
   config.gem "compass-colors", :version => "0.3.1", :source => "http://gemcutter.org"
   config.gem "ruby-stemmer", :version => ">=0.5.3", :lib => "lingua/stemmer"
-  config.gem "mongomapper_ext", :version => "0.3.0", :source => "http://gemcutter.org"
+  config.gem "mongomapper_ext", :version => "0.4.0", :source => "http://gemcutter.org"
   config.gem "geoip"
   config.gem "whatlanguage", :version => "1.0.0"
   config.gem "uuidtools", :version => "2.1.1"
@@ -36,13 +36,11 @@ Rails::Initializer.run do |config|
   config.gem "differ", :version => "0.1.1"
   config.gem 'super_exception_notifier', :version => '~> 2.0.0', :lib => 'exception_notifier'
   config.gem "warden", :version => "0.10.3"
-  config.gem "devise", :version => "1.0.5"
+  config.gem "devise", :version => "1.0.7"
   config.gem "twitter-text", :version => "1.1.1"
-
-  if File.exist?(RAILS_ROOT+"/config/facebooker.yml")
-    config.gem "devise_facebook_connectable", :version => "0.1.9"
-    config.gem "facebooker", :version => "1.0.67"
-  end
+  config.gem "oauth2", :version => "0.0.8"
+  config.gem "twitter_oauth", :version => "0.3.6"
+  config.gem "sanitize", :version => "1.2.1"
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
@@ -66,6 +64,7 @@ Rails::Initializer.run do |config|
   config.i18n.default_locale = :en
   config.action_controller.use_accept_header = false
   # middlewares
-  config.middleware.use "DynamicDomain", "shapado.com"
+  config.middleware.use "DynamicDomain"
 end
 
+require "smtp_tls"

@@ -48,7 +48,6 @@ class GroupsController < ApplicationController
     else
       @group = current_group
     end
-
     raise PageNotFound if @group.nil?
 
     @comments = @group.comments.paginate(:page => params[:page].to_i,
@@ -90,9 +89,9 @@ class GroupsController < ApplicationController
     @group.owner = current_user
     @group.state = "active"
 
-    @group.widgets << TagCloudWidget.create(:position => 0)
-    @group.widgets << TopUsersWidget.create(:position => 1)
-    @group.widgets << BadgesWidget.create(:position => 2)
+    @group.widgets << TagCloudWidget.new
+    @group.widgets << TopUsersWidget.new
+    @group.widgets << BadgesWidget.new
 
     respond_to do |format|
       if @group.save
@@ -110,7 +109,7 @@ class GroupsController < ApplicationController
   # PUT /groups/1
   # PUT /groups/1.json
   def update
-    @group.safe_update(%w[name legend description default_tags subdomain logo forum
+    @group.safe_update(%w[name legend description default_tags subdomain logo logo_info forum
                           custom_favicon language theme reputation_rewards reputation_constrains
                           has_adult_content registered_only openid_only custom_css wysiwyg_editor fb_button], params[:group])
 

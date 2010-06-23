@@ -2,6 +2,7 @@
 $(document).ready(function() {
   $(".forms form.flag_form").hide();
   $("#close_question_form").hide();
+  $('.auto-link').autoVideo();
 
   $("form.vote_form button").live("click", function(event) {
     var btn_name = $(this).attr("name")
@@ -343,3 +344,6 @@ $(document).ready(function() {
   });
 });
 
+$(window).load(function() {
+  prettyPrint();
+});
