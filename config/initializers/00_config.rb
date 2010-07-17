@@ -10,15 +10,15 @@ if !File.exist?(config_file)
 end
 
 options = YAML.load_file(config_file)
-if !options[RAILS_ENV]
-  raise "'#{RAILS_ENV}' was not found in #{config_file}"
+if !options[Rails.env]
+  raise "'#{Rails.env}' was not found in #{config_file}"
 end
 
-AppConfig = OpenStruct.new(options[RAILS_ENV])
+AppConfig = OpenStruct.new(options[Rails.env])
 
 # check config
 begin
-  known_options = YAML.load_file(Rails.root+"/config/shapado.yml.sample")[RAILS_ENV]
+  known_options = YAML.load_file(Rails.root+"/config/shapado.yml.sample")[Rails.env]
   if known_options
     known_options.each do |k, v|
       if AppConfig.send(k).nil?
