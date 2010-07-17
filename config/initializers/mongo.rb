@@ -11,12 +11,12 @@ if defined?(PhusionPassenger)
   end
 end
 
-Dir.glob("#{RAILS_ROOT}/app/models/**/*.rb") do |model_path|
+Dir.glob("#{Rails.root}/app/models/**/*.rb") do |model_path|
   File.basename(model_path, ".rb").classify.constantize
 end
 
 
-Dir.glob("#{RAILS_ROOT}/app/javascripts/**/*.js") do |js_path|
+Dir.glob("#{Rails.root}/app/javascripts/**/*.js") do |js_path|
   code = File.read(js_path)
   name = File.basename(js_path, ".js")
 
