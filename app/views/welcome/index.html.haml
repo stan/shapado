@@ -18,7 +18,7 @@
 %div
   #quick_question
     -@question = Question.new
-    -form_for(@question, :url => questions_url, :html=>{:class => "form", :id => "ask_question"}) do |f|
+    = form_for(@question, :url => questions_url, :html=>{:class => "form", :id => "ask_question"}) do |f|
       -# TODO: refactor this
       -lang = current_languages.kind_of?(Array) ? current_languages.first : current_languages
       -lang = logged_in? ? current_user.language : lang
