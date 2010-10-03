@@ -11,9 +11,6 @@ ActionController::Routing::Routes.draw do |map|
   map.change_language_filter '/change_language_filter', :controller => 'welcome', :action => 'change_language_filter'
   map.register '/register', :controller => 'users', :action => 'create'
   map.signup '/signup', :controller => 'users', :action => 'new'
-  map.moderate '/moderate', :controller => 'admin/moderate', :action => 'index'
-  map.ban '/moderate/ban', :controller => 'admin/moderate', :action => 'ban'
-  map.unban '/moderate/unban', :controller => 'admin/moderate', :action => 'unban'
   map.facts '/facts', :controller => 'welcome', :action => 'facts'
   map.plans '/plans', :controller => 'doc', :action => 'plans'
   map.chat '/chat', :controller => 'doc', :action => 'chat'
@@ -33,6 +30,14 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :pages, :member => {:css => :get, :js => :get}
   map.resources :announcements, :collection => {:hide => :any }
   map.resources :imports, :collection => {:send_confirmation => :post}
+
+  map.namespace :moderate do |admin|
+    admin.resources :questions
+    admin.resources :answers
+    admin.resources :users
+  end
+
+  map.moderate '/moderate', :controller => 'moderate/questions', :action => 'index'
 
 
   def build_questions_routes(router, options ={})
