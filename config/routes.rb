@@ -32,7 +32,9 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :imports, :collection => {:send_confirmation => :post}
 
   map.namespace :moderate do |admin|
-    admin.resources :questions
+    admin.resources :questions, :collection => {:flagged => :get,
+                                                :to_close => :get,
+                                                :manage => :put}
     admin.resources :answers
     admin.resources :users
   end

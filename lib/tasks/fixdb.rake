@@ -1,5 +1,5 @@
 desc "Fix all"
-task :fixall => [:environment, "fixdb:reputation_rewards", "fixdb:unsolve_questions", "fixdb:es419", "fixdb:anonymous", "fixdb:flags"] do
+task :fixall => [:environment, "fixdb:reputation_rewards", "fixdb:unsolve_questions", "fixdb:es419", "fixdb:anonymous", "fixdb:flags", "fixdb:counters"] do
 end
 
 namespace :fixdb do
@@ -76,6 +76,13 @@ namespace :fixdb do
       end
     end
     MongoMapper.database.collection("falgs").drop
+  end
+
+  task :counters => :environment do
+    Question.find_each do |q|
+      q.set(:close_requests_count => q.close_requests.size)
+      q.set(:open_requests_count => q.open_requests.size)
+    end
   end
 end
 
