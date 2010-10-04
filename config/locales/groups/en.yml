@@ -42,6 +42,8 @@ en:
       analytics_engine: Analytics Engine
       website_analytics_id: Website Analytics ID
       analytics_legend: The group will be able to use its own tracking code
+      google_search: Make use of Google Search instead of Shapado for searching the site
+      google_search_legend: Enter your Google Search ID here, it should looke something like partner-pub-48437058512693329:b893l9f71n5
   activerecord:
     models:
       groups: Groups

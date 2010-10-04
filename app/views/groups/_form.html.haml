@@ -50,6 +50,11 @@
       = form.label :analytics_id, t(".website_analytics_id"), :class => "label"
       = form.text_field :analytics_id, :class=> "text_field"
 
+    .group
+      = form.label :google_search_id, t(".google_search"), :class => "label"
+      = form.text_field :google_search_id, :class=> "text_field"
+      .description
+        = t(".google_search_legend")
   .group
     = form.label :description,  t('description', :scope => "activerecord.attributes.group"), :class => "label"
     -if current_group.wysiwyg_editor

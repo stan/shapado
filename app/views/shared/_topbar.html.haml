@@ -48,6 +48,16 @@
     .entry
       =link_to t("layouts.application.log_in"), new_user_session_path
   .entry
-    - form_tag search_path, :method => :get, :style => "margin-left: 20px; max-width: 10%; display: inline" do
-      = text_field_tag :q, params[:q], :id => "search-field"
+    - unless current_group.has_google_search?
+      - form_tag search_path, :method => :get, :style => "margin-left: 20px; max-width: 10%; display: inline" do
+        = text_field_tag :q, params[:q], :id => "search-field"
+    - else
+      - form_tag google_search_path, :method => :get, :id => 'cse-search-box' do
+        = hidden_field_tag :cx, current_group.google_search_id
+        = hidden_field_tag :cof,"FORID:10"
+        = hidden_field_tag :ie, "UTF-8"
+        = text_field_tag :q, '', :size => 20
+        = submit_tag t('layouts.application.search'), :name => 'sa'
+        = "<script type=\"text/javascript\" src=\"http://www.google.com.pe/cse/brand?form=cse-search-box&amp;lang=#{I18n.locale.to_s}\"></script>"
+
 .clear

@@ -45,7 +45,7 @@ class Group
   key :has_custom_html, Boolean, :default => true
   key :has_custom_js, Boolean, :default => true
   key :fb_button, Boolean, :default => true
-
+  key :google_search_id,  :default => nil
 
   key :logo_info, Hash, :default => {"width" => 215, "height" => 60}
   key :share, Share, :default => Share.new
@@ -93,6 +93,10 @@ class Group
                               :within => BLACKLIST_GROUP_NAME,
                               :message => "Sorry, this group subdomain is reserved by"+
                                           " our system, please choose another one"
+
+  def has_google_search?
+    !google_search_id.blank?
+  end
 
   def downcase_domain
     domain.downcase!
