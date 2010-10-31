@@ -31,6 +31,14 @@ namespace :fixdb do
     end
   end
 
+  task :comments => [:environment] do
+    answers = MongoMapper.database.collection("answers")
+    MongoMapper.database.collection("comments").find(:_type => "Answer").each do |answer|
+      answers.save(answer)
+    end
+    MongoMapper.database.collection("comments").remove(:_type => "Answer")
+  end
+
   task :votes => [:environment] do
     Group.find_each do |group|
       count = 0
@@ -49,7 +57,7 @@ namespace :fixdb do
         collection.update({:_id => id}, "$addToSet" => {:votes => vote})
       end
       if count > 0
-        puts "Updated #{count} #{group["name"]} votes "
+        puts "Updated #{count} #{group["name"]} votes"
       end
     end
     MongoMapper.database.collection("votes").drop
