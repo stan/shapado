@@ -8,9 +8,9 @@ class CommentsController < ApplicationController
     @comment.body = params[:body]
     @comment.user = current_user
 
-    scope << @comment
+    current_scope << @comment
 
-    if @comment.valid? && scope.save
+    if @comment.valid? && saved = scope.save
       current_user.on_activity(:comment_question, current_group)
 
       Jobs::Activities.async.on_comment(@comment.id).commit!
