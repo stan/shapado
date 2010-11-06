@@ -157,6 +157,22 @@ class QuestionsController < ApplicationController
     end
   end
 
+  def expert
+    set_page_title(t("questions.expert.title"))
+    conditions = scoped_conditions({:banned => false})
+    @current_tags = current_user.stats(:expert_tags).expert_tags || []
+    @questions = Question.paginate({:order => current_order,
+                                    :per_page => 25,
+                                    :page => params[:page] || 1,
+                                    :fields => {:_keywords => 0, :watchers => 0, :flags => 0,
+                                                :close_requests => 0, :open_requests => 0,
+                                                :versions => 0}
+                               }.merge(conditions))
+    respond_to do |format|
+      format.json  { render :json => @questions.to_json(:except => %w[_keywords slug watchers]) }
+    end
+  end
+
   def tags
     conditions = scoped_conditions({:answered_with_id => nil, :banned => false})
     if params[:q].blank?

@@ -65,6 +65,7 @@ Shapado::Application.routes.draw do
       get :tags
       get :tags_for_autocomplete
       get :unanswered
+      get :expert
       get :related_questions
     end
 
