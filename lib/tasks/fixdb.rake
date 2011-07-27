@@ -24,5 +24,37 @@ namespace :fixdb do
       end
     end
   end
+
+  task :answered => [:environment] do
+    accepted_count = 0
+    answered_count = 0
+
+    Question.find_each do |question|
+      next if question.answered || question.answers_count == 0
+
+      if question.answer.present?
+        question.set(:accepted => true, :answered => true, :answered_with_id => question.answer_id)
+        accepted_count += 1
+      else
+        ok = false
+
+        answered_with = nil
+        question.answers.all(:order => "votes_average desc").each do |answer|
+          if answer.votes_average > 0
+            ok = true
+            answered_with = answer
+            break
+          end
+        end
+
+        if ok && answered_with
+          question.set(:answered => true, :answered_with_id => answered_with.id)
+          answered_count += 1
+        end
+      end
+    end
+
+    puts "#{accepted_count} answers were marked as accepted(and answered).\n#{answered_count} answers were marked as answered"
+  end
 end
 
