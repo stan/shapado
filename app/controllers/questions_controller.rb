@@ -228,7 +228,11 @@ class QuestionsController < ApplicationController
     add_feeds_url(url_for(:format => "atom"), t("feeds.question"))
 
     respond_to do |format|
-      format.html { Magent.push("actors.judge", :on_view_question, @question.id) }
+      format.html {
+        if @question.views_count >= 1000
+          Magent.push("actors.judge", :on_view_question, @question.id)
+        end
+      }
       format.json  { render :json => @question.to_json(:except => %w[_keywords slug watchers]) }
       format.atom
     end
