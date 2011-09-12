@@ -37,6 +37,7 @@ class ApplicationController < ActionController::Base
 
   protect_from_forgery
 
+  before_filter :read_only
   before_filter :find_group
   before_filter :check_group_access
   before_filter :set_locale
@@ -46,6 +47,23 @@ class ApplicationController < ActionController::Base
   helper_method :recaptcha_tag
 
   protected
+  def check_read_only
+    flash[:notice] = "Shapado is in read-only mode."
+    if AppConfig.read_only && request.env["HTTP_REFERER"]
+      redirect_to :back
+      return
+    end
+    redirect_to '/'
+  end
+
+  def read_only
+    if AppConfig.read_only
+      sign_out current_user if logged_in?
+      if (params[:controller] == "sessions" && action_name == "new" )
+        check_read_only
+      end
+    end
+  end
 
   def check_group_access
     if ((!current_group.registered_only || is_bot?) && !current_group.private) || devise_controller? || (params[:controller] == "users" && action_name == "new" )

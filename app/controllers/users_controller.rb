@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
   before_filter :login_required, :only => [:edit, :update, :follow]
+  before_filter :check_read_only, :only => [:create, :new]
+
   tabs :default => :users
 
   subtabs :index => [[:reputation, "reputation"],
