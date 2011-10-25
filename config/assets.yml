@@ -36,6 +36,7 @@ javascripts:
 
     - public/javascripts/vendor/jquery.cookie.js
     - public/javascripts/vendor/jquery.pjax.js
+    - public/javascripts/vendor/time_helper.js
 
     - public/javascripts/app/modules/app_config.js
     - public/javascripts/app/modules/comments.js
@@ -54,7 +55,6 @@ javascripts:
     - public/javascripts/app/modules/loader.js
     - public/javascripts/app/modules/updater.js
     - public/javascripts/app/modules/layout_editor.js
-
 
     - public/javascripts/app/initializers/search.js
     - public/javascripts/app/initializers/shapado_toolbar.js

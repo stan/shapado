@@ -25,8 +25,8 @@
         =render :partial => "users/user_data", :locals => {:user => owner}
       -else
         = I18n.t('shared.by_anon')
-      %time{:pubdate => "pubdate", :datetime => last_target_date.iso8601}
-        = pjax_link_to t("time.ago", :time => time_ago_in_words(last_target_date)), "question", question_path(question, :anchor => last_target_id)
+      %time{:pubdate => "pubdate", :datetime => last_target_date.iso8601, :data => {:timeago => true}}
+        = pjax_link_to last_target_date.iso8601, "question", question_path(question, :anchor => last_target_id)
 
     %h2
       -if question.wiki
