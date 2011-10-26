@@ -17,8 +17,8 @@
         = render :partial => "users/user_mini", :locals => {:user => @question.user, :author => true}
         %span
           = t('activerecord.attributes.question.created_at')
-        %time{:datetime => @question.created_at.iso8601, :itemprop => "datePublished"}
-          = t("time.ago", :time => time_ago_in_words(@question.created_at))
+        %time.timeago{:datetime => @question.created_at.iso8601, :itemprop => "datePublished"}
+          = @question.created_at.iso8601
         -if !@question.user.hide_country && @question.address.present?
           %span
             = t("global.from", :site => CGI.escape_html(@question.address_name))
@@ -43,7 +43,8 @@
         = t('number.x_time', :count => number_with_delimiter(@question.views_count))
         %span
           = t("questions.show.last_activity")
-        = t("time.ago", :time => time_ago_in_words(@question.activity_at))
+        %time.timeago{:datetime => @question.activity_at.iso8601, :itemprop => "datePublished"}
+          = @question.activity_at.iso8601
 
     %meta{:itemprop=>"keywords", :content=>@question.tags.join(",")}
     %meta{:itemprop=>"inLanguage", :content=>@question.language}

@@ -13,11 +13,15 @@ var Ui = {
 
     Ui.hide_comments_form();
 
-    timeformatopts = {};
     if(I18n.time) {
-      timeformatopts['strings'] = I18n.time;
+      jQuery.timeformat.settings.strings = I18n.time;
     }
-    $('time').timeformat(timeformatopts);
+
+//     $('time:not(.timeago)').timeformat();
+
+    jQuery.timeformat.settings.timeago = true;
+    $('time.timeago').timeformat();
+
 
     if(Ui.supports_input_placeholder()) {
       $('.hideifplaceholder').remove();

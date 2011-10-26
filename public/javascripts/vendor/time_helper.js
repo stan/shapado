@@ -36,6 +36,7 @@
   $.extend($.timeformat, {
     settings: {
       refreshMillis: 60000,
+      timeago: false,
       strings: {
         today: "today",
         yesterday: "yesterday",
@@ -94,8 +95,10 @@
       }
     },
     distanceOfTimeInWords: function(from_time, to_time, include_seconds) {
+      from_time = this.toUTC(from_time);
+      to_time = to_time || new Date(Date.now());
+      to_time = this.toUTC(to_time);
 
-      to_time = to_time || Date.now();
       include_seconds = include_seconds || false;
 
       distance_in_minutes = Math.round((Math.abs(to_time - from_time))/60000);
@@ -246,6 +249,14 @@
       var isTime = $(elem).get(0).tagName.toLowerCase() === "time"; // $(elem).is("time");
       var iso8601 = isTime ? $(elem).attr("datetime") : $(elem).attr("title");
       return $t.parse(iso8601);
+    },
+    toUTC: function(date) {
+      return Date.UTC(date.getFullYear(),
+                      date.getMonth(),
+                      date.getDate(),
+                      date.getHours(),
+                      date.getMinutes(),
+                      date.getSeconds());
     }
   });
 
@@ -253,7 +264,7 @@
     var self = this;
     var element = $(this);
 
-    if(element.data('timeago') != null) {
+    if($t.settings.timeago) {
       var self = this;
       self.each(refresh);
       setInterval(function() { self.each(refresh); }, 60000);
