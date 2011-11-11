@@ -2,7 +2,11 @@ class Flag
   include Mongoid::Document
   include Shapado::Models::Trackable
 
-  track_activities :user, :reason, :_parent, :scope => [:group_id], :target => :_parent
+  track_activities :user, :reason, :_parent, :scope => [:group_id], :target => :_parent do |activity, question|
+    follower_ids = question.follower_ids+question.contributor_ids
+    follower_ids.delete(activity.user_id)
+    activity.add_followers(*follower_ids)
+  end
 
   REASONS = ["spam", "offensive", "attention"]
 

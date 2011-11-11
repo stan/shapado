@@ -2,6 +2,8 @@ class Activity
   include Mongoid::Document
   include Mongoid::Timestamps
 
+  paginates_per 10
+
   ACTIONS = %w[create update destroy]
 
   identity :type => String
@@ -27,6 +29,8 @@ class Activity
   field :target_param, :type => String
   belongs_to :target, :polymorphic => true
 
+  field :follower_ids, :type => Array, :default => []
+
   index :action
 
   before_validation :store_user_name, :on => :create
@@ -35,6 +39,9 @@ class Activity
   validates_presence_of :login
 
   validates_inclusion_of :action, :in => ACTIONS, :allow_blank => false
+
+
+  after_create :update_websocket
 
   def url_for_trackable(domain)
     url_helper = Rails.application.routes.url_helpers
@@ -170,6 +177,29 @@ class Activity
     end
   end
 
+  def to_html(view_renderer)
+    view_renderer.render(
+      :partial => 'activities/activity',
+      :layout => false,
+      :format => :haml,
+      :locals => { :activity => self}
+    )
+  end
+
+  def add_followers(*follower_ids)
+    if self.new?
+      self.follower_ids += follower_ids
+    else
+      self.follower_ids += follower_ids
+      self.push_uniq(:follower_ids => {:$each => follower_ids})
+    end
+  end
+
+  def remove_followers(*follower_ids)
+    self.pull(:follower_ids => {:$each => follower_ids})
+    self.follower_ids -= follower_ids
+  end
+
   private
   def store_user_name
     u = User.only(:login, :name).where(:_id => self.user_id).first
@@ -181,5 +211,16 @@ class Activity
       self[:target_name] = (self.target["name"] || self.target["title"] || self.target["body"] || self.target["description"])
       self[:target_name] =  self[:target_name].gsub(/<\/?[^>]*>/, " ").gsub(/[\S]{245,}/, "") if  self[:target_name]
     end
+  end
+
+  def update_websocket
+    opts = {
+      id: "newactivity",
+      object_id: self._id,
+      name: self.target_name,
+      channel_id: self.group.slug
+    }
+    puts "POSTING NEW ACTIVITY: #{opts.inspect}"
+    Magent::WebSocketChannel.push(opts)
   end
 end

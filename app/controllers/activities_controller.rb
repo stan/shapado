@@ -33,4 +33,15 @@ class ActivitiesController < ApplicationController
     end
   end
 
+  def show
+    @activity = Activity.find(params[:id])
+
+    if params[:notif]
+      render :partial => "notifications/notification_item", :layout => false, :locals => {:activity => @activity}
+    else
+      @activity.to_html(self)
+    end
+
+  end
+
 end
