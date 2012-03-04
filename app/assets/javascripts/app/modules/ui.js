@@ -31,6 +31,7 @@ var Ui = {
       }
     }
     $('[rel=tipsy]').tipsy({gravity: 's'});
+    $('.tipsy-plans').tipsy({gravity: 'e', opacity: 1});
     $('.lang-option').click(function(){
       var path = $('#lang-select-toggle').data('language');
       var language = $(this).data('language');
