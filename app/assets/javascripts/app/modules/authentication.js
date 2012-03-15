@@ -9,7 +9,7 @@ var Auth = {
     });
   },
   position_dropdown: function(){
-    if(Ui.offline()){
+    if(Ui.offline() && !Ui.not_member){
       $('.providers-list').show().offset({left: $('.offline').offset().left+$('.offline').width()-$('.providers-list').width()}).hide();
         //$('.providers-list').show().offset({left: $('body').width()/2-$('#column2').width()/2}).css({width: '290px'});
     }
