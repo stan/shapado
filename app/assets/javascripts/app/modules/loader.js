@@ -21,6 +21,8 @@ var Loader = {
     }
     if($body.hasClass("questions-controller")) {
       Questions.initialize($body);
+    } else if($body.hasClass("doc-controller plans application")) {
+      Plans.initialize($body);
     } else if($body.hasClass("widgets-controller")) {
       Widgets.initialize($body);
     } else if($body.hasClass("users-controller")) {
