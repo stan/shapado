@@ -53,6 +53,7 @@ var Ui = {
     Ui.sort_values('#lang_opts', '.radio_option', false, 'attr', 'id');
     Ui.sort_values('select#question_language', 'option', false, 'text', null);
 
+//    $(document.body).delegate("#ask_question,.plans-form,.downgrade-form", "submit", function(event) {
     $(document.body).delegate("#ask_question", "submit", function(event) {
         if(Ui.offline()){
             Auth.startLoginDialog();
