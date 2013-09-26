@@ -9,6 +9,7 @@ br:
   activerecord: 
     attributes: 
       group: 
+        daily_cap: Bevenn bemdeziek
         default_tags: Tikedennoù dre ziouer
         description: Deskrivadur
         domain: Domani

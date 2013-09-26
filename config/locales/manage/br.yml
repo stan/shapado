@@ -14,8 +14,10 @@ br:
         banning: 
           title: Forbannañ ar respont
       appearance: 
+        logo_legend: Kargit ul logo evit ho strollad. Bihanoc'h eget 2Mo e rank bezañ.
         title: Dibabit ha personelait ho tem
       close_group: 
+        description: Ma serrit ar strollad ne c'hallo den ebet nemedoc'h mont dezhañ.
         feedback: "Lavarit dimp, mar plij, perak e serrit ho strollad :"
       content: 
         footer: Traoñ pajenn
@@ -79,6 +81,7 @@ br:
         share: 
           title: Rannañ
         tag_your_tweets: 
+          ends_with_example: "da sk. #shapado"
           starts_with_example: "da skouer : #qa"
         title: Perzhioù ar strollad
         twitter_account: 
@@ -89,6 +92,7 @@ br:
           twitter_account: Kont Twitter
         twitter_app: 
           key: Alc'hwez an arload
+          secret: fr
           twitter_app: Arload Twitter
       questions: 
         banning: 

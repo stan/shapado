@@ -29,16 +29,25 @@ pl:
     shared: 
       addict: 
         description: Odwiedzali witrynę codziennie przez kolejnych 20 dni
+        name: Uzależniony
       altruist: 
+        description: Pierwsza nagroda przyznana ręcznie na pytanie innej osoby
         name: Altruista
       autobiographer: 
         description: Wypełnione wszystkie pola profilu użytkownika
         name: Autobiograf
+      benefactor: 
+        description: Pierwsza nagroda przyznana ręcznie na pytanie własne
+        name: Dobroczyńca
       celebrity: 
         description: Ma ponad 100 zwolenników
         name: Celebryta
+      citizen_patrol: 
+        description: Pierwsze oflagowanie postu
+        name: Patrol obywatelski
       civic_duty: 
         description: Głosowano 300 razy
+        name: Obywatelski obowiązek
       cleanup: 
         description: Wykonał pierwsze wycofanie
         name: Oczyszczanie
@@ -56,6 +65,7 @@ pl:
         name: Edytor
       effort_medal: 
         description: Otrzymał 100 pozytywnych głosów
+        name: Medal za wysiłek
       enlightened: 
         description: Udzielił odpowiedzi, która została przyjęta z co najmniej 10 głosami za
         name: Oświecony
@@ -72,28 +82,44 @@ pl:
         description: Zadał pytanie lubiane przez 25 użytkowników
         name: Ulubione pytanie
       friendly: 
+        description: Po raz pierwszy zaczął kogoś śledzić
         name: Przyjazny
       good_answer: 
         description: Udzielił odpowiedzi, która osiągnęła średnio ponad 25 głosów
         name: Dobra odpowiedź
       good_question: 
+        description: Zadał pytanie, które osiągnęło średnio ponad 25 głosów
         name: Dobre pytanie
       great_answer: 
         description: Na odpowiedź głosowano aż 100 razy
         name: Znakomita odpowiedź
       great_question: 
+        description: Zadał pytanie, za którym głosowało "za" 100 razy
         name: Świetne pytanie
       guru: 
         description: Podał rozwiązanie pytania o średnio więcej niż 40 głosach
         name: Guru
       inquirer: 
         description: Zapytał po raz pierwszy
+        name: Badacz
       interesting_person: 
+        description: Otrzymał ponad 10 osób obserwujących
         name: Ciekawa osoba
+      investor: 
+        description: Pierwsza nagroda zaoferowana za odpowiedź na pytanie innej osoby
+        name: Inwestor
       merit_medal: 
         description: Otrzymał 200 pozytywnych głosów
+        name: Medal za zasługi
       necromancer: 
+        description: Odpowiedzi na pytanie, po ponad 60 dniach później z co najmniej 5 głosami
         name: Nekromanta
+      nice_answer: 
+        description: Ma odpowiedź, za którą głosowano «za» 10 razy
+        name: Dobra odpowiedź
+      nice_question: 
+        description: Zadał pytanie, za którym głosowało 10 razy «za»
+        name: Dobre pytanie
       notable_question: 
         description: Zadać pytanie, które ma 2500 wyświetleń
         name: Pytanie godne uwagi
@@ -115,10 +141,17 @@ pl:
       popular_question: 
         description: Zadał pytanie o 1000 odsłon
         name: Popularne pytanie
+      promoter: 
+        description: Pierwsza nagroda zaoferowana za odpowiedź na pytanie własne
+        name: Promotor
       rockstar: 
         description: Uzyskało 1000 pozytywnych głosów i 10 negatywnych głosów maksymalnie
         name: Gwiazda rocka
+      scholar: 
+        description: Odpowiedział po raz pierwszy na zadane przez siebie pytanie z zaakceptowanymi odpowiedziami
+        name: Naukowiec
       self-learner: 
+        description: Odpowiedzi na własne pytanie z co najmniej 3 głosami "za"
         name: Samokształcący się
       service_medal: 
         description: Ma 300 pozytywnych głosów
@@ -128,13 +161,20 @@ pl:
       stellar_answer: 
         description: Ma odpowiedź, która jest ulubiona przez 100 użytkowników
         name: Błyskotliwa odpowiedź
+      stellar_question: 
+        description: Zadał pytanie lubiane przez 100 użytkowników
+        name: Popularne pytanie
       student: 
         description: Zadał pytanie z co najmniej jednym do głosem pozytywnym
         name: Uczeń
       supporter: 
         description: Pozytywnie głosowali po raz pierwszy
         name: Pomocnik
+      troubleshooter: 
+        description: Odpowiedział po raz pierwszy
+        name: Narzędzie do rozwiązywania problemów
       tutor: 
+        description: Podano rozwiązanie do pytania ze średnią większą niż 2 głosy
         name: Tutor
     show: 
       description: "Użytkownicy, którzy otrzymali tę odznakę. Niedawno przyznana:"

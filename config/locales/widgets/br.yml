@@ -49,9 +49,11 @@ br:
     related_questions: 
       title: Goulennoù kenstag
     settings: 
+      content: "Lakait an HTML a garit amañ :"
       custom_html: "HTML personelaet :"
       limit: "Kementad da ziskwel :"
       on_questions: Diskouez war bajenn bennañ ar goulennoù
+      on_show_question: Dont a ra war wel pa ziskouezer ur goulenn
       on_welcome: Diskouez war ar bajenn degemer
     share: 
       title: Rannañ
@@ -60,6 +62,7 @@ br:
     suggestions: 
       follow_user: + Heuliañ an implijer
       followed_by: Heuliet gant %{user}
+      unfollow_user: "- Paouez da heuliañ an implijer"
     tag_cloud: 
       description: Ar widget-mañ a ziskouez ur goumoulenn merkoù
       title: Nivlennad tikedennoù

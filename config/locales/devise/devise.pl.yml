@@ -1,0 +1,70 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: BeginaFelicysym
+# Author: Faren
+# Author: Ty221
+# Author: Woytecr
+pl: 
+  devise: 
+    confirmations: 
+      confirmed: Twoje konto zostało potwierdzone. Jesteś teraz zarejestrowany(-a).
+      send_instructions: Otrzymasz email z instrukcjami jak potwierdzić swoje konto w kilka minut.
+    failure: 
+      inactive: Twoje konto nie zostało jeszcze aktywowane.
+      invalid: Nieprawidłowy adres e-mail lub hasło.
+      invalid_token: Token uwierzytelniania nieprawidłowy.
+      locked: Twoje konto zostało zablokowane.
+      timeout: Twoja sesja wygasła. Proszę zaloguj się ponownie, aby kontynuować.
+      unauthenticated: Musisz zalogować się lub zarejestrować zanim przejdziesz dalej.
+      unconfirmed: Trzeba potwierdzić twoje konto przed przejściem dalej.
+    mailer: 
+      confirm_account: 
+        instruction1: "Możesz potwierdzić swoje konto poprzez link poniżej:"
+        link: Potwierdź konto
+        welcome: Witamy
+      confirmation_instructions: 
+        subject: Instrukcje potwierdzania
+      hello: Witaj
+      reset_password: 
+        instruction1: Ktoś poprosił o link do zmiany twojego hasła i możesz zobaczyć ten link poniżej
+        link: Zmień moje hasło
+        nonrequested: Jeśli o to nie prosiłeś - proszę zignorować ten email
+        warning: Twoje hasło nie zmieni się dopóki nie odwiedzisz poniższej strony i nie wskażesz nowego
+      reset_password_instructions: 
+        subject: Instrukcje resetowania hasła
+      unlock: 
+        instruction1: Konto zostało zablokowane z powodu nadmiernej ilości nieudanych prób logowań.
+        instruction2: "Kliknij link poniżej, aby odblokować swoje konto:"
+        link: Odblokuj moje konto
+      unlock_instructions: 
+        subject: Instrukcje odblokowywania
+    passwords: 
+      link: Zapomniałeś hasła?
+      send_button: Wyślij mi instrukcje resetowania hasła
+      send_instructions: Otrzymasz wiadomość e-mail z instrukcją o resetowaniu hasła w ciągu kilku minut.
+      updated: Twoje hasło zostało zmienione. Jesteś teraz zarejestrowany(-a).
+    registrations: 
+      destroyed: Do widzenia! Twoje konto zostało pomyślnie anulowane. Mamy nadzieję, że wktórce spotkamy się ponownie.
+      link: Zarejestruj się
+      signed_up: Zarejestrowałeś się pomyślnie. Jeśli opcja jest włączona, potwierdzenie zostało wysłane na Twój e-mail.
+      updated: Pomyślnie zaktualizowałeś swoje konto.
+    sessions: 
+      link: Zaloguj się
+      new: 
+        openid_url: Adresu URL identyfikatora OpenID
+        remember_me: Zapamiętaj mnie
+      registered_only: Musisz być zalogowany aby zobaczyć zawartość.
+      sign_out: Wyloguj się
+      signed_in: Zalogowano pomyślnie
+      signed_out: Wylogowano pomyślnie
+      signin_group: Zaloguj się do %{group}
+    unlocks: 
+      link: Nie otrzymałeś instrukcji odblokowania ?
+      send_instructions: Otrzymasz email z instrukcjami jak odblokować swoje konto w kilka minut.
+      unlocked: Twoje konto zostało odblokowane. Jesteś teraz zarejestrowany(-a).
+  errors: 
+    messages: 
+      already_confirmed: został już potwierdzony
+      not_found: nie znaleziono
+      not_locked: nie był zablokowany

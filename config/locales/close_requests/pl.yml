@@ -1,0 +1,35 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ty221
+# Author: Woytecr
+pl: 
+  close_requests: 
+    create: 
+      flash_notice: Wniosek o zamknięcie utworzony prawidłowo !
+    destroy: 
+      flash_notice: Wniosek o zamknięcie usunięty prawidłowo !
+    edit: 
+      title: Edytuj żądanie zamknięcia
+    form: 
+      close_with_reason: Zamknięcie tego pytania z tego powodu
+      dupe: Duplikat
+      no_question: To nie jest pytanie
+      not_relevant: Nie istotne
+      ot: Nie na temat
+      request_closing_details: Żażadąj zamknięcia tego pytania
+      retract: Odwołać
+      spam: spam
+    index: 
+      title: Lista zamkniętych zapytań
+    model: 
+      attributes: 
+        comment: Komentarz
+        reason: Powód
+        user: Użytkownik
+      messages: 
+        already_requested: Już żądałeś zamknięcia tego pytania
+      name: Żądanie zamknięcia
+      prural_name: Żądania zamknięcia
+    update: 
+      flash_notice: Wniosek o zamknięcie zaktualizowny prawidłowo !

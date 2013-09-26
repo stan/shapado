@@ -47,7 +47,7 @@ qqq:
     close: "{{Identical|Close}}"
     create: "{{Identical|Create}}"
     destroy: "{{Identical|Delete}}"
-    details: "{{Identical|Details}}"
+    details: "{{Identical|Detail}}"
     edit: "{{Identical|Edit}}"
     more: "{{Identical|More}}"
     save: "{{Identical|Save}}"
@@ -55,6 +55,7 @@ qqq:
     show: "{{Identical|Show}}"
     update: "{{Identical|Update}}"
   time: 
+    ago: "{{Identical|Ago}}"
     today: "{{Identical|Today}}"
   views: 
     pagination: 

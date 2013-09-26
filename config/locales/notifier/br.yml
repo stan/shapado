@@ -41,6 +41,7 @@ br:
     new_invitation: 
       message1: Klikit amañ evit asantiñ d'ar bedadenn %{link}
       message2: Ar skipailh %{group}.
+      message3: "Ur gemennadenn gant ho sponsor :"
       subject: "%{user} en deus pedet ac'hanoc'h e %{group}"
     report: 
       message1: Danevell evit ar strollad %{group}

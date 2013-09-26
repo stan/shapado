@@ -22,12 +22,20 @@ br:
         instruction1: "Gallout a rit kadarnaat ho kont dre al liamm amañ dindan :"
         link: Kadarnaat ma c'hont
         welcome: Degemer mat
+      confirmation_instructions: 
+        subject: Kemennoù kadarnaat
       hello: Demat
       reset_password: 
         link: Cheñch ma ger-tremen
+        nonrequested: Ma n'ho peus ket goulennet an dra-mañ, na rit ket van eus ar postel-mañ, mar plij.
+        warning: Ne cheñcho ket ho ker-tremen keit ha ma n'ho po kliket war al liamm a-us da grouiñ unan nevez.
+      reset_password_instructions: 
+        subject: Kemennoù da adkrouiñ ar ger-tremen
       unlock: 
         instruction2: "Klikit war al liamm amañ dindan da zibrennañ ho kont :"
         link: Dibrennañ ma c'hont
+      unlock_instructions: 
+        subject: Kemennoù dibrennañ
     passwords: 
       link: Ankouaet ho ker-tremen ganeoc'h ?
       send_button: Kasit din ar c'hemennoù adderaouekaat evit ar ger-tremen

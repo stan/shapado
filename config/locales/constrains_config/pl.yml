@@ -1,0 +1,8 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ty221
+pl: 
+  activemodel: 
+    models: 
+      constrains_config: Ustawienia ograniczeń reputacji

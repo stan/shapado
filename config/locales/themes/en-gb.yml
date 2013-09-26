@@ -1,0 +1,29 @@
+# Messages for British English (British English)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+en-gb: 
+  themes: 
+    form: 
+      bg_color_legend: Pick a background colour, be sure about it contrasts nicely with the rest of your app.
+      colors_and_bg: Colours and backgrounds
+      custom_css_legend: If you know the CSS language, use this to customise the styling of your site. You can use either regular CSS or SCSS.
+      main_color_legend: This is one of the most used colour on each page, make sure to select the right one for your brand or community.
+      modules_color_legend: Make sure this colour and the main colour matches together nicely.
+      text_color_legend: Make sure your text is readable and is compatible with the background colour.
+      title: Your are editing a theme, please make sure your set of colours and background match.
+      topbar_color: Topbar background colour
+      topbar_color_legend: Pick the background colour of the topbar.
+    show: 
+      bg_color: Background colour
+      brand_color: Brand colour
+      button_bg: Buttons background colour
+      button_fg: Buttons foreground colour
+      fg_color: Foreground colour
+      link_bg: Links background colour
+      link_fg: Links foreground colour
+      main_color: Main colour
+      modules_color: Modules colour
+      text_color: Text colour
+      view_bg: View's background colour
+      view_fg: View's foreground colour

@@ -35,6 +35,7 @@ br:
       subtabs: 
         flagged: Merket
         flagged_tooltip: Goulennoù merket gant an implijerien.
+        retag: Ezhomm implijout balizennoù
         retag_tooltip: Goulennoù hep balizennoù
         to_close: Rekedoù serriñ
         to_open: Rekedoù digor

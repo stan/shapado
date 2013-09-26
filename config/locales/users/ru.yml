@@ -5,6 +5,7 @@
 # Author: DCamer
 # Author: Eleferen
 # Author: Lockal
+# Author: Okras
 # Author: Александр Сигачёв
 ru: 
   activerecord: 
@@ -65,12 +66,15 @@ ru:
     form: 
       activities_notification: Получить уведомления по электронной почте о системных действиях, таких как появление новых беджей, новых следящих и т. д.
       avatar_tip: Измените изображение в своём профиле с помощью Gravatar
+      check_domain: Проверить %{domain}
+      desktop_notification: Уведомления на рабочем столе
       give_advice_notification: Получать уведомления по электронной почте о вопросах в вашей области знаний
       information: Информация
       language: Язык, используемый для интерфейса сайта
       new_answer_notification: Получать почтовые уведомления о новых ответах
       notifications: Уведомления
       reports_notification: Получать отчёт о последних действиях в группе (только для администраторов групп)
+      send_questions_to_twitter: Отправить мои вопросы в мой Твиттер
       show_more_lang: Другие языки
     index: 
       empty: Эта группа пуста, примите участие для присоединения к ней.
@@ -109,6 +113,9 @@ ru:
       profile: Профиль
     unfollow: 
       flash_notice: Вы больше не фан %{user}.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Вы теперь следите за тегом %{tag}.
     user_bar: 
       create_account: Создать учётную запись
       not_logged_in: Вы не авторизованы

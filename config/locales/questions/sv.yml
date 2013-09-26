@@ -64,7 +64,9 @@ sv:
         empty_tags: Tyvärr, måste du använda minst en tagg.
         title_too_long: Tyvärr, titeln inte innehålla mer än 100 tecken.
         too_many_tags: Tyvärr, kan du bara tagga upp till 20 taggar maximalt.
-        too_short: Tyvärr, din titel måste innehålla mer än %{count} ord.
+        too_short: 
+          one: Tyvärr, din titel måste innehålla mer än %{count} ord.
+          other: Tyvärr, din titel måste innehålla mer än %{count} ord.
     move: 
       submit: Flytta!
       title: "Flytta fråga: %{title}"

@@ -2,23 +2,37 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hydra
+# Author: Liuxinyu970226
 zh-CN: 
   activerecord: 
     models: 
       vote: 投票
       votes: 投票
   votes: 
+    comments: 
+      title: 
+        has_no_user_vote: 
+          one: Only %{count} user has upvoted this comment, click to upvote it too.
+          other: 多于%{count}个人已经对此投了赞成票，点此也投一张。
+          zero: Click to upvote this comment.
+        has_user_vote: 
+          one: You and %{count} other user have upvoted this comment.
+          other: 您和%{count}个其他用户已经对此投票进行评论。
+          zero: Only you have upvoted this comment.
     control: 
       have_voted_down: 单击要撤消您向下的投票
-      have_voted_up: 单击要撤消您最票
+      have_voted_up: 点此撤消您的票
       to_vote_down: 单击此处否决
       to_vote_up: 单击以进行投票
     create: 
+      average: 
+        one: "%{count} vote"
+        other: "%{count}张票"
       flash_error: 不能对此进行投票
-      flash_notice: 谢谢你投票！
+      flash_notice: 谢谢您的投票！
       unauthenticated: 匿名用户不能投票
     destroy: 
-      flash_notice: 您的投票已成功地被吊销。
+      flash_notice: 您的投票已成功撤销。
     model: 
       messages: 
         closed_question: 您不能对已关闭的问题属于任何职位投票

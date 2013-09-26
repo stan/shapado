@@ -1,6 +1,7 @@
 # Messages for Polish (polski)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Ty221
 # Author: Woytecr
 pl: 
   comments: 
@@ -13,6 +14,8 @@ pl:
       comment_submit: Komentarz
       reply: Odpowiedź
       said: powiedział
+    update: 
+      flash_notice: Komentarz został poprawnie zaktualizowany
   models: 
     comment: Komentarz
     comments: Komentarze

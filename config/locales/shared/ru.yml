@@ -5,6 +5,7 @@
 # Author: DCamer
 # Author: Eleferen
 # Author: Lockal
+# Author: Okras
 # Author: Александр Сигачёв
 ru: 
   shared: 
@@ -38,6 +39,7 @@ ru:
       themes: 
         description: 
           action_link: сейчас
+        title: Вы пока не создали ни одной темы.
     filter: "Фильтр:"
     language: "Язык:"
     language_filter_tooltip: Попробуйте с другим языком.

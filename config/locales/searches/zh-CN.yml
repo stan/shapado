@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hydra
+# Author: Liuxinyu970226
 # Author: Qiyue2001
 zh-CN: 
   searches: 
@@ -13,6 +14,7 @@ zh-CN:
       advanced_search: 高级搜索
       description: 使用 %{link} 选项以获得精细结果。
       empty: 您的搜索不匹配的任何问题。
+      found_results: "%{quantity}个结果已被发现。"
       input_legend: 这个保存的搜索将显示在导航栏以快速访问。
       input_title: 保存此搜索为：
       search_text: 包含的问题

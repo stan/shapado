@@ -55,6 +55,11 @@ br:
     what_to_do: Petra hoc'h eus c'hoant d'ober ?
   models: 
     question: Ar goulenn
+  number: 
+    x_time: 
+      one: "%{count} wech"
+      other: "%{count} gwech"
+      zero: Morse
   preferred_languages: 
     any: Forzh pehini
     user: Ma yezhoù karetañ

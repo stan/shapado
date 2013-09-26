@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Fader
 # Author: Tobulos1
+# Author: WikiPhoenix
 sv: 
   doc: 
     chat: 
@@ -33,7 +34,7 @@ sv:
       premium: Premium
       private: Privat
       private_site: Aktivera privat/offentlig tillgång
-      start_monetizing: börja tjäna pengar
+      start_monetizing: Börja tjäna pengar
       support: Support
       unlimited: Obegränsad trafik varje månad
       user: användare

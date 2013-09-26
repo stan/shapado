@@ -1,0 +1,19 @@
+# Messages for Czech (česky)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chmee2
+# Author: Vks
+cs: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Končí na
+        message: Zpráva
+        only_anonymous: Jen pro anonymní uživatele
+        starts_at: Začíná na
+  announcements: 
+    actions: 
+      delete: Odstranit
+      title: Akce
+    index: 
+      title: Oznámení

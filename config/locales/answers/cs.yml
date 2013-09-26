@@ -1,0 +1,29 @@
+# Messages for Czech (česky)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chmee2
+# Author: Vks
+cs: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Text
+        link: Odkaz
+    models: 
+      answer: Odpovědi
+      answers: Odpovědi
+  answers: 
+    create: 
+      annon_notice: Uživatel je již registrován, přihlašte se prosím.
+      flash_notice: Děkujeme!
+    edit: 
+      title: Upravit odpověď
+    form: 
+      answer_label: Odpověď na otázku
+      comment_label: Okomentovat tuto odpověď
+      comment_submit: Komentář
+      submit: Odpovědět
+    revert: 
+      title: Vrátit odpověď
+    update: 
+      flash_notice: Odpověď byla úspěšně aktualizována.

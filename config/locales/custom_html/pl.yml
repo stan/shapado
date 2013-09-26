@@ -1,0 +1,8 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ty221
+pl: 
+  custom_html: 
+    question_help: Podaj jak najwięcej szczegółów jak to możliwe - dzięki temu będzie większa szansa że otrzymasz dobrą odpowiedź na swoje pytanie . Pisz czysto i prosto.
+    question_prompt: Jakie jest Twoje pytanie? bądź konkretny
