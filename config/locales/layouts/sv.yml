@@ -1,6 +1,7 @@
 # Messages for Swedish (svenska)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Jopparn
 # Author: Tobulos1
 # Author: WikiPhoenix
 sv: 
@@ -25,7 +26,7 @@ sv:
       questions_tagged: taggad med
       search: Sök
       settings: Inställningar
-      signup: Skapa ett användarkonto
+      signup: Skapa ett konto
       subscribe: Prenumerera
       tags: Taggar
       title: Frågor & Svar

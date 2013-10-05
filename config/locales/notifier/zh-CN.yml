@@ -2,8 +2,11 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hydra
+# Author: Hzy980512
 zh-CN: 
   notifier: 
+    admin_login: 
+      subject: 警告：管理员连接
     earned_badge: 
       message2: 徽章的说明：
       message3: 您可以看到您所有的徽章在您的 %{user_page}
@@ -22,8 +25,10 @@ zh-CN:
       message3: 电子邮件地址：%{email}
       message4: 主题： %{subject}
     new_invitation: 
+      message1: 点这里接受邀请%{link}
       message2: "%{group} 的团队。"
       message3: 由您的邀请人的信息：
+      subject: "%{user}邀请你加入%{group}"
     report: 
       message1: 报告组 %{group}
       message2: 自 %{date}

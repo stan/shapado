@@ -17,12 +17,15 @@ br:
       basic: Diazez
       basic_restrictions: Na bruderezh ebet, nag a etrefas personelaet
       basic_styling: Personelaat an neuz
+      basic_styling_tip: Cheñchit ken aes ha tra livioù ho lec'hienn, lakait ho logo deoc'h-c'hwi ha cheñchit ar c'hod CSS zoken.
       big_sites: Lec'hienn vras
       custom_ads: Implijout ho bruderezhioù deoc'h
       custom_ads_tip: Implijit ho tammoù bruderezh deoc'h-c'hxi ha krogit da c'hounit arc'hant !
       custom_analytics: Stadegoù an tremenerezh
       custom_domain: Domani personelaet
+      custom_domain_tip: Implijit ho tomani deoc'h-c'hwi evel ho-kompagnunezh.com e-lec'h ho-kompagnunezh.shapado.com
       custom_html: "HTML personelaet :"
+      custom_html_tip: Adaozit penn-da-benn kod HTML ho lec'hienn ha lakait hi da gaout an neuz e garit.
       custom_js: Ouzhpennañ ho JavaScript deoc'h-c'hwi
       custom_themes: Implijit hor dodennoù rak-savet
       custom_ui: Etrefas a c'heller personelaat

@@ -13,6 +13,7 @@ br:
     failure: 
       inactive: N'eo ket bet kadarnaet ho kont c'hoazh.
       invalid: Chomlec'h postel pe ger-tremen direizh
+      invalid_token: jedouer anaout direizh.
       locked: Prennet eo ho kont dija.
       timeout: Lostennet eo ho talc'h. Adkevreit evit kenderc'hel, mar plij.
       unauthenticated: Rankout a rit bezañ anavezet pe lakaat hoc'h anv evit kenderc'hel.
@@ -26,12 +27,14 @@ br:
         subject: Kemennoù kadarnaat
       hello: Demat
       reset_password: 
+        instruction1: Unan bennak en deus goulennet ul liamm da gemmañ ho ker-tremen, ha gallout a rit ober an dra-se dre al liamm amañ dindan.
         link: Cheñch ma ger-tremen
         nonrequested: Ma n'ho peus ket goulennet an dra-mañ, na rit ket van eus ar postel-mañ, mar plij.
         warning: Ne cheñcho ket ho ker-tremen keit ha ma n'ho po kliket war al liamm a-us da grouiñ unan nevez.
       reset_password_instructions: 
         subject: Kemennoù da adkrouiñ ar ger-tremen
       unlock: 
+        instruction1: Prnnet eo bet ho kont abalamour da re a esaeoù c'hwitet da gevreañ.
         instruction2: "Klikit war al liamm amañ dindan da zibrennañ ho kont :"
         link: Dibrennañ ma c'hont
       unlock_instructions: 

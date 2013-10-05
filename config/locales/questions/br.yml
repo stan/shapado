@@ -37,6 +37,8 @@ br:
       unset_answer: Nullañ an diskoulm ?
     answer_toolbar: 
       flagged_by_you: Merket ganeoc'h
+    close: 
+      failure: Ne c'hall ket ar goulenn-mañ bezañ serret rak ur c'haredon zo evitañ c'hoazh.
     create: 
       flash_notice: Krouet eo bet ar goulenn ervat.
     disallow_spam: 
@@ -60,6 +62,7 @@ br:
       active_tooltip: Goulennoù bet hizivaet da ziwezhañ
       ask_question: Sevel ur goulenn
       empty: Den ebet n'en deus goulennet netra evit c'hoazh. Bec'h de'i !
+      followers_tooltip: Goulennoù gant ar muiañ a heulierien
       has_followers: 
         one: "%{count} heulier"
         other: "%{count} heulier"
@@ -118,6 +121,7 @@ br:
       close: Serriñ
       close_reason: "Serret eo bet ar goulenn-mañ evit an abeg da-heul :"
       create_reward: Krouiñ ur c'haredon
+      create_reward_description: Garedonit ar respont gwellañ gant un tamm eus ho karma.
       edit_request: Kemmañ ar goulenn
       flag: Kas kemenn un implij direizh
       flagged_as: Kemennet evel
@@ -143,6 +147,7 @@ br:
       solution: Diskoulm
       to_answer_question: evit respont d'ar goulenn-mañ
       unauthenticated_retag: Ret eo deoc'h kaout ur gont implijer evit gellout kemmañ an tikedennoù
+      unban: Adaotren
       unfollow_tooltip: Paouez da heuliañ ar goulenn-mañ
       viewed: lennet
     solve: 

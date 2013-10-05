@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hydra
+# Author: Hzy980512
 # Author: Qiyue2001
 zh-CN: 
   doc: 
@@ -15,6 +16,7 @@ zh-CN:
       all_support: 基于的网络电子邮件、 聊天和电话支持
       basic: 基本配套
       basic_restrictions: 没有自定义的广告并不完全可自定义的用户界面
+      basic_styling: 个性化外观
       basic_styling_tip: 轻松地更改您网站的配色方案、添加您自己的logo，甚至改变CSS代码。
       big_sites: 大交通站点
       custom_ads: 使用您自己的广告
@@ -42,6 +44,7 @@ zh-CN:
       private: 私人配套
       private_private: 受限访问
       private_site: 启用专用/公共访问
+      private_tip: 只有您和您邀请的用户拥有访问权。企业用户的完美选择。
       small_basic: 入门
       start_monetizing: 开始赚钱
       support: 支持

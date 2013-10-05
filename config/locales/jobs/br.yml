@@ -10,8 +10,13 @@ br:
         group_send_twitter: "%{user} en deus respontet da : %{question}"
         send_twitter: Ma respont da %{question}
       on_favorite_answer: 
+        group_send_twitter: "%{user} zo bet plijet gant ur respont gant %{author} war : %{question}"
         send_twitter: "Plijet on bet gant ur respont digant %{author} diwar-benn : %{question}"
     base: 
       create_badge: 
         group_send_twitter: Emañ  %{user} o paouez gounit ar badj %{token} sur %{group_name} %{link}
         send_twitter: Emaon o paouez gounit ar badj %{token} e %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} en deus respontet da : %{question}"
+        send_twitter: Ma evezhiadenn war %{question}

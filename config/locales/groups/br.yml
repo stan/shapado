@@ -40,6 +40,7 @@ br:
   groups: 
     connect_group_to_twitter: 
       failed_twitter_connection: Digarezit, un dra zo aet a-dreuz. Esaeit en-dro, mar plij.
+      success_twitter_connection: Gouerc'hemennoù, kevreet ho peus ho kont Twitter !
     create: 
       flash_notice: Krouet eo bet ho strollad ervat. Gallout a rit kregiñ d'e gefluniañ.
     edit: 
@@ -90,3 +91,5 @@ br:
       active_site: "Lec'hienn oberiant :"
     update: 
       notice: Hizivaet eo bet ho strollad.
+    upgrade: 
+      error: Koumanantet oc'h d'ar steuñv-mañ dija

@@ -52,6 +52,8 @@ br:
       title: Cheñch ger-tremen
     check_custom_domain: 
       refresh: Freskaat ar bajenn-mañ evit klask endro.
+      title: Daoust hag ez a ho tomani personelaet nevez en-dro ?
+      working_domain_link: Ya, gallout a ran gwelet ma domani nevez o vont en-dro amañ dindan.
     create: 
       flash_error: Ho tigarez, disosupl eo bet krouiñ ho kont. Klaskit diwezhatoc'hik pe kit e darempred gant ur merour (a-us emañ al liamm)
       flash_notice: Trugarez deoc'h da vezañ en em enrollet
@@ -74,10 +76,12 @@ br:
       notifications: Kemennoù
       reports_notification: Resev un danevell gant oberiantizoù diwezhañ ar strollad (evit merour ar strollad nemetken)
       send_answers_to_twitter: Kas va respontoù war va gont Twitter
+      send_badges_to_twitter: Kas ma badjoù nevez-gounezet da'm Twitter
       send_comments_to_twitter: Kas ma evezhiadennoù da dTwitter
       send_favorites_to_twitter: Kas va respontoù karetañ war va gont Twitter
       send_questions_to_twitter: Kas va goulennoù war va gont Twitter
       show_more_lang: Diskouez yezhoù all
+      social_interaction: etrewered mediaoù  sokial
     index: 
       empty: N'eus ezel ebet er strollad-mañ evit ar poent. Kemerit perzh er strollad.
       filter: Klask implijerien
@@ -117,6 +121,11 @@ br:
       profile: Profil
     unfollow: 
       flash_notice: Ne heuilit ket mui %{user}.
+    update_followed_tags: 
+      followed: 
+        flash_notice: N'emaoc'h ket o heuliañ ar valizenn %{tag}.
+      unfollowed: 
+        flash_notice: N'emaoc'h ket ken o heuliañ ar valizenn%{tag}.
     user_bar: 
       create_account: Krouiñ ur gont
       not_logged_in: N'oc'h ket kevreet

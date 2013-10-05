@@ -16,7 +16,7 @@ qqq:
       answers: "{{Identical|Answer}}"
   answers: 
     create: 
-      flash_notice: "{{Identical|Thanks}}"
+      flash_notice: "{{Identical|Thank}}"
     form: 
       comment_submit: "The message name \"answers.form.comment_submit\" suggests this is a form submit button, therefore \"Comment\" should be translated as a verb.\n{{Identical|Comment}}"
       submit: "Verb. Text for submit button.\n{{Identical|Answer}}"

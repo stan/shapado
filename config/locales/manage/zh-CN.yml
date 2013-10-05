@@ -90,6 +90,7 @@ zh-CN:
           tweet_ends_with: 将标签附加到您的推文
         title: 组合属性
         twitter_account: 
+          connect_to_other_twitter: 点这里将不同的Twitter链至您的组
           twitter_account: Twitter帐户
         twitter_app: 
           secret: 应用程序密钥

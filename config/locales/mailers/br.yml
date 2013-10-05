@@ -1,6 +1,7 @@
 # Messages for Breton (brezhoneg)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Fohanno
 # Author: Y-M D
 br: 
   mailers: 
@@ -20,5 +21,7 @@ br:
         subject_owner: "%{login} en deus respontet d'ho koulenn %{title}"
       new_comment: 
         subject: "%{login} en deus graet un evezhiadenn war %{group}"
+      new_invitation: 
+        subject: "%{user} zo ouzh ho pediñ da emzelañ e %{group}"
       report: 
         subject: Danevelloù evit ar strollad %{group} eus %{app}

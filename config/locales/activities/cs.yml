@@ -1,0 +1,16 @@
+# Messages for Czech (česky)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chmee2
+# Author: Vks
+cs: 
+  activerecord: 
+    models: 
+      activities: Aktivity
+      activity: Aktivita
+  activity: 
+    changed: změněno
+    created: vytvořeno
+    deleted: smazáno
+    destroyed: odstraněno
+    updated: aktualizováno

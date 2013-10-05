@@ -14,6 +14,8 @@ br:
     date: Deiziad
     description: Deskrivadur
     empty: 
+      activities: 
+        title: N'eus tamm obererezh ebet betek-kenn.
       answers: 
         description: 
           text: Bezit an hini gentañ !
@@ -29,6 +31,7 @@ br:
       filtered_questions: 
         description: 
           action_link: Klikit amañ da ziskouez an holl c'houlennoù
+        title: Digarezit, n'eus ket goulennoù da gaout gant ar sil-mañ.
       questions: 
         description: 
           text: Bezit an hini kentañ oc'h <a href="%{url}">ober ur goulenn<a/> !

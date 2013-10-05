@@ -22,6 +22,9 @@ br:
       welcome: Degemer mat
     create: 
       flash_notice: Kaset eo bet ho pedadennoù.
+      limit_notice: 
+        one: Digarezit, ne c'hellit ket kas ouzhpenn %{limit} bedadenn war un dro.
+        other: Digarezit, ne c'hallit ket kas ouzhpenn %{limit} a bedadennoù war un dro.
     resend: 
       flash_notice: Adkaset eo bet ho pedadenn.
     revoke: 

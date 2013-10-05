@@ -28,6 +28,7 @@ br:
       manage_ads: Merañ ar bruderezh
       moderate: Habaskaat
       need_to_signin: Ret eo deoc'h kevreañ da gentañ.
+      not_member_join_dialog: Ret eo deoc'h emzelañ e %{group} da echuiñ an ober-mañ, klikit amañ evit en ober.
       now: bremañ !
       openid: 
         explaination: "Mar fell deoc'h en em enskrivañ pe kevreañ traken, dibabit ur pourvezer openid :"

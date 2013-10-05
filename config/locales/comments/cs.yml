@@ -7,6 +7,7 @@ cs:
     edit: 
       title: Upravit komentář
     shared: 
+      add_comment: Přidat komentář...
       comment_submit: Komentář
       reply: Odpovědět
       said: řekl

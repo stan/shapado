@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Fader
+# Author: Jopparn
 # Author: Tobulos1
 # Author: WikiPhoenix
 sv: 
@@ -38,7 +39,7 @@ sv:
       updated: Ditt lösenord har ändrats. Du är nu inloggad.
     registrations: 
       destroyed: Hej då! Ditt konto har nu avslutats. Vi hoppas att få se dig snart igen.
-      link: Skapa ett användarkonto
+      link: Skapa ett konto
       signed_up: Du har registrerat dig. Om det är aktiverat, skickades en bekräftelse till din e-post.
       updated: Du uppdaterade ditt konto.
     sessions: 

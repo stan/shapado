@@ -8,6 +8,7 @@ cs:
     attributes: 
       answer: 
         body: Text
+        created_at: Vytvořeno v
         link: Odkaz
     models: 
       answer: Odpovědi

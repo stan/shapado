@@ -7,11 +7,13 @@
 br: 
   widgets: 
     about: 
+      description: Diskwel a ra ar widged un deskrivadur berr eus ho strollad.
       title: Diwar-benn
     adsense: 
       title: AdSense
     ask_question: 
       ask: Goulenn
+      description: Gant ar widged-mañ e c'hall an implijerien ober goulennoù eus forzh pelec'h.
       footer: Gwelet an holl c'houlennoù war %{group}
       title: "Ober ur goulenn :"
     badges: 
@@ -20,6 +22,8 @@ br:
       title: Badjoù diwezhañ
     create: 
       notice: Krouet eo bet ar widjed.
+    custom_html: 
+      description: Ouzhpennit HTML evel ma karit amañ.
     edit: 
       title: Kemmañ ar widjed
     group_networks: 
@@ -34,9 +38,11 @@ br:
       footer: Traoñ pajenn
       header: Talbenn
       mainlist_widgets: Roll pennañ
+      mainlist_widgets_title: Widgedoù hag a zeuio war wel war roll pennañ ar goulennoù
       name: Anv ar widjed
       navbar: Barenn verdeiñ
       question_widgets: Goulenn
+      question_widgets_title: Widgedoù a zeuio war wel war bep pajenn goulenn
       sidebar: barrenn gostez
       title: Melestriñ widgetoù ar varenn kostez
       type: "Seurt :"
@@ -46,6 +52,11 @@ br:
       description: Ar widget-mañ a roll ar pajennoù wiki
       new: Ouzhpennañ ur bajenn nevez
       title: Pajennoù wiki
+    question_badges: 
+      description: Diskwel a ra ar widged-mañ ar badjoù gounezet gant ar goulenn-se.
+      title: Badjoù goulenn
+    question_tags: 
+      title: Balizennoù goulenn
     related_questions: 
       title: Goulennoù kenstag
     settings: 
@@ -55,13 +66,16 @@ br:
       on_questions: Diskouez war bajenn bennañ ar goulennoù
       on_show_question: Dont a ra war wel pa ziskouezer ur goulenn
       on_welcome: Diskouez war ar bajenn degemer
+      preview: "Rakwelet ar widged :"
     share: 
       title: Rannañ
     sharing_buttons: 
       title: Rannañ an dra-mañ war
     suggestions: 
+      follow_tag: + Heuliañ ar valizenn
       follow_user: + Heuliañ an implijer
       followed_by: Heuliet gant %{user}
+      title: Tud ha balizennoù da heuliañ
       unfollow_user: "- Paouez da heuliañ an implijer"
     tag_cloud: 
       description: Ar widget-mañ a ziskouez ur goumoulenn merkoù

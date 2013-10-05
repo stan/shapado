@@ -40,6 +40,7 @@ br:
           asking_from_twitter: Ober goulennoù diwar Twitter
           question_asked_to: Goulenn graet ouzh
           question_must_include_example: "da sk. #iAsk"
+          twitter_account: Ar gont Twitter a ray hoc'h implijerien goulennoù gantañ.
         constrains: 
           reputation_constrains_description: Ar furmskrid a aotre da gefluniañ ar c'hementad poentoù brud ret evit seveniñ un obererezh roet
           reputation_constrains_subtitle: Roll ar redioù evit pep obererezh
@@ -56,6 +57,7 @@ br:
           warning: Ha sur oc'h kaout c'hoant kemmañ ho domani ?
         facebook_app: 
           application_id: ID an arload
+          facebook_app: Arventennoù an arload Facebook
           secret_key: Alc'hwez kuzh
         general: 
           title: Perzhioù ar strollad
@@ -71,8 +73,11 @@ br:
           title: Pedit an dud dre bostel
           user_role: Pediñ implijerien evel
         post_to_twitter: 
+          post_to_twitter: Embannit obererezhioù war Twitter
           send_answers_to_twitter: Kas an holl respontoù da dTwitter
+          send_badges_to_twitter: Kas an holl vadjoù nevez-gounezet da Twitter
           send_comments_to_twitter: Kas an holl evezhiadennoù da Twitter
+          send_favorites_to_twitter: Kas an holl respontoù muiañ-karet da Twitter
           send_questions_to_twitter: Kas an holl c'houlennoù da dTwitter
         rewards: 
           reputation_rewards_description: Ar furmskrid-mañ a servij da gefluniañ penaos e c'hell un implijer gounid pe koll poentoù evit un obererezh resis

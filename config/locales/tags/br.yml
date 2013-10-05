@@ -1,0 +1,13 @@
+# Messages for Breton (brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fohanno
+br: 
+  tags: 
+    index: 
+      filter: Klask balizennoù
+    show: 
+      title: "Goulennoù balizennet : %{tags}"
+    show_json: 
+      edit_it: Ouhzpennañ un deskrivadur d'ar valizenn-mañ.
+      no_description: N'eus deskrivadur ebet da gaout evit ar valizenn-mañ c'hoazh.

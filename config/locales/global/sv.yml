@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Fader
+# Author: Jopparn
 # Author: The real emj
 # Author: Tobulos1
 sv: 
@@ -39,7 +40,7 @@ sv:
     preview: Förhandsgranska
     previous: Föregående
     share: Dela
-    sign_up: Registrera dig
+    sign_up: Skapa ett konto
     size: Storlek
     sort_by: "Sortera på:"
     tags_label: "Taggar:"

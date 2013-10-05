@@ -33,13 +33,13 @@ ps:
   roles: 
     owner: خاوند
   scaffold: 
-    add: ورګډول
+    add: ورگډول
     are_you_sure: آيا تاسې ډاډه ياست؟
     back: پر شا
-    cancel: ناګارل
+    cancel: ناگارل
     close: تړل
     create: جوړول
-    destroy: ړنګول
+    destroy: ړنگول
     edit: سمول
     more: نور ...
     save: خوندي کول

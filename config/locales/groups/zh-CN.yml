@@ -71,6 +71,7 @@ zh-CN:
     index: 
       actives: 活动
       create_your_own: 创建您自己的组合
+      description: 这是已经创建的公共组的列表。使用搜索输入框来进行过滤。您也可以%{link}。
       filter: 搜索组
       most_active: 最活跃
       name: 名称

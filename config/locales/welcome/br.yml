@@ -1,6 +1,7 @@
 # Messages for Breton (brezhoneg)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Fohanno
 # Author: Fulup
 # Author: Y-M D
 br: 
@@ -11,7 +12,8 @@ br:
       under_18: Dindan 18 bloaz on
       warning: "DIWALLIT : Er bajenn-mañ e c'heller kavout danvez evit an dud gour."
     feedback: 
-      captcha_error: Mar plij, diskoulmit un oberiadenn matematikel simpl
+      captcha_error: Leugnit ar c'haptcha evel zo dleet, mar plij, ha roit ur chomlec'h postel reizh.
+      captcha_notice: Trugarez deoc'h evit hoc'h evezhiadenn, mont a raimp e darempred ganeoc'h kerkent ha ma c'hallimp.
       email_description: Merkit ur chomlec'h postel evit ma c'hallfemp respont d'ho kemennadenn
       feedback_description: Deskrivadur
       feedback_title: Titl

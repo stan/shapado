@@ -6,6 +6,7 @@
 # Author: Eleferen
 # Author: G0rn
 # Author: Lockal
+# Author: Okras
 # Author: X0040h
 # Author: Александр Сигачёв
 ru: 
@@ -68,10 +69,8 @@ ru:
       empty: Пока никто не задавал вопросы, станьте первыми!
       followers_tooltip: Вопросы с большинством последователей
       has_followers: 
-        few: "%{count} подписчика"
-        many: "%{count} подписчиков"
         one: "%{count} подписчик"
-        other: "%{count} подписчиков"
+        other: "%{count} подписчика"
       help_to_answer: Помогите ответить на
       hot: Горячие
       hot_tooltip: Вопросы с наибольшей активностью за последние 5 дней
@@ -103,10 +102,8 @@ ru:
       accepted_tooltip: На этот вопрос есть принятый ответ
       answer_verb: Ответ
       has_answers: 
-        few: "%{count} ответа"
-        many: "%{count} ответов"
         one: "%{count} ответ"
-        other: "%{count} ответов"
+        other: "%{count} ответа"
       retag: Изменить теги
       wiki_title: "Wiki: %{title}"
     retag: 
