@@ -1,6 +1,7 @@
 # Messages for Korean (한국어)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Hym411
 # Author: Linkr
 # Author: 아라
 ko: 
@@ -16,6 +17,6 @@ ko:
       delete: 삭제
       title: 액션
     create: 
-      success: 발표가 성공적으로 만들었습니다.
+      success: 당신의 발표가 성공적으로 만들어졌습니다.
     index: 
       title: 알림

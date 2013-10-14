@@ -75,6 +75,8 @@ ja:
     question: 
       accepted_tooltip: この質問は受け入れられた回答があります
       answer_verb: 回答する
+      has_answers: 
+        other: "%{count} 件の回答"
       retag: タグの編集
     retag: 
       title: タグの編集

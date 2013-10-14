@@ -1,6 +1,7 @@
 # Messages for Korean (한국어)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Hym411
 # Author: Linkr
 # Author: 아라
 ko: 
@@ -8,13 +9,14 @@ ko:
     attributes: 
       answer: 
         body: 본문
-        created_at: 답변
+        created_at: 생성됨
         link: 링크
     models: 
       answer: 답변
       answers: 답변
   answers: 
     create: 
+      annon_notice: 이 사용자는 이미 등록되었습니다, 로그인 해 주세요.
       flash_error: "답변을 추가하지 못했습니다.\n아래 사항을 확인하세요.\n- 내용이 없거나, 반복된 답변은 허용되지 않습니다.\n- 하나의 답변을 달고 20초가 지나야 새로운 답변을 추가할 수 있습니다.\n- 질문마다 단 하나의 답변만 게시할 수 있습니다."
       flash_notice: 감사합니다!
     edit: 
