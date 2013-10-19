@@ -33,7 +33,7 @@ fa:
     edit: 
       title: ویرایش سوال
     flag: 
-      title: علامت زدن سوال
+      title: علامت‌زدن سوال
     form: 
       adult_content: این سوال شامل محتوای بزرگسالان است.
       body_tip: سوالتان چیست؟ توضیحات کامل بدهید
@@ -72,7 +72,7 @@ fa:
     question: 
       accepted_tooltip: این سوال دارای جوابی پذیرفته شده است
     retag: 
-      title: برچسب گذاری مجدد
+      title: برچسب‌گذاری مجدد
     retag_form: 
       cancel: لغو
       submit: به روز کردن برچسب‌ها
@@ -94,8 +94,8 @@ fa:
       close_reason: "سوال به این دلیل بسته شده است:"
       edit_request: ویرایش درخواست
       flag: علامت زدن
-      flagged_as: علامت زده شده به عنوان
-      flags: گزارش شده به عنوان
+      flagged_as: علامت زده‌شده به‌عنوان
+      flags: گزارش‌شده به‌عنوان
       last_activity: آخرین فعالیت
       open: گشودن
       related_questions: سوالات مربوط
@@ -105,7 +105,7 @@ fa:
       request_opening_details: درخواست باز کردن مجدد این سوال
       requested_close_as: شما درخواست بستن این سوال را داده اید به عنوان
       requested_reopening: شما درخواست باز کردن مجدد این سوال را کرده اید.
-      retag: برچسب گذاری مجدد
+      retag: برچسب‌گذاری مجدد
       retract_request: لغو درخواست
       share: به اشتراک گذاشتن این سوال در
       share_on: به اشتراک گذاشتن این سوال در %{site}

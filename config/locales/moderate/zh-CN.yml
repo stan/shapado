@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hydra
+# Author: Liuxinyu970226
 zh-CN: 
   admin: 
     moderate: 
@@ -30,6 +31,7 @@ zh-CN:
       index: 
         title: 管理问题
       subtabs: 
+        flagged: 已标记
         retag: 需要标记
         retag_tooltip: 没有标记的问题
         to_close: 关闭请求

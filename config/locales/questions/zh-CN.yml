@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Hydra
 # Author: Hzy980512
+# Author: Liuxinyu970226
 # Author: Qiyue2001
 zh-CN: 
   activerecord: 
@@ -32,6 +33,8 @@ zh-CN:
       pick_answer: 为解决方案选择
       unfavorite: 取消保存
       unset_answer: 取消设置的解决方案？
+    answer_toolbar: 
+      flagged_by_you: 已由您标记
     create: 
       flash_notice: 这个问题已成功创建。
     disallow_spam: 

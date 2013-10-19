@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Eleferen
 # Author: Lockal
+# Author: Okras
 ru: 
   activerecord: 
     models: 

@@ -1,32 +1,83 @@
-# Messages for Russian (Русский)
+# Messages for Russian (русский)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Adata80
+# Author: DCamer
 # Author: Eleferen
 # Author: Lockal
+# Author: Okras
 ru: 
   widgets: 
+    about: 
+      title: О программе
+    adsense: 
+      description: Этот виджет позволяет отображать объявления Google AdSense.
+      title: AdSense
+    ask_question: 
+      ask: Задать вопрос
+      footer: Посмотреть все вопросы в %{group}
+      title: "Задать вопрос:"
     badges: 
-      description: Этот виджет отображает последние беджи, заработанные пользователями или вопросами
+      description: Этот виджет отображает последние значки, заработанные пользователями.
+      see_all: Посмотреть все значки
       title: Последние беджи
+    create: 
+      notice: Виджет был успешно создан.
+    custom_html: 
+      description: Добавьте сюда любой HTML, какой вы хотите.
+    edit: 
+      title: Редактировать виджет
     groups: 
       description: Этот виджет отображает последние группы
       title: Последние группы
     index: 
+      add_new: Добавить новый виджет
       description: Используйте стрелки, чтобы переместить виджеты
+      footer: Подвал
+      header: Заголовок
+      mainlist_widgets: Основной список
+      name: Название виджета
+      navbar: Навигационная панель
+      question_widgets: Вопрос
+      sidebar: Боковая панель
       title: Управление виджетами на боковой панели
+      type: "Тип:"
+      welcome_widgets: Добро пожаловать
+      zone: "Раздел страницы:"
     pages: 
       description: Этот виджет отображает список страниц вики
       new: Добавить новую страницу
       title: Вики-страницы
+    settings: 
+      content: "Вставьте сюда любой HTML, какой вы хотите:"
+      custom_html: "Пользовательский HTML:"
+      limit: "Количество для отображения:"
+      on_welcome: Показывать на странице приветствия
+      preview: "Предпросмотр виджета:"
+    share: 
+      title: Поделиться в
+    sharing_buttons: 
+      title: Поделиться этим в
     tag_cloud: 
       description: Этот виджет отображает облако тегов
       title: Облако тегов
+    tag_list: 
+      title: Теги
     top_groups: 
       description: Этот виджет отображает пять лучших групп
+      has_members: 
+        few: "%{count} участника"
+        many: "%{count} участников"
+        one: "%{count} участник"
+        other: "%{count} участников"
       title: 5 лучших групп
     top_users: 
       description: Этот виджет отображает пять лучших пользователей
       title: 5 лучших пользователей
+    update: 
+      notice: Виджет был успешно обновлён.
     users: 
       description: Этот виджет отображает новых зарегистрированных пользователей
       title: Последние пользователи
+    widget: 
+      change_position: "Изменить положение виджета:"

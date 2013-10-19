@@ -26,6 +26,7 @@ ru:
       default: 
         description: 
           text: Будьте первым в %{action_link}!
+        title: Извините! Тут что-то не на что особо смотреть.
       filtered_by_language_questions: 
         description: 
           action_link: Нажмите здесь, чтобы увидеть вопросы на всех языках.
@@ -33,6 +34,7 @@ ru:
       filtered_questions: 
         description: 
           action_link: Нажмите здесь, чтобы показать все вопросы
+        title: К сожалению, вопросов по данному фильтру не найдено.
       questions: 
         description: 
           text: Будьте первым, кто <a href="%{url}">задаст вопрос<a/>!

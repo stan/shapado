@@ -28,7 +28,7 @@ fa:
         description: بیش از ۱۰۰ پیرو پیدا کرده است
         name: شهرت
       citizen_patrol: 
-        description: برای اولین بار یک پست را علامت زده
+        description: برای اولین بار یک پست را علامت‌زده
         name: پاسدار سهروندان
       civic_duty: 
         description: ۳۰۰ بار رای داده

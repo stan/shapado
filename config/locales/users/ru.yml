@@ -53,6 +53,8 @@ ru:
     change_password: 
       submit: Изменить мой пароль
       title: Сменить пароль
+    check_custom_domain: 
+      refresh: Обновите эту страницу, чтобы повторить попытку.
     create: 
       flash_error: К сожалению, настроить эту учётную запись не удалось. Повторите попытку снова или обратитесь к администратору (по ссылке выше).
       flash_notice: Благодарим за регистрацию!
@@ -74,6 +76,8 @@ ru:
       new_answer_notification: Получать почтовые уведомления о новых ответах
       notifications: Уведомления
       reports_notification: Получать отчёт о последних действиях в группе (только для администраторов групп)
+      send_answers_to_twitter: Отправить мои ответы в мой твиттер
+      send_comments_to_twitter: Отправить мои комментарии в мой твиттер
       send_questions_to_twitter: Отправить мои вопросы в мой Твиттер
       show_more_lang: Другие языки
     index: 
@@ -94,6 +98,7 @@ ru:
       errors: 
         reputation_needed: Вам необходимо обладать репутацией более %{min_reputation} для того, чтобы %{action}
     new: 
+      description: Станьть частью этого сообщества, чтобы спрашивать, отвечать и учиться!
       join_group: Присоединиться к %{group}
       submit: Зарегистрироваться
       title: Зарегистрироваться как новый пользователь
@@ -119,6 +124,7 @@ ru:
     user_bar: 
       create_account: Создать учётную запись
       not_logged_in: Вы не авторизованы
+      signed_as: Вы вошли как
     user_mini: 
       admin: "[Администратор]"
       editor: "[Редактор]"

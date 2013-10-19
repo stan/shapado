@@ -1,0 +1,34 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Adata80
+# Author: DCamer
+# Author: Lunacy1911
+# Author: Okras
+# Author: X0040h
+ru: 
+  themes: 
+    edit: 
+      title: Изменить тему
+    form: 
+      colors_and_bg: Цвета и фон
+      fluid_layout: Гибкий макет
+      submit_update: Обновить тему
+      update: Обновить тему
+    ready: 
+      success: Ваша тема готова!
+    show: 
+      apply: Применить
+      bg_color: Цвет фона
+      bg_image: Фоновое изображение
+      button_bg: Цвет фона кнопки
+      button_fg: Цвет переднего плана кнопки
+      fg_color: Цвет текста
+      link_bg: Цвет фона ссылки
+      link_fg: Цвет текста ссылки
+      main_color: Основной цвет
+      modules_color: Цвет модулей
+      not_ready: Эта тема ещё не доступна для использования, проверьте позднее.
+      text_color: Цвет текста
+      try: Попробовать
+      use_link_bg: Использовать фон для ссылок
