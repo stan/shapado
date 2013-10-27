@@ -19,11 +19,11 @@ fa:
         logo: آرم
         may_contain_adult_content: ممکن است این سایت شامل محتوای مناسب برای بزرگسالان باشد
         name: نام
-        owner: این گروه به وسیله %{login} ساخته شده است
+        owner: این گروه به‌وسیله %{login} ساخته شده‌است
         registered_only: فقط افراد ثبت نام شده می‌توانند به سایت دسترسی داشته باشند
         state: ایالت
         subdomain: URL
-        wysiwyg_editor: فعال کردن ویرایشگر کاربرپسند
+        wysiwyg_editor: فعال‌کردن ویرایشگر کاربرپسند
     models: 
       default_tags_message: نمی‌توانید بیش از ۱۰ برچسب پیشفرض داشته باشید
       group: گروه

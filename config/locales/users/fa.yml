@@ -24,7 +24,7 @@ fa:
         last_logged_at: دیده شده در
         login: نام کاربری
         name: نام واقعی
-        password: کلمه عبور
+        password: گذرواژه
         password_confirmation: تایید رمز عبور
         preferred_languages: "شما می خواهید سوالات نوشته شده به این زبانها را بخوانید:"
         preferred_tags: برچسب های مورد ترجیح
@@ -65,7 +65,7 @@ fa:
       new_answer_notification: دریافت ایمیل برای جواب های جدید
       notifications: اطلاعیه ها
       reports_notification: دریافت گزارش از آخرین فعالیت های گروه (فقط برای مدیران گروه)
-      show_more_lang: نشان دادن زبان های بیشتر
+      show_more_lang: نشان‌دادن زبان‌های بیشتر
     index: 
       empty: این گروه هیچ عضوی ندارد. با عضو شدن در گروه مشارکت کنید
       filter: جستجوی کاربران

@@ -1,6 +1,7 @@
 # Messages for Danish (dansk)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Christian List
 # Author: Emilkris33
 da: 
   notifier: 
@@ -30,7 +31,7 @@ da:
     new_feedback: 
       message1: Brugeren %{user} <%{email}> sendte feedback
       message2: Anonym bruger har sendt feedback fra IP-adressen %{ip}
-      message3: "E-mail-adresse: %{email}"
+      message3: "E-mailadresse: %{email}"
       message4: "Emne: %{subject}"
     report: 
       message1: Rapporten for gruppe %{group}

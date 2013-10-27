@@ -1,6 +1,7 @@
 # Messages for Persian (فارسی)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Ebraminio
 # Author: MindHammerGames
 fa: 
   open_requests: 
@@ -11,9 +12,9 @@ fa:
     edit: 
       title: ویرایش درخواست دوباره باز کردن
     form: 
-      request_opening_details: درخواست باز کردن دوباره این سوال
+      request_opening_details: درخواست بازکردن دوباره این سوال
     index: 
-      title: فهرست درخواست های باز کردن
+      title: فهرست درخواست‌های بازکردن مجدد
     model: 
       prural_name: درخواست باز کردن دوباره
     new: 

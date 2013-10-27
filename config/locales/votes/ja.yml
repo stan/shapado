@@ -16,7 +16,7 @@ ja:
       to_vote_up: プラスの投票をします
     create: 
       average: 
-        other: "%{count}票"
+        other: "%{count} 票"
       flash_error: 投票はできません
       flash_notice: ご投票ありがとうございます!
       unauthenticated: ユーザ以外は投票できません

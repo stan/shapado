@@ -76,7 +76,7 @@ pt-PT:
     more: Mais ...
     new: Adicionar %{model} novo
     post_as_anonymous: Publicar como Anónimo
-    save: Salvar
+    save: Gravar
     send: Enviar
     show: Mostrar
     sure: Tem a certeza de que pretende apagar este %{model}?

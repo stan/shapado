@@ -13,7 +13,7 @@ da:
     feedback: 
       captcha_error: Husk at udfylde captcha'en korrekt og angive en gyldig e-mailadresse
       captcha_notice: Tak for din feedback, vi vil vende tilbage til dig så hurtigt som muligt
-      email_description: Angiv venligst din e-mail-adresse så vi kan besvare din besked
+      email_description: Angiv venligst din e-mailadresse så vi kan besvare din besked
       feedback_description: Beskrivelse
       feedback_title: Titel
       title: Send din feedback

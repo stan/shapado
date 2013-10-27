@@ -28,7 +28,7 @@ pt-PT:
   questions: 
     answer: 
       add_comment: Adicionar comentário...
-      favorite: Salvar
+      favorite: Gravar
       favorite_tooltip: Adicione esta resposta às suas favoritas
       flag: Reportar
       pick_answer: Escolher como solução

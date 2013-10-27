@@ -102,7 +102,7 @@ fa:
       request_closing: درخواست باز کردن
       request_closing_details: درخواست بستن این سوال
       request_opening: درخواست باز کردن دوباره
-      request_opening_details: درخواست باز کردن مجدد این سوال
+      request_opening_details: درخواست بازکردن مجدد این سوال
       requested_close_as: شما درخواست بستن این سوال را داده اید به عنوان
       requested_reopening: شما درخواست باز کردن مجدد این سوال را کرده اید.
       retag: برچسب‌گذاری مجدد
@@ -114,7 +114,7 @@ fa:
       unauthenticated_retag: برای برچسب گذاری سوالات به یک حساب کاربری نیاز دارید
       viewed: دیده شده
     solve: 
-      flash_notice: سوال برطرف شده است.
+      flash_notice: سوال برطرف شده‌است.
     tags: 
       filter: جست و جو برای برچسبها
       title: برچسب‌ها

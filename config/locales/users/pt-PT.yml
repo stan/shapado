@@ -52,7 +52,7 @@ pt-PT:
       flash_notice: Obrigado por se ter registado!
     edit: 
       enable_twitter: Ativar as suas contas no Facebook ou no Twitter
-      submit: Salvar
+      submit: Gravar
       title: Definições
     follow: 
       flash_notice: O utilizador %{user} foi adicionado aos seus amigos

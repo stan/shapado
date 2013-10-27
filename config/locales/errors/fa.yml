@@ -8,7 +8,7 @@ fa:
   errors: 
     forbidden: 
       explanation: شما محق دسترسی به این صفحه را ندارید.
-      title: دستیابی منع شده است.
+      title: دستیابی منع شده‌است.
     go_to: برو به صفحه %{link}
     help_us_answer: به ما کمک کنید که به %{link} پاسخ دهیم
     internal_error: 

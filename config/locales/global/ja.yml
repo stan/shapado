@@ -50,6 +50,9 @@ ja:
     view_question: 質問を閲覧
   models: 
     question: 質問
+  number: 
+    x_time: 
+      other: "%{count} 回"
   preferred_languages: 
     any: すべて
     user: 優先言語

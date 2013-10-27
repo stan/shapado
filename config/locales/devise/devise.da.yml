@@ -29,7 +29,7 @@ da:
       reset_password: 
         instruction1: Nogen har anmodet om et link til at ændre din adgangskode, og du kan gøre dette via linket nedenfor.
         link: Skift min adgangskode
-        nonrequested: Ignorer venligst denne email, hvis du ikke har anmodet om dette,
+        nonrequested: Ignorér venligst denne e-mail, hvis du ikke har anmodet om dette.
         warning: Adgangskoden ændres ikke, før du har klikket på linket herover og oprettet en ny.
       reset_password_instructions: 
         subject: Vejledning til at nulstille adgangskode
@@ -47,7 +47,7 @@ da:
     registrations: 
       destroyed: Farvel! Din konto blev annulleret. Vi håber at se dig igen.
       link: Tilmeld
-      signed_up: Du har tilmeldt dig. Hvis det er aktiveret, blev en bekræftelse sendt til din email.
+      signed_up: Du har tilmeldt dig. Hvis det er aktiveret, blev en bekræftelse sendt til din e-mail.
       updated: Du har opdateret din konto.
     sessions: 
       link: Log ind
