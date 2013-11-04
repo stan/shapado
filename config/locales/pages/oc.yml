@@ -1,0 +1,25 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Fuèlhs d'estil
+        js: JavaScript
+    models: 
+      page: Pagina
+      pages: Paginas
+  pages: 
+    actions: 
+      create_page: Crear una pagina novèla
+      edit_page: Modificar la pagina
+      title: Accions
+    form: 
+      language_tip: Lenga de la pagina
+    index: 
+      wiki: Wiki
+      wiki_pages: Paginas wiki
+    new: 
+      title: Pagina novèla

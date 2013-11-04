@@ -1,12 +1,13 @@
 # Messages for Persian (فارسی)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Ebraminio
 # Author: MindHammerGames
 fa: 
   activerecord: 
     models: 
       favorite: مورد علاقه
-      favorites: مورد علاقه ها
+      favorites: مورد علاقه‌ها
   unfavorites: 
     create: 
       success: سوال از سوالات محبوب شما حذف شد

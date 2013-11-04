@@ -1,6 +1,7 @@
 # Messages for Persian (فارسی)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Ebraminio
 # Author: MindHammerGames
 # Author: ZxxZxxZ
 fa: 
@@ -12,4 +13,4 @@ fa:
     index: 
       empty: برای جستجوی شما هیچ سوالی یافت نشد.
       search_text: سوالات شامل
-      tags: در این برچسب ها
+      tags: در این برچسب‌ها

@@ -27,18 +27,23 @@ ru:
       description: Добавьте сюда любой HTML, какой вы хотите.
     edit: 
       title: Редактировать виджет
+    group_networks: 
+      title: Подписаться
     groups: 
       description: Этот виджет отображает последние группы
       title: Последние группы
     index: 
       add_new: Добавить новый виджет
       description: Используйте стрелки, чтобы переместить виджеты
+      external_widgets: Внешние
       footer: Подвал
       header: Заголовок
       mainlist_widgets: Основной список
+      mainlist_widgets_title: Виджеты, которые будут отображаться в основном списке вопросов
       name: Название виджета
       navbar: Навигационная панель
       question_widgets: Вопрос
+      question_widgets_title: Виджеты, которые будут отображаться на странице каждого вопроса
       sidebar: Боковая панель
       title: Управление виджетами на боковой панели
       type: "Тип:"
@@ -48,6 +53,8 @@ ru:
       description: Этот виджет отображает список страниц вики
       new: Добавить новую страницу
       title: Вики-страницы
+    related_questions: 
+      title: Похожие вопросы
     settings: 
       content: "Вставьте сюда любой HTML, какой вы хотите:"
       custom_html: "Пользовательский HTML:"

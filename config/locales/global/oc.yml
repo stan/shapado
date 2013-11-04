@@ -1,0 +1,79 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  feeds: 
+    feed: Flux
+  global: 
+    actions: Accions
+    active: Activar
+    alphabetically: Per òrdre alfabetic
+    anonymous: Anonim
+    blog: Blog
+    by: per
+    by_semi: "Per :"
+    chat: Charradissa (Chat)
+    current: Actual
+    edited: Modificat
+    edited_by: Modificat per
+    edited_by_semi: "Modificat per :"
+    feedback: Vejaires
+    follow: Seguir
+    followed_by: "Seguida per :"
+    following: Seguiment
+    from: dempuèi %{site}
+    home: Acuèlh
+    next_button: Seguent
+    open: Dobrir
+    or: o
+    permission_denied: Permission refusada
+    preview: Previsualizacion
+    previous: Precedent
+    privacy: Confidencialitat
+    share: Partejar
+    sign_up: S'inscriure
+    size: Talha
+    sort_by: "Triar per :"
+    tags_label: "Balisas :"
+    tos: CGU
+    unfollow: Seguir pas mai
+    unknown_place: Desconegut
+    upgrade: Melhorar
+    view: Veire
+    view_question: Veire la question
+  models: 
+    question: La question
+  preferred_languages: 
+    any: Tota
+  roles: 
+    moderator: Moderator
+    owner: Proprietari
+    user: Utilizaire normal
+  scaffold: 
+    add: Apondre
+    are_you_sure: Sètz segur ?
+    back: Arrièr
+    cancel: Anullar
+    close: Tampar
+    create: Crear
+    destroy: Suprimir
+    details: Detalhs
+    edit: Modificar
+    more: Mai...
+    new: Apondre %{model}
+    save: Salvar
+    send: Mandar
+    show: Afichar
+    update: Actualizar
+  time: 
+    ago: i a %{time}
+    today: uèi
+    yesterday: ièr
+  views: 
+    pagination: 
+      first: Primièra
+      last: Darrièra
+      next: Seguent &raquo;
+      previous: "&laquo; Precedent"
+      truncate: ...

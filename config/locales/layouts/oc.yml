@@ -1,0 +1,60 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  layouts: 
+    application: 
+      all: Totas
+      ask_question: Pausar una question
+      badges: Insignas
+      by_me: Per ieu
+      collaborate: Collaboratz
+      contributed: Contribuit
+      faq: FAQ
+      feed: Seguit
+      followed: Seguida
+      forgot: Doblidat ?
+      home: Acuèlh
+      join_group: Rejonhètz %{group}
+      languages: Lengas
+      log_in: Se connectar
+      logged: Connectat %{login}
+      logout: Se desconnectar
+      manage_ads: Gerir las publicitats
+      moderate: Moderar
+      now: ara !
+      pages: Paginas
+      preferred: Preferit
+      questions: Questions
+      questions_in: Questions en
+      search: Cercar
+      settings: Configuracion
+      signup: Crear un compte
+      subscribe: S'inscriure
+      tags: Balisas
+      title: questions & responsas
+      users: Utilizaires
+    manage: 
+      access: Accès
+      actions: Accions
+      announcements: Anoncis
+      appearance: Aparéncia
+      constrains: Contrenchas
+      content: Contengut
+      dashboard: Tablèu de bòrd
+      domain: Domeni
+      general: General
+      group_features: Foncionalitats
+      invitations: Convits
+      invoices: Facturas
+      members: Membres
+      pages: Paginas
+      properties: Proprietats
+      reputation: Reputacion
+      rewards: Recompensas
+      social: Social
+      stats: Estats
+      theme: Tèma
+      themes: Tèmas
+      widgets: Widgets

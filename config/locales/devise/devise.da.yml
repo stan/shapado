@@ -40,10 +40,10 @@ da:
       unlock_instructions: 
         subject: Vejledning til at låse op
     passwords: 
-      link: Glemt password?
+      link: Glemt adgangskode?
       send_button: Send mig vejledning til at nulstille adgangskode
-      send_instructions: Du vil modtage en e-mail med instruktioner om hvordan du kan nulstille dit password inden for et par minutter.
-      updated: Dit password blev ændret. Du er nu logget ind.
+      send_instructions: Du vil modtage en e-mail med instruktioner om hvordan du kan nulstille din adgangskode inden for et par minutter.
+      updated: Din adgangskode blev ændret. Du er nu logget på.
     registrations: 
       destroyed: Farvel! Din konto blev annulleret. Vi håber at se dig igen.
       link: Tilmeld

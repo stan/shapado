@@ -1,0 +1,15 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  comments: 
+    edit: 
+      title: Modificar lo comentari
+    shared: 
+      comment_submit: Comentari
+      reply: Respondre
+      said: a dich
+  models: 
+    comment: Comentari
+    comments: Comentaris

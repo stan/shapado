@@ -2,13 +2,14 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Robby
+# Author: Soued031
 lb: 
   activerecord: 
     attributes: 
       announcement: 
         message: Message
         only_anonymous: Nëmme fir anonym Benotzer
-        starts_at: ugefaang bäi
+        starts_at: ugefaange bei
   announcements: 
     actions: 
       delete: Ewechhuelen

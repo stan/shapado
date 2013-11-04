@@ -2,13 +2,14 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Robby
+# Author: Soued031
 lb: 
   wiki: 
     actions: 
       back_to_question: Zréck op d'Fro
       revert: Op dës Versioun zrécksetzen
     diff: 
-      title: Ënnerscheed tëschent %{prev} a(n) %{curr}
+      title: Ënnerscheed tëscht %{prev} a(n) %{curr}
     history: 
       current_version: Aktuell Versioun
       previous_versions: Vireg Versiounen
