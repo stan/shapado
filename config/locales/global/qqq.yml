@@ -12,12 +12,14 @@ qqq:
     share_on_twitter: This message allows only 20 characters in a row. Use a line break if the translation is longer than that.
   global: 
     actions: "{{Identical|Action}}"
+    active: "{{Identical|Activate}}"
     anonymous: "{{Identical|Anonymous}}"
     blog: "{{Identical|Blog}}"
     chat: "{{Identical|Chat}}"
     current: "{{Identical|Current}}"
     feedback: "{{Identical|Feedback}}"
-    following: "This appears on the User profile page. It appears before the list of user followed by someone (like in twitter). eg: Following: bob, bill, jack etc."
+    follow: "{{Identical|Follow}}"
+    following: "This appears on the User profile page. It appears before the list of user followed by someone (like in twitter). e.g. Following: bob, bill, jack etc.\n{{Identical|Following}}"
     home: "{{Identical|Home}}"
     next_button: "{{Identical|Next}}"
     open: "This the infintive form of the verb (abrir in Spanish, ouvrir in French etc).\n{{Identical|Open}}"

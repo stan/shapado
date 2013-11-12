@@ -1,0 +1,24 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RajeshPandey
+# Author: सरोज कुमार ढकाल
+ne: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: मूख्य भाग
+        created_at: बनाइएको स्थान
+        link: लिङ्क
+    models: 
+      answer: जवाफ
+      answers: जवाफहरू
+  answers: 
+    create: 
+      flash_notice: धन्यबाद!
+    edit: 
+      title: उत्तर सम्पादन गर्दै
+    form: 
+      comment_label: यस प्रविष्टीमा टिप्पणी गर्ने
+      comment_submit: टिप्पणी
+      submit: जवाफ

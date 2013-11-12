@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Chenxiaoqino
 # Author: Hydra
+# Author: Liuxinyu970226
 # Author: Qiyue2001
 zh-CN: 
   shared: 
@@ -31,12 +32,14 @@ zh-CN:
       themes: 
         description: 
           action_link: 现在
+          text: 创建%{action_link}
     filter: 筛选器：
     language: 语言：
     language_filter_tooltip: 尝试用另一种语言。
     languages: 语言：
     login_drop_down: 
       openid_url: OpenID 地址
+      sign_up_user_pass: 通过电子邮件/密码注册
       with_email_pass: 使用您的电子邮件地址登录
       with_facebook: 与脸书
       with_google: 与谷歌

@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Hydra
 # Author: Hzy980512
+# Author: Liuxinyu970226
 # Author: Qiyue2001
 zh-CN: 
   activerecord: 
@@ -31,6 +32,7 @@ zh-CN:
         wysiwyg_editor: 启用用户友好的编辑器
     models: 
       default_tags_message: 你不能拥有 10 多个默认标签
+      duplicate_domain_message: 抱歉，此域名已被使用。
       group: 集团
       groups: 组
       reputation_rewards_key: 无效密钥

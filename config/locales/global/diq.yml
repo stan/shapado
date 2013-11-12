@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Erdemaslancan
+# Author: Gorizon
 # Author: Mirzali
 diq: 
   global: 
@@ -40,7 +41,7 @@ diq:
     back: Peyser
     cancel: Bıtexelne
     close: Racnê
-    create: Vıraze
+    create: İycad ke
     destroy: Bestere
     details: Teferruati
     edit: Timar ke

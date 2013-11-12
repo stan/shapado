@@ -2,12 +2,15 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hydra
+# Author: Liuxinyu970226
 zh-CN: 
   activerecord: 
     attributes: 
       member: 
         role: 角色
   members: 
+    create: 
+      notice: "%{login}成功作为%{role}添加。"
     form: 
       login_tip: 搜索您键入
     index: 

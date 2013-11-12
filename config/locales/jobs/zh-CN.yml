@@ -2,12 +2,16 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Dimension
+# Author: Liuxinyu970226
 zh-CN: 
   jobs: 
     answers: 
       on_create_answer: 
         group_send_twitter: "%{user}对%{question}的回答"
         send_twitter: 我对 %{question} 的回答
+      on_favorite_answer: 
+        group_send_twitter: "%{user}喜欢由%{author}在%{question}的作答"
+        send_twitter: 我喜欢由%{author}在%{question}的作答
     comments: 
       on_comment: 
         group_on_comment: "%{user}对%{question}的评论"

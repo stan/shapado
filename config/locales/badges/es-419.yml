@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Crazymadlover
+# Author: Fitoschido
 # Author: Mor
 # Author: Patcito
 es-419: 
@@ -17,6 +18,8 @@ es-419:
       addict: 
         description: Visita el sitio 20 días consecutivos
         name: Adicto
+      altruist: 
+        name: Altruista
       autobiographer: 
         description: completed all user profile fields
         name: Autobiógrafo
@@ -56,6 +59,8 @@ es-419:
       fanatic: 
         description: Visita el sitio 100 días consecutivos
         name: Fanático
+      favorite_answer: 
+        name: Respuesta favorita
       favorite_question: 
         description: Pregunta seleccionada como preferida por 25 usuarios
         name: Pregunta favorita

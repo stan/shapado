@@ -20,9 +20,9 @@ da:
       home: Hjem
       join_group: Deltag i %{group}
       languages: Sprog
-      log_in: Log ind
+      log_in: Log på
       logged: Logget ind som %{login}
-      logout: Log ud
+      logout: Log af
       manage_ads: Administrer annoncer
       moderate: Moderat
       need_to_signin: Du skal logge på først.

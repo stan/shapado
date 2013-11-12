@@ -1,6 +1,7 @@
 # Messages for Danish (dansk)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Christian List
 # Author: Emilkris33
 da: 
   sessions: 
@@ -10,7 +11,7 @@ da:
     destroy: 
       flash_notice: Du er blevet logget ud.
     new: 
-      log_in: Log ind
+      log_in: Log på
       not_registered: Ikke registreret endnu?
       registered: Allerede registreret?
       remember_me: Husk mig

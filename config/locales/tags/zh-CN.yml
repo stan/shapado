@@ -2,10 +2,13 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hydra
+# Author: Liuxinyu970226
 zh-CN: 
   tags: 
     index: 
       filter: 搜索标签
+    show: 
+      title: 已标记问题：%{tags}
     show_json: 
       edit_it: 为此标签添加说明。
       no_description: 此标签还未有标签。

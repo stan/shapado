@@ -4,6 +4,7 @@
 # Author: Hydra
 # Author: Hzy980512
 # Author: Junmin
+# Author: Liuxinyu970226
 # Author: Qiyue2001
 zh-CN: 
   admin: 
@@ -91,6 +92,8 @@ zh-CN:
         title: 组合属性
         twitter_account: 
           connect_to_other_twitter: 点这里将不同的Twitter链至您的组
+          connect_to_twitter: 点此将推特账户关联到您的组
+          disconnect_twitter_group: 从推特取消关联此组
           twitter_account: Twitter帐户
         twitter_app: 
           secret: 应用程序密钥

@@ -29,9 +29,11 @@ zh-CN:
     answer: 
       add_comment: 添加注释...
       favorite: 保存
+      favorite_tooltip: 将此回答添加至您的喜爱
       flag: 标志
       pick_answer: 为解决方案选择
       unfavorite: 取消保存
+      unfavorite_tooltip: 将此回答从您的喜爱中移除
       unset_answer: 取消设置的解决方案？
     answer_toolbar: 
       flagged_by_you: 已由您标记
@@ -59,6 +61,7 @@ zh-CN:
       ask_question: 问的问题
       empty: 但没人问过任何问题。是第一次 ！
       followers_tooltip: 最多关注者的问题
+      has_followers: "%{count}个关注者"
       help_to_answer: 帮助我们回答
       hot: 热
       hot_tooltip: 在过去的 5 天最活动问题

@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hydra
+# Author: Liuxinyu970226
 # Author: Qiyue2001
 # Author: Yfdyh000
 zh-CN: 
@@ -54,6 +55,7 @@ zh-CN:
     related_questions: 
       title: 相关问题
     settings: 
+      content: 将任何HTML放在此处：
       custom_html: 自定义 HTML：
       on_questions: 在问题主要列表上显示
       on_show_question: 在显示问题页面上显示
@@ -61,12 +63,14 @@ zh-CN:
       preview: 构件预览：
     share: 
       description: 这个小部件显示各种分享当前页到社交网络的按钮。
+      title: 共享
     sharing_buttons: 
       title: 分享这个与
     suggestions: 
       follow_tag: + 关注标签
       follow_user: + 关注用户
       followed_by: 被 %{user} 关注
+      title: 需要关注的人和标签
       unfollow_tag: "- 停止关注标签"
       unfollow_user: "- 停止关注用户"
     tag_cloud: 

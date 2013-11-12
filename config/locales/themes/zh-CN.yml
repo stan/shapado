@@ -1,0 +1,34 @@
+# Messages for Simplified Chinese (中文（简体）‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+# Author: Liuxinyu970226
+zh-CN: 
+  themes: 
+    edit: 
+      title: 编辑主题
+    form: 
+      colors_and_bg: 颜色与背景
+      submit_update: 更新主题
+      update: 更新主题
+    index: 
+      new_theme: 您可在此创建您的主题。
+    ready: 
+      success: 您的主题创建成功了！哦也！
+    show: 
+      apply: 应用
+      bg_color: 背景颜色
+      bg_image: 背景图像
+      brand_color: 品牌颜色
+      button_bg: 按钮的背景颜色
+      button_fg: 按钮的前景颜色
+      fg_color: 前景颜色
+      link_bg: 链接的背景颜色
+      link_fg: 链接的前景颜色
+      main_color: 主要颜色
+      modules_color: 模块颜色
+      text_color: 文本颜色
+      try: 尝试
+      use_link_bg: 为链接使用背景
+      view_bg: 视图的背景颜色
+      view_fg: 视图的前景颜色

@@ -55,6 +55,9 @@ ru:
       title: Сменить пароль
     check_custom_domain: 
       refresh: Обновите эту страницу, чтобы повторить попытку.
+      reset_domain_button: Нет, пожалуйста, сбросьте пользовательский доменов на %{domain}
+      title: Ваш новый собственный домен работает?
+      working_domain_link: Да, я вижу, что мой новый домен работает.
     create: 
       flash_error: К сожалению, настроить эту учётную запись не удалось. Повторите попытку снова или обратитесь к администратору (по ссылке выше).
       flash_notice: Благодарим за регистрацию!
@@ -64,11 +67,12 @@ ru:
       title: Настройки
     follow: 
       flash_error: Вы не можете добавить себя в подписки.
-      flash_notice: Вы теперь являетесь фаном %{user}.
+      flash_notice: Вы теперь подписаны на %{user}.
     form: 
       activities_notification: Получить уведомления по электронной почте о системных действиях, таких как появление новых беджей, новых следящих и т. д.
       avatar_tip: Измените изображение в своём профиле с помощью Gravatar
       check_domain: Проверить %{domain}
+      check_domain_title: Проверьте пользовательские домены вашей группы
       desktop_notification: Уведомления на рабочем столе
       give_advice_notification: Получать уведомления по электронной почте о вопросах в вашей области знаний
       information: Информация
@@ -77,9 +81,12 @@ ru:
       notifications: Уведомления
       reports_notification: Получать отчёт о последних действиях в группе (только для администраторов групп)
       send_answers_to_twitter: Отправить мои ответы в мой твиттер
+      send_badges_to_twitter: Отправлять недавно полученные значки мне в Твиттер
       send_comments_to_twitter: Отправить мои комментарии в мой твиттер
+      send_favorites_to_twitter: Отправлять мои любимые ответы мне в Твиттер
       send_questions_to_twitter: Отправить мои вопросы в мой Твиттер
       show_more_lang: Другие языки
+      social_interaction: Взаимодействие с социальными сервисами
     index: 
       empty: Эта группа пуста, примите участие для присоединения к ней.
       filter: Поиск пользователей
@@ -114,13 +121,16 @@ ru:
       edit_it: Нажмите здесь, чтобы заполнить биографию к вашему профилю.
       no_description: Этот пользователь пока не заполнил свою биографию.
     top_user: 
+      connect: Подключиться
       my_karma: "Моя карма: %{karma}"
       profile: Профиль
     unfollow: 
-      flash_notice: Вы больше не фан %{user}.
+      flash_notice: Вы больше не подписаны на %{user}.
     update_followed_tags: 
       followed: 
         flash_notice: Вы теперь следите за тегом %{tag}.
+      unfollowed: 
+        flash_notice: Вы больше не следите за тегом %{tag}.
     user_bar: 
       create_account: Создать учётную запись
       not_logged_in: Вы не авторизованы

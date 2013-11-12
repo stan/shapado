@@ -36,9 +36,9 @@ fa:
     report: 
       message1: گزارش گروه %{group}
       message2: از تاریخ %{date}
-      message3: "%{questions} سوال پرسیده شده است"
-      message4: "%{answers} جاسخ داده شده است"
-      message5: "%{votes} رای داده شده است"
+      message3: "%{questions} سوال پرسیده شده‌است"
+      message4: "%{answers} پاسخ داده شده‌است"
+      message5: "%{votes} رای داده شده‌است"
       message6: نشانهای %{badges} اهدا شده اند
       message7: حساب %{users} کاربر دارد.
       message8: از گروهتان در %{link} دیدن کنید

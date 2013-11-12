@@ -1,0 +1,53 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: सरोज कुमार ढकाल
+ne: 
+  feeds: 
+    feed: फिड
+  global: 
+    actions: कार्यहरु
+    blog: ब्लग
+    by: द्वारा
+    by_semi: "द्वारा:"
+    current: हालसालैको
+    edited: सम्पादन गरियो
+    edited_by: सम्पादक
+    edited_by_semi: "सम्पादक:"
+    feedback: पृष्ठ पोषण
+    home: गृह
+    next_button: अर्को
+    preview: पूर्वावलोकन
+    previous: अघिल्लो
+    privacy: गोपनीयता
+    size: आकार
+    sort_by: "क्रम मिलाउने:"
+    tags_label: "ट्यागहरु:"
+    unknown_place: अज्ञात
+    view: अवलोकन गर्ने
+  preferred_languages: 
+    any: कुनै
+  roles: 
+    moderator: मोडरेटर
+    owner: मालिक
+  scaffold: 
+    add: थप्ने
+    back: अघिल्लो
+    cancel: रद्द
+    close: बन्द गर्ने
+    create: सृजना गर्ने
+    destroy: हटाउने
+    details: विवरण
+    edit: सम्पादन गर्ने
+    more: थप...
+    save: संग्रह
+    send: पठाउने
+    show: देखाउने
+  time: 
+    ago: "%{time} पहिले"
+    today: आज
+    yesterday: हिजो
+  views: 
+    pagination: 
+      first: पहिलो
+      last: अन्तिम

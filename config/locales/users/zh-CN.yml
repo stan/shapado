@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hydra
+# Author: Liuxinyu970226
 zh-CN: 
   activerecord: 
     attributes: 
@@ -77,6 +78,7 @@ zh-CN:
       send_favorites_to_twitter: 发送我所喜欢的答案至我的推特
       send_questions_to_twitter: 发送我的问题至我的推特
       show_more_lang: 显示更多的语言
+      social_interaction: 社交媒体互动
     index: 
       empty: 这一组没有任何成员。通过加入本集团参与。
       filter: 搜索用户
@@ -112,8 +114,14 @@ zh-CN:
       profile: 配置文件
     unfollow: 
       flash_notice: 您不在关注 %{user} 了。
+    update_followed_tags: 
+      followed: 
+        flash_notice: 您貌似木有关注标签%{tag}。
+      unfollowed: 
+        flash_notice: 您真的木有关注标签%{tag}。
     user_bar: 
       create_account: 创建账户
       not_logged_in: 未登录
     user_mini: 
       admin: "[ 管理员 ]"
+      editor: "[ 编辑者 ]"

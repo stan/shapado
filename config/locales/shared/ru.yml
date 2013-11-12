@@ -19,6 +19,7 @@ ru:
       activities: 
         description: 
           text: Это место занаполнится автоматически, как только люди начнут использовать сайт.
+        title: Пока нет никаких задач.
       answers: 
         description: 
           text: Будьте первым!
@@ -41,6 +42,7 @@ ru:
       themes: 
         description: 
           action_link: сейчас
+          text: создать %{action_link}
         title: Вы пока не создали ни одной темы.
     filter: "Фильтр:"
     language: "Язык:"
@@ -49,6 +51,7 @@ ru:
     layout: 
       footer: 
         cc_footer: Все содержимое и данные Shapado.com доступны под лицензией %{cc_link}
+        powered_by: При поддержке %{source_link} %{version} по лицензии %{agpl_link}
     login_drop_down: 
       openid_url: Адрес OpenID
       sign_up_user_pass: Зарегистрироваться с E-mail/пароль
