@@ -106,7 +106,7 @@ gl:
       title: Rexístrese como novo usuario
     show: 
       edit_profile: Editar o perfil
-      follow: Vixiar
+      follow: Seguir
       followers: Seguidores
       following: Seguindo
       title: Usuario %{user}

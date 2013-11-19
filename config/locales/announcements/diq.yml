@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Erdemaslancan
+# Author: Gorizon
 # Author: Mirzali
 diq: 
   activerecord: 
@@ -13,7 +14,7 @@ diq:
         starts_at: Dest pêkerden
   announcements: 
     actions: 
-      delete: Wedarne
+      delete: Hewad
       title: Kerdışi
     index: 
       title: Elani

@@ -4,6 +4,8 @@
 # Author: Chmee2
 cs: 
   comments: 
+    create: 
+      flash_notice: Díky za váš komentář
     edit: 
       title: Upravit komentář
     shared: 
@@ -11,6 +13,8 @@ cs:
       comment_submit: Komentář
       reply: Odpovědět
       said: řekl
+    update: 
+      flash_notice: Komentář byl úspěšně aktualizován.
   models: 
     comment: Komentář
     comments: Komentáře
