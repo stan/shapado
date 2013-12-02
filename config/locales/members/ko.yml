@@ -10,7 +10,7 @@ ko:
         role: 역할
   members: 
     form: 
-      login_tip: search as you type
+      login_tip: 입력하면 검색합니다
     index: 
       manage_members_title: 회원 관리
       title: "%{name}의 그룹 회원들"

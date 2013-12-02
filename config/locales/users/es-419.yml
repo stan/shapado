@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Crazymadlover
 # Author: Danke7
+# Author: Fitoschido
 # Author: Mor
 # Author: Patcito
 es-419: 
@@ -30,7 +31,7 @@ es-419:
         preferred_languages: "Quieres leer las preguntas en los siguientes idiomas:"
         preferred_tags: Etiquetas preferidas
         reputation: Reputación
-        timezone: Zona horaria
+        timezone: Huso horario
         updated_at: actualizado en
         website: Sitio Web
     models: 

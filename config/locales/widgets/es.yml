@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Armando-Martin
 # Author: Dalton2
+# Author: Fitoschido
 # Author: McDutchie
 # Author: Patcito
 # Author: Vivaelcelta
@@ -112,7 +113,7 @@ es:
       has_members: 
         one: "%{count} miembro"
         other: "%{count} miembros"
-      title: Top 5 grupos
+      title: Los 5 grupos mejor clasificados
     top_users: 
       description: Este widget muestra ranking de usuarios
       title: Top 5 usuarios

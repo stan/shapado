@@ -1,6 +1,7 @@
 # Messages for Catalan (català)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Fitoschido
 # Author: Papapep
 ca: 
   doc: 
@@ -11,7 +12,7 @@ ca:
       1million: 1 milió de pàgines vistes mensualment
       247_all_support: Basat en web, correu-e, xat i telèfon amb suport 24/7
       5millions: 5 milions de pàgines vistes mensualment
-      all_support: Basat en web, correu-e, xat i suport telefònic
+      all_support: Assistència mitjançant web, correu electrònic, xat i telèfon
       basic_restrictions: Sense anuncis personalitzats i no es pot configurar completament l'interfície d'usuari
       big_sites: Llocs amb molt de trànsit
       custom_ads: Empreu els vostres propis anuncis

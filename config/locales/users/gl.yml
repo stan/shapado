@@ -1,6 +1,7 @@
 # Messages for Galician (galego)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Fitoschido
 # Author: Toliño
 gl: 
   activerecord: 
@@ -27,7 +28,7 @@ gl:
         preferred_languages: "As linguas nas que quere ler as preguntas:"
         preferred_tags: Etiquetas preferidas
         reputation: Reputación
-        timezone: Zona horaria
+        timezone: Fuso horario
         updated_at: actualizado o
         website: Páxina web
     models: 

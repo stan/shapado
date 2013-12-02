@@ -1,0 +1,16 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Kghbln
+# Author: Shirayuki
+qqq: 
+  sessions: 
+    new: 
+      log_in: "{{Identical|Login}}"
+      remember_me: "{{Identical|Remember me}}"
+      sign_in: "{{Identical|Sign in}}"
+      signup: "{{Identical|Sign up}}"
+      with_facebook: This message allows only 20 characters in a row. Use a line break if the translation is longer than that.
+      with_openid: "{{Identical|Login with OpenID}}"
+      with_twitter: This message allows only 20 characters in a row. Use a line break if the translation is longer than that.

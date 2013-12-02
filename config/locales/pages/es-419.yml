@@ -1,6 +1,7 @@
 # Messages for Latin American Spanish (español de America Latina)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Fitoschido
 # Author: Patcito
 es-419: 
   activerecord: 
@@ -17,7 +18,7 @@ es-419:
       edit_page: Editar página
       title: Acciones
     create: 
-      success: La página ha sido creada con exito.
+      success: Se ha creado la página correctamente.
     edit: 
       title: Editando página
     form: 
@@ -32,4 +33,4 @@ es-419:
       title: Nueva página
     title: Arréglame
     update: 
-      success: La página ha sido actualizada con exito.
+      success: Se ha actualizado la página correctamente.

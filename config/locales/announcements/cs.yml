@@ -15,5 +15,7 @@ cs:
     actions: 
       delete: Odstranit
       title: Akce
+    create: 
+      success: Vaše oznámení bylo úspěšně vytvořeno.
     index: 
       title: Oznámení

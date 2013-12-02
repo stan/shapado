@@ -34,7 +34,7 @@ es:
         preferred_languages: "Quieres leer las preguntas en los siguientes idiomas:"
         preferred_tags: Etiquetas preferidas
         reputation: Reputación
-        timezone: Zona horaria
+        timezone: Huso horario
         updated_at: actualizado en
         website: Sitio web
     models: 

@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Linkr
+# Author: 아라
 ko: 
   errors: 
     forbidden: 
@@ -16,7 +17,7 @@ ko:
       explanation: 주소를 잘못 입력했거나, 페이지가 옮겨 졌을 수 있습니다.
       title: 페이지를 찾을 수 없습니다.
     options_label: "다른 시도 :"
-    search: 찾기
+    search: 검색
     unprocessable_entity: 
       explanation: 아마도 액세스 권한이 없는 곳에 접근 하신 듯 싶군요.
       title: 요청이 거부되었습니다.

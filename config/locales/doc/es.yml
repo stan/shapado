@@ -3,18 +3,19 @@
 # Export driver: syck-pecl
 # Author: Armando-Martin
 # Author: Crazymadlover
+# Author: Fitoschido
 # Author: Patcito
 # Author: Vivaelcelta
 es: 
   doc: 
     chat: 
-      title: Soporte por chat
+      title: Asistencia por chat
     plans: 
       15millions: 15 millions de paginas vistas/mes
       1million: 1 million de paginas vistas/mes
       247_all_support: Soporte basado en la web, correo electrónico, chat y teléfono las 24 horas del día, los 7 días de la semana
       5millions: 5 milliones de paginas vistas/mes
-      all_support: Soporte basado en la web, correo electrónico, chat y teléfono
+      all_support: Asistencia mediante web, correo electrónico, chat y teléfono
       basic: Básico
       basic_restrictions: No propagandas ni interfaz personalizable
       basic_styling: Aspecto y función personalizados
@@ -48,10 +49,10 @@ es:
       private_tip: Sólo tu y los usuarios a los que invites a tu sitio tienen un acceso autorizado. Es perfecto para las empresas.
       small_basic: Primeros pasos
       start_monetizing: Comenzar a ganar dinero
-      support: Soporte
+      support: Asistencia
       title: Planes de suscripcion y precios
       unlimited: Trafico ilimitado todos los meses
       user: usuario
       we_offer: Ofrecemos tambien un
-      web_support: Soporte  web
+      web_support: Asistencia mediante el web
       with_unlimited: con trafico ilimitado y sin propagandas ni dominio personalizados.
