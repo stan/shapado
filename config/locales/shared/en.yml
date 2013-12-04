@@ -56,7 +56,7 @@ en:
         title: Sorry, no questions are available in this filter.
         description:
           text: "<a href='%{url}'>%{action_link}</a>"
-          action_link: Click here show all questions
+          action_link: Click here to show all questions
       themes:
         title: You haven't created any themes for now.
         description:
