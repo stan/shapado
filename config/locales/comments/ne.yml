@@ -1,0 +1,17 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RajeshPandey
+# Author: सरोज कुमार ढकाल
+ne: 
+  comments: 
+    edit: 
+      title: टिप्पणी सम्पादन गर्ने
+    shared: 
+      add_comment: टिप्पणी थप्ने...
+      comment_submit: टिप्पणी
+      reply: जवाफ दिने
+      said: ले भने
+  models: 
+    comment: टिप्पणी
+    comments: टिप्पणीहरु

@@ -15,10 +15,16 @@ ne:
       answers: जवाफहरू
   answers: 
     create: 
+      annon_notice: प्रयोगकर्ता पहिले नै दर्ता गरिएको छ, कृपया प्रवेश गर्नुहोस् ।
       flash_notice: धन्यबाद!
     edit: 
       title: उत्तर सम्पादन गर्दै
     form: 
+      answer_label: प्रश्नको उत्तर दिने
       comment_label: यस प्रविष्टीमा टिप्पणी गर्ने
       comment_submit: टिप्पणी
       submit: जवाफ
+    revert: 
+      title: जवाफ उल्ट्याउने
+    update: 
+      flash_notice: जवाफ सफलतापूर्वक अद्यावधिक गरियो ।
