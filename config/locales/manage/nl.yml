@@ -57,7 +57,7 @@ nl:
           title: Uw aangepaste domein instellen
           warning: Weet u zeker dat u uw domein wilt wijzigen?
         facebook_app: 
-          application_id: Applicatie-ID
+          application_id: Toepassings-ID
           facebook_app: Applicatieinstellingen Facebook
           legend: U kunt uw Facebookapp instellen. Deze app wordt gebruikt om uw gebruikers aan te laten melden via Facebook. Dit is alleen nodig als u een aangepast domein gebruikt.
           secret_key: Geheime sleutel
