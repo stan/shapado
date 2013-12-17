@@ -22,7 +22,7 @@ zh-CN:
   moderate: 
     questions: 
       flagged: 
-        banned: 禁止
+        banned: 已禁止
         banned_tooltip: 只显示禁止问题
         filters: 筛选器：
         title: 管理问题
