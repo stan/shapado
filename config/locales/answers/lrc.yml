@@ -1,0 +1,22 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: لش
+        created_at: راست بيه د
+        link: هوم پیوند
+    models: 
+      answer: جواو
+      answers: جواویا
+  answers: 
+    create: 
+      flash_notice: منمون
+    edit: 
+      title: ویرایشت جواو
+    form: 
+      comment_submit: نظر
+      submit: جواو

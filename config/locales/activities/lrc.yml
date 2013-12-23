@@ -1,0 +1,19 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bonevarluri
+# Author: Mogoeilor
+lrc: 
+  activerecord: 
+    models: 
+      activity: کار و جمشت
+  activity: 
+    asked: جواو دئیه
+    changed: آلشت بیه
+    created: راست بيه
+    deleted: پاك بیه
+    destroyed: پاك بیه
+    flagged: بیرق دار
+    requested_to_close: حاستنی سی بستن
+    requested_to_open: حاستنی سی وا بئین
+    updated: روزآمد بیه

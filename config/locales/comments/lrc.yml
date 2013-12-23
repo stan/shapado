@@ -1,0 +1,17 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  comments: 
+    create: 
+      flash_notice: منمون سی نظرتو
+    edit: 
+      title: ویرایشت نظر
+    shared: 
+      comment_submit: نظر
+      reply: جؤاو ده ئن
+      said: گوته بیه
+  models: 
+    comment: نظر
+    comments: نظریا

@@ -1,0 +1,56 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  feeds: 
+    feed: خورخو
+  global: 
+    active: فعال بین
+    anonymous: ناشناس
+    by: وا
+    by_semi: ":وا"
+    chat: گپ زئن
+    current: تازه باو
+    edited: ویرایشت بیه
+    edited_by: ویرایشت بیه وا
+    edited_by_semi: "ویرایشت بیه وا:"
+    feedback: بازحرد
+    follow: نهاگردی
+    following: د حالت نهاگردی
+    home: سرآسونه
+    next_button: نها
+    open: واز
+    or: يا
+    preview: پيش سيل
+    previous: وادمايی
+    privacy: شخصی
+    share: بهر کردن
+    sign_up: ثوت نام كردن
+    size: انازه
+    sort_by: "جور كردن وا:"
+    tos: تی او اس
+    unknown_place: ناشناس
+    view: ديئن
+  preferred_languages: 
+    any: هرکوم
+  scaffold: 
+    add: اضاف كو
+    back: دما
+    cancel: رد کردن
+    close: بسن
+    create: راس كردن
+    destroy: پاك كردن
+    edit: ويرايشت
+    more: بيشتر
+    save: ذخيره كردن
+    send: كل كردن
+    show: نشو دئن
+    update: روزآمد كردن
+  time: 
+    today: امرو
+    yesterday: دوش،دیرو
+  views: 
+    pagination: 
+      first: اولی
+      last: آخر
