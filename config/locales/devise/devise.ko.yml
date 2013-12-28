@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hym411
+# Author: 아라
 ko: 
   devise: 
     confirmations: 
@@ -28,7 +29,7 @@ ko:
       new: 
         openid_url: 오픈ID URL
         remember_me: 로그인 상태를 기억하기
-      registered_only: 콘텐츠를 보기 위해 로그인해야 합니다.
+      registered_only: 내용을 보려면 로그인해야 합니다.
       sign_out: 로그아웃
       signed_in: 성공적으로 로그인
       signed_out: 성공적으로 로그아웃
