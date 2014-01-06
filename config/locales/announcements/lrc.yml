@@ -1,0 +1,22 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bonevarluri
+# Author: Mogoeilor
+lrc: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: تموم بیئن د
+        message: پيغوم
+        only_anonymous: فقط سی کاروریا ناشناس
+        starts_at: شرو د
+  announcements: 
+    actions: 
+      delete: ؤرداشتن
+      title: جمشت یا
+    create: 
+      success: خور کردن تو وا خوئی دروس بی.
+    index: 
+      description: خور کردنیاتونه که میهایت د مالگه سی بیننه یا نشو بیتو راس بکید و مدیریتش بکید.
+      title: خور کردن

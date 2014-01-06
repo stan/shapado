@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Ebraminio
 # Author: MindHammerGames
+# Author: Reza1615
 # Author: ZxxZxxZ
 # Author: جواد
 fa: 
@@ -15,25 +16,44 @@ fa:
     tag: اشتراک در این برچسب
     user: اشتراک در سوالات این کاربر
   global: 
+    actions: اقدامات
     active: فعال سازی
     alphabetically: الفبایی
     anonymous: ناشناس
+    blog: وبلاگ
     by: توسط
     by_semi: "توسط:"
+    chat: گفتگو
     current: کنونی
+    edited_by_semi: "ویرایش توسط:"
+    feedback: بازخورد
+    follow: دنبال کردن
+    following: دنبال‌کردن
     from: از %{site}
     group_not_found: صفحه %{url} موجود نیست
+    home: خانه
+    next_button: بعدی
     open: گشودن
     or: یا
     permission_denied: اجازه داده نشد.
     please_login: لطفا وارد شوید
     preview: پیش‌نمایش
     previous: قبلی
+    privacy: خصوصی
     share: به اشتراک گذاشتن
+    sign_up: ثبت نام
     size: اندازه
+    tags_label: "برچسب‌ها:"
+    tos: شرایط سرویس
+    unfollow: دنبال نکردن
+    unknown_place: ناشناس
     upgrade: ارتقاء
+    view: دیدن
   models: 
     question: سوال
+  preferred_languages: 
+    any: هر کدام
+    user: زبان ترجیح داده شدهٔ من
   roles: 
     moderator: مدیر
     owner: مالک
@@ -63,3 +83,5 @@ fa:
     pagination: 
       first: نخستین
       last: واپسین
+      next: بعدی &raquo;
+      previous: "&laquo; قبلی"

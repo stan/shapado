@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Crochet.david
+# Author: DavidM
 # Author: Od1n
 # Author: Patcito
 # Author: Y-M D
@@ -18,7 +19,7 @@ fr:
   answers: 
     create: 
       annon_notice: L'utilisateur est déjà enregistré, veuillez s'il vous plait vous connecter.
-      flash_error: "Une erreur s'est produite lors de l'ajout de votre question. \n  N'oubliez pas que : \n - Les réponses vides de contenu ou les doublons ne sont pas autorisés. \n - Vous devez attendre au moins 20 secondes avant de poster une autre réponse. \n - Vous ne pouvez poster qu'une réponse par question."
+      flash_error: "Une erreur s'est produite lors de l'ajout de votre réponse. \n  N'oubliez pas que : \n - les réponses vides de contenu et les doublons ne sont pas autorisés, \n - vous devez attendre au moins 20 secondes avant de proposer une autre réponse, \n - vous ne pouvez proposer qu'une seule réponse par question."
       flash_notice: Merci !
     edit: 
       title: Modification de la réponse
@@ -30,4 +31,4 @@ fr:
     revert: 
       title: Revenir à cette réponse
     update: 
-      flash_notice: La réponse a été créée avec succès.
+      flash_notice: La réponse a été mise à jour.

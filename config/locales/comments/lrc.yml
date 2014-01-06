@@ -9,9 +9,12 @@ lrc:
     edit: 
       title: ویرایشت نظر
     shared: 
+      add_comment: نظر بنیت..
       comment_submit: نظر
       reply: جؤاو ده ئن
       said: گوته بیه
+    update: 
+      flash_notice: نظر وا خوئی روز آمد بی.
   models: 
     comment: نظر
     comments: نظریا

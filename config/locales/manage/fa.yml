@@ -3,9 +3,15 @@
 # Export driver: syck-pecl
 # Author: Ebraminio
 # Author: MindHammerGames
+# Author: Reza1615
+# Author: جواد
 fa: 
   admin: 
     manage: 
+      access: 
+        title: دسترسی
+      appearance: 
+        logo_legend: یک آرم برای گروهتان آپ لود کنید. اندازه فایل باید کمتر از 2 مگابایت باشد
       content: 
         footer: پاصفحه
         head: سرصفحه
@@ -14,7 +20,18 @@ fa:
         title: محتوای سفارشی
         top_bar: نوار بالا
         top_bar_tip: در هر خط یک لینک وارد کنید
+      invitations: 
+        invitations: ارسال دعوت نامه‌ها
+        invitations_title: لیست تمام دعوت نامه‌های فرستاده شده توسط شما
+        invite: دعوت از اشخاص
+        invite_title: دعوت از اشخاص با رایانامه
+        title: دعوت‌نامه‌ها
       properties: 
+        ask_from_twitter: 
+          asking_from_twitter: پرسیدن سوالات از طریق twitter
+          question_asked_to: سوال پرسیده شده است از
+          question_must_include_example: "مثلا #iAsk"
+          twitter_account: حساب تویتری که کاربرانتان سوالاتشان را از آن خواهند پرسید.
         constrains: 
           reputation_constrains_description: با استفاده از این فرم می توانید تنظیم کنید کاربران برای انجام هر کار چند امتیاز شهرت نیاز دارند
           reputation_constrains_subtitle: فهرست امتیاز شهرت مورد نیاز برای انجام هر کار
@@ -28,29 +45,37 @@ fa:
           instruction5: هنگامی که این کار را انجام دادید بعد از حدود یک ساعت دامنه شما در www.%{subdomain} باید به %{appdomain} اشاره کند.
           instruction6: هنگامی که این کار را انجام دادید، به این صفحه بازگردید و نام دامنه خود www.%{subdomain}را در فیلد زیر درج کنید و دکمهٔ «به روز رسانی» را بزنید. اگر سوالی دارید از ما در %{chat_url} بپرسید و یا به انجمنهای پشتیبانی بروید.
           title: دامنه خود را تنظیم کنید.
-          warning: آیا اطمینان دارید می خواهید دامنه خود را تغییر دهید؟
+          warning: آیا اطمینان دارید می‌خواهید دامنه خود را تغییر دهید؟
+        facebook_app: 
+          application_id: شناسه برنامه
+          facebook_app: تنظیمات facebook app
+          secret_key: کلید مخفی
         general: 
           title: ویژگی های گروه
+        invitations: 
+          revoke_button: لغو کردن
+        invite: 
+          invitations: ارسال دعوت نامه‌ها
+          invite: دعوت از اشخاص
+          title: دعوت از اشخاص با رایانامه
         rewards: 
           reputation_rewards_description: این فرم به شما امکان می دهد تا چگونگی به دست آوردن و از دست دادن امتیازهای شهرت توسط کاربران، برای هر اقدامی که انجام می دهند را پیکربندی کنید.
           reputation_rewards_subtitle: فهرست پاداشهای مربوط به شهرت
           title: پاداشها
         share: 
-          add_tags: به تویت هایتان برچسب اضافه کنید
-          application_id: شناسه برنامه
-          asking_from_twitter: پرسیدن سوالات از طریق twitter
-          ends_with_example: "مثلا #shapado"
-          facebook_app: تنظیمات facebook app
-          question_asked_to: سوال پرسیده شده است از
-          question_must_include: سوال باید دارای برچسب زیر باشد تا تویت شود
-          question_must_include_example: "مثلا #iAsk"
-          secret_key: کلید مخفی
-          starts_with_example: "مثلا #qa"
           title: به اشتراک گذاشتن
-          title_on_dlvr: به اشتراک گذاشتن در divr.it
+        tag_your_tweets: 
+          add_tags: به تویت هایتان برچسب اضافه کنید
+          ends_with_example: "مثلا #shapado"
+          starts_with_example: "مثلا #qa"
           tweet_ends_with: افزودن یک برچسپ به توییت‌هایتان
           tweet_starts_with: از پیش اضافه کردن یک برچسب به تویت هایتان
-          twitter_account: حساب تویتری که کاربرانتان سوالاتشان را از آن خواهند پرسید.
-        theme: 
-          logo_legend: یک آرم برای گروهتان آپ لود کنید. اندازه فایل باید کمتر از 2 مگابایت باشد
-          title: تنظیم کردن تم گروه
+        title: ویژگی های گروه
+        twitter_account: 
+          twitter_account: حساب کاربری توییتر
+      social: 
+        post_to_twitter: ارسال به توئیتر
+        tag_your_tweets_title: به تویت هایتان برچسب اضافه کنید
+      top_admin: 
+        site: وب‌گاه
+        title: مدیر

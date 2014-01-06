@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Dimension
 # Author: Liuxinyu970226
+# Author: Yfdyh000
 zh-CN: 
   jobs: 
     answers: 
@@ -12,6 +13,10 @@ zh-CN:
       on_favorite_answer: 
         group_send_twitter: "%{user}喜欢由%{author}在%{question}的作答"
         send_twitter: 我喜欢由%{author}在%{question}的作答
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} 刚赢得了徽章 %{token} 在 %{group_name} %{link}"
+        send_twitter: 我刚赢得了徽章 %{token} 在 %{group_name} %{link}
     comments: 
       on_comment: 
         group_on_comment: "%{user}对%{question}的评论"

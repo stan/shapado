@@ -6,6 +6,7 @@
 lrc: 
   activerecord: 
     models: 
+      activities: کاریا
       activity: کار و جمشت
   activity: 
     asked: جواو دئیه

@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Hydra
 # Author: Junmin
+# Author: Yfdyh000
 zh-CN: 
   mailers: 
     notifications: 
@@ -21,5 +22,7 @@ zh-CN:
         subject_owner: "%{login} 回答了你的问题： %{title}"
       new_comment: 
         subject: "%{login} 在 %{group} 的评论"
+      new_invitation: 
+        subject: "%{user}邀请你加入%{group}"
       report: 
         subject: "%{group} 组在 %{app} 的报告"

@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Ebraminio
 # Author: MindHammerGames
+# Author: Reza1615
 fa: 
   activerecord: 
     attributes: 
@@ -25,6 +26,7 @@ fa:
   questions: 
     answer: 
       add_comment: اضافه کردن نظر ...
+      favorite: ذخیره
       flag: علامت گذاشتن
       pick_answer: انتخاب به عنوان راه حل
       unset_answer: لغو کردن درستی سوال
@@ -38,6 +40,7 @@ fa:
       adult_content: این سوال شامل محتوای بزرگسالان است.
       body_tip: سوالتان چیست؟ توضیحات کامل بدهید
       language_tip: زبانی که سوال با استفاده از آن پرسیده شده است را انتخاب کنید.
+      remove_attachment: پاک‌کردن
       tags_tip: از برچسبها برای اضافه کردن اطلاعات بیشتر به سوالتان استفاده کنید.
     index: 
       active: فعال
@@ -71,6 +74,8 @@ fa:
       title: پرسیدن سوال
     question: 
       accepted_tooltip: این سوال دارای جوابی پذیرفته شده است
+      answer_verb: پاسخ
+      retag: برچسب‌گذاری مجدد
     retag: 
       title: برچسب‌گذاری مجدد
     retag_form: 
@@ -96,6 +101,7 @@ fa:
       flag: علامت زدن
       flagged_as: علامت زده‌شده به‌عنوان
       flags: گزارش‌شده به‌عنوان
+      history: تاریخچه
       last_activity: آخرین فعالیت
       open: گشودن
       related_questions: سوالات مربوط

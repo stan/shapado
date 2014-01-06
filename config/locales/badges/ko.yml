@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Hym411
 # Author: Linkr
+# Author: Priviet
 # Author: 아라
 ko: 
   activerecord: 
@@ -27,7 +28,7 @@ ko:
         name: 명성
       citizen_patrol: 
         description: 첫 Flag
-        name: citizen patrol
+        name: 시민 순찰
       civic_duty: 
         description: 투표 300 회
         name: 시민의 의무

@@ -32,10 +32,16 @@ lrc:
     tos: تی او اس
     unknown_place: ناشناس
     view: ديئن
+  models: 
+    question: سوال
   preferred_languages: 
     any: هرکوم
+  roles: 
+    owner: مالک
+    user: کارور عادی
   scaffold: 
     add: اضاف كو
+    are_you_sure: شما مطمئن هئیت؟
     back: دما
     cancel: رد کردن
     close: بسن
@@ -54,3 +60,4 @@ lrc:
     pagination: 
       first: اولی
       last: آخر
+      truncate: ...

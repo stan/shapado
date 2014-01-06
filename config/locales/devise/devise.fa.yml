@@ -4,6 +4,7 @@
 # Author: Ebraminio
 # Author: Leyth
 # Author: MindHammerGames
+# Author: Reza1615
 # Author: جواد
 fa: 
   devise: 
@@ -22,8 +23,15 @@ fa:
       confirm_account: 
         link: تأیید حساب کاربری
         welcome: خوش آمدید
+      confirmation_instructions: 
+        subject: دستورالعمل‌های تأیید
+      hello: سلام
       reset_password: 
         link: تغییر گذرواژهٔ من
+      reset_password_instructions: 
+        subject: تنظیم مجدد رمز عبور
+      unlock_instructions: 
+        subject: دستورالعملهای باز کردن قفل حساب
     passwords: 
       link: رمز خود را فراموش کرده اید؟
       send_instructions: در کمتر از چند دقیقه شما ایمیلی شامل دستورالعمل تنظیم مجدد رمز عبورتان دریافت خواهید کرد
@@ -35,6 +43,8 @@ fa:
       updated: شما حساب خود را به روز کردید.
     sessions: 
       link: ورود
+      new: 
+        remember_me: تنظیمات را به یاد داشته باشید
       registered_only: برای دیدن محتوا باید به سامانه وارد شوید.
       sign_out: خروج
       signed_in: وارد شدید

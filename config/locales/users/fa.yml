@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Ebraminio
 # Author: MindHammerGames
+# Author: Reza1615
 # Author: ZxxZxxZ
 fa: 
   activerecord: 
@@ -47,6 +48,9 @@ fa:
       vote_up: رای مثبت
     anonymous_form: 
       never_shown: هرگز نمایش داده نشده
+    change_password: 
+      submit: تغییر گذرواژهٔ من
+      title: تغییر گذرواژه
     create: 
       flash_error: با عرض پوزش ما اکنون نمی توانیم حساب را بسازیم. یا بعدا دوباره سعی کنید یا با یک مدیر تماس بگیرید.( لینک در بالا قرار دارد)
       flash_notice: از ثبت نام شما متشکریم
@@ -85,11 +89,18 @@ fa:
       submit: ثبت نام
       title: ثبت نام به عنوان یک کاربر جدید
     show: 
+      edit_profile: ویرایش مشخصات
       follow: دنبال کردن
       followers: دنبال‌کنندگان
       following: دنبال‌کردن
       title: کاربر %{user}
       unfollow: دنبال نکردن
       views: مشاهدات
+    top_user: 
+      connect: اتصال
+      profile: نمایه
     unfollow: 
       flash_notice: کاربر %{user} از فهرست دوستانتان حذف شد
+    user_bar: 
+      create_account: یک حساب کاربری بسازید
+      not_logged_in: وارد سامانه نشده‌اید

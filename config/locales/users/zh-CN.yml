@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Hydra
 # Author: Liuxinyu970226
+# Author: Yfdyh000
 zh-CN: 
   activerecord: 
     attributes: 
@@ -108,6 +109,9 @@ zh-CN:
       title: 用户 %{user}
       unfollow: 停止追随
       views: 视图
+    show_json: 
+      edit_it: 点此在你的个人资料中填写你的简历。
+      no_description: 此用户没有填写他的简历
     top_user: 
       connect: 连接
       my_karma: 我的业障：%{karma}

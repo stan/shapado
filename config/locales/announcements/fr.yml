@@ -1,6 +1,7 @@
 # Messages for French (français)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: DavidM
 # Author: Od1n
 # Author: Patcito
 # Author: Sherbrooke
@@ -11,11 +12,11 @@ fr:
       announcement: 
         ends_at: Termine le
         message: Message
-        only_anonymous: Juste pour les utilisateurs anonymes
+        only_anonymous: Seulement pour les utilisateurs anonymes
         starts_at: Débute le
   announcements: 
     actions: 
-      delete: Enlever
+      delete: Supprimer
       title: Actions
     create: 
       success: Votre annonce a été créée avec succès.

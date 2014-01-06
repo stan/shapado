@@ -14,6 +14,7 @@ zh-CN:
       title: AdSense
     ask_question: 
       ask: 问
+      description: 此工具允许用户从任何地方提问。
       footer: 查看在 %{group} 上所有问题
       title: 提出问题：
     badges: 
@@ -41,6 +42,7 @@ zh-CN:
       name: 构件的名称
       navbar: 导航栏
       question_widgets: 问题
+      sidebar: 侧栏
       title: 管理的侧边栏窗口
       type: 类型：
       welcome_widgets: 欢迎
@@ -57,6 +59,7 @@ zh-CN:
     settings: 
       content: 将任何HTML放在此处：
       custom_html: 自定义 HTML：
+      limit: 要显示的数量：
       on_questions: 在问题主要列表上显示
       on_show_question: 在显示问题页面上显示
       on_welcome: 在欢迎页面上显示
@@ -65,6 +68,7 @@ zh-CN:
       description: 这个小部件显示各种分享当前页到社交网络的按钮。
       title: 共享
     sharing_buttons: 
+      description: 此工具将显示社交分享按钮。
       title: 分享这个与
     suggestions: 
       follow_tag: + 关注标签

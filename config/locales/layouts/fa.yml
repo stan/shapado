@@ -4,12 +4,15 @@
 # Author: Ebraminio
 # Author: Huji
 # Author: MindHammerGames
+# Author: Reza1615
 # Author: ZxxZxxZ
 fa: 
   layouts: 
     application: 
+      all: همه
       ask_question: پرسیدن سوال
       badges: نشانها
+      faq: پرسش‌های متداول
       forgot: فراموش کردید؟
       home: خانه
       languages: زبان‌ها
@@ -22,6 +25,7 @@ fa:
       openid: 
         explaination: "اگر می‌خواهید ثبت نام کنید و یا وارد شوید لطفاً ارائه‌دهنده OpenID خود را انتخاب کنید:"
       pages: صفحه‌ها
+      preferred: ترجیح داده شده
       questions: سوال‌ها
       questions_in: سوالات در
       questions_tagged: برچسب خورده با
@@ -35,6 +39,7 @@ fa:
       users: کاربران
       welcome_from: خوش آمدید! شما می‌توانید
     manage: 
+      access: دسترسی
       actions: عملکردها
       announcements: اطلاعیه‌ها
       constrains: نیازمندی‌ها
@@ -42,6 +47,8 @@ fa:
       dashboard: داشبورد
       domain: دامنه
       general: عمومی
+      group_features: ویژگی ها
+      invitations: دعوت‌نامه‌ها
       members: اعضا
       pages: صفحه‌ها
       properties: ویژگی‌ها

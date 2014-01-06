@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Ebraminio
 # Author: MindHammerGames
+# Author: Reza1615
 fa: 
   notifier: 
     earned_badge: 
@@ -23,6 +24,7 @@ fa:
       message4: اگر به زودی پاسخی از شما دریافت نکنیم، از کس دیگری خواهیم پرسید. همچنان شما می توانید در هر زمانی به سوال جواب دهید.
     global: 
       hi: سلام %{user}،
+      hi_no_user: سلام ،
       user_page: صفحهٔ کاربر
     new_answer: 
       message: "%{user} به سوال %{question} پاسخ %{new_answer} را داده است"

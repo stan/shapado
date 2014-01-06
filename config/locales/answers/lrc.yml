@@ -14,9 +14,16 @@ lrc:
       answers: جواویا
   answers: 
     create: 
+      annon_notice: ای کارور ثوت نام کرده لطفن بیایت وا مئن.
       flash_notice: منمون
     edit: 
       title: ویرایشت جواو
     form: 
+      answer_label: وه سوال جواو دئیت
+      comment_label: سی ای جواو نظر بنیت
       comment_submit: نظر
       submit: جواو
+    revert: 
+      title: ؤرگشت جواو
+    update: 
+      flash_notice: جواو وا خوئی روز آمد بی.
