@@ -2,11 +2,18 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Runab
+# Author: Tauhid16
 bn: 
+  activerecord: 
+    models: 
+      activity: সক্রিয়তা
   activity: 
     asked: অনুরোধ করা হয়েছে
     changed: পরিবর্তিত
     created: নির্মিত
     deleted: মুছে ফেলা হয়েছে
     destroyed: মুছে ফেলা হয়েছে
+    flagged: পতাকাঙ্কিত
+    requested_to_close: বন্ধ করার জন্য আবেবন হয়েছে
+    requested_to_open: খোলার জন্য আবেদন হয়েছে
     updated: আপডেট করা হয়েছে

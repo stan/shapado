@@ -1,0 +1,31 @@
+# Messages for Bengali (বাংলা)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RIPENDIL
+# Author: Tauhid16
+bn: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: অংশ
+        created_at: তৈরী হয়েছিলো
+        link: সংযোগ
+    models: 
+      answer: উত্তর
+      answers: উত্তরসমূহ
+  answers: 
+    create: 
+      annon_notice: এই ব্যবহারকারী ইতিমধ্যেই নিবন্ধিত হয়েছেন, দয়া করে প্রবেশ করুন।
+      flash_error: "উত্তর যোগ করার ক্ষেত্রে কিছু একটা ভুল হয়েছে।\nমনে রাখবেন: \n-শূন্য এবং পুনরায় যোগ করা উত্তর প্রযোজ্য হবে না\n-আপনার অন্য আরেকটি প্রকাশের জন্য ২০ সেকেন্ড অপেক্ষা করতে হবে।\n-প্রতি প্রশ্নে উত্তর আপনি মাত্র একটি উত্তর প্রকাশ করতে পারবেন।"
+      flash_notice: ধন্যবাদ!
+    edit: 
+      title: উত্তর সম্পাদনা
+    form: 
+      answer_label: প্রশ্নটির উত্তর প্রদান
+      comment_label: এই উত্তরে মন্তব্য করুন
+      comment_submit: মন্তব্য
+      submit: উত্তর
+    revert: 
+      title: উত্তরটি প্রত্যাবর্তন করুন
+    update: 
+      flash_notice: আপনার উত্তরটি সফলভাবে হালনাগাদ হয়েছে।

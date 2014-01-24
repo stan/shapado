@@ -1,0 +1,21 @@
+# Messages for Bosnian (bosanski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Edinwiki
+bs: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Završava na
+        message: Poruka
+        only_anonymous: Samo za anonimne korisnike
+        starts_at: Počinje u
+  announcements: 
+    actions: 
+      delete: Ukloni
+      title: Akcije
+    create: 
+      success: Vaša najava je uspješno napravljena.
+    index: 
+      description: Napravite najave koja će biti prikazana na cijelom sajtu i upravljajte njima.
+      title: Najave

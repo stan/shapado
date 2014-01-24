@@ -3,6 +3,7 @@
 # Export driver: syck-pecl
 # Author: Hydra
 # Author: Liuxinyu970226
+# Author: Yfdyh000
 zh-CN: 
   activerecord: 
     attributes: 
@@ -10,10 +11,14 @@ zh-CN:
         role: 角色
   members: 
     create: 
+      error: 抱歉，用户**%{user_id}**不存在。
       notice: "%{login}成功作为%{role}添加。"
     form: 
+      destroy_confirm: 你确定吗？此用户将不再是此组的成员。
       login_tip: 搜索您键入
     index: 
       manage_members_title: 管理成员
       title: "%{name} 组的成员"
       title_isolate: "%{name} 的成员"
+    update: 
+      error: 抱歉，您没有足够的权限更改**%{login}'s**的成员资格。

@@ -5,6 +5,7 @@
 # Author: Hzy980512
 # Author: Liuxinyu970226
 # Author: Qiyue2001
+# Author: Yfdyh000
 zh-CN: 
   activerecord: 
     attributes: 
@@ -38,6 +39,7 @@ zh-CN:
     answer_toolbar: 
       flagged_by_you: 已由您标记
     create: 
+      already_registered: 使用电子邮箱%{email}的用户已经注册，请使用此邮箱登录。
       flash_notice: 这个问题已成功创建。
     disallow_spam: 
       error: 您需要等待 20 秒才能添加另一个问题。
@@ -120,6 +122,8 @@ zh-CN:
       flagged_as: 标记为
       flags: 据报
       follow_tooltip: 关注这个问题
+      follow_up: 关注
+      follow_up_description: 基于此帖创建一个新问题。
       history: 历史
       last_activity: 最新活动
       more_actions: 更多选项

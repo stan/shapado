@@ -62,6 +62,7 @@ qqq:
   time: 
     ago: "{{Identical|Ago}}"
     today: "{{Identical|Today}}"
+    yesterday: "{{Identical|Yesterday}}"
   views: 
     pagination: 
       first: "This shows at the bottom of the list of questions and link to the first page of the list.\n{{Identical|First}}"

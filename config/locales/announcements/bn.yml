@@ -1,0 +1,22 @@
+# Messages for Bengali (বাংলা)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RIPENDIL
+# Author: Tauhid16
+bn: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: শেষ হয়
+        message: বার্তা
+        only_anonymous: শুধুমাত্র নামহীন ব্যবহারকারীর জন্য
+        starts_at: শুরু হয়
+  announcements: 
+    actions: 
+      delete: অপসারণ
+      title: কার্যক্রম
+    create: 
+      success: আপনার ঘোষণাটি সফলভাবে তৈরি হয়েছে।
+    index: 
+      description: একটি ঘোষণা তৈরি ও পরিচালনা করুন সাইট ব্যাপি আপনার পরিদর্শকদের দেখানো হবে।
+      title: ঘোষণাসমূহ
