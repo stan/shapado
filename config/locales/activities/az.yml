@@ -1,0 +1,20 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+# Author: Sortilegus
+az: 
+  activerecord: 
+    models: 
+      activities: Fəaliyyəti
+      activity: Fəaliyyət
+  activity: 
+    asked: istədi
+    changed: dəyişdirildi
+    created: yaradıldı
+    deleted: silindi
+    destroyed: silindi
+    flagged: bayraqlı
+    requested_to_close: bağlamaq üçün tələb
+    requested_to_open: açmaq üçün tələb
+    updated: yeniləndi

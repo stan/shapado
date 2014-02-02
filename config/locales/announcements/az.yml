@@ -1,0 +1,19 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+# Author: Sortilegus
+az: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Bitir
+        message: Mesaj
+        only_anonymous: Yalnız anonim istifadəçilər üçün
+        starts_at: Başlayır
+  announcements: 
+    actions: 
+      delete: Sil
+      title: Fəaliyyətlər
+    index: 
+      title: Elanlar

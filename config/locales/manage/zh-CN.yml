@@ -6,6 +6,7 @@
 # Author: Junmin
 # Author: Liuxinyu970226
 # Author: Qiyue2001
+# Author: Yfdyh000
 zh-CN: 
   admin: 
     manage: 
@@ -18,6 +19,7 @@ zh-CN:
         logo_legend: 上传您的组的徽标。它必须小于2MB。
         title: 选择并自定义您的主题
       close_group: 
+        description: 关闭该组将使除您之外的任何人无法访问。
         feedback: 请告诉我们您为什么要关闭您的组合：
       content: 
         footer: 页脚
@@ -96,6 +98,7 @@ zh-CN:
           disconnect_twitter_group: 从推特取消关联此组
           twitter_account: Twitter帐户
         twitter_app: 
+          key: 应用密钥
           secret: 应用程序密钥
           twitter_app: 维特应用程序
       questions: 
@@ -104,11 +107,13 @@ zh-CN:
       social: 
         ask_from_twitter: 从推特上问问题
         ask_from_twitter_title: 允许您的用户从推特上问问题
+        description: 连接您的组到您的社交网络
         facebook_app: 脸书应用程序
         post_to_twitter: 在维特上推文
         post_to_twitter_title: 自动在推特上推文所有问题和答案
         tag_your_tweets: 标记你的推文
         tag_your_tweets_title: 在您的推文上添加标签
+        title: 社交媒体互动
         twitter_account: 推特账户
       top_admin: 
         site: 网站

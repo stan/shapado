@@ -1,4 +1,4 @@
-# Messages for Azerbaijani (Azərbaycanca)
+# Messages for Azerbaijani (azərbaycanca)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Cekli829
@@ -7,6 +7,7 @@ az:
   activerecord: 
     attributes: 
       answer: 
+        body: Mətn
         link: Keçid
     models: 
       answer: Cavab
