@@ -1,6 +1,7 @@
 # Messages for Brazilian Portuguese (português do Brasil)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Anaclaudiaml
 # Author: Dianakc
 # Author: Giro720
 # Author: Leosls
@@ -10,20 +11,27 @@
 pt-BR: 
   layouts: 
     application: 
+      all: Todas
       ask_question: Faça uma pergunta
       badges: Condecorações
       by_me: Por mim
       collaborate: Colaborou
       contributed: Contribuiu
+      faq: Perguntas frequentes
+      feed: Seguido
       follow_us_and_share: Siga e compartilhe
+      followed: Seguido
       forgot: Esqueceu?
       home: Início
+      join_group: Una-se %{group}
       languages: Línguas
       log_in: Entrar
       logged: Autenticado como %{login}
       logout: Sair
       manage_ads: Gerenciar anúncios
       moderate: Moderar
+      need_to_signin: Você precisa iniciar a sessão primeiro.
+      not_member_join_dialog: Você precisa curtir %{group} para completar essa ação, clique aqui para curtir.
       now: agora!
       openid: 
         explaination: "Se pretende registar-se ou entrar, selecione o seu provedor de OpenID, por favor:"
@@ -37,6 +45,7 @@ pt-BR:
       settings: Preferências
       signup: Registar-se
       subscribe: Inscrever-se
+      success_joining_group: Você agora é um membro do %{group}, obrigada por unir-se.
       tags: Tags
       title: Perguntas e Respostas
       unanswered: Sem resposta
@@ -47,17 +56,22 @@ pt-BR:
       actions: Ações
       announcements: Anúncios
       appearance: Aparência
+      close_group: Fechar grupo
       constrains: Requisitos
       content: Conteúdo
       dashboard: Painel de controle
       domain: Domínio
+      edit_layout: Editar Layout
       general: Geral
+      group_features: Funcionalidades
+      group_user_management: Administração de usuário
       invitations: Convites
       members: Membros
       pages: Páginas
       properties: Propriedades
       reputation: Reputação
       rewards: Recompensas
+      site_management: Administração do Site
       social: Social
       stats: Estatísticas
       theme: Tema

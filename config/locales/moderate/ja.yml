@@ -1,11 +1,12 @@
 # Messages for Japanese (日本語)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Shirayuki
 ja: 
   admin: 
     moderate: 
       index: 
-        all: 全て
+        all: すべて
         ban: 弾く
         banned: 弾かれた質問
         content: 内容
@@ -13,3 +14,7 @@ ja:
         item_title: タイトル
         need_tags: タグの編集
         title: モデレート
+  moderate: 
+    questions: 
+      flagged: 
+        filters: "フィルター:"

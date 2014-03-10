@@ -7,14 +7,15 @@ haw:
     attributes: 
       announcement: 
         ends_at: Hoʻopau ma
-        message: Memo
-        only_anonymous: No nā mea hoʻohana ʻike inoa ʻole wale nō
+        message: Pūlono
+        only_anonymous: No nā mea hoʻohana inoa ʻole wale nō
         starts_at: Hoʻomaka ma
   announcements: 
     actions: 
-      delete: Kāpae
+      delete: Wehe
       title: Hana
     create: 
-      success: Ua hana pono ʻia ka hoʻolaha nū hou.
+      success: Ua haku pono ʻia kāu hoʻolaha.
     index: 
-      title: Hoʻolaha nū hou
+      description: Hoʻoponopono a haku i nā hoʻolaha nou e hōʻike ana i ke kahua holoʻokoʻa i nā malahini.
+      title: Hoʻolaha Nūhou

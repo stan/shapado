@@ -1,4 +1,4 @@
-# Messages for Hungarian (Magyar)
+# Messages for Hungarian (magyar)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Dani
@@ -16,7 +16,6 @@ hu:
       with_linked_in: LinkedInnel
       with_openid: OpenID-vel
       with_twitter: Twitterrel
-      with_user_pass: felhasználónév/jelszó
     manage_navigation: 
       title_content: Csoport-tartalom
       title_options: Csoport beállításai

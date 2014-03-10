@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Linkr
+# Author: 아라
 ko: 
   admin: 
     manage: 
@@ -17,7 +18,7 @@ ko:
         constrains: 
           reputation_constrains_description: 어떤 액션을 수행할 권한을 얻는데 필요한 Reputation 포인트를 설정하는 양식입니다.
           reputation_constrains_subtitle: 각 액션에 대한 명성 제약 항목 리스트
-          title: 제약
+          title: 필요 조건
         domain: 
           description: "귀하의 사이트를 통해 접근할 수 있도록 사이트를 mapping할 수 있습니다:"
           instruction1: " 먼저 귀하의 도메인 공급자, 귀하가 도메인을 구입하신 사이트에 로그온 해야합니다 (가령, %{subdomain}.com)."
@@ -36,6 +37,3 @@ ko:
           title: 보상
         share: 
           title: 공유
-        theme: 
-          logo_legend: 2MB 이하의 로고 이미지를 업로드하세요.
-          title: 그룹의 테마 설정

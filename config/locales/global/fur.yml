@@ -1,4 +1,4 @@
-# Messages for Friulian (Furlan)
+# Messages for Friulian (furlan)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Klenje
@@ -26,9 +26,6 @@ fur:
       one: "%{count} volte"
       other: "%{count} voltis"
       zero: Mai
-  pagination: 
-    next: Sucessîf &raquo;
-    previous: "&laquo; Precedent"
   scaffold: 
     add: Zonte
     back: Indaûr

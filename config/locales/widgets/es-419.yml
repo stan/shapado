@@ -1,6 +1,7 @@
-# Messages for Latin American Spanish (espanol de America Latina)
+# Messages for Latin American Spanish (español de America Latina)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Dalton2
 # Author: Patcito
 es-419: 
   widgets: 
@@ -11,7 +12,7 @@ es-419:
       description: Este widget muestra los últimos grupos registrados
       title: Grupos recientes
     index: 
-      description: Usar las flechas para mover los widgets
+      description: Usar las flechas para trasladar los artilugios (widgets)
       title: Administrar los widgets de la barra lateral
     pages: 
       description: Este widget muestra las paginas wiki

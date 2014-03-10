@@ -1,11 +1,32 @@
-# Messages for Brazilian Portuguese (Português do Brasil)
+# Messages for Brazilian Portuguese (português do Brasil)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Giro720
+# Author: Luckas
 pt-BR: 
   shared: 
+    any_lang: Qualquer língua
+    by_anon: Por anônimo
     current_tags: 
       title: Etiquetas selecionadas
+    date: Data
+    description: Descrição
+    empty: 
+      themes: 
+        description: 
+          action_link: agora
+    filter: "Filtro:"
+    language: "Língua:"
+    languages: "Línguas:"
+    login_drop_down: 
+      with_facebook: com Facebook
+      with_google: com Google
+      with_identica: com Identi.ca
+      with_linked_in: com LinkedIn
+      with_openid: OpenID
+      with_twitter: com Twitter
+    name: Nome
+    preferred_lang: Meus idiomas preferidos
     topbar: 
       admin: Admin
       logged_as: Iniciada sessão como %{login}

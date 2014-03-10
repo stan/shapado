@@ -1,4 +1,55 @@
-qqq:
-  questions:
-    question:
-      answer_verb: 'this is the verb Answer, eg. it should be translated Répondre or Responder in French and Spanish instead of réponse and respuesta'
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+# Author: EugeneZelenko
+# Author: Kghbln
+# Author: Shirayuki
+# Author: Siebrand
+qqq: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: "This message can only handle two rows with a maximum of 9 characters each. Please use line breaks to fit in the translation.\n{{Identical|Answer}}"
+        body: "{{Identical|Body}}"
+        closed: "{{Identical|Closed}}"
+        language: "{{Identical|Language}}"
+        title: "{{Identical|Title}}"
+        updated_at: "{{Identical|Updated}}"
+        views: "This message can only handle two rows with a maximum of 9 characters each. Please use line breaks to fit in the translation.\n{{Identical|View}}"
+        votes: "This message can only handle two rows with a maximum of 9 characters each. Please use line breaks to fit in the translation.\n{{Identical|Vote}}"
+    models: 
+      question: "{{Identical|Question}}"
+      questions: "{{Identical|Question}}"
+  questions: 
+    answer: 
+      favorite: "{{Identical|Save}}"
+      flag: "{{Identical|Flag}}"
+    form: 
+      remove_attachment: "{{Identical|Remove}}"
+    index: 
+      active: "{{Identical|Active}}"
+      help_to_answer: This message ist followed by {{msg-shapado|Questions-questions.index.unanswered questions}}. → Help us answer unanswered questions. (message is located on main page, bottom, left side)
+      hot: "{{Identical|Hot}}"
+      newest: "{{Identical|Newest}}"
+      oldest: "{{Identical|Oldest}}"
+      unanswered_questions: This message is preceeded by {{msg-shapado|Questions-questions.index.help to answer}} → Help us answer unanswered questions. (message is located on main page, bottom, left side)
+      votes: "{{Identical|Vote}}"
+    move: 
+      submit: "{{Identical|Move}}"
+    question: 
+      answer_verb: "this is the verb Answer, eg. it should be translated Répondre or Responder in French and Spanish instead of réponse and respuesta.\n{{Identical|Answer}}"
+    retag_form: 
+      cancel: "{{Identical|Cancel}}"
+    shared: 
+      flag: "{{Identical|Flag}}"
+    show: 
+      answers: "{{Identical|Answer}}"
+      close: "{{Identical|Close}}"
+      flag: "{{Identical|Flag}}"
+      history: "{{Identical|History}}"
+      open: "Assuming \"button text\" that will show open questions when clicked.\n{{Identical|Open}}"
+      requested_close_as: Followed by parameter. Might be a dropdown, in which case ending this message with a colon is probably better.
+      to_answer_question: unused?
+    toolbar: 
+      requests: "{{Identical|Request}}"

@@ -1,6 +1,7 @@
 # Messages for Brazilian Portuguese (português do Brasil)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Anaclaudiaml
 # Author: Giro720
 # Author: Luckas
 # Author: Luckas Blade
@@ -30,9 +31,11 @@ pt-BR:
         signup_type: "Os métodos que podem usar os usuários para se registrar:"
         state: Estado
         subdomain: Url
+        track_users: Pergunte aos usuários a sua localização física.
         wysiwyg_editor: Ativar editor amigável para o usuário
     models: 
       default_tags_message: Não pode ter mais do que 10 tags predefinidas
+      duplicate_domain_message: Desculpa, mas esse domínio já se encontra em uso.
       group: Grupo
       groups: Grupos
       reputation_rewards_answer_constrain: A restrição para responder com recompensas deve ser negativa
@@ -44,6 +47,8 @@ pt-BR:
       success_twitter_connection: Parabéns, você conectou com êxito a sua conta do Twitter!
     create: 
       flash_notice: O seu grupo foi criado, pode agora começar a configurá-lo.
+    downgrade: 
+      notice: Você cancelou sua subscrição com sucesso, agora você está utilizando nosso plano gratuito.
     edit: 
       title: Editar seu grupo
     form: 
@@ -96,3 +101,5 @@ pt-BR:
       active_site: "Site ativo:"
     update: 
       notice: Seu grupo foi atualizado com sucesso.
+    upgrade: 
+      error: Você já está subscrito neste plano

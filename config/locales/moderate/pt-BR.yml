@@ -1,7 +1,9 @@
-# Messages for Brazilian Portuguese (Português do Brasil)
+# Messages for Brazilian Portuguese (português do Brasil)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Anaclaudiaml
 # Author: Giro720
+# Author: Luckas
 # Author: Vgeorge
 pt-BR: 
   admin: 
@@ -15,3 +17,17 @@ pt-BR:
         item_title: Título
         need_tags: Modificar tag
         title: Moderar
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Proibido
+        banned_tooltip: Mostrar somente perguntas proibidas
+        filters: "Filtros:"
+        unbanned: Sem proibição
+        unbanned_tooltip: Mostrar somente perguntas não proibidas
+      subtabs: 
+        flagged: Marcada
+        flagged_tooltip: Perguntas marcadas pelos usuários
+        retag: Necessita de marcações
+        retag_tooltip: Perguntas sem marcações
+        to_close: Solicitações de fechamento

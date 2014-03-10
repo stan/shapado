@@ -1,12 +1,22 @@
 # Messages for Persian (فارسی)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Ebraminio
 # Author: MindHammerGames
+# Author: Reza1615
 fa: 
   shared: 
+    any_lang: هر زبان
     current_tags: 
       title: برچسب های انتخاب شده
+    date: تاریخ
+    description: توضیحات
+    filter: "فیلتر:"
+    language: "زبان:"
+    languages: "زبان‌ها:"
+    name: نام
+    preferred_lang: زبان ترجیح داده شدهٔ من
     topbar: 
       admin: مدیر
-      logged_as: وارد شده به عنوان %{login}
+      logged_as: وارد شده به‌عنوان %{login}
       user_page: صفحه من

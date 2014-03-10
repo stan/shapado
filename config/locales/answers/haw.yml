@@ -7,23 +7,24 @@ haw:
     attributes: 
       answer: 
         body: Kino
-        created_at: Pane ʻia
+        created_at: Haku ʻia ma
         link: Loulou
     models: 
       answer: Pane
-      answers: Pane
+      answers: Nā Pane
   answers: 
     create: 
-      flash_error: "Ua hewa ka hoʻohui ʻana i kāu pane.\nHoʻomanaʻo e pili ana:\n- ʻAe ʻole i nā pane hakahaka a kākau hou.\n- Pono ʻoe e kali no 20 mau kekona ma mua o kou hoʻokmo pane hou ʻana.\n- Hiki iā ʻoe ke hoʻokomo i hoʻokahi pane wale nō no kekahi nīnau."
+      annon_notice: Ua kāinoa ʻia ka mea hoʻohana, ʻeʻe i loko ke ʻoluʻolu.
+      flash_error: "Ua hewa ka hoʻohui ʻana i kāu pane.\nHoʻomanaʻo e pili ana:\n- ʻAe ʻole i nā pane hakahaka a kākau houahou.\n- Pono ʻoe e kali no 20 mau kekona ma mua o kou hoʻokomo pane hou ʻana.\n- Hiki iā ʻoe ke hoʻokomo i hoʻokahi pane wale nō no kekahi nīnau."
       flash_notice: Mahalo!
     edit: 
-      title: Ke hoʻoponopono nei i ka pane
+      title: Hoʻoponopono nei i ka pane
     form: 
       answer_label: Pane i kēia nīnau
-      comment_label: Manaʻo puka i kēia pane
-      comment_submit: Manaʻo
+      comment_label: Kaumanaʻo i kēia pane
+      comment_submit: Kaumanaʻo
       submit: Pane
     revert: 
-      title: Hoʻi hope i ka pane
+      title: Hoʻihoʻi i ka pane mamua
     update: 
-      flash_notice: Ua hoʻohou ʻia kēia pane.
+      flash_notice: Ua hoʻopuka hou ʻia kēia pane.

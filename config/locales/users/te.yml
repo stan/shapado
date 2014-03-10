@@ -17,7 +17,7 @@ te:
         fullname: పూర్తి పేరు
         hide_country: నా దేశాన్ని చూపించకు
         language: భాష
-        login: వాడుకరిపేరు
+        login: వాడుకరి పేరు
         name: అసలు పేరు
         password: సంకేతపదం
         password_confirmation: సంకేతపదపు నిర్ధారణ
@@ -52,6 +52,7 @@ te:
       title: కొత్త వాడుకరిగా నమోదవ్వండి
     show: 
       follow: అనుసరించు
+      followers: అనుచరులు
       title: వాడుకరి %{user}
       views: వీక్షణలు
     unfollow: 

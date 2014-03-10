@@ -1,6 +1,7 @@
 # Messages for Brazilian Portuguese (português do Brasil)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Anaclaudiaml
 # Author: Giro720
 pt-BR: 
   activerecord: 
@@ -8,9 +9,15 @@ pt-BR:
       member: 
         role: Função
   members: 
+    create: 
+      error: Desculpe, o usuário **%{user_id}** não existe.
+      notice: "%{login} foi adicionado com sucesso como %{role}."
     form: 
+      destroy_confirm: Você tem certeza? Este usuário não será mais um membro deste grupo.
       login_tip: Procurar enquanto escreve
     index: 
       manage_members_title: Gerenciar membros
       title: Membros do grupo de %{name}
       title_isolate: Membros de %{name}
+    update: 
+      error: Desculpa, você não tem permissões necessárias para alterar **%{login}'s** o conjunto de usuários.

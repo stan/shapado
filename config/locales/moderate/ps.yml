@@ -5,8 +5,16 @@
 ps: 
   admin: 
     moderate: 
+      closing: 
+        title: تړلې پوښتنه
       index: 
         all: ټول
-        ban: بنديز لګول
-        content: منځپانګه
+        ban: بنديز لگول
+        content: منځپانگه
         item_title: سرليک
+      opening: 
+        title: پرانيستې پوښتنه
+  moderate: 
+    questions: 
+      flagged: 
+        filters: "چاڼگرونه:"

@@ -1,10 +1,28 @@
 # Messages for Japanese (日本語)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Shirayuki
 ja: 
   shared: 
+    any_lang: すべての言語
     current_tags: 
       title: 選択しているタグ
+    date: 日付
+    description: 説明
+    empty: 
+      filtered_questions: 
+        description: 
+          action_link: すべての質問を表示するにはここをクリック
+    filter: "フィルター:"
+    language: "言語:"
+    languages: "言語:"
+    login_drop_down: 
+      openid_url: OpenID URL
+      with_openid: OpenID
+    manage_navigation: 
+      title_options: グループのオプション
+    name: 名前
+    preferred_lang: 優先言語
     topbar: 
       admin: 管理者
       logged_as: "%{login}としてログイン中"

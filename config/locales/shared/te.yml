@@ -6,6 +6,10 @@ te:
   shared: 
     current_tags: 
       title: ఎంచుకున్న ట్యాగులు
+    description: వివరణ
+    login_drop_down: 
+      with_openid: ఓపెన్ఐడీ
+    name: పేరు
     topbar: 
       admin: నిర్వహణ
       logged_as: "%{login} వలె ప్రవేశించారు"

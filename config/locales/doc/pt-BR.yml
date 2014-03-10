@@ -1,6 +1,7 @@
 # Messages for Brazilian Portuguese (português do Brasil)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Anaclaudiaml
 # Author: Dianakc
 # Author: Giro720
 # Author: Luckas
@@ -17,9 +18,13 @@ pt-BR:
       all_support: Suporte baseado na internet, e-mail, canais de conversação e telefone
       basic: Básico
       basic_restrictions: Sem anúncios personalizados e sem interface totalmente personalizável
+      basic_styling: Aparência personalizada e funções
+      basic_styling_tip: Altere facilmente a cor do tema do seu site, adicione a sua própria logo e ainda modifique o código CSS.
       big_sites: Sites de Alto Tráfego
       custom_ads: Usar seus próprios anúncios
+      custom_ads_tip: Utilize os seus próprios anúncios e comece a ganhar dinheiro!
       custom_analytics: Estatísticas de tráfego
+      custom_analytics_tip: Utilize o Google Analytics e conheça melhor os seus visitantes.
       custom_domain: Domínio personalizado
       custom_domain_tip: Use seu próprio domínio, como suaempresa.com em vez de suaempresa.shapado.com
       custom_html: HTML personalizado
@@ -41,6 +46,7 @@ pt-BR:
       private: Privado
       private_private: Acesso restrito
       private_site: Permitir acesso público/privado
+      private_tip: Somente você e os usuários que você convidou para o seu site tem acesso garantido. Perfeito para as empresas.
       small_basic: Primeiros passos
       start_monetizing: Comece a lucrar
       support: Suporte

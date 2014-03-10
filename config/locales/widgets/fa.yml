@@ -3,26 +3,35 @@
 # Export driver: syck-pecl
 # Author: Ebraminio
 # Author: MindHammerGames
+# Author: Reza1615
 fa: 
   widgets: 
+    about: 
+      title: درباره
     badges: 
       description: این ویدجت نشانهای اخیرا دریافت شده به وسیله سوالات یا کاربران را نشان می دهد
       title: نشانهای اخیر
     groups: 
-      description: این ویدجت گروه های اخیر را نشان می دهد
+      description: این ویدجت گروه های اخیر را نشان می‌دهد
       title: گروه های اخیر
     index: 
       description: از فلشها برای حرکت دادن ویدجتها استفاده کنید
+      footer: پاصفحه
+      header: سربرگ
+      question_widgets: پرسش
       title: مدیریت ویدجتهای نوار کناری
+      welcome_widgets: خوش آمدید
     pages: 
-      description: این ویدجت فهرست صفحات ویکی را نشان می دهد
+      description: این ویجت فهرست صفحات ویکی را نشان می‌دهد
       new: اضافه کردن صفحه جدید
       title: صفحات ویکی
     tag_cloud: 
-      description: این ویدجت یک ابر برچسب را نشان می دهد
+      description: این ویجت یک ابر برچسب را نشان می‌دهد
       title: ابر برچسب
+    tag_list: 
+      title: برچسب‌ها
     top_groups: 
-      description: این ویدجت ۵ گروه برتر را نشان می دهد
+      description: این ویدجت ۵ گروه برتر را نشان می‌دهد
       title: ۵ گروه برتر
     top_users: 
       description: این ویدجت ۵ کاربر برتر را نشان می‌دهد

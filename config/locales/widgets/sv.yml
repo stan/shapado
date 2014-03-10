@@ -1,19 +1,63 @@
-# Messages for Swedish (Svenska)
+# Messages for Swedish (svenska)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: The real emj
 # Author: Tobulos1
+# Author: WikiPhoenix
 sv: 
   widgets: 
+    adsense: 
+      description: Denna Widget låter dig visa Google AdSense reklam,
+      title: AdSense
+    ask_question: 
+      ask: Fråga
+      description: Denna widget låter användare ställa frågor var ifrån som helst
+      footer: Visa alla frågor i %{group}
+      title: "Ställ en fråga:"
+    badges: 
+      description: Denna widget visar de senaste emblem som har tjänas av användare.
+      title: Senaste emblem
+    current_tags: 
+      description: Denna widget visar taggar som den nuvarande användaren följer
+    custom_html: 
+      description: Lägg till vilken HTML kod du vill här
     groups: 
       description: Denna widget visar de senaste grupperna
       title: Senaste grupperna
     index: 
       description: Använd pilarna för att flytta dina widgets
       title: Hantera sidebar widgets
+    mod_info: 
+      description: Denna widget visar information relevant för moderatorer så som flaggningar och anmälningar.
     pages: 
       description: Denna widget visar en lista över wiki-sidor
       new: Lägg till en ny sida
       title: Wiki-sidor
+    question_badges: 
+      description: Denna widget visar "badges" som man fått på den frågan.
+    question_stats: 
+      description: Denna widget visar statistik för en fråga, så som datum, och antal visningar.
+    question_tags: 
+      description: Denna widget visar taggar som berör den nuvarande sidan.
+      title: Frågo Taggar
+    related_questions: 
+      description: Denna widget visar en lista med frågor som anses relevant för den aktuella frågan.
+      title: Närliggande frågor
+    settings: 
+      code: "Kopiera och klistra in denna kod på dins site eller blog, så som en text widget på din Wordpress:"
+      custom_external_css: "Inkludera anpassad CSS till din widget (är bra om du inte includerar Shapado CSS):"
+      custom_html: "Anpassad HTML:"
+      limit: "Mängd som du vill visa:"
+      on_questions: Visa på huvudlistan med frågor
+      on_show_question: Visa när ett svar visas
+      on_welcome: Visa på välkomstsidan
+      preview: "Förhandsgransking av Widget:"
+    sharing_buttons: 
+      description: Denna widget visa socialamedier delningknappar
+      title: "Dela detta med:"
+    tag_list: 
+      description: Denna widget visar taggar relaterade till den aktuella sidan
+      title: Taggar
     top_groups: 
       description: Denna widget visar de fem största grupperna
       title: Topp 5 grupper

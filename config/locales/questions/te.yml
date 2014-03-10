@@ -27,6 +27,8 @@ te:
     form: 
       adult_content: ఈ ప్రశ్నలో పెద్దలకు మాత్రమే సంబంధించిన సమాచారం ఉంది.
       body_tip: మీ ప్రశ్న ఏమిటి? వివరంగా అడగండి.
+    history: 
+      back: ← తిరిగి ప్రశ్నకి
     index: 
       active: క్రియాశీలం
       active_tooltip: ఇటీవల తాజాకరించబడిన ప్రశ్నలు
@@ -46,27 +48,29 @@ te:
     new: 
       how_to_ask: ఎలా అడగాలి
       title: ప్రశ్నని అడగండి
+    question: 
+      answer_verb: జవాబివ్వండి
+      wiki_title: "వికీ: %{title}"
     retag_form: 
       cancel: రద్దుచేయి
     show: 
       another_answers: ఇతర జవాబులు
       answers: జవాబులు
-      answers_title: 
-        one: "%{count} జవాబు"
-        other: "%{count} జవాబులు"
       close: మూసివేయి
       close_reason: "ఈ కారణం చేత ఈ ప్రశ్నని మూసివేసారు:"
+      history: చరిత్ర
       last_activity: ఇటీవలి కలాపం
+      more_actions: మరిన్ని చర్యలు
       related_questions: సంబంధిత ప్రశ్నలు
       request_closing_details: ఈ ప్రశ్నని మూసివేయమని అభ్యర్థించండి
       share: ఈ ప్రశ్నని పంచుకోండి
       share_on: ఈ ప్రశ్నని  %{site}లో పంచుకోండి
       solution: పరిష్కారం
-      unfavorite_tooltip: ఈ ప్రశ్నని మీ ఇష్టాంశాల నుండి తొలగించండి
-      unwatch_tooltip: ఈ ప్రశ్నని గమనించడం మానివేయండి
-      watch_tooltip: ఈ ప్రశ్నని గమనించండి
     tags: 
       title: ట్యాగులు
+    toolbar: 
+      more_actions: మరిన్ని చర్యలు
+      requests: అభ్యర్థనలు
     unanswered: 
       empty: ఈ గుంపులో జవాబు కోసం ఎదురుచూస్తున్న ప్రశ్నలేమీ లేవు.
       expert: నిపుణులు

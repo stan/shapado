@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hamilton Abreu
+# Author: Imperadeiro98
 # Author: Luckas
 pt-PT: 
   activerecord: 
@@ -16,6 +17,6 @@ pt-PT:
       delete: Remover
       title: Ações
     create: 
-      success: A notificação do site foi criada.
+      success: O seu anúncio foi criado com êxito.
     index: 
       title: Notificações do site

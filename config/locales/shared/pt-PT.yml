@@ -1,12 +1,34 @@
-# Messages for Portuguese (Português)
+# Messages for Portuguese (português)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Hamilton Abreu
+# Author: Luckas
 pt-PT: 
   shared: 
+    any_lang: Qualquer língua
+    by_anon: Por anônimo
     current_tags: 
-      title: Categorias seleccionadas
+      title: Categorias selecionadas
+    date: Data
+    description: Descrição
+    empty: 
+      themes: 
+        description: 
+          action_link: agora
+    filter: "Filtro:"
+    language: "Língua:"
+    languages: "Línguas:"
+    login_drop_down: 
+      with_facebook: com Facebook
+      with_google: com Google
+      with_identica: com Identi.ca
+      with_linked_in: com LinkedIn
+      with_openid: OpenID
+      with_twitter: com Twitter
+    name: Nome
+    preferred_lang: Meus idiomas preferidos
     topbar: 
       admin: Administrar
       logged_as: Iniciou sessão como %{login}
       user_page: A minha página
+    view_mode: "Modo de exibição:"

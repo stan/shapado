@@ -1,6 +1,7 @@
 # Messages for Persian (فارسی)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Ebraminio
 # Author: MindHammerGames
 fa: 
   sessions: 
@@ -8,7 +9,7 @@ fa:
       flash_error: نمی توانیم شما را به عنوان ''%{login}' وارد کنیم
       flash_notice: با موفقیت وارد شدید
     destroy: 
-      flash_notice: شما از سیستم خارج شده اید.
+      flash_notice: شما از سامانه خارج شده‌اید.
     new: 
       log_in: ورود
       not_registered: هنوز ثبت نام نکرده اید؟
@@ -16,7 +17,7 @@ fa:
       remember_me: مرا به خاطر بسپار
       sign_in: ورود
       signup: ثبت نام
-      with_authentication: با سیستم تایید اعتبار ما وارد شوید
+      with_authentication: با سامانهٔ تأیید اعتبار ما وارد شوید
       with_facebook: با فیس بوک وارد شوید
       with_openid: با استفاده از OpenID وارد شوید
       with_twitter: با استفاده از تویتر وارد شوید

@@ -1,29 +1,62 @@
 # Messages for Japanese (日本語)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Fryed-peach
+# Author: Shirayuki
 ja: 
   widgets: 
+    about: 
+      title: 解説
+    adsense: 
+      title: AdSense
     badges: 
-      description: ユーザまたは質問が獲得した最新のバッジを一覧
+      description: このウィジェットは、ユーザが最近獲得したバッジを表示します。
+      see_all: すべてのバッジを表示
       title: 最近のバッジ
+    create: 
+      notice: ウィジェットを作成しました。
+    edit: 
+      title: ウィジェットの編集
     groups: 
-      description: 最近登録されたグループを一覧します
+      description: このウィジェットは、最近登録されたグループを表示します。
       title: 最近登録されたグループ
     index: 
       description: 矢印を使ってウィジェットの表示位置を変更できます
-      title: サイドバーウィジェットの編集
+      external_widgets: 外部
+      footer: フッター
+      header: ヘッダー
+      name: ウィジェット名
+      navbar: ナビゲーション バー
+      question_widgets: 質問
+      sidebar: サイド バー
+      title: サイドバー ウィジェットの管理
+      type: "種類:"
+      welcome_widgets: ようこそ
     pages: 
-      description: Wikiページを表示します
+      description: このウィジェットは、Wikiページの一覧を表示します。
       title: Wikiページ
+    related_questions: 
+      title: 関連する質問
+    settings: 
+      custom_html: "カスタム HTML:"
+    suggestions: 
+      follow_tag: + タグをフォロー
+      follow_user: + ユーザをフォロー
+      unfollow_tag: "- タグをフォロー解除"
+      unfollow_user: "- ユーザをフォロー解除"
     tag_cloud: 
-      description: タグクラウドを表示します
-      title: タグクラウド
+      description: このウィジェットは、タグ クラウドを表示します。
+      title: タグ クラウド
+    tag_list: 
+      title: タグ
     top_groups: 
-      description: トップ5のグループを表示します
-      title: トップ5グループ
+      description: このウィジェットは、上位の 5 グループを表示します。
+      title: 上位 5 グループ
     top_users: 
-      description: トップ5のユーザを表示します
-      title: トップ5ユーザ
+      description: このウィジェットは、上位の 5 ユーザを表示します。
+      title: 上位 5 ユーザ
+    update: 
+      notice: ウィジェットを更新しました。
     users: 
-      description: 新しく登録したユーザを表示します
+      description: このウィジェットは、新たに登録したメンバーを表示します。
       title: 最近登録したユーザ

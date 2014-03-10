@@ -1,11 +1,13 @@
-# Messages for Danish (Dansk)
+# Messages for Danish (dansk)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Emilkris33
+# Author: Luckas
 da: 
   shared: 
     current_tags: 
       title: Udvalgte tags
+    description: Beskrivelse
     topbar: 
       admin: Admin
       logged_as: Logget ind som %{login}

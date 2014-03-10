@@ -1,7 +1,8 @@
-# Messages for Hungarian (Magyar)
+# Messages for Hungarian (magyar)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Dani
+# Author: Dj
 hu: 
   admin: 
     manage: 
@@ -28,25 +29,16 @@ hu:
           warning: Biztosan meg szeretnéd változtatni a domainnevedet?
         general: 
           title: Csoport tulajdonságai
+        invite: 
+          body_length_warning: A törzs nem tartalmazhat 400-nál több karaktert
+          emails_instructions: Add meg az email címeket vesszővel elválasztva
+          title: Emberek meghívása email segítségével
         rewards: 
           reputation_rewards_description: Ezen az űrlapon beállíthatod, hogy a felhasználók hogyan kaphatnak vagy veszíthetnek hírnévpontokat egy adott művelet elvégzése esetén
           reputation_rewards_subtitle: Hírnévjutalmak listája
           title: Jutalmak
         share: 
-          add_tags: Adj egy taget a tweetjeidhez
-          application_id: Alkalmazás azonosítója
-          asking_from_twitter: Kérdés feltevése Twitterről
-          ends_with_example: "pl. #shapado"
-          facebook_app: Facebook-alkalmazás beállításai
-          question_must_include: A kérdésnek tartalmaznia kell a következő címkéket a tweeteléshez
-          question_must_include_example: "pl. #iAsk"
-          secret_key: Titkos kulcs
-          starts_with_example: "pl. #qa"
           title: Megosztás
-          title_on_dlvr: Megosztás a dlvr.it-en
-          tweet_ends_with: Helyezz el egy címkét a tweetjeid mögé
-          tweet_starts_with: Helyezz el egy címkét a tweetjeid elé
-          twitter_account: A Twitter-fiók, akihez a felhasználók intézik majd a kérdéseket.
-        theme: 
-          logo_legend: Tölts fel egy logót a csoport számára. Legfeljebb 2MB lehet.
-          title: Csoport témájának beállítása
+        title: Csoport tulajdonságai
+      social: 
+        facebook_app: Facebook alkalmazás

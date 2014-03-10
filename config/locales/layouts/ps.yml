@@ -5,8 +5,10 @@
 ps: 
   layouts: 
     application: 
+      all: ټول
       ask_question: پوښتنه پوښتل
       badges: نښانونه
+      faq: ډ-ځ-پ
       forgot: هېر شوی دې دی؟
       home: کور
       languages: ژبې
@@ -23,10 +25,15 @@ ps:
       users: کارنان
       welcome_from: ښه راغلاست! تاسې کولای شی چې
     manage: 
+      access: لاسرسی
+      actions: کړنې
       announcements: خبرتياوې
+      appearance: ښکارېدنه
       constrains: غوښتنې
-      content: منځپانګه
+      content: منځپانگه
       domain: شپول
+      invitations: بلنې
       members: غړي
       pages: مخونه
       properties: ځانتياوې
+      social: ټولنيز

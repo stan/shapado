@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Erdemaslancan
+# Author: Mirzali
 diq: 
   activerecord: 
     models: 
@@ -16,4 +17,4 @@ diq:
     flagged: nışan biyo
     requested_to_close: Waştışê cı racnê
     requested_to_open: Waştışê cı ake
-    updated: Newenyaya
+    updated: bi rocane

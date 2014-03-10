@@ -1,8 +1,9 @@
 # Messages for Telugu (తెలుగు)
 # Exported from translatewiki.net
-# Export driver: syck
+# Export driver: syck-pecl
 # Author: Ravichandra
 # Author: Veeven
+# Author: రహ్మానుద్దీన్
 te: 
   activerecord: 
     models: 
@@ -10,7 +11,7 @@ te:
       badges: బాడ్జీలు
   badges: 
     index: 
-      description: మీరు పొందదగ్గ అన్ని బాడ్జీలు. మీ జ్ఞానాన్ని పంచుకోండి, బాడ్జీలను పొందండి.
+      description: మీరు ప్రశ్నలను అడగడం లేదా జవాబివ్వడం ద్వారా ఎంతగా తోడ్పడితే అన్ని బాడ్జీలు మీకు లభిస్తాయి. ఇవి మీ ప్రవర పేజీలో కనిపిస్తాయి.
       title: బాడ్జీలు
     shared: 
       addict: 
@@ -21,6 +22,10 @@ te:
         description: 300 సార్లు వోటేసారు
       commentator: 
         description: 10 వ్యాఖ్యలు చేసారు
+        name: వ్యాఖ్యాత
+      critic: 
+        description: మొదటిసారిగా ప్రతికూలంగా వోటేసారు
+        name: విమర్శకుడు
       effort_medal: 
         description: 100 అనుకూల వోట్లను పొందారు
       famous_question: 
@@ -28,17 +33,23 @@ te:
       fanatic: 
         description: సైటుని 100 రోజుల పాటు వరుసగా ప్రతీరోజూ సందర్శించారు
       favorite_question: 
-        description: 25 మందివాడుకర్లు ప్రశ్నని మెచ్చుకున్నారు
+        description: 25 మంది వాడుకర్లు మెచ్చుకున్న ప్రశ్నని అడిగారు
       friendly: 
         description: మొదటిసారిగా ఇతరులని అనుసరిస్తున్నారు
         name: స్నేహశీలి
+      good_answer: 
+        name: మంచి సమాధానం
+      good_question: 
+        name: మంచి ప్రశ్న
       great_answer: 
         name: గొప్ప సమాధానం
       great_question: 
         description: ప్రశ్న 100 వోట్లు పొందింది
         name: మంచి ప్రశ్న
+      guru: 
+        name: గురువు
       inquirer: 
-        description: మొదటిసారి ప్రశ్న అడిగారు
+        description: మొదటిసారిగా ప్రశ్నని అడిగారు
       interesting_person: 
         description: 10 కంటే ఎక్కువమంది అనుచరులని పొందుతున్నారు
         name: ఆసక్తికరమైన వ్యక్తి
@@ -51,6 +62,8 @@ te:
         name: మంచి ప్రశ్న
       notable_question: 
         description: 2500 వీక్షణలతో ఉన్న ప్రశ్నని అడిగారు
+      organizer: 
+        name: నిర్వాహకుడు
       pioneer: 
         description: నమోదయ్యే వాడుకర్లలో మొదటివారవ్వండి
       popular_person: 
@@ -58,17 +71,27 @@ te:
         name: ప్రజాదరణగల వ్యక్తి
       popular_question: 
         description: 1000 వీక్షణలు  సంపాదించిన ప్రశ్నని అడిగారు
+        name: జనరంజక ప్రశ్న
       scholar: 
         description: మొదటిసారిగా స్వంత ప్రశ్నపై జవాబుని అంగీకరించారు
         name: పండితుడు
       self-learner: 
         name: స్వయం శిక్షకులు
+      service_medal: 
+        name: సేవా పతకం
       stellar_question: 
         description: ప్రశ్నని 100 వాడుకరులు ఇష్టాంశాలలో చేర్చుకున్నారు
         name: అత్యుత్తమ ప్రశ్న
       student: 
         description: కనీసం ఒక్క పై వోటుతో మొదటి  ప్రశ్నని అడిగారు
+        name: విద్యార్థి
+      supporter: 
+        name: సహాయకుడు
       troubleshooter: 
         description: మొదటిసారిగా జవాబిచ్చారు
     show: 
+      earned: సంపాదించారు
+      for_tag_bronze: "%{tag} ట్యాగ్ లో 200 వోట్లు"
+      for_tag_gold: "%{tag} ట్యాగ్ లో 1000 వోట్లు"
+      for_tag_silver: "%{tag} ట్యాగ్ లో 400 వోట్లు"
       title: "%{type} బాడ్జీ"

@@ -10,3 +10,7 @@ lb:
         flagged: ¨Markéiert Froen
         item_title: Titel
         title: Moderéieren
+  moderate: 
+    questions: 
+      flagged: 
+        filters: "Filteren:"

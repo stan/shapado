@@ -17,7 +17,7 @@ fa:
         birthday: تاریخ تولد
         created_at: عضو شده
         current_password: رمز عبور فعلی
-        email: ایمیل
+        email: رایانامه
         fullname: نام کامل
         hide_country: کشورم را نمایش نده
         language: زبان
@@ -38,8 +38,8 @@ fa:
       users: کاربران
   users: 
     actions: 
-      edit_others_posts: ویرایش پست های دیگران
-      edit_wiki_post: ویرایش پست های ویکی
+      edit_others_posts: ویرایش پست‌های دیگران
+      edit_wiki_post: ویرایش پست‌های ویکی
       flag: علامت زدن
       retag_others_questions: برچسب‌گذاری مجدد سوالات دیگران
       vote_down: رای منفی
@@ -61,12 +61,12 @@ fa:
     follow: 
       flash_notice: کاربر %{user} به دوستان شما اضافه شد
     form: 
-      activities_notification: دریافت اطلاعیه های سیستم در مورد فعالیت های سیستم مثل دنبال کننده های جدید، به دست آوردن نشان و ... با ایمیل
+      activities_notification: دریافت اطلاعیه‌های سامانه در مورد فعالیت‌های سامانه مانند دنبال‌کننده‌های جدید، به‌دست آوردن نشان و ... از طریق رایانامه
       avatar_tip: با استفاده از Gravatar تصویر پروفایلتان را تغییر دهید
-      give_advice_notification: دریافت ایمیل برای سوالات جدید در زمینه ای که شما در آن تجربه دارید.
+      give_advice_notification: دریافت رایانامه برای سوالات جدید در زمینه‌ای که شما در آن تجربه دارید.
       information: اطلاعات
       language: زبان استفاده شده برای رابط کاربر سایت
-      new_answer_notification: دریافت ایمیل برای جواب های جدید
+      new_answer_notification: دریافت رایانامه برای جواب‌های جدید
       notifications: اطلاعیه‌ها
       reports_notification: دریافت گزارش از آخرین فعالیت های گروه (فقط برای مدیران گروه)
       show_more_lang: نشان‌دادن زبان‌های بیشتر

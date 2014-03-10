@@ -1,7 +1,9 @@
 # Messages for Luxembourgish (Lëtzebuergesch)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Les Meloures
 # Author: Robby
+# Author: Soued031
 lb: 
   activerecord: 
     attributes: 
@@ -10,7 +12,7 @@ lb:
         avatar: Profilbild
         birthday: Gebuertsdag
         current_password: Aktuellt Passwuert
-        email: E-Mailadress
+        email: E-Mail-Adress
         fullname: Ganzen Numm
         hide_country: Mäi Land net weisen
         language: Sprooch
@@ -21,7 +23,7 @@ lb:
         password_confirmation: Passwuert confirméieren
         preferred_languages: "Dir wëllt Froen an dëse Sprooche liesen:"
         reputation: Reputatioun
-        timezone: Zäitzone
+        timezone: Zäitzon
         website: Internetsite
     models: 
       user: Benotzer
@@ -35,7 +37,7 @@ lb:
       submit: Späicheren
       title: Astellungen
     follow: 
-      flash_notice: De Benotzer %{user} gouf bäi Är Frënn derbäigesat.
+      flash_notice: Dir iwwerwaacht elo %{user}.
     form: 
       avatar_tip: Ännert d'Bild an Ärem Profil mat 'Gravatar'
       information: Informatioun

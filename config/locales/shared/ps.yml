@@ -4,6 +4,20 @@
 # Author: Ahmed-Najib-Biabani-Ibrahimkhel
 ps: 
   shared: 
+    any_lang: هر يوه ژبه
+    date: نېټه
+    description: څرگندونه
+    empty: 
+      answers: 
+        description: 
+          text: لومړی ته شه!
+      themes: 
+        description: 
+          action_link: اوس
+    filter: "چاڼگر:"
+    language: "ژبه:"
+    languages: "ژبې:"
+    name: نوم
     topbar: 
       admin: پازوال
       user_page: زما پاڼه

@@ -23,16 +23,4 @@ id:
           reputation_rewards_subtitle: Daftar imbalan reputasi
           title: Imbalan
         share: 
-          add_tags: Tambahkan tanda ke tweet Anda
-          application_id: ID Aplikasi
-          asking_from_twitter: Menanyakan pertanyaan dari Twitter
-          ends_with_example: "ie. #shapado"
-          facebook_app: Pengaturan aplikasi Facebook
-          question_must_include_example: "ie. #iAsk"
-          secret_key: Kunci Rahasia
-          starts_with_example: "ie. #qa"
           title: Bagikan
-          title_on_dlvr: Bagikan di dlvr.it
-        theme: 
-          logo_legend: Unggah logo untuk grup Anda. Ukurannya harus lebih kecil dari 2MB.
-          title: Tetapkan tema grup

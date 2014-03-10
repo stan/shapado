@@ -1,6 +1,7 @@
 # Messages for Brazilian Portuguese (português do Brasil)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Anaclaudiaml
 # Author: Dianakc
 # Author: Leosls
 # Author: Luckas
@@ -10,9 +11,15 @@ pt-BR:
     manage: 
       access: 
         title: Acesso
+      answers: 
+        banning: 
+          title: Proibir respostas
       appearance: 
         logo_legend: Faça o upload de um logótipo para o seu grupo. Deve ter menos de 2MB.
         title: Escolha e personalize o seu tema
+      close_group: 
+        description: Fechando o grupo o tornará inacessível para qualquer um diferente de você.
+        feedback: "Por favor, nos diga porque você está fechando o seu grupo:"
       content: 
         description: Configure o seu grupo com texto e estilo personalizado
         footer: Rodapé
@@ -22,6 +29,8 @@ pt-BR:
         title: Conteúdo personalizado
         top_bar: Barra superior
         top_bar_tip: Introduza um link por linha
+      edit_card: 
+        button: Atualize o seu cartão de crédito
       invitations: 
         invitations: Convites enviados
         invitations_title: Lista de todos os convites que enviou
@@ -34,6 +43,7 @@ pt-BR:
           question_asked_to: Pergunta feita a
           question_must_include: A pergunta deve incluir a seguinte tag para ser enviada pelo Twitter
           question_must_include_example: "por exemplo, #iAsk"
+          twitter_account: A conta do Twitter para qual os seus usuários perguntarão.
         constrains: 
           reputation_constrains_description: Este formulário permite-lhe configurar quantos pontos de reputação os usuários necessitam para executar uma determinada ação
           reputation_constrains_subtitle: Lista de requisitos de reputação para cada ação
@@ -44,12 +54,13 @@ pt-BR:
           instruction2: Lá, vá à seção de DNS e crie uma coisa chamada CNAME.
           instruction3: Escolha 'www' ou outra coisa para o seu CNAME.
           instruction4: "Depois, no campo do host ou de destino, coloque o seu domínio Shapado atual: %{domain}."
-          instruction5: Cerca de uma hora depois, o seu domínio www.%{subdomain} deverá apontar para %{appdomain}.
-          instruction6: Quando isto acontecer, volte aqui e coloque o nome do seu domínio www.%{subdomain} no campo abaixo e clique 'Atualizar'. Se você tem dúvidas, pergunte no %{chat_url} ou no nosso fórum de suporte.
+          instruction5: Uma vez que isto está feito, cerca de uma hora depois, o seu domínio %{subdomain} deverá apontar para %{appdomain}.
+          instruction6: Quando isto acontecer, volte aqui e coloque o nome do seu domínio %{subdomain} no campo abaixo e clique 'Atualizar'. Se você tem dúvidas, nos pergunte no %{chat_url} ou no nosso fórum de suporte.
           title: Configure seu domínio
           warning: Tem a certeza de que quer alterar o seu domínio?
         facebook_app: 
           facebook_app: Configurações do Facebook App
+          legend: Você pode configurar o seu aplicativo de Facebook. Esta será usada para autenticar os seus usuários usando a suas contas do Facebook. Note que isto somente é necessário se você está utilizando um domínio customizado.
           secret_key: Chave secreta
         general: 
           title: Propriedades do grupo
@@ -57,10 +68,13 @@ pt-BR:
           resend_button: Reenviar
           revoke_button: Revogar
         invite: 
+          body_instructions: Escreva uma mensagem para pessoas que você está convidando (opcional)
+          body_length_warning: O corpo não pode conter mais do que 400 caracteres.
           emails_instructions: Digite os e-mails separados por vírgulas
           invitations: Convites enviados
           invite: Convide pessoas
           title: Convide pessoas por e-mail
+          user_role: Convidar usuários como
         post_to_twitter: 
           legend: Esta página permite que configure o que é enviado para o Twitter. A conta que está a ser utilizada é <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>, se quiser utilizar uma conta diferente, por favor clique <a href="%{link}">aqui</a>.
           legend_connect: Esta página permite-lhe que configure o que é enviado para o Twitter. Terá de especificar uma conta de Twitter primeiro, por favor clique <a href="%{link}">aqui</a> para fazê-lo.
@@ -79,17 +93,30 @@ pt-BR:
           add_tags: Adicione tags aos seus tweets
           ends_with_example: "por exemplo, #shapado"
           starts_with_example: "por exemplo, #qa"
+          title: Etiquete os seus tweets
+        title: Propriedades do Grupo
         twitter_account: 
+          connect_to_other_twitter: Clique aqui para conectar uma conta do Twitter diferente ao seu grupo
+          connect_to_twitter: Clique aqui para conectar uma conta do Twitter ao seu grupo
+          disconnect_twitter_group: Desconectar este grupo do Twitter
           legend: Esta conta será utilizada para postar novas perguntas e respostas no Twitter.
           legend_with_account: A sua conta no Twitter <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> será usada para postar novas perguntas e respostas no Twitter. Poderá configurar o que é envido para o Twitter <a href="%{link}">aqui</a>.
           twitter_account: Conta do Twitter
         twitter_app: 
           twitter_app: Twitter app
+      questions: 
+        banning: 
+          title: Proibir perguntas
       social: 
+        ask_from_twitter_title: Permitir que os seus usuários façam perguntas a partir do Twitter.
+        description: Conecte o seu grupo a suas redes sociais
         facebook_app: Facebook App
         facebook_app_title: Configure a sua Facebook app que vai ser utilizada para permitir que os seus usuários façam o login com a sua conta do Facebook
         post_to_twitter: Enviar para o Twitter
+        post_to_twitter_title: Poste todas as perguntas e respostas no Twitter automaticamente
+        tag_your_tweets: Etiquete os seus tweets
         tag_your_tweets_title: Adicione tags aos seus tweets
+        title: Interação de mídia social
         twitter_account: Conta no Twitter
         twitter_account_title: Configure a sua conta no Twitter que irá ser usada para postar no Twitter
       top_admin: 

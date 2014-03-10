@@ -2,6 +2,7 @@
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Linkr
+# Author: 아라
 ko: 
   feeds: 
     feed: Feed
@@ -15,13 +16,14 @@ ko:
     by: by
     current: 현재
     from: from %{site}
-    group_not_found: 페이지 %{url}이 없습니다
+    group_not_found: "%{url} 페이지가 없습니다"
     or: 또는
     permission_denied: 권한 없음
     please_login: 로그인하세요
-    preview: 미리보기
+    preview: 미리 보기
     previous: 이전
     share: 공유
+    unknown_place: 알 수 없음
   models: 
     question: 질문
   number: 
@@ -34,9 +36,9 @@ ko:
     back: 뒤로
     cancel: 취소
     close: 닫기
-    create: 생성
-    destroy: 지우기
-    details: 자세한 정보
+    create: 만들기
+    destroy: 삭제
+    details: 자세한 사항
     edit: 편집
     more: 더 보기...
     new: 새로운 %{model} 을/를 추가

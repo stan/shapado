@@ -4,11 +4,18 @@
 # Author: Veeven
 te: 
   widgets: 
+    about: 
+      title: గురించి
+    ask_question: 
+      title: ప్రశ్నని అడగండి
     badges: 
       title: ఇటీవలి బాడ్జీలు
     groups: 
       description: ఈ విడ్జెట్ కొత్త గుంపులని చూపిస్తుంది
       title: ఇటీవలి గుంపులు
+    index: 
+      question_widgets: ప్రశ్న
+      welcome_widgets: స్వాగతం
     pages: 
       description: ఈ విడ్జెట్ వికీ పుటల యొక్క జాబితాని చూపిస్తుంది
       title: వికీ పుటలు

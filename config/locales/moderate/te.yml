@@ -11,3 +11,7 @@ te:
         banned: నిషేధించిన ప్రశ్నలు
         content: విషయం
         item_title: శీర్షిక
+  moderate: 
+    questions: 
+      subtabs: 
+        to_close: మూసివేత అభ్యర్థనలు

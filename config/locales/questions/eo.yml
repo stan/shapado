@@ -56,14 +56,10 @@ eo:
       accepted_tooltip: Unu el la respondoj estis akceptita kiel la ĝusta respondo.
       another_answers: Aliaj respondoj
       answers: Respondoj
-      answers_title: 
-        one: "%{count} respondo"
-        other: "%{count} respondoj"
       asked_on: demandita je
       ban: Forbaru
       close: Fermi
       close_reason: "La demando fermiĝis sekvakiale:"
-      favorite_tooltip: Aldoni tiun ĉi demandon al viaj plej ŝatataj
       flag: Marki
       flagged_as: Markita kiel
       flags: Raportita kiel
@@ -76,10 +72,7 @@ eo:
       solution: Solvo
       to_answer_question: por demandi tiun ĉi demandon
       unauthenticated_retag: Vi bezonas konton por reetikedi demandojn
-      unfavorite_tooltip: Forigu ĉi tiun demandon el viaj plej ŝatataj
-      unwatch_tooltip: Ĉesi sekvi ĉi tiun demandon
       viewed: vidita
-      watch_tooltip: Sekvi tiun ĉi demandon
     solve: 
       flash_notice: La demando estis solvita.
     unsolve: 

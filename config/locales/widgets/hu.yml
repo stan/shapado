@@ -1,7 +1,8 @@
-# Messages for Hungarian (Magyar)
+# Messages for Hungarian (magyar)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Dani
+# Author: Dj
 hu: 
   widgets: 
     badges: 
@@ -12,7 +13,11 @@ hu:
       title: Legújabb csoportok
     index: 
       description: A nyilak segítségével mozgathatod a widgeteket
+      external_widgets: Külső
+      mainlist_widgets: Fő lista
+      question_widgets: Kérdés
       title: Oldalsávi minialkalmazások beállítása
+      welcome_widgets: Üdvözlet
     pages: 
       description: Ez a widget a wikioldalak listáját jeleníti meg.
       new: Új oldal hozzáadása

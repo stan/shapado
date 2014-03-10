@@ -1,4 +1,4 @@
-# Messages for Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+# Messages for Norwegian Bokmål (norsk bokmål)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Nghtwlkr
@@ -16,8 +16,6 @@ nb:
     preview: Forhåndsvisning
     previous: Forrige
     share: del
-  languages: 
-    user: Mine foretrukne språk
   models: 
     question: Spørsmålet
   number: 

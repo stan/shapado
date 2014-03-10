@@ -1,6 +1,7 @@
 # Messages for Brazilian Portuguese (português do Brasil)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Anaclaudiaml
 # Author: Giro720
 # Author: Vgeorge
 pt-BR: 
@@ -21,5 +22,7 @@ pt-BR:
         subject_owner: "%{login} respondeu à sua pergunta %{title}"
       new_comment: 
         subject: "%{login} comentou no %{group}"
+      new_invitation: 
+        subject: "%{user} está te convidando para unir-se %{group}"
       report: 
         subject: Relatório do grupo %{group} de %{app}

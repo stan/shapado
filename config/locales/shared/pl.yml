@@ -14,9 +14,6 @@ pl:
         description: 
           text: Bądź pierwszy!
         title: Nikt nie odpowiedział jeszcze na to pytanie.
-      questions: 
-        description: 
-          action_link: zadaj pytanie
       themes: 
         description: 
           action_link: teraz

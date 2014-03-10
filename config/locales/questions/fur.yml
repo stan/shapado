@@ -1,4 +1,4 @@
-# Messages for Friulian (Furlan)
+# Messages for Friulian (furlan)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
 # Author: Klenje
@@ -40,7 +40,6 @@ fur:
       title: Dutis lis domandis
       unanswered_questions: Domandis cence rispuestis
       votes: Vôts
-      votes_tooltip: Domandis cun plui vôts
     new: 
       how_to_ask: Cemût domandâ
       title: Fâs une domande
@@ -52,13 +51,9 @@ fur:
       accepted_tooltip: Une des domandis e je stade acetade come chê juste.
       another_answers: Altris rispuestis
       answers: Rispuestis
-      answers_title: 
-        one: "%{count} rispueste"
-        other: "%{count} rispuestis"
       asked_on: domandât ai
       close: Siere
       edit_request: Modifiche richieste
-      favorite_tooltip: Zonte cheste domande ai tiei preferîts
       flags: Segnalade come
       last_activity: Ultime ativitât
       open: Vierç
@@ -66,9 +61,6 @@ fur:
       share: Condivît cheste domande su
       share_on: Condivît cheste domande su %{site}
       solution: Soluzion
-      unfavorite_tooltip: Gjave cheste domande dai tiei preferîts
-      unwatch_tooltip: No stâ plui tignî di voli cheste domande
-      watch_tooltip: Ten di voli cheste domande
     tags: 
       filter: Cîr etichetis
       title: Etichetis
