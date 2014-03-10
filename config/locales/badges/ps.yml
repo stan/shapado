@@ -1,0 +1,70 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  activerecord: 
+    models: 
+      badge: نښان
+      badges: نښانونه
+  badges: 
+    index: 
+      bronze: ژېړ
+      gold: سره زر
+      silver: سپين زر
+      title: نښانونه
+    shared: 
+      addict: 
+        name: روږدی
+      celebrity: 
+        name: نوميالی
+      civic_duty: 
+        name: ښاري دنده
+      commentator: 
+        name: مبصر
+      critic: 
+        name: ناقد
+      editor: 
+        name: سمونگر
+      famous_question: 
+        name: نامتو پوښتنه
+      favorite_answer: 
+        name: خواپوری ځواب
+      favorite_question: 
+        name: خواپورې پوښتنه
+      friendly: 
+        name: د ملګرتيا له مخې
+      good_answer: 
+        name: ښه ځواب
+      great_answer: 
+        name: ډېر ښه ځواب
+      great_question: 
+        name: ډېره ښه پوښتنه
+      guru: 
+        name: پير
+      interesting_person: 
+        name: پزړه پوری وګړی
+      investor: 
+        name: پانګمن
+      nice_answer: 
+        name: ښايسته ځواب
+      nice_question: 
+        name: ښکلې پوښتنه
+      notable_question: 
+        name: پاموړ پوښتنه
+      pioneer: 
+        name: مخکښ
+      popular_person: 
+        name: نامتو وګړی
+      popular_question: 
+        name: مشهوره پوښتنه
+      scholar: 
+        name: پوه
+      student: 
+        name: زده کړيال
+      supporter: 
+        name: ملاتړی
+      troubleshooter: 
+        description: د لومړي ځل لپاره ځواب کړ
+      tutor: 
+        name: ښوونګر

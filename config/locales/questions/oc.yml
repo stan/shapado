@@ -1,0 +1,43 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Responsas
+        asked_by: Pausada per
+        banned: Bandida
+        body: Còs
+        closed: Tampada
+        created_at: Pausada
+        language: Lenga
+        tags: Balisas
+        title: Títol
+        updated_at: actualizada
+        updated_by: actualizada per
+        views: Vistas
+        votes: Vòtes
+    models: 
+      question: Question
+      questions: Questions
+  questions: 
+    answer: 
+      favorite: Salvar
+    form: 
+      remove_attachment: Levar
+    index: 
+      active: Activas
+      hot: Caud
+      votes: Vòtes
+    move_to: 
+      group_dont_exists: Lo grop %{group} existís pas
+    question: 
+      answer_verb: Respondre
+      wiki_title: "Wiki : %{title}"
+    show: 
+      ban: Bandir
+      open: Dobèrt
+    toolbar: 
+      requests: Requèstas

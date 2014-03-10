@@ -1,0 +1,16 @@
+# Messages for Ingush (ГӀалгӀай)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Sapral Mikail
+inh: 
+  activerecord: 
+    attributes: 
+      group: 
+        language: Мотт
+        name: ЦIи
+    models: 
+      group: Тоаб
+      groups: Тоабаш
+  groups: 
+    index: 
+      name: ЦIи

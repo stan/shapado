@@ -1,0 +1,35 @@
+# Messages for Norwegian Bokmål (norsk bokmål)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Nghtwlkr
+nb: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: Beskrivelse
+        group_created_by: opprettet av
+        language: Språk
+        logo: Logo
+        may_contain_adult_content: Dette nettstedet kan inneholder voksent innhold
+        name: Navn
+        owner: Denne gruppen ble opprettet av %{login}
+        subdomain: URL
+    models: 
+      group: Gruppe
+      groups: Grupper
+  groups: 
+    group: 
+      about: Om
+      close: Lukk
+      close_group: Lukk denne gruppen
+    index: 
+      actives: Aktiv
+      filter: Søk etter grupper
+      most_active: Mest aktive
+      name: Navn
+      pendings: Ventende
+      title: Grupper
+    new: 
+      title: Opprett gruppen din
+    show: 
+      title: Om %{name}

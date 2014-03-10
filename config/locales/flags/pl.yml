@@ -1,0 +1,12 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Powód
+  flags: 
+    form: 
+      spam: Spam

@@ -1,0 +1,18 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+eu: 
+  activerecord: 
+    attributes: 
+      user: 
+        login: Erabiltzaile izena
+        password: Pasahitza
+    models: 
+      user: Erabiltzailea
+      users: Erabiltzaileak
+  users: 
+    index: 
+      name: Izena
+      newest: Berrienak
+      oldest: Zaharrenak

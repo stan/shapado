@@ -1,0 +1,22 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  widgets: 
+    about: 
+      title: په اړه
+    ask_question: 
+      ask: پوښتل
+      title: "يوه پوښتنه پوښتل:"
+    index: 
+      question_widgets: پوښتنه
+      type: "ډول:"
+      welcome_widgets: ښه راغلۍ
+    pages: 
+      new: نوی مخ ورگډول
+      title: د ويکي مخونه
+    top_groups: 
+      title: د سر 5 ډلې
+    top_users: 
+      title: د سر 5 کارنان

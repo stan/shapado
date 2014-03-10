@@ -1,0 +1,8 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: OsamaK
+ar: 
+  notifier: 
+    new_feedback: 
+      message3: "عنوان البريد الإلكتروني: %{email}"

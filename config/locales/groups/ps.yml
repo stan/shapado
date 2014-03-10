@@ -1,0 +1,40 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: څرگندونه
+        domain: شپول
+        language: تلواليزه ژبه
+        languages: نورې ژبې
+        logo: نښه
+        name: نوم
+        state: ايالت
+    models: 
+      group: ډله
+      groups: ډلې
+  groups: 
+    form: 
+      any_language: هر يو
+    group: 
+      about: په اړه
+      close: تړل
+      close_group: دا ډله تړل
+    index: 
+      actives: فعال
+      filter: د ډلو پلټنه
+      most_active: تر ټولو ډېر فعال
+      name: نوم
+      request_group: د يوې نوې ډلې غوښتنه کول
+      title: ډلې
+    new: 
+      title: خپله ډله جوړول
+    show: 
+      accept_group: دا ډله منل
+      close_group: دا ډله تړل
+      group_closed: دا ډله تړل شوې.
+      title: د %{name} په اړه
+      visit_group: دا ډله کتل

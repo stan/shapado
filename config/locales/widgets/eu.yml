@@ -1,0 +1,10 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+eu: 
+  widgets: 
+    about: 
+      title: Honi buruz
+    group_networks: 
+      title: Jarrai gaitzazu

@@ -1,0 +1,12 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Rason
+  flags: 
+    form: 
+      spam: Spam

@@ -1,0 +1,85 @@
+# Messages for Czech (čeština)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chmee2
+# Author: Juandev
+# Author: Vks
+cs: 
+  badges: 
+    index: 
+      all_tooltip: Ukaž všechny zlaté, stříbrné a bronzové odznaky.
+      bronze: Bronzová
+      gold: Zlatá
+      silver: Stříbrná
+      title: Odznaky
+    shared: 
+      celebrity: 
+        description: Má více než 100 následovníků
+        name: Slavná osobnost
+      citizen_patrol: 
+        name: Občanská hlídka
+      civic_duty: 
+        description: Hlasováno 300 krát
+        name: Občanská povinnost
+      cleanup: 
+        name: Vyčistit
+      commentator: 
+        description: Zanechal 10 komentářů
+        name: Komentátor
+      critic: 
+        description: Hlasoval negativně poprvé
+        name: Kritik
+      editor: 
+        name: Editor
+      famous_question: 
+        name: Slavná otázka
+      fanatic: 
+        name: Fanatik
+      favorite_answer: 
+        name: Oblíbená odpověď
+      good_answer: 
+        name: Dobrá odpověď
+      good_question: 
+        name: Dobrá otázka
+      great_answer: 
+        name: Skvělá odpověď
+      great_question: 
+        name: Skvělá otázka
+      guru: 
+        name: Guru
+      inquirer: 
+        description: Ptal se poprvé
+        name: Tazatel
+      investor: 
+        name: Investor
+      necromancer: 
+        name: Necromancer
+      nice_answer: 
+        name: Pěkná odpověď
+      nice_question: 
+        name: Pěkná otázka
+      notable_question: 
+        name: Významná otázka
+      pioneer: 
+        description: Jeden z prvních registrovaných uživatelů
+        name: Průkopník
+      popstar: 
+        name: Popstar
+      popular_person: 
+        description: Má více než 50 následovníků
+        name: Populární osoba
+      popular_question: 
+        name: Populární otázka
+      promoter: 
+        name: Promotér
+      service_medal: 
+        description: Má 300 pozitivních hlasů
+      student: 
+        name: Student
+      supporter: 
+        name: Podporovatel
+      tutor: 
+        name: Tutor
+    show: 
+      description: "Uživatelé, kteří získali tento odznak. Nedávno uděleno:"
+      title: Odznak %{type}

@@ -1,0 +1,16 @@
+# Messages for Kashubian (kaszëbsczi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Byulent
+csb: 
+  activerecord: 
+    attributes: 
+      user: 
+        language: Jãzëk
+        password: Parola
+    models: 
+      user: Brëkòwnik
+      users: Brëkòwnicë
+  users: 
+    show: 
+      title: Brëkòwnik %{user}

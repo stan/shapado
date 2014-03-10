@@ -1,0 +1,20 @@
+# Messages for Norwegian Bokmål (norsk bokmål)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Nghtwlkr
+nb: 
+  layouts: 
+    application: 
+      ask_question: Spør spørsmål
+      home: Hjem
+      languages: Språk
+      logout: Logg ut
+      pages: Sider
+      search: Søk
+      users: Brukere
+    manage: 
+      actions: Handlinger
+      members: Medlemmer
+      pages: Sider
+      properties: Egenskaper
+      widgets: Skjermelement

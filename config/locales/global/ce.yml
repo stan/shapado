@@ -1,0 +1,20 @@
+# Messages for Chechen (нохчийн)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Умар
+ce: 
+  global: 
+    next_button: Кхин дӀа
+    preview: Хьалха муха ю хьажа
+    upgrade: Карлаяккха
+  scaffold: 
+    cancel: Цаоьшу
+    close: ДӀачӀагӀа
+    edit: Тае
+    more: Кхин дӀа…
+    update: Карлаяккха
+  time: 
+    yesterday: селхана
+  views: 
+    pagination: 
+      previous: "&laquo; юха"

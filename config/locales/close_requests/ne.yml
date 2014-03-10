@@ -1,0 +1,19 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RajeshPandey
+# Author: सरोज कुमार ढकाल
+ne: 
+  close_requests: 
+    form: 
+      dupe: नक्कल
+      no_question: प्रश्न हैन
+      not_relevant: सान्दर्भिक छैन
+      ot: विषय बाहिरको
+      request_closing_details: यस प्रश्नलाई बन्द गर्न अनुरोध गर्ने
+      spam: स्प्याम
+    model: 
+      attributes: 
+        comment: टिप्पणी
+        reason: कारण
+        user: प्रयोगकर्ता

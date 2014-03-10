@@ -1,0 +1,11 @@
+# Messages for Norwegian Bokmål (norsk bokmål)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Nghtwlkr
+nb: 
+  admin: 
+    moderate: 
+      index: 
+        all: Alle
+        content: Innhold
+        item_title: Tittel

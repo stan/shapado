@@ -1,0 +1,14 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Reson
+  flags: 
+    create: 
+      flash_notice: Graziis pe segnalazion
+    form: 
+      spam: Spam

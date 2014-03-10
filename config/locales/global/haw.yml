@@ -1,0 +1,59 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  feeds: 
+    share_on_twitter: "Twitter, Pukealo a \npēlā wale aku..."
+  global: 
+    by: na
+    by_semi: "Na:"
+    chat: Kūkākūkā
+    feedback: Manaʻo
+    follow: Hāhai
+    followed_by: "Hāhai ʻia e:"
+    following: Hāhai nei
+    from: mai %{site}
+    home: Home
+    open: Wehe
+    or: aiʻole
+    please_login: ʻEʻe ke ʻoluʻolu
+    preview: Nāmua
+    privacy: Pilikino
+    share: ʻAlo
+    sign_up: Kāinoa
+    size: Nui
+    tags_label: "Lepili:"
+    unfollow: Hāhai ʻole
+    unknown_place: ʻIkeʻole
+    upgrade: Hoʻopuka hou
+    view_question: Hōʻike i ka nīnau
+    what_to_do: He aha kāu hana e makemake?
+  models: 
+    question: Ka nīnau
+  number: 
+    x_time: 
+      one: "%{count} manawa"
+      other: "%{count} mau manawa"
+      zero: ʻaʻole loa
+  preferred_languages: 
+    user: Kaʻu mau ʻōlelo makemake
+  scaffold: 
+    add: Hoʻohui
+    back: Kele Hope
+    cancel: Hoʻōki
+    close: Pani
+    create: Haku
+    destroy: Holoi
+    details: Nā Kikoʻī
+    edit: Hoʻololi
+    more: Nā mea ʻē aʻe...
+    new: Hoʻohui i ka %{model} hou
+    save: Mālama
+    send: Hoʻouna
+    show: Hōʻike
+    update: Hoʻopuka hou
+  time: 
+    ago: "%{time} mamua aku nei"
+    today: i kēia lā
+    yesterday: i nehinehi

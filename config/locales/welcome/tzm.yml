@@ -1,0 +1,11 @@
+# Messages for Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tifinaghes
+tzm: 
+  welcome: 
+    confirm_age: 
+      over_18: ⵉⵍⵍⴰ ⵖⵓⵔⵉ ⵓⴳⴰⵔ ⵏ 18
+      under_18: ⵉⵍⵍⴰ ⵖⵓⵔⵉ ⴷⴷⴰⵡ 18
+    feedback: 
+      feedback_title: ⴰⵣⵡⵉⵍ

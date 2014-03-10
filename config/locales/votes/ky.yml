@@ -1,0 +1,12 @@
+# Messages for Kyrgyz (Кыргызча)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Growingup
+ky: 
+  activerecord: 
+    models: 
+      vote: Добуш
+      votes: Добуштар
+  votes: 
+    create: 
+      flash_notice: Добуш бергениңизге ыракмат!

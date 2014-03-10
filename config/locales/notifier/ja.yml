@@ -1,0 +1,12 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+ja: 
+  notifier: 
+    global: 
+      hi: こんにちは、%{user} さん。
+      hi_no_user: こんにちは。
+    new_feedback: 
+      message3: "メールアドレス: %{email}"
+      message4: "件名: %{subject}"

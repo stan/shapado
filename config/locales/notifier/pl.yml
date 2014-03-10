@@ -1,0 +1,15 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  notifier: 
+    global: 
+      hi: Witaj %{user},
+      hi_no_user: Witaj,
+    new_feedback: 
+      message4: "Temat: %{subject}"
+    new_invitation: 
+      message2: Zespół %{group}
+    report: 
+      message8: Odwiedź swoją grupę na %{link}

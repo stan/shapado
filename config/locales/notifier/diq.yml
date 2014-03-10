@@ -1,0 +1,15 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Mirzali
+diq: 
+  notifier: 
+    global: 
+      hi: Merheba %{user},
+      hi_no_user: Merheba,
+      user_page: Pela Karberi
+    new_feedback: 
+      message3: "Adresa e-postey: %{email}"
+    report: 
+      message2: "%{date} rayok"

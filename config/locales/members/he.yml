@@ -1,0 +1,14 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: תפקיד
+  members: 
+    form: 
+      login_tip: חיפוש בעת ההקלדה
+    index: 
+      manage_members_title: ניהול חברים

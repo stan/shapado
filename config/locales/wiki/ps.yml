@@ -1,0 +1,15 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  wiki: 
+    actions: 
+      show_diff: ټاکلې بڼې سره پرتلل
+    history: 
+      current_version: اوسنۍ بڼه
+      title: پېښليک (%{count})
+      version: بڼه
+    model: 
+      attributes: 
+        message: لنډيز

@@ -1,0 +1,9 @@
+# Messages for Persian (فارسی)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Reza1615
+fa: 
+  invitations: 
+    accept: 
+      create_account_step2: ایجاد حساب جدید
+      welcome: خوش آمدید

@@ -1,0 +1,20 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  widgets: 
+    about: 
+      title: "{{Identical|About}}"
+    ask_question: 
+      ask: "{{Identical|Ask}}"
+    index: 
+      footer: "{{Identical|Footer}}"
+      header: "{{Identical|Header}}"
+      question_widgets: "{{Identical|Question}}"
+      sidebar: "{{Identical|Sidebar}}"
+      type: "{{Identical|Type}}"
+      welcome_widgets: "{{Identical|Welcome}}"
+    settings: 
+      custom_html: "{{Identical|Custom HTML}}"

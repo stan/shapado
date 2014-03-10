@@ -1,0 +1,9 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: TRYPPN
+ta: 
+  admin: 
+    moderate: 
+      index: 
+        item_title: தலைப்பு

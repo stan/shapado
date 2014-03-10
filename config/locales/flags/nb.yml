@@ -1,0 +1,8 @@
+# Messages for Norwegian Bokmål (norsk bokmål)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+nb: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Årsak

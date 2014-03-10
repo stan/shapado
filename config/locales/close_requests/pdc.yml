@@ -1,0 +1,9 @@
+# Messages for Deitsch (Deitsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Xqt
+pdc: 
+  close_requests: 
+    model: 
+      attributes: 
+        user: Yuuser

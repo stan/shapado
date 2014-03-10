@@ -1,0 +1,11 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+eu: 
+  admin: 
+    manage: 
+      properties: 
+        tag_your_tweets: 
+          ends_with_example: "adib. #shapado"
+          starts_with_example: "adib. #qa"

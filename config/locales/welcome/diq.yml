@@ -1,0 +1,16 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Mirzali
+diq: 
+  welcome: 
+    confirm_age: 
+      over_18: Ez 18 sereya
+      under_18: Ez 18 sere niya
+    feedback: 
+      feedback_description: Şınasnayış
+      feedback_title: Sername
+    index: 
+      active: Aktiv
+      hot: Germe

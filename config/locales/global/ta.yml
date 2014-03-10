@@ -1,0 +1,43 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aswn
+# Author: Shanmugamp7
+# Author: TRYPPN
+ta: 
+  global: 
+    or: அல்லது
+    preview: முன்தோற்றம்
+    size: அளவு
+    view: பார்வையிடு
+  models: 
+    question: கேள்வி
+  roles: 
+    owner: சொந்தக்காரர்
+    user: வழக்கமான பயனர்
+  scaffold: 
+    add: சேர்
+    are_you_sure: உறுதியாகவா?
+    back: பின்செல்
+    cancel: விட்டுவிடு
+    close: மூடுக
+    create: உருவாக்கு
+    destroy: நீக்குக
+    details: விளக்கம்
+    edit: தொகு
+    more: மேலும்...
+    new: புதிய  %{model} சேர்
+    post_as_anonymous: பெயரில்லாமல் பதிவு செய்யவும்
+    save: சேமி
+    send: அனுப்பு
+    show: காட்டு
+    update: புதுப்பி
+  time: 
+    ago: "%{time} முன்னால்"
+    today: இன்று
+    yesterday: நேற்று
+  views: 
+    pagination: 
+      first: முதல்
+      last: இறுதி
+      truncate: ...

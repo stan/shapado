@@ -1,0 +1,18 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+# Author: Wertuose
+az: 
+  layouts: 
+    application: 
+      all: Bütün
+      languages: Dillər
+      log_in: Daxil ol
+      logout: Sistemdən çıx
+      pages: Səhifələr
+      questions: Suallar
+      search: Axtar
+      users: İstifadəçilər
+    manage: 
+      pages: Səhifələr

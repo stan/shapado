@@ -1,0 +1,12 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Siebrand
+qqq: 
+  wiki: 
+    history: 
+      title: "{{Identical|History}}"
+      version: "{{Identical|Version}}"
+    model: 
+      attributes: 
+        message: "{{Identical|Summary}}"

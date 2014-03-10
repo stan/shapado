@@ -1,0 +1,11 @@
+# Messages for Tetum (tetun)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: MF-Warburg
+tet: 
+  badges: 
+    shared: 
+      good_question: 
+        name: Pergunta di'ak
+      student: 
+        name: Estudante

@@ -1,0 +1,12 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  activerecord: 
+    models: 
+      answer: Отговор
+      answers: Отговори
+  answers: 
+    create: 
+      flash_notice: Благодарности!

@@ -1,0 +1,20 @@
+# Messages for Lithuanian (lietuvių)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Eitvys200
+lt: 
+  shared: 
+    empty: 
+      themes: 
+        description: 
+          action_link: dabar
+    login_drop_down: 
+      with_facebook: su Facebook
+      with_google: su Google
+      with_identica: su Identi.ca
+      with_linked_in: su LinkedIn
+      with_openid: OpenID
+      with_twitter: su Twitter
+    topbar: 
+      admin: Administratorius
+      user_page: Mano puslapis

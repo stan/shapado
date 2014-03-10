@@ -1,0 +1,10 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aswn
+# Author: TRYPPN
+ta: 
+  errors: 
+    forbidden: 
+      title: அனுமதி மறுக்கப்பட்டது
+    search: தேடுக

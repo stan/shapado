@@ -1,0 +1,14 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  activerecord: 
+    models: 
+      badge: Pihi hōʻailona
+      badges: Pihi hōʻailona
+  badges: 
+    index: 
+      bronze: Keleawekini
+      gold: Kula
+      silver: Siliwā

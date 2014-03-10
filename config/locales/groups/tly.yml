@@ -1,0 +1,20 @@
+# Messages for толышә зывон (толышә зывон)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Гусейн
+tly: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: Тәсвир
+        name: Ном
+        subdomain: URL
+  groups: 
+    form: 
+      any_language: Һар гылә
+    group: 
+      close: Жәј
+    index: 
+      name: Ном
+    show: 
+      title: Чыми барәдә %{name}

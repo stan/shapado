@@ -1,0 +1,16 @@
+# Messages for Sakha (саха тыла)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: HalanTul
+sah: 
+  activerecord: 
+    models: 
+      badge: Бээддьэ
+      badges: Бээддьэлэр
+  badges: 
+    shared: 
+      autobiographer: 
+        name: Автобиограф
+      peer_pressure: 
+        description: -3 эбэтэр онтон намыһах сыанабыллаах бэйэн суруйуугун соттуҥ
+        name: Туораттан баттааһынынан

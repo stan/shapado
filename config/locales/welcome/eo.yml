@@ -1,0 +1,12 @@
+# Messages for Esperanto (Esperanto)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Darkweasel
+# Author: Luckas
+eo: 
+  welcome: 
+    confirm_age: 
+      over_18: Mi aĝas pli ol 18 jarojn
+      under_18: Mi aĝas malpli ol 18 jarojn
+    feedback: 
+      feedback_description: Priskribo

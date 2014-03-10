@@ -1,0 +1,22 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  admin: 
+    moderate: 
+      index: 
+        all: "{{Identical|All}}"
+        content: "{{Identical|Content}}"
+        item_title: "{{Identical|Title}}"
+        title: "{{Identical|Moderate}}"
+  moderate: 
+    questions: 
+      flagged: 
+        filters: "{{Identical|Filter}}"
+        title: "{{Identical|Moderate question}}"
+      index: 
+        title: "{{Identical|Moderate question}}"
+      subtabs: 
+        flagged: "{{Identical|Flagged}}"

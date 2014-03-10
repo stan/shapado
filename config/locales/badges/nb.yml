@@ -1,0 +1,23 @@
+# Messages for Norwegian Bokmål (norsk bokmål)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Laaknor
+nb: 
+  badges: 
+    index: 
+      all_tooltip: Vis alle gull, sølv og bronsje medaljer
+      bronze: Bronsje
+      bronze_tooltip: Bronsjemedaljer er lette å vinne, og oppfordrer brukere til å delta.
+      description: Jo mer du bidrar ved å spørre eller svare på spørsmål, jo flere medaljer vil du bli tildelt. Disse vil vises på din profilside.
+      general: Vanlige medaljer
+      general_tooltip: Vis alle forhåndsdefinerte medaljer
+      gold: Gull
+      gold_tooltip: Gullmedaljer er den største belønningen. De er også vanskeligst å få tak i. Bare de mest dedikerte brukerne får disse belønningene.
+      silver: Sølv
+      silver_tooltip: Sølvmedaljer blir vunnet av aktive brukere som har vært involvert for en ganske lang tid.
+      tags: Tag medaljer
+      tags_tooltip: Når et spørsmål blir merket med X få svar med mer enn 100 oppstemmer, blir en medalje X opprettet med navnet på den taggen.
+      title: Medaljer
+    show: 
+      description: "Brukere som har vunnet denne medaljen. Nylig tildelt til:"
+      title: Medalje %{type}

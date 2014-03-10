@@ -1,0 +1,11 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  sessions: 
+    new: 
+      log_in: Connectatz-vos
+      remember_me: Se remembrar de ieu
+      sign_in: S’identificar
+      signup: Crear un compte

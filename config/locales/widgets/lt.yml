@@ -1,0 +1,40 @@
+# Messages for Lithuanian (lietuvių)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Eitvys200
+lt: 
+  widgets: 
+    about: 
+      title: Apie
+    adsense: 
+      title: AdSense
+    ask_question: 
+      ask: Klausti
+      title: "Užduoti klausimą:"
+    badges: 
+      see_all: Peržiūrėti visus ženklelius
+    group_networks: 
+      title: Sekite mus
+    groups: 
+      title: Naujausios grupės
+    index: 
+      question_widgets: Klausimas
+      type: "Tipas:"
+      welcome_widgets: Sveiki
+    pages: 
+      new: Pridėti naują puslapį
+      title: Wiki puslapiai
+    question_tags: 
+      title: Klausimo žymos
+    related_questions: 
+      title: Susije Klausymai
+    tag_cloud: 
+      title: Žymų debesis
+    tag_list: 
+      title: Žymos
+    top_groups: 
+      title: Top 5 grupės
+    top_users: 
+      title: Top 5 vartotojai
+    users: 
+      title: Naujausi vartotojai

@@ -1,0 +1,19 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  doc: 
+    plans: 
+      15millions: 15 migliune de pàggene viste/mese
+      1million: 1 miglione de pàggene viste/mese
+      5millions: 5 migliune de pàggene viste/mese
+      basic: Nderre-nderre
+      custom_analytics: Statisteche d'u traffeche
+      custom_html: HTML personalizzate
+      maximum: Massime
+      month: mese
+      optimum: Ottime
+      private: Private
+      support: Supporte
+      user: utende

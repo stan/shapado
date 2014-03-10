@@ -1,0 +1,62 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  activerecord: 
+    attributes: 
+      user: 
+        age: "{{Identical|Age}}"
+        email: "{{Identical|Email}}"
+        language: "{{Identical|Language}}"
+        login: "{{Identical|Username}}"
+        name: "{{Identical|Real name}}"
+        password: "{{Identical|Password}}"
+        timezone: "{{Identical|Time zone}}"
+        website: "{{Identical|Website}}"
+    models: 
+      user: "{{Identical|User}}"
+      users: "{{Identical|User}}"
+  users: 
+    actions: 
+      edit_others_posts: You need a reputation of %{min_reputation} to %{action}
+      edit_wiki_post: You need a reputation of %{min_reputation} to %{action}
+      flag: "You need a reputation of %{min_reputation} to %{action}\n{{Identical|Flag}}"
+      retag_others_questions: You need a reputation of %{min_reputation} to %{action}
+      vote_down: You need a reputation of %{min_reputation} to %{action}
+      vote_to_close_any_question: You need a reputation of %{min_reputation} to %{action}
+      vote_to_close_own_question: You need a reputation of %{min_reputation} to %{action}
+      vote_up: You need a reputation of %{min_reputation} to %{action}
+    change_password: 
+      title: "{{Identical|Change password}}"
+    edit: 
+      submit: "{{Identical|Save}}"
+      title: "{{Identical|Settings}}"
+    form: 
+      check_domain: "{{Identical|Check}}"
+      information: "This message is the heading for the page containing the user information. Please use plural for translation.\n{{Identical|Information}}"
+      notifications: "{{Identical|Notification}}"
+    index: 
+      name: "{{Identical|Name}}"
+      newest: "{{Identical|Newest}}"
+      oldest: "{{Identical|Oldest}}"
+      title: "{{Identical|All users}}"
+    new: 
+      submit: "{{Identical|Sign up}}"
+    show: 
+      edit_profile: "{{Identical|Edit profile}}"
+      follow: "{{Identical|Follow}}"
+      following: "{{Identical|Following}}"
+      title: "{{Identical|User}}"
+      views: "I think this is used as \"%{count} views\" and is shown on user pages (http://shapado.com/users/patcito) right under the user's reputation.\n{{Identical|View}}"
+    top_user: 
+      connect: "{{Identical|Connect}}"
+      profile: "{{Identical|Profile}}"
+    user_bar: 
+      create_account: "{{Identical|Create account}}"
+      not_logged_in: "{{Identical|Not logged in}}"
+    user_mini: 
+      admin: "{{Identical|Admin}}"
+      editor: "{{Identical|Editor}}"

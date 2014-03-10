@@ -1,0 +1,47 @@
+# Messages for Lithuanian (lietuvių)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Eitvys200
+lt: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: aktyvuota
+        activation_code: Aktyvinimo kodas
+        age: Amžiaus
+        asked_by: klausė
+        avatar: Profilio paveikslėlis
+        birthday: Gimtadienis
+        created_at: prisijungė
+        current_password: Dabartinis slaptažodis
+        email: El. paštas
+        fullname: Pilnas vardas
+        hide_country: Nerodyti mano šalies
+        language: Kalba
+        language_filter: Filtruoti pagal kalbą
+        last_logged_at: matė
+        login: Vartotojo vardas
+        name: Tikras vardas
+        password: Slaptažodis
+        password_confirmation: Slaptažodžio patvirtinimas
+        reputation: Reputacij
+        timezone: Laiko zona
+        updated_at: atnaujinta
+        website: Tinklalapis
+    models: 
+      user: Vartotojas
+      users: Vartotojai
+  users: 
+    edit: 
+      submit: Išsaugoti
+      title: Nustatymai
+    form: 
+      information: Informacija
+    index: 
+      near: Netoli jūsų
+    new: 
+      submit: Registracija
+    show: 
+      edit_profile: Redaguoti profilį
+    top_user: 
+      profile: Profilis

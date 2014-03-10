@@ -1,0 +1,9 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+sv: 
+  invitations: 
+    create: 
+      limit_notice: 
+        one: Du kan inte skicka mer än en inbjudan åtgången.
+        other: Du kan inte skicka mer än %{limit} inbjudningar åtgången

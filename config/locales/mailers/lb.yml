@@ -1,0 +1,9 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  mailers: 
+    notifications: 
+      give_advice: 
+        subject: "Mir brauchen Äre Rot: %{question_title}"

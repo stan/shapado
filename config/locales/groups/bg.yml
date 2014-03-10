@@ -1,0 +1,23 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: Описание
+        domain: Домейн
+        legend: Легенда
+        name: Име
+        subdomain: Адрес
+    models: 
+      group: Група
+      groups: Групи
+  groups: 
+    group: 
+      close: Затваряне
+      close_group: Затваряне на групата
+    index: 
+      name: Име
+      title: Групи

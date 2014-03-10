@@ -1,0 +1,17 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  activerecord: 
+    models: 
+      votes: Stëmmen
+  votes: 
+    control: 
+      to_vote_down: Klickt fir negativ ze bewäerten
+      to_vote_up: Klickt fir positiv ze bewäerten
+    create: 
+      unauthenticated: Anonym Benotzer kënnen net ofstëmmen
+    model: 
+      messages: 
+        vote_down_comment: Bemierkunge kënnen net negativ bewäert ginn

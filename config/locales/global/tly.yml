@@ -1,0 +1,49 @@
+# Messages for толышә зывон (толышә зывон)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Гусейн
+tly: 
+  feeds: 
+    post_new_questions: Нујә парсон вығандеј бә
+    share_on_twitter: Твиттер, Facebook ијән ҹо...
+  global: 
+    actions: Һәрәкәтон
+    feedback: Әлоғә гәтеј
+    home: Әсосә сәһифә
+    next_button: Думотоно шә
+    open: Окардеј
+    or: јаанки
+    preview: Сыфтәнә нишо дој
+    previous: Навынәни
+    sign_up: Ғејдијот
+    size: Улгу
+    tags_label: "Нышонон:"
+    unknown_place: Номәлум
+    view: Тәмшо кардеј
+    view_question: Парси дијә кардеј
+    what_to_do: Чич шымә кардеј пидәјоне?
+  models: 
+    question: Парс
+  preferred_languages: 
+    any: Һар гылә
+  scaffold: 
+    add: Зијод кардеј
+    back: Бә думо
+    destroy: Рәдд кардеј
+    edit: Сәрост кардеј
+    more: Бәнав …
+    new: Зијод кардеј %{model}
+    save: Огәтеј
+    send: Вығандеј
+    show: Нишо дој
+    sure: Шымә успуришон %{model} рәдд кардеј?
+  time: 
+    ago: "%{time} бә думо"
+  views: 
+    pagination: 
+      first: Иминә
+      last: Охонә
+      next: Бәнав &raquo;
+      previous: "&laquo; Бә думо"
+      truncate: ...

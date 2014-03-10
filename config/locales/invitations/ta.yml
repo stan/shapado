@@ -1,0 +1,9 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aswn
+ta: 
+  invitations: 
+    accept: 
+      done: முடிந்தது!
+      welcome: வருக ! வணக்கம் !

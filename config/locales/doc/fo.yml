@@ -1,0 +1,20 @@
+# Messages for Faroese (føroyskt)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EileenSanda
+fo: 
+  doc: 
+    chat: 
+      title: Kjatt-stuðul
+    plans: 
+      15millions: 15 milliónir síðuvísingar um mánaðin
+      1million: 1 millión síðuvísingar um mánaðin
+      5millions: 5 milliónir síðuvísingar um mánaðin
+      custom_ads: Nýt tínar egnu lýsingar
+      custom_analytics: Ferðsluhagtøl
+      custom_html: Tilpassað HTML
+      month: mánaður
+      support: Hjálp
+      unlimited: Óavmarkað ferðsla hvønn mánað
+      user: brúkari
+      we_offer: Vit bjóða eisini ein

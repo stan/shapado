@@ -1,0 +1,9 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Szoszv
+tr: 
+  doc: 
+    plans: 
+      month: ay
+      support: Destek

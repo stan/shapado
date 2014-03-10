@@ -1,0 +1,10 @@
+# Messages for Traditional Chinese (中文（繁體）‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Wrightbus
+zh-TW: 
+  answers: 
+    create: 
+      flash_notice: 謝謝！
+    form: 
+      answer_label: 回答問題

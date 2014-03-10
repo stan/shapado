@@ -1,0 +1,10 @@
+# Messages for Khmer (ភាសាខ្មែរ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: វ័ណថារិទ្ធ
+km: 
+  answers: 
+    create: 
+      flash_notice: អរគុណ!
+    form: 
+      submit: ចម្លើយ

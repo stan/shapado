@@ -1,0 +1,8 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  custom_html: 
+    question_help: Hoʻolako i nā kikoʻī he nui no ka hoʻonui ʻana o ka pane ʻana ma mua o ke kūkākūkā ʻana. Kākau maopopo a ʻike.
+    question_prompt: he aha kāu nīnau? E kākau kikoʻī pono.

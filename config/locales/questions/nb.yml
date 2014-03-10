@@ -1,0 +1,43 @@
+# Messages for Norwegian Bokmål (norsk bokmål)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Nghtwlkr
+nb: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Svar
+        asked_by: Spurt av
+        closed: Lukket
+        created_at: Spurt
+        language: Språk
+        title: Tittel
+        updated_at: oppdatert
+        updated_by: oppdatert av
+        views: Visninger
+        votes: Stemmer
+    models: 
+      question: Spørsmål
+      questions: Spørsmål
+  questions: 
+    answer: 
+      add_comment: Legg til kommentar...
+    index: 
+      active: Aktive
+      newest: Nyest
+      oldest: Eldst
+      title: Alle spørsmål
+    retag_form: 
+      cancel: Avbryt
+    show: 
+      another_answers: Andre svar
+      answers: Svar
+      close: Lukk
+      share_on: Del dette spørsmålet på %{site}
+      solution: Løsning
+    solve: 
+      flash_notice: Spørsmålet ble løst.
+    unanswered: 
+      expert: Eksperter
+    unsolve: 
+      flash_notice: Spørsmålet er ikke løst lenger.

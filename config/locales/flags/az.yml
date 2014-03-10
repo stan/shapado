@@ -1,0 +1,12 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+az: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Səbəb
+  flags: 
+    form: 
+      spam: Spam

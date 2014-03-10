@@ -1,0 +1,24 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  shared: 
+    any_lang: Tutte le lènghe
+    by_anon: Da 'n'anonime
+    date: Date
+    description: Descrizione
+    empty: 
+      filtered_by_language_questions: 
+        description: 
+          text: <a href='%{url}' class='lang-option', data-language='any' > %{action_link}</a>
+      filtered_questions: 
+        description: 
+          text: <a href='%{url}'>%{action_link}</a>
+    filter: "Filtre:"
+    language: "Lènghe:"
+    language_filter_tooltip: Pruève cu'n'otra lènghe.
+    languages: "Lènghe:"
+    name: Nome
+    preferred_lang: Lènghe preferite mije
+    view_mode: "'Ndruche 'u mode:"

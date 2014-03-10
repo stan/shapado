@@ -1,0 +1,19 @@
+# Messages for Ingush (ГӀалгӀай)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Sapral Mikail
+inh: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Яздам
+        created_at: Жопдаларашца
+        link: Iинк
+    models: 
+      answer: Жопдалар
+      answers: Жопдалараш
+  answers: 
+    create: 
+      flash_notice: Баркал!
+    form: 
+      submit: Жопдала

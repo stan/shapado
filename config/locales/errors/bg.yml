@@ -1,0 +1,9 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  errors: 
+    not_found: 
+      title: Страницата не беше намерена.
+    search: Търсене

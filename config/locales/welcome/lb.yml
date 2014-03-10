@@ -1,0 +1,17 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  welcome: 
+    confirm_age: 
+      over_18: Ech hu méi wéi 18 Joer
+      under_18: Ech hu manner wéi 18 Joer
+    feedback: 
+      feedback_description: Beschreiwung
+      feedback_title: Titel
+      title: Schéck eis Äre Feedback
+    index: 
+      active: Aktiv
+      full_list_of_questions: komplett Lëscht vun de Froen
+      recent_questions: Rezent Froen

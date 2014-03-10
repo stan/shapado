@@ -1,0 +1,98 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: 82-145
+# Author: Incelemeelemani
+# Author: Szoszv
+tr: 
+  badges: 
+    index: 
+      all_tooltip: Tüm altın, gümüş ve bronz rozetleri gösterir.
+      bronze: Bronz
+      general_tooltip: Önceden tanımlanmış tüm rozetleri gösterir.
+      gold: Altın
+      silver: Gümüş
+      tags: Etiket nişanlar
+      title: Rozetler
+    shared: 
+      addict: 
+        name: Bağımlı
+      celebrity: 
+        name: Ünlü
+      commentator: 
+        description: Solda 10 yorum
+        name: Yorumcu
+      critic: 
+        name: Eleştirmen
+      disciplined: 
+        name: Disiplinli
+      editor: 
+        name: Editör
+      effort_medal: 
+        name: Çaba madalyası
+      enlightened: 
+        description: En az 10 oy ile kabul edilen bir cevap
+        name: Kültürlü
+      famous_question: 
+        name: Ünlü bir soru
+      fanatic: 
+        name: Fanatik
+      favorite_answer: 
+        name: Favori cevap
+      favorite_question: 
+        name: Favori soru
+      friendly: 
+        name: Dostça
+      good_answer: 
+        name: İyi cevap
+      good_question: 
+        name: İyi soru
+      great_answer: 
+        name: İyi cevap
+      great_question: 
+        name: Büyük soru
+      guru: 
+        name: Guru
+      inquirer: 
+        name: Tetkik
+      merit_medal: 
+        description: 200 Olumlu oy var
+        name: Liyakat madalyası
+      necromancer: 
+        name: Büyücü
+      nice_answer: 
+        name: Güzel cevap
+      nice_question: 
+        name: Güzel soru
+      notable_question: 
+        name: Kayda değer bir soru
+      peer_pressure: 
+        name: Eş baskısı
+      pioneer: 
+        name: Öncü
+      popstar: 
+        name: Popstar
+      popular_person: 
+        name: Popüler kişi
+      popular_question: 
+        name: Popüler soru
+      rockstar: 
+        name: Rockstar
+      service_medal: 
+        name: Hizmet madalyası
+      stellar_answer: 
+        name: Yıldızlı cevap
+      stellar_question: 
+        description: 100 kullanıcı tarafından izlenen bir soru soruldu
+        name: Popüler soru
+      student: 
+        name: Öğrenci
+      supporter: 
+        name: Destekçi
+      troubleshooter: 
+        name: Sorun giderici
+      tutor: 
+        name: Öğretmen
+    show: 
+      description: "Kullanıcılar bu rozeti kazandı. Son verilen:"
+      earned: kazandı

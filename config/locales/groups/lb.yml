@@ -1,0 +1,27 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: Beschreiwung
+        forum: Méi wéi eng Äntwert pro Benotzer zouloossen
+        language: Standard-Sprooch
+        languages: Zousätzlech Sproochen
+        logo: Logo
+        name: Numm
+    models: 
+      group: Grupp
+      groups: Gruppen
+  groups: 
+    group: 
+      about: Iwwer
+      close: Zoumaachen
+    index: 
+      actives: Aktiv
+      name: Numm
+      title: Gruppen
+    show: 
+      visit_group: Dëse Grupp besichen

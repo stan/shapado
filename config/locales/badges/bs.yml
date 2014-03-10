@@ -1,0 +1,85 @@
+# Messages for Bosnian (bosanski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Edinwiki
+bs: 
+  badges: 
+    index: 
+      all_tooltip: Prikaži sve zlatne, srebrne i bronzane značke.
+      bronze: Bronza
+      bronze_tooltip: Bronzane značke se lahko dobijaju i služe da podstaknu korisnike da učestvuju.
+      description: Što više učestvujete s pitanjima i odgovorima, to dobijate više znački. Značke će biti istaknute na vašem profilu.
+      general: Obične značke
+      general_tooltip: Prikaži sve zadate značke.
+      gold: Zlato
+      gold_tooltip: Zlatne značke su najvrijednije nagrade, i zato se najteže dobijaju. Ovakve značke dobijaju samo najposvjećeniji korisnici.
+      silver: Srebro
+      silver_tooltip: Srebrne značke dobijaju aktivni korisnici koji rade prilično dugo vremena.
+      tags: Označi značke
+      tags_tooltip: Kada pitanja označena sa X dobiju odgovore s više od 100 pozitivnih glasova, onda se stvara značka X s imenom te oznake.
+      title: Značke
+    shared: 
+      addict: 
+        description: Posjetio sajt 20 dana zaredom
+        name: Ovisnik
+      commentator: 
+        description: Ostavio 10 komentara
+        name: Komentator
+      critic: 
+        description: Prvi put negativno glasao/la
+        name: Kritičar
+      famous_question: 
+        description: Postavio pitanje sa 10.000 pregleda
+        name: Poznato pitanje
+      fanatic: 
+        description: Posjetio sajt 100 dana zaredom
+        name: Fanatik
+      favorite_answer: 
+        description: Ima odgovor koji je omiljen za 25 korisnika
+        name: Omiljeni odgovor
+      favorite_question: 
+        description: Postavio pitanje koje prati 25 korisnika
+        name: Omiljeno pitanje
+      good_answer: 
+        name: Dobar odgovor
+      good_question: 
+        description: Postavio pitanje koje je dostiglo prosijek od više od 25 glasova
+        name: Dobro pitanje
+      guru: 
+        description: Dao rješenje na pitanje s prosijekom od više od 40 glasova
+        name: Guru
+      merit_medal: 
+        name: Medalja za zasluge
+      notable_question: 
+        description: Postavio pitanje sa 2.500 pregleda
+        name: Značajno pitanje
+      pioneer: 
+        name: Pionir
+      popstar: 
+        description: Ima 500 pozitivnih i najviše 10 negativnih glasova
+        name: Pop zvijezda
+      popular_person: 
+        description: Ima više od 50 pratioca
+        name: Popularna ličnost
+      popular_question: 
+        description: Postavio pitanje sa 1.000 pregleda
+        name: Popularno pitanje
+      rockstar: 
+        description: Ima 1000 pozitivnih i maksimalno 10 negativnih glasova
+        name: Rock zvijezda
+      service_medal: 
+        description: Ima trista pozitivnih glasova
+        name: Medalja za službu
+      stellar_answer: 
+        description: Ima odgovor koji je omiljen za 100 korisnika
+        name: Odličan odgovor
+      tutor: 
+        description: Dao rješenje na pitanje s prosijekom od više od 2 glasa
+        name: Učitelj
+    show: 
+      description: "Korisnici koji su osvojili ovu značku. Nedavno dodijeljeno korisnicima:"
+      earned: zaradio
+      for_tag_bronze: 200 glasova u oznaci %{tag}
+      for_tag_gold: 1000 glasova u oznaci %{tag}
+      for_tag_silver: 400 glasova u oznaci %{tag}
+      title: Značka %{type}

@@ -1,0 +1,9 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: सरोज कुमार ढकाल
+ne: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: कारण

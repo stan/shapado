@@ -1,0 +1,21 @@
+# Messages for Hindi (हिन्दी)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Venky2834
+hi: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: पर खत्म होता है
+        message: संदेश
+        only_anonymous: केवल अनाम उपयोगकर्ताओं के लिए
+        starts_at: शुरू होता है
+  announcements: 
+    actions: 
+      delete: हटायें
+      title: क्रियाएँ
+    create: 
+      success: आपकी घोषणा को सफलतापूर्वक बना दिया गया।
+    index: 
+      description: नई घोषणाओं को प्रबंधित करें एवं बनाएं जो पूर्ण साईट पर आपके आगंतुकों को दिखाया जाएगा।
+      title: घोषणाएँ

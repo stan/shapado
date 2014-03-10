@@ -1,0 +1,14 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  admin: 
+    manage: 
+      access: 
+        title: پذيرشت
+      content: 
+        footer: پاون
+        head: سر ون
+      top_admin: 
+        site: مالگه

@@ -1,0 +1,11 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DRIHEM
+ar: 
+  activity: 
+    changed: غيرت
+    created: تم إنشاءها
+    deleted: تم حذفه
+    destroyed: تم حذفه
+    updated: تم التحديث

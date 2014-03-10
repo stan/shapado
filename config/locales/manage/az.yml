@@ -1,0 +1,10 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+az: 
+  admin: 
+    manage: 
+      top_admin: 
+        site: Sayt
+        title: İdarəçi

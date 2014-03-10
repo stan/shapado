@@ -1,0 +1,23 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  layouts: 
+    application: 
+      all: Tutte
+      log_in: Tràse
+      logout: Isse
+      search: Cirche
+      settings: "'Mbostaziune"
+      tags: Tag
+      users: Utinde
+    manage: 
+      access: Accesse
+      actions: Aziune
+      announcements: Annunge
+      appearance: Aspette
+      content: Condenute
+      general: Generale
+      stats: Statisteche
+      themes: Teme

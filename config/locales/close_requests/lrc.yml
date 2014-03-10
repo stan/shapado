@@ -1,0 +1,15 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  close_requests: 
+    form: 
+      spam: اسپم
+    model: 
+      attributes: 
+        comment: نظر
+        reason: دليل
+        user: كارور
+      name: بسن درحاست
+      prural_name: بسن حاسته یا

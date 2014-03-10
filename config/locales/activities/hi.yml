@@ -1,0 +1,19 @@
+# Messages for Hindi (हिन्दी)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Venky2834
+hi: 
+  activerecord: 
+    models: 
+      activities: गतिविधियाँ
+      activity: गतिविधि
+  activity: 
+    asked: पूछी गई
+    changed: परिवर्तित
+    created: निर्मित
+    deleted: हटाई हुई
+    destroyed: हटाई हुई
+    flagged: चिन्हित
+    requested_to_close: बंद करने के लिए अनुरोधित
+    requested_to_open: खोलने के लिए अनुरोधित
+    updated: अद्यतनित

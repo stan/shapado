@@ -1,0 +1,8 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+eu: 
+  layouts: 
+    application: 
+      now: orain!

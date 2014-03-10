@@ -1,0 +1,9 @@
+# Messages for Traditional Chinese (中文（繁體）‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+zh-TW: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: 原因

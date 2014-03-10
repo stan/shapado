@@ -1,0 +1,31 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  layouts: 
+    application: 
+      faq: שאלות ותשובות
+      forgot: שכחת?
+      languages: שפות
+      log_in: כניסה
+      logout: יציאה
+      manage_ads: ניהול פרסומות
+      pages: דפים
+      questions: שאלות
+      search: חיפוש
+      settings: הגדרות
+      signup: הרשמה
+      tags: תגים
+      users: משתמשים
+    manage: 
+      actions: פעולות
+      announcements: הכרזות
+      constrains: דרישות
+      domain: מתחם
+      general: כללי
+      group_features: תכונות
+      invitations: הזמנות
+      invoices: חשבוניות
+      pages: דפים
+      reputation: מוניטין

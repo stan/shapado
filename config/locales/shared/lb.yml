@@ -1,0 +1,17 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  shared: 
+    description: Beschreiwung
+    empty: 
+      themes: 
+        description: 
+          action_link: elo
+    filter: "Filter:"
+    language: "Sprooch:"
+    languages: "Sproochen:"
+    name: Numm
+    topbar: 
+      user_page: Meng Säit

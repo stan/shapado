@@ -1,0 +1,10 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  open_requests: 
+    edit: 
+      title: Ufro fir nees opzemaachen änneren
+    new: 
+      title: Ufro fir nees opzemaachen

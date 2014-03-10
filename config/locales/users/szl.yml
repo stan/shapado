@@ -1,0 +1,28 @@
+# Messages for Silesian (ślůnski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Byulent
+szl: 
+  activerecord: 
+    attributes: 
+      user: 
+        email: E-brif
+        language: Godka
+        login: Mjano užytkowńika
+        password: Hasuo
+        website: Zajta internecowa
+    models: 
+      user: Užytkowńik
+      users: Užytkowńiki
+  users: 
+    edit: 
+      submit: Naškryflej
+      title: Preferyncyje
+    form: 
+      information: Informacyjo
+      language: Godka interfejsu zajty
+    index: 
+      name: Mjano
+      title: Wšyjske užytkowńiki
+    show: 
+      title: Užytkowńik %{user}

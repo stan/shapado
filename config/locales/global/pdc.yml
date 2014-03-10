@@ -1,0 +1,14 @@
+# Messages for Deitsch (Deitsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Xqt
+pdc: 
+  global: 
+    by: vun
+    or: odder
+  models: 
+    question: Die Froog
+  scaffold: 
+    back: Zerrick
+    destroy: Verwische
+    more: Mehner …

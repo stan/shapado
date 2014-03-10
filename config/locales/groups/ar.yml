@@ -1,0 +1,16 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Meno25
+# Author: OsamaK
+ar: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: الوصف
+        language: اللغة الافتراضية
+        name: الاسم
+  groups: 
+    group: 
+      about: عن
+      close: أغلق

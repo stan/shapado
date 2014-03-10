@@ -1,0 +1,10 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  invitations: 
+    accept: 
+      create_account_step2: گڼون جوړول
+      done: ترسره شو!
+      welcome: ښه راغلۍ

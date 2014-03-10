@@ -1,0 +1,16 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Incelemeelemani
+# Author: Szoszv
+tr: 
+  close_requests: 
+    form: 
+      dupe: Kopya
+      ot: Kapalı konu
+      spam: spam
+    model: 
+      attributes: 
+        comment: Yorum
+        reason: Sebep
+        user: Kullanıcı

@@ -1,0 +1,13 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lokal Profil
+sv: 
+  activerecord: 
+    models: 
+      vote: Röst
+      votes: Röster
+  votes: 
+    create: 
+      flash_notice: Tack för rösten!
+      unauthenticated: Anonyma användare kan inte rösta

@@ -1,0 +1,11 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  sessions: 
+    new: 
+      log_in: اومائن د سیستم
+      remember_me: منه د ویر داشتو
+      sign_in: اومائن د سيستم
+      signup: ثوت نام كردن

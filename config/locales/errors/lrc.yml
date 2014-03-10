@@ -1,0 +1,13 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  errors: 
+    forbidden: 
+      title: دسرسی منع بی
+    go_to: رؤ د %{هوم پیوند}بلگه
+    not_found: 
+      title: بلگه جسته نبی
+    options_label: "چیا هنی سی کوششت:"
+    search: پی جوری

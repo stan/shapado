@@ -1,0 +1,13 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Luckas
+pt-PT: 
+  activerecord: 
+    models: 
+      activities: Atividades
+      activity: Atividade
+  activity: 
+    created: criado
+    deleted: eliminado
+    updated: atualizado

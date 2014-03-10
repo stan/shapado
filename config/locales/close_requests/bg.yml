@@ -1,0 +1,12 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  close_requests: 
+    form: 
+      spam: спам
+    model: 
+      attributes: 
+        reason: Причина
+        user: Потребител

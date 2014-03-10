@@ -1,0 +1,12 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  invitations: 
+    accept: 
+      create_account: "{{Identical|Create account}}"
+      create_account_step2: "{{Identical|Create account}}"
+      done: "{{Identical|Done}}"
+      welcome: "{{Identical|Welcome}}"

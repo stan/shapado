@@ -1,0 +1,23 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+ja: 
+  themes: 
+    edit: 
+      title: テーマの編集
+    form: 
+      colors_and_bg: 色と背景
+      submit_update: テーマを更新
+      update: テーマを更新
+    show: 
+      apply: 適用
+      bg_color: 背景色
+      bg_image: 背景画像
+      button_bg: ボタンの背景色
+      button_fg: ボタンの前景色
+      fg_color: 前景色
+      link_bg: リンクの背景色
+      link_fg: リンクの前景色
+      text_color: 文字色
+      use_link_bg: リンクに背景を使用

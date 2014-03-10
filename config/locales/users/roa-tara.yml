@@ -1,0 +1,32 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  activerecord: 
+    attributes: 
+      user: 
+        age: Età
+        birthday: Date de nascite
+        email: E-mail
+        language_filter: Filtre pe lènghe
+        login: Nome utende
+        name: Nome vere
+        password: Passuord
+        website: Site web
+    models: 
+      user: Utende
+      users: Utinde
+  users: 
+    edit: 
+      submit: Reggìstre
+    index: 
+      name: Nome
+      title: Tutte l'utinde
+    top_user: 
+      connect: Connette
+      profile: Profile
+    user_mini: 
+      admin: "[Amministratore ]"
+      editor: "[ Cangiatore ]"
+      mod: "[ Moderatore ]"

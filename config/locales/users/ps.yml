@@ -1,0 +1,63 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  activerecord: 
+    attributes: 
+      user: 
+        age: عمر
+        birthday: زېږکليزه
+        current_password: اوسنی پټنوم
+        email: برېښليک
+        fullname: بشپړ نوم
+        hide_country: زما هېواد مه ښکاره کوه
+        language: ژبه
+        language_filter: د ژبې له مخې چاڼول
+        login: کارن-نوم
+        name: اصلي نوم
+        password: پټنوم
+        preferred_languages: "تاسې په لاندينيو ژبو کې پوښتنې لوستل غواړۍ:"
+        timezone: د وخت سيمه
+        website: وېبځی
+    models: 
+      user: کارن
+      users: کارنان
+  users: 
+    actions: 
+      flag: رپی
+    change_password: 
+      submit: خپل پټنوم بدلول
+      title: پټنوم بدلول
+    edit: 
+      submit: خوندي کول
+      title: امستنې
+    follow: 
+      flash_notice: تاسې اوس %{user} څارۍ.
+    form: 
+      information: مالومات
+      show_more_lang: نورې ژبې ښکاره کول
+    index: 
+      filter: د کارنانو پلټنه
+      name: نوم
+      newest: تر ټولو نوی
+      oldest: تر ټولو زوړ
+      title: ټول کارنان
+    new: 
+      submit: نومليکل
+      title: د يوه نوي کارن په توگه نومليکل
+    show: 
+      edit_profile: پېژنليک سمول
+      follow: څارل
+      followers: څارونکي
+      following: د څار لاندې
+      title: کرن %{user}
+      unfollow: ناڅارل
+      views: کتنې
+    top_user: 
+      profile: پېژنليک
+    user_bar: 
+      create_account: يو گڼون جوړول
+    user_mini: 
+      admin: "[ پازوال ]"
+      editor: "[ سمونگر ]"

@@ -1,0 +1,12 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: OsamaK
+ar: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: السبب
+  flags: 
+    form: 
+      spam: سخام

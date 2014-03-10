@@ -1,0 +1,16 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+az: 
+  activerecord: 
+    attributes: 
+      page: 
+        js: JavaScript
+    models: 
+      page: Səhifə
+      pages: Səhifələr
+  pages: 
+    index: 
+      wiki: Viki
+      wiki_pages: Viki səhifələr

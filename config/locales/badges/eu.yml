@@ -1,0 +1,20 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: An13sa
+# Author: Subi
+eu: 
+  badges: 
+    index: 
+      bronze: Brontzea
+      gold: Urrea
+      silver: Zilarra
+    shared: 
+      great_answer: 
+        name: Erantzun bikaina
+      great_question: 
+        name: Galdera bikaina
+      student: 
+        name: Ikaslea
+      tutor: 
+        name: Tutorea

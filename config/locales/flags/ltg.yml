@@ -1,0 +1,9 @@
+# Messages for Latgalian (latgaļu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dark Eagle
+ltg: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Īmesle

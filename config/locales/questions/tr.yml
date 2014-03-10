@@ -1,0 +1,15 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Szoszv
+tr: 
+  activerecord: 
+    attributes: 
+      question: 
+        language: Dil
+        title: Başlık
+  questions: 
+    show: 
+      answers: Cevaplar
+      close: Kapat
+      flag: Bayrak

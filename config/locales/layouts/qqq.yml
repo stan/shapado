@@ -1,0 +1,42 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Hamilton Abreu
+# Author: Shirayuki
+# Author: Siebrand
+qqq: 
+  layouts: 
+    application: 
+      all: "{{Identical|All}}"
+      badges: "{{Identical|Badge}}"
+      contributed: The title of a tab. When the user clicks on it, it shows a list of questions the user has contributed to (by writing an answer or commenting).
+      faq: "{{Identical|FAQ}}"
+      home: "{{Identical|Home}}"
+      languages: "{{Identical|Language}}"
+      log_in: "{{Identical|Login}}"
+      logout: "{{Identical|Log out}}"
+      moderate: "{{Identical|Moderate}}"
+      pages: "{{Identical|Page}}"
+      questions: "{{Identical|Question}}"
+      search: "{{Identical|Search}}"
+      signup: "{{Identical|Sign up}}"
+      subscribe: "{{Identical|Subscribe}}"
+      users: "{{Identical|User}}"
+    manage: 
+      access: "{{Identical|Access}}"
+      actions: "{{Identical|Action}}"
+      announcements: "An announcement is similar to the MediaWiki sitenotice: a site wide announcement, repeated on every page."
+      appearance: "{{Identical|Appearance}}"
+      constrains: "{{Identical|Requirement}}"
+      content: "{{Identical|Content}}"
+      dashboard: "{{Identical|Dashboard}}"
+      domain: "{{Identical|Domain}}"
+      general: "{{Identical|General}}"
+      group_features: "{{Identical|Feature}}"
+      members: "{{Identical|Member}}"
+      pages: "{{Identical|Page}}"
+      properties: "{{Identical|Property}}"
+      theme: "{{Identical|Theme}}"
+      themes: "{{Identical|Theme}}"
+      widgets: "{{Identical|Widget}}"

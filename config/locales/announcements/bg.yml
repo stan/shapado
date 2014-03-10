@@ -1,0 +1,13 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        message: Съобщение
+  announcements: 
+    actions: 
+      delete: Премахване
+      title: Действия

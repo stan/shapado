@@ -1,0 +1,25 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: सरोज कुमार ढकाल
+ne: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: वर्णन
+        domain: डोमेन
+        name: नाम
+        state: राज्य
+        subdomain: URL
+    models: 
+      group: समूह
+      groups: समूहहरू
+  groups: 
+    form: 
+      any_language: कुनै
+    group: 
+      about: बारेमा
+      close: बन्द गर्ने
+    index: 
+      actives: सक्रिय
+      name: नाम

@@ -1,0 +1,15 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  close_requests: 
+    form: 
+      dupe: "{{Identical|Duplicate}}"
+      spam: "{{Identical|Spam}}"
+    model: 
+      attributes: 
+        comment: "{{Identical|Comment}}"
+        reason: "{{Identical|Reason}}"
+        user: "{{Identical|User}}"

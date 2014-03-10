@@ -1,0 +1,34 @@
+# Messages for Burmese (မြန်မာဘာသာ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erikoo
+my: 
+  activerecord: 
+    models: 
+      badge: တံဆိပ်
+  badges: 
+    shared: 
+      celebrity: 
+        name: အနုပညာရှင်
+      editor: 
+        name: အယ်ဒီတာ
+      favorite_question: 
+        name: အကြိုက်ဆုံးမေးခွန်း
+      friendly: 
+        name: ဖော်ရွေသူ
+      good_answer: 
+        name: ကောင်းသောဖြေဆိုချက်ဖြစ်သည်
+      guru: 
+        name: ဆရာကြီး
+      inquirer: 
+        name: စုံစမ်းမေးမြန်းသူ
+      organizer: 
+        name: စီစဉ်သူ
+      popular_person: 
+        name: ရေပန်းစားသူ
+      popular_question: 
+        name: ရေပန်းစားသော မေးခွန်း
+      student: 
+        name: ကျောင်သား/သူ
+      supporter: 
+        name: ထောက်ခံသူများ

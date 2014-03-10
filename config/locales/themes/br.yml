@@ -1,0 +1,29 @@
+# Messages for Breton (brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fohanno
+# Author: Gwenn-Ael
+# Author: Y-M D
+br: 
+  themes: 
+    edit: 
+      title: Aozañ an tem
+    form: 
+      questions_index_html: Ouzhpennañ ho patrom personelaet evit meneger ar goulennoù
+      submit_update: Hizivaat an tem
+      update: Hizivaat an tem
+    index: 
+      new_theme: Gallout a rit sevel ho tem deoc'h amañ.
+    ready: 
+      success: Prest eo ho tem !
+    show: 
+      apply: Arloañ
+      bg_color: Liv an drekleur
+      bg_image: Skeudenn drekleur
+      brand_color: Liv ar merk
+      main_color: Liv pennañ
+      modules_color: Liv ar modulennoù
+      not_ready: N'eo ket prest an tem-mañ da vezañ implijet, deuit en-dro diwezhatoc'h.
+      text_color: Liv an destenn
+      try: Klask
+      view_bg: Liv drekleur ar gwel

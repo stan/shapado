@@ -1,0 +1,9 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RajeshPandey
+ne: 
+  activerecord: 
+    attributes: 
+      user: 
+        login: प्रयोगकर्ता नाम

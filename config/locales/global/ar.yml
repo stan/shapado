@@ -1,0 +1,23 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Meno25
+# Author: OsamaK
+# Author: زكريا
+ar: 
+  global: 
+    anonymous: مجهول
+    preview: عرض مسبق
+    previous: السابق
+  models: 
+    question: السؤال
+  scaffold: 
+    cancel: إلغاء
+    close: أغلق
+    create: أنشئ
+    destroy: حذف
+    edit: عدل
+    more: المزيد ...
+    save: احفظ
+    send: أرسل
+    show: أظهر

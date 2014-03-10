@@ -1,0 +1,15 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  themes: 
+    show: 
+      apply: Zastosuj
+      bg_color: Kolor tła
+      bg_image: Obrazek tła
+      button_bg: Kolor tła przycisków
+      button_fg: Kolor pierwszoplanowy przycisków
+      fg_color: Kolor pierwszoplanowy
+      link_bg: Kolor tła linków
+      link_fg: Kolor pierwszoplanowy linków

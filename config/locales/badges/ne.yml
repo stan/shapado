@@ -1,0 +1,38 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RajeshPandey
+# Author: सरोज कुमार ढकाल
+ne: 
+  badges: 
+    index: 
+      all_tooltip: सबै स्वर्ण, रजत तथा काँस्य पदकहरू देखाउनुहोस।
+      bronze: काँस्य
+      bronze_tooltip: काँस्य पदक चिन्हहरू जित्न सजिला हुन्छन् तथा प्रयोगकर्ताहरूलाइ भाग लिनलाइ प्रोत्साहित गर्दछ।
+      general: नियमित ब्याजहरू
+      gold: स्वर्ण
+      gold_tooltip: स्वर्ण पदक चिन्हहरू सबै भन्दा उच्चतम पुरस्कारहरू हुन, ति प्राप्त गर्न पनि गाह्रा हुन्छन्। सबै भन्दा धेरै लागिपरेका प्रयोगकर्ताहरूले यिनलाइ मात्र प्राप्त गर्न सक्छन्।
+      silver: रजत
+      silver_tooltip: धेरै समय सम्म लागिपरेका र अलि धेरै सक्रिय प्रयोगकर्ताहरूले रजत पदक प्राप्त गर्दछन् ।
+      tags: ट्याग ब्याजहरू
+      title: ब्याजहरू
+    shared: 
+      benefactor: 
+        name: लाभकर्ता
+      guru: 
+        name: गुरू
+      investor: 
+        name: लगानीकर्ता
+      organizer: 
+        name: आयोजक
+      promoter: 
+        name: सम्बर्दक
+      rockstar: 
+        name: चर्चीत व्यक्तित्व
+    show: 
+      description: "यो पदक चिन्ह प्राप्त गर्ने प्रयोगकर्ताहरू । हालै प्रदान गरिएका :"
+      earned: कमाएको
+      for_tag_bronze: "%{tag} चिन्हमा २०० भोटहरू"
+      for_tag_gold: "%{tag} चिन्हमा १००० भोटहरू"
+      for_tag_silver: "%{tag} चिन्हमा ४०० भोटहरू"
+      title: "%{type} पदक चिन्ह"

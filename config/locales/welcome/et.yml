@@ -1,0 +1,8 @@
+# Messages for Estonian (eesti)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Luckas
+et: 
+  welcome: 
+    feedback: 
+      feedback_description: Kirjeldus

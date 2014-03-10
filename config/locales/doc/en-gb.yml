@@ -1,0 +1,10 @@
+# Messages for British English (British English)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+en-gb: 
+  doc: 
+    plans: 
+      basic_styling: Personalised look & feel
+      basic_styling_tip: Easily change the colour scheme of your site, add your own logo and even change the CSS code.
+      start_monetizing: Start monetising

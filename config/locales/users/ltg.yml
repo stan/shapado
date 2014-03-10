@@ -1,0 +1,16 @@
+# Messages for Latgalian (latgaļu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dark Eagle
+ltg: 
+  activerecord: 
+    attributes: 
+      user: 
+        age: Vacums
+        email: E-posts
+        language: Volūda
+        password: Paroļs
+        website: Teiklavīta
+    models: 
+      user: Lītuotuojs
+      users: Lītuotuoji

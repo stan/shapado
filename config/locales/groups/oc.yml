@@ -1,0 +1,35 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  activerecord: 
+    attributes: 
+      group: 
+        default_tags: Tags per defaut
+        description: Descripcion
+        domain: Domeni
+        group_created_by: creat per
+        language: Lenga per defaut
+        languages: Lengas suplementàrias
+        legend: Legenda
+        logo: Lògo
+        name: Nom
+        state: Estat
+        subdomain: URL
+    models: 
+      group: Grop
+      groups: Gropes
+  groups: 
+    group: 
+      about: A prepaus
+      close: Tampar
+    index: 
+      actives: Actius
+      filter: Recercar los gropes
+      most_active: Mai actius
+      name: Nom
+      pendings: En espèra
+      title: Gropes
+    top_grouplist: 
+      active_site: "Site actiu :"

@@ -1,0 +1,9 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Luckas
+pt-PT: 
+  invitations: 
+    accept: 
+      done: Feito!
+      welcome: Bem-vindo

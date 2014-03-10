@@ -1,0 +1,31 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  devise: 
+    failure: 
+      invalid: نشونی ایمیل یا پاسورد نامعتور
+      locked: حساوتو قلف بیه.
+    mailer: 
+      confirm_account: 
+        welcome: خوش اومايت
+      hello: سلام
+      reset_password: 
+        link: پاسورد مه آلشت کو
+      unlock: 
+        link: حساومه قلف نکو
+    passwords: 
+      link: پاسورد د ویرتو رئته؟
+    registrations: 
+      link: ثوت نام كردن
+    sessions: 
+      link: اومائن د سيستم
+      new: 
+        remember_me: منه د ویر داشتو
+      sign_out: اومائن وه در
+  errors: 
+    messages: 
+      already_confirmed: مئکم بی
+      not_found: پیدا نبی
+      not_locked: قلف نبیه

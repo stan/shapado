@@ -1,0 +1,14 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  close_requests: 
+    form: 
+      ot: Topiki racnê
+      spam: Spam
+    model: 
+      attributes: 
+        comment: Vatış
+        reason: Sebeb
+        user: Karber

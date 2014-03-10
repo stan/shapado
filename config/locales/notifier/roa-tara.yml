@@ -1,0 +1,15 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  notifier: 
+    favorited: 
+      message2: "'A domande ere:"
+      message3: "'U puè vedè aqqua:"
+    global: 
+      hi: Cià %{user},
+      hi_no_user: Cià,
+      user_page: pàgene de l'utende
+    report: 
+      message2: Da %{date}

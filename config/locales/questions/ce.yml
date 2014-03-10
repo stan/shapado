@@ -1,0 +1,20 @@
+# Messages for Chechen (нохчийн)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Умар
+ce: 
+  activerecord: 
+    attributes: 
+      question: 
+        language: Мотт
+        title: Корта
+  questions: 
+    index: 
+      ask_question: Хаттар далар
+    new: 
+      title: Хаттар далар
+    retag_form: 
+      cancel: Цаоьшу
+    show: 
+      close: ДӀачӀагӀа
+      history: Истори

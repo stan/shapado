@@ -1,0 +1,19 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  devise: 
+    mailer: 
+      confirm_account: 
+        welcome: ברוך בואך
+      hello: שלום
+      reset_password: 
+        link: החלפת הססמה שלי
+      unlock_instructions: 
+        subject: הנחיות שחרור
+    registrations: 
+      link: הרשמה
+    sessions: 
+      link: כניסה
+      sign_out: יציאה

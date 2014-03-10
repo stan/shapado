@@ -1,0 +1,46 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  activerecord: 
+    models: 
+      badge: insigna
+      badges: insignas
+  badges: 
+    index: 
+      bronze: Bronze
+      general: Decoracions ordinàrias
+      gold: Aur
+      silver: Argent
+      tags: Balisa de decoracions
+      title: insignas
+    shared: 
+      altruist: 
+        name: Altruist
+      celebrity: 
+        name: Celebritat
+      critic: 
+        name: Critica
+      famous_question: 
+        name: Question famosa
+      fanatic: 
+        name: Fanatic
+      organizer: 
+        name: Organizaire
+      popstar: 
+        name: Popstar
+      rockstar: 
+        name: Rockstar
+      scholar: 
+        name: Erudit
+      service_medal: 
+        description: A recebut 300 vòtes positius
+        name: Medalha del servici
+      tutor: 
+        name: Tutor
+    show: 
+      earned: Ganhat
+      for_tag_bronze: 200 vòtes pel tag %{tag}
+      for_tag_gold: 1000 vòtes pel tag %{tag}
+      for_tag_silver: 400 vòtes pel tag %{tag}

@@ -1,0 +1,14 @@
+# Messages for Norwegian Bokmål (norsk bokmål)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Nghtwlkr
+nb: 
+  activerecord: 
+    models: 
+      vote: Stem
+      votes: Stemmer
+  votes: 
+    create: 
+      flash_error: Du kan ikke stemme dette
+      flash_notice: Takk for at du stemte!
+      unauthenticated: Anonyme brukere kan ikke stemme

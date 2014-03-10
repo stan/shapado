@@ -1,0 +1,29 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  admin: 
+    manage: 
+      access: 
+        title: Accesse
+      content: 
+        head: testate
+      edit_card: 
+        button: Aggiorna 'a carte de credite toje
+      invitations: 
+        invitations: Manne le invite
+        invitations_title: Elenghe de le invite ca è mannate
+        invite: Invite le crestiane
+        invite_title: Invite le crestiane pe email
+        title: Invite
+      properties: 
+        invite: 
+          invitations: Manne le invite
+          invite: Invite le crestiane
+          user_role: Invite l'utinde cumme
+      social: 
+        post_to_twitter: Manne sus a Tuitter
+      top_admin: 
+        site: Site
+        title: Amministratore

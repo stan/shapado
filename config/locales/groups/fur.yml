@@ -1,0 +1,46 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  activerecord: 
+    attributes: 
+      group: 
+        default_tags: Etichetis predeterminadis
+        description: Descrizion
+        domain: Domini
+        group_created_by: creât di
+        language: Lenghe predetermiande
+        languages: Altris lenghis
+        legend: Leiende
+        logo: Logo
+        name: Non
+        owner: Chest grup al è stât creât di %{login}
+        state: Stât
+        subdomain: URL
+    models: 
+      group: Grup
+      groups: Grups
+  groups: 
+    edit: 
+      title: Modifiche il to grup
+    form: 
+      any_language: Cualsisei
+    group: 
+      about: Informazions
+      accept_group: Acete chest grup
+      close: Siere
+      close_group: Siere chest grup
+    index: 
+      create_your_own: cree il to grup
+      filter: Cîr grups
+      name: Non
+      pendings: In spiete
+      request_group: Fâs domande par un gnûf grup
+      title: Grups
+    new: 
+      title: Cree il to grup
+    show: 
+      accept_group: Acete chest grup
+      close_group: Siere chest grup
+      title: Informazions su %{name}

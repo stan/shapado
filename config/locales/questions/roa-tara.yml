@@ -1,0 +1,36 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  questions: 
+    answer_toolbar: 
+      flagged_by_you: Signate da te
+    disallow_spam: 
+      error: Tu è abbesogne de aspettà 20 seconde apprime de mannà 'n'otra domande.
+    form: 
+      remove_attachment: Live
+    index: 
+      active: Attive
+      ask_question: Fà 'na domande
+      hot: Cavede
+      newest: Nuève nuève
+      oldest: Vicchie vicchie
+      title: Tutte le domande
+      votes: Vote
+    move: 
+      submit: Spuèste!
+    retag_form: 
+      cancel: Annulle
+    show: 
+      another_answers: Otre resposte
+      answers: Resposte
+      history: Cunde
+      solution: Soluzione
+    tags: 
+      title: Tag
+    toolbar: 
+      answer_by_mail: Respunne pe email
+      more_actions: Cchiù aziune
+      requests: Richieste
+      your_close_request: Le richieste achiuse tune

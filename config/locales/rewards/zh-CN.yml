@@ -1,0 +1,8 @@
+# Messages for Simplified Chinese (中文（简体）‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  rewards: 
+    start: 
+      active_notice: 这个问题已经有活动的奖励。

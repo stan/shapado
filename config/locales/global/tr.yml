@@ -1,0 +1,18 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Szoszv
+tr: 
+  global: 
+    please_login: Lütfen giriş yapınız
+    share: Paylaş
+  scaffold: 
+    cancel: İptal
+    close: Kapat
+    destroy: Sil
+    details: Ayrıntılar
+    edit: Düzenle
+    more: Daha...
+    save: Kaydet
+  time: 
+    today: bugün

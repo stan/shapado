@@ -1,0 +1,22 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  wiki: 
+    actions: 
+      all_history: Hoʻi i ka mōʻaukala
+      back_to_question: Hoʻi i ka nīnau
+      revert: Hoʻihoʻi i kēia mana
+      show_diff: Hoʻohālikelike i nā mana koho ʻia
+    diff: 
+      title: Nā mea ʻokoʻa ma waena o %{prev} a me %{curr}
+    history: 
+      current_version: Mana okamanawa
+      previous_versions: Mana mamua aku nei
+      title: Mōʻaukala (%{count})
+      version: Mana
+      version_summary: Hōʻuluʻulu manaʻo mana
+    model: 
+      attributes: 
+        message: Hōʻuluʻulu manaʻo

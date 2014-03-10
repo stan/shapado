@@ -1,0 +1,10 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: WikiPhoenix
+sv: 
+  admin: 
+    moderate: 
+      index: 
+        content: Innehåll
+        item_title: Titel

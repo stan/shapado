@@ -1,0 +1,11 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Mirzali
+diq: 
+  invitations: 
+    accept: 
+      create_account_step2: Hesab vıraze
+      done: Qeyd bi!
+      welcome: Xeyr amey

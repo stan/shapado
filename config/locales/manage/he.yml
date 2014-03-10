@@ -1,0 +1,28 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  admin: 
+    manage: 
+      access: 
+        title: גישה
+      content: 
+        top_bar: סרגל עליון
+      invitations: 
+        title: הזמנות
+      properties: 
+        constrains: 
+          title: דרישות
+        invite: 
+          invitations: שליחת הזמנות
+        share: 
+          title: שיתוף
+        tag_your_tweets: 
+          add_tags: הוספת תגיות לציוצים שלך
+        twitter_account: 
+          twitter_account: חשבון טוויטר
+      social: 
+        twitter_account: חשבון טוויטר
+      top_admin: 
+        site: אתר

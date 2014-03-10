@@ -1,0 +1,10 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  notifier: 
+    global: 
+      hi: Bonjorn %{user},
+      hi_no_user: Bonjorn,
+      user_page: pagina d'utilizaire

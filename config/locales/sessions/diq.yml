@@ -1,0 +1,11 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mirzali
+diq: 
+  sessions: 
+    new: 
+      log_in: Cıkewtış
+      remember_me: Mı biya xo viri
+      sign_in: Cı kewe
+      signup: Qeyd be

@@ -1,0 +1,17 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  global: 
+    or: или
+    share: Споделяне
+  scaffold: 
+    add: Добавяне
+    cancel: Отказване
+    close: Затваряне
+    create: Създаване
+    destroy: Изтриване
+    edit: Редактиране
+    save: Съхраняване
+    update: Обновяване

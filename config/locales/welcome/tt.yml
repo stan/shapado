@@ -1,0 +1,10 @@
+# Messages for Tatar (Cyrillic script) (татарча)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ильнар
+tt: 
+  welcome: 
+    feedback: 
+      feedback_description: Тасвир
+      feedback_title: Исеме
+      title: Сезнең фикер

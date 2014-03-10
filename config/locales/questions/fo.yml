@@ -1,0 +1,45 @@
+# Messages for Faroese (føroyskt)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EileenSanda
+fo: 
+  activerecord: 
+    attributes: 
+      question: 
+        banned: Bannað
+        closed: Stongt
+        created_at: Spurdi
+        language: Mál
+        title: Heiti
+        updated_at: dagført
+        updated_by: dagført av
+    models: 
+      question: Spurningur
+      questions: Spurningar
+  questions: 
+    answer: 
+      favorite: Goym
+    form: 
+      remove_attachment: Tak burtur
+    index: 
+      newest: Nýggjastu
+      oldest: Elsta
+      title: Allir spurningar
+      votes: Atkvøður
+    new: 
+      title: Spyr ein spurning
+    question: 
+      has_answers: 
+        one: "%{count} svar"
+        other: "%{count} svar"
+      wiki_title: "Wiki: %{title}"
+    show: 
+      another_answers: Onnur svar
+      answers: Svar
+      ban: Bannað
+      close: Lat aftur
+      history: Søga
+      open: Opið
+    toolbar: 
+      answer_by_mail: Svara við telduposti
+      requests: Umbønir

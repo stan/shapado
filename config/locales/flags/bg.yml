@@ -1,0 +1,12 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Причина
+  flags: 
+    form: 
+      spam: Спам

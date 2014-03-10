@@ -1,0 +1,20 @@
+# Messages for толышә зывон (толышә зывон)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Гусейн
+tly: 
+  layouts: 
+    application: 
+      all: Һәммәј
+      ask_question: Парс дој
+      by_me: Чымы
+      languages: Зывонон
+      pages: Сәһифон
+      search: Пәјдо кардеј
+      settings: Кукон
+      signup: Ғејдијот
+      tags: Нышонон
+      unanswered: Бе ҹәвобон
+      users: Иштирокәкон
+    manage: 
+      pages: Сәһифон

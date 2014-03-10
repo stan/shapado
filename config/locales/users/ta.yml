@@ -1,0 +1,15 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: TRYPPN
+ta: 
+  activerecord: 
+    attributes: 
+      user: 
+        age: வயது
+        email: மின்னஞ்சல்
+        fullname: முழுப்பெயர்
+        password: கடவுச்சொல்
+    models: 
+      user: பயனர்
+      users: பயனர்கள்

@@ -1,0 +1,14 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dj
+hu: 
+  invitations: 
+    accept: 
+      create_account: Fiók létrehozása (1/2)
+      create_account_step2: Fiók létrehozása
+      done: Kész!
+      facebook_connect: Csatlakozás Facebook fiókkal
+      final_step: Végső lépés (2/2)
+      twitter_connect: Csatlakozás Twitter fiókkal
+      welcome: Üdvözlet

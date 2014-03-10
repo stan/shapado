@@ -1,0 +1,19 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  widgets: 
+    groups: 
+      title: Grups recents
+    pages: 
+      new: Zonte une gnove pagjine
+      title: Pagjinis Wiki
+    tag_cloud: 
+      title: Nûl di etichetis
+    top_groups: 
+      title: I 5 miôrs grups
+    top_users: 
+      title: I miôr 5 utents
+    users: 
+      title: Utents plui recents

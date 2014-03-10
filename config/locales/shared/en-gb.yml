@@ -1,0 +1,9 @@
+# Messages for British English (British English)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+en-gb: 
+  shared: 
+    layout: 
+      footer: 
+        cc_footer: All Shapado.com content and data are available under the %{cc_link} licence

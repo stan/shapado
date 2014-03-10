@@ -1,0 +1,12 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Orsa
+# Author: YaronSh
+he: 
+  activerecord: 
+    models: 
+      activities: פעילויות
+      activity: פעילות
+  activity: 
+    created: נוצר

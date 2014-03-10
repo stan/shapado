@@ -1,0 +1,20 @@
+# Messages for Kurdish (Latin script) (Kurdî (latînî)‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: George Animal
+ku-Latn: 
+  activerecord: 
+    attributes: 
+      answer: 
+        link: Girêdan
+    models: 
+      answer: Bersiv
+      answers: Bersiv
+  answers: 
+    create: 
+      flash_notice: Spas!
+    edit: 
+      title: Bersivê biguherîne
+    form: 
+      answer_label: Pirsê bibersivîne
+      submit: Bersiv

@@ -1,0 +1,37 @@
+# Messages for Maltese (Malti)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chrisportelli
+mt: 
+  devise: 
+    failure: 
+      invalid: Indirizz elettroniku jew password ħżiena.
+      locked: Il-kont tiegħek huwa mblukkat.
+    mailer: 
+      confirm_account: 
+        instruction1: "Tista' tikkonferma l-kont tiegħek permezz tal-ħolqa t'hawn taħt:"
+        link: Ikkonferma l-kont
+        welcome: Merħba
+      reset_password: 
+        link: Biddel il-password
+      unlock: 
+        link: Żblokka l-kont tiegħi
+    passwords: 
+      link: Insejt il-password?
+      send_button: Ibgħatli l-istruzzjonijiet għal password ġdida
+      updated: Il-password tiegħek inbidlet. Issa dħalt.
+    sessions: 
+      link: Idħol
+      new: 
+        openid_url: Il-URL tal-OpenID tiegħek
+        remember_me: Ftakarni
+      registered_only: Trid tkun fil-kont tiegħek qabel ma tista' tara dan il-kontenut.
+      sign_out: Oħroġ
+      signed_in: Dħalt b'suċċess.
+      signed_out: Ħriġt b'suċċess.
+      signin_group: Idħol fil-%{group}
+  errors: 
+    messages: 
+      already_confirmed: kien ikkonfermat diġà
+      not_found: ma nstabx
+      not_locked: ma kienx imblukkat

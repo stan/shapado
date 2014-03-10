@@ -1,0 +1,17 @@
+# Messages for Silesian (ślůnski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Byulent
+szl: 
+  layouts: 
+    application: 
+      home: Přodńo zajta
+      languages: Godki
+      log_in: Zalůguj śe
+      logout: Wyloguj śe
+      pages: Zajty
+      search: Šnupańy
+      signup: Twůř kůnta
+      users: Užytkowńiki
+    manage: 
+      pages: Zajty

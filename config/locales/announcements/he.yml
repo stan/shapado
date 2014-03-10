@@ -1,0 +1,15 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        message: הודעה
+  announcements: 
+    actions: 
+      delete: הסרה
+      title: פעולות
+    index: 
+      title: הכרזות

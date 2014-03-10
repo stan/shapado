@@ -1,0 +1,19 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Sebeb
+    models: 
+      flag: Desmal
+      flags: Desmali
+  flags: 
+    edit: 
+      title: "%{model}'sa desmal bıvurne"
+    form: 
+      spam: Spam
+    new: 
+      title: "%{model}a desmal"

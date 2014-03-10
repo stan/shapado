@@ -1,0 +1,10 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} odpowiedział na: %{question}"
+        send_twitter: "Odpowiedziałem na pytanie: %{question}"

@@ -1,0 +1,16 @@
+# Messages for Maltese (Malti)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chrisportelli
+mt: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Raġuni
+  flags: 
+    create: 
+      flash_notice: Grazzi tar-rapport tiegħek
+    form: 
+      attention: Teħtieġ attenzjoni ta' moderatur
+      offensive: Offensiv, abbużiv jew tinċita mibgħeda
+      spam: Spam

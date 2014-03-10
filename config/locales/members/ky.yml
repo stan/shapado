@@ -1,0 +1,9 @@
+# Messages for Kyrgyz (Кыргызча)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Growingup
+ky: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Роль

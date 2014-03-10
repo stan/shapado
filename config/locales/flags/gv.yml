@@ -1,0 +1,9 @@
+# Messages for Manx (Gaelg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shimmin Beg
+gv: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: "Fa:"

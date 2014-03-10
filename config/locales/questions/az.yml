@@ -1,0 +1,21 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+az: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Cavablar
+        language: Dil
+        votes: Səslər
+  questions: 
+    answer: 
+      favorite: Saxla
+    index: 
+      active: Aktiv
+      votes: Səslər
+    retag_form: 
+      cancel: Ləğv et
+    show: 
+      history: Tarix

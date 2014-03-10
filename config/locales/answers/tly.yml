@@ -1,0 +1,13 @@
+# Messages for толышә зывон (толышә зывон)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Гусейн
+tly: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Мәтн
+        created_at: Сохтә быә
+  answers: 
+    create: 
+      flash_notice: Ве сәғби!

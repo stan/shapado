@@ -1,0 +1,59 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  activerecord: 
+    attributes: 
+      user: 
+        activation_code: Còde d'activacion
+        asked_by: pausada per
+        created_at: membre
+        current_password: Senhal actual
+        email: Adreça de corrièr electronic
+        fullname: Nom complet
+        language: Lenga
+        login: Nom d'utilizaire
+        name: Nom vertadièr
+        password: Senhal
+        password_confirmation: Confirmacion del senhal
+        timezone: Fus orari
+        updated_at: actualizat per
+    models: 
+      user: Utilizaire
+      users: Utilizaires
+  users: 
+    actions: 
+      vote_down: Votar negatiu
+      vote_up: Votar positiu
+    change_password: 
+      submit: Modificar mon senhal
+      title: Modificar lo senhal
+    edit: 
+      submit: Salvar
+      title: Configuracion
+    form: 
+      information: Informacion
+      notifications: Notificacions
+    index: 
+      name: Nom
+      newest: Los mai recents
+      oldest: Los mai ancians
+      title: Totes los utilizaires
+    new: 
+      join_group: Rejonhètz %{group}
+    show: 
+      follow: Seguir
+      title: Utilizaire %{user}
+      unfollow: Seguir pas mai
+      views: vistas
+    top_user: 
+      connect: Se connectar
+      my_karma: "Mon karma: %{karma}"
+      profile: Perfil
+    user_bar: 
+      signed_as: Connectat en tant que 
+    user_mini: 
+      admin: "[ Admin ]"
+      editor: "[ Editor ]"
+      mod: "[ Moderator ]"

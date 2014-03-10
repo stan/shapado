@@ -1,0 +1,16 @@
+# Messages for толышә зывон (толышә зывон)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Гусейн
+tly: 
+  activerecord: 
+    attributes: 
+      page: 
+        js: JavaScript
+    models: 
+      page: Сәһифә
+      pages: Сәһифон
+  pages: 
+    actions: 
+      create_page: Тожә сәһифә сохтеј
+      edit_page: Сәһифә сәрост кардеј

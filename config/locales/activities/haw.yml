@@ -1,0 +1,19 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  activerecord: 
+    models: 
+      activities: Nā Hana
+      activity: Hana
+  activity: 
+    asked: nīnau ʻia
+    changed: loli ʻia
+    created: haku ʻia
+    deleted: holoi ʻia
+    destroyed: holoi ʻia
+    flagged: lepili ʻia
+    requested_to_close: noi ʻia no ka pani ʻana
+    requested_to_open: noi ʻia no ka wehe ʻana
+    updated: hōʻano hou ʻia

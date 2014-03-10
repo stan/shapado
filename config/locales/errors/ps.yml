@@ -1,0 +1,10 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  errors: 
+    go_to: "%{link} مخ ته ورځه"
+    not_found: 
+      title: مخ و نه موندل شو.
+    search: پلټنه

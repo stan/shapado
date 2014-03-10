@@ -1,0 +1,63 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  activerecord: 
+    models: 
+      badge: Rozet
+      badges: Rozeti
+  badges: 
+    index: 
+      bronze: Bronz
+      gold: Honqe
+      silver: Sêm
+      tags: Etiketê rozetan
+      title: Rozeti
+    shared: 
+      celebrity: 
+        name: Namedar
+      cleanup: 
+        name: Besternayış
+      commentator: 
+        description: 10 vatıse bahdoni
+        name: Vatışkar
+      critic: 
+        name: Muhalif
+      editor: 
+        name: Editor
+      enlightened: 
+        name: Wende
+      fanatic: 
+        name: Fanatik
+      friendly: 
+        name: Dostina
+      guru: 
+        name: Guru
+      inquirer: 
+        name: Perskar
+      merit_medal: 
+        name: Madalya yo rındeq
+      necromancer: 
+        name: Cındar
+      organizer: 
+        name: Organizator
+      peer_pressure: 
+        name: Vacıyeya embazan
+      pioneer: 
+        name: Veroren
+      popstar: 
+        name: Popstar
+      rockstar: 
+        name: Rockstar
+      service_medal: 
+        description: 300 reya pozitif
+      student: 
+        name: Mısneyen
+      supporter: 
+        name: Qebulkar
+      tutor: 
+        name: Şex
+    show: 
+      earned: qezencin
+      title: Rozetê %{type}

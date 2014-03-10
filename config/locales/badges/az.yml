@@ -1,0 +1,45 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+# Author: Sortilegus
+az: 
+  badges: 
+    index: 
+      bronze: Bürünc
+      gold: Qızıl
+      silver: Gümüş
+    shared: 
+      commentator: 
+        description: 10 şərh yazmışdır
+        name: Şərhçi
+      critic: 
+        description: İlk dəfə "əleyhinə" səs vermişdir
+        name: Tənqidçi
+      editor: 
+        name: Redaktor
+      effort_medal: 
+        description: "\"Lehinə\" 100 səs almışdır"
+      fanatic: 
+        name: Fanat
+      favorite_question: 
+        name: Favorit sual
+      friendly: 
+        name: Dostluq
+      merit_medal: 
+        description: "\"Lehinə\" 200 səs almışdır"
+      pioneer: 
+        description: Qeydiyyatdan keçən ilk istifadəçilərdəndir
+        name: Pioner
+      popstar: 
+        name: Popstar
+      rockstar: 
+        name: Rok-ulduz
+      service_medal: 
+        name: Xidmət medalı
+      shapado: 
+        description: 8 gün ərzində hər gün saytda olmuşdur
+      student: 
+        name: Tələbə
+      troubleshooter: 
+        description: İlk dəfə cavab vermişdir

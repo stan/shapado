@@ -1,0 +1,35 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  admin: 
+    manage: 
+      access: 
+        title: Cırestış
+      content: 
+        footer: Bıniyek
+        head: Seror
+      properties: 
+        ask_from_twitter: 
+          question_must_include_example: "e.g. #iPerse"
+        constrains: 
+          title: Ekê lazımi
+        facebook_app: 
+          application_id: Aplikasyon ID
+          facebook_app: Sazê dezge da Facebooki
+        invitations: 
+          resend_button: Fına
+          revoke_button: Terkne!
+        share: 
+          title: Vıla ke
+        twitter_account: 
+          twitter_account: Hesabê Twitteri
+        twitter_app: 
+          twitter_app: Dezgey twitteri
+      social: 
+        facebook_app: Facebook Dezge
+        twitter_account: Hesabê Twitteri
+      top_admin: 
+        site: Sita
+        title: Admin

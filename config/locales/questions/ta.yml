@@ -1,0 +1,24 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: TRYPPN
+ta: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: விடைகள்
+        closed: மூடப்பட்டது
+        language: மொழி
+        title: தலைப்பு
+        updated_at: புதிப்பிக்கப்பட்டது
+    models: 
+      question: கேள்வி
+      questions: கேள்விகள்
+  questions: 
+    index: 
+      active: இயக்கத்திலுள்ள
+      newest: புத்தம் புதிய
+      oldest: மிகப் பழமையான
+    show: 
+      answers: விடைகள்
+      close: மூடுக

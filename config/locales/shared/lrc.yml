@@ -1,0 +1,26 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  shared: 
+    any_lang: هر زونی
+    date: تاريخ
+    empty: 
+      answers: 
+        description: 
+          text: اول بوییت!
+      themes: 
+        description: 
+          action_link: ایسه
+    filter: فيلتر
+    language: "زون:"
+    languages: "زون:"
+    login_drop_down: 
+      with_facebook: وا فیس بوک
+      with_google: وا گوگل
+      with_linked_in: وا لینکد این
+      with_twitter: وا تویتر
+    name: نوم
+    topbar: 
+      user_page: بلگه مه

@@ -1,0 +1,10 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  devise: 
+    registrations: 
+      link: Регистриране
+    sessions: 
+      link: Влизане

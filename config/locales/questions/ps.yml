@@ -1,0 +1,65 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: ځوابونه
+        body: جوسه
+        closed: تړل شوی
+        created_at: پوښتلی
+        language: ژبه
+        title: سرليک
+        updated_at: اوسمهالېدلی
+        views: کتنې
+        votes: رايې
+    models: 
+      question: پوښتنه
+      questions: پوښتنې
+  questions: 
+    answer: 
+      add_comment: تبصره ورگډول...
+      favorite: خوندي کول
+      flag: رپی
+      unfavorite: ناخوندي کول
+    edit: 
+      title: د سمون پوښتنه
+    flag: 
+      title: پوښتنې ته رپی درول
+    form: 
+      remove_attachment: غورځول
+    index: 
+      ask_question: پوښتنه پوښتل
+      newest: تر ټولو نوی
+      oldest: تر ټولو زوړ
+      title: ټولې پوښتنې
+      unanswered_questions: بې ځوابه پوښتنې
+      votes: رايې
+    move: 
+      submit: لېږدول!
+    new: 
+      how_to_ask: څنگه وپوښتم
+      title: پوښتنه پوښتل
+    question: 
+      answer_verb: ځواب
+    retag_form: 
+      cancel: ناگارل
+    shared: 
+      flag: رپی
+    show: 
+      another_answers: نور ځوابونه
+      answers: ځوابونه
+      ban: بنديز لگول
+      close: تړل
+      flag: رپی
+      history: پېښليک
+      open: پرانيستل
+      to_answer_question: د دې پوښتنې د ځوابولو لپاره
+    toolbar: 
+      requests: غوښتنې
+    unanswered: 
+      title: بې ځوابه پوښتنې
+    update: 
+      flash_notice: پوښتنه مو په برياليتوب سره اوسمهاله شوه.

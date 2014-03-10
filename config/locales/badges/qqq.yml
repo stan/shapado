@@ -1,0 +1,27 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Kghbln
+# Author: Shirayuki
+# Author: 아라
+qqq: 
+  activerecord: 
+    models: 
+      badge: "{{Identical|Badge}}"
+      badges: "{{Identical|Badge}}"
+  badges: 
+    index: 
+      gold: "{{Identical|Gold}}"
+      title: "{{Identical|Badge}}"
+    shared: 
+      cleanup: 
+        name: "This message describes the person who has done the cleanup and not the action of cleaning up\n{{Identical|Cleanup}}"
+      disciplined: 
+        name: This message describes the person who was disciplined
+      editor: 
+        name: "{{Identical|Editor}}"
+      student: 
+        name: "{{Identical|Student}}"
+    show: 
+      title: "{{Identical|Badge}}"

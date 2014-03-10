@@ -1,0 +1,30 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Mirzali
+diq: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: Sılasnayış
+        domain: Domain
+        language: Zıwano Hesabiyaye
+        languages: Vêşi Zıwani
+        legend: Efsane
+        logo: Logo
+        name: Name
+        state: Eyalet
+        subdomain: GRE
+    models: 
+      group: Grub
+      groups: Grubi
+  groups: 
+    group: 
+      about: Heqa cı de
+      close: Racnê
+    index: 
+      actives: Aktiv
+      name: Name
+      pendings: Vınderde
+      title: Grubi

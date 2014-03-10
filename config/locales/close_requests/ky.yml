@@ -1,0 +1,14 @@
+# Messages for Kyrgyz (Кыргызча)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Growingup
+ky: 
+  close_requests: 
+    form: 
+      dupe: Дубликат
+      spam: спам
+    model: 
+      attributes: 
+        comment: Комментарий
+        reason: себеп
+        user: колдонуучу

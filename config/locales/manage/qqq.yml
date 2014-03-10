@@ -1,0 +1,34 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  admin: 
+    manage: 
+      access: 
+        title: "{{Identical|Access}}"
+      content: 
+        footer: "{{Identical|Footer}}"
+        head: "{{Identical|Header}}"
+      invitations: 
+        invitations: "{{Identical|Sent invitation}}"
+        invite: "{{Identical|Invite people}}"
+        invite_title: "{{Identical|Invite people}}"
+      properties: 
+        constrains: 
+          title: "{{Identical|Requirement}}"
+        general: 
+          title: "{{Identical|Group property}}"
+        invitations: 
+          revoke_button: "{{Identical|Revoke}}"
+        invite: 
+          invitations: "{{Identical|Sent invitation}}"
+          invite: "{{Identical|Invite people}}"
+          title: "{{Identical|Invite people}}"
+        share: 
+          title: "{{Identical|Share}}"
+        title: "{{Identical|Group property}}"
+      top_admin: 
+        site: "{{Identical|Site}}"
+        title: "{{Identical|Admin}}"

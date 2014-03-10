@@ -1,0 +1,36 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Mirzali
+diq: 
+  widgets: 
+    about: 
+      title: Heqa cı de
+    adsense: 
+      title: AdSense
+    ask_question: 
+      ask: Persayış
+    group_networks: 
+      title: Pıpawê
+    index: 
+      external_widgets: Teber de
+      footer: Bıniyek
+      header: Seror
+      sidebar: Çıwiya kışter
+      type: "Babet:"
+    share: 
+      title: Vılayin
+    suggestions: 
+      follow_tag: +Etiketi pıpaw
+      follow_user: + Karberi pıpaw
+      unfollow_tag: "- Etiketi mepaw"
+      unfollow_user: -Karberi mepaw
+    tag_cloud: 
+      title: Etiket çıno
+    tag_list: 
+      title: Etiketi
+    top_users: 
+      title: Tewr 5 karberi
+    users: 
+      title: Karberê newey

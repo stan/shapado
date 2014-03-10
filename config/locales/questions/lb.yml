@@ -1,0 +1,62 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Äntwerten
+        closed: Zougemaach
+        language: Sprooch
+        title: Titel
+        updated_at: aktualiséiert
+        updated_by: aktualiséiert vum
+        votes: Stëmmen
+    models: 
+      question: Fro
+      questions: Froen
+  questions: 
+    answer: 
+      add_comment: Bemierkung derbäisetzen
+      favorite: Späicheren
+    form: 
+      remove_attachment: Ewechhuelen
+    history: 
+      back: ← zréck op d'Fro
+    index: 
+      active: Aktiv
+      ask_question: Fro stellen
+      help_to_answer: Hëlleft eis äntwerten
+      newest: Neist
+      newest_tooltip: Déi rezentst Froen
+      oldest: Eelzt
+      title: All Froen
+      unanswered_questions: Net-beäntwert Froen
+      votes: Stëmmen
+    move: 
+      submit: Réckelen!
+    new: 
+      title: Fro stellen
+    question: 
+      answer_verb: Äntwert
+      wiki_title: "Wiki: %{title}"
+    retag_form: 
+      cancel: Annulléieren
+    shared: 
+      flag: Fändel
+    show: 
+      another_answers: Aner Äntwerten
+      answers: Äntwerten
+      close: Zoumaachen
+      flag: Fändel
+      solution: Léisung
+    solve: 
+      flash_notice: D'Fro ass geléist.
+    toolbar: 
+      answer_by_mail: Äntwert per E-Mail
+      more_actions: Méi Aktiounen
+      requests: Ufroen
+    unanswered: 
+      expert: Experten
+      title: Net beäntwert Froen

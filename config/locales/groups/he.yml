@@ -1,0 +1,39 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: תיאור
+        domain: מתחם
+        group_created_by: נוצרה על־ידי
+        language: שפת בררת המחדל
+        languages: שפות נוספות
+        legend: מקרא
+        logo: לוגו
+        name: שם
+        owner: קבוצה זו נוצרה על־ידי %{login}
+        state: מצב
+        subdomain: כתובת
+    models: 
+      group: קבוצה
+      groups: קבוצות
+  groups: 
+    form: 
+      access: הגדרות גישה
+    group: 
+      about: על אודות
+      allow_ads: לאפשר פרסומות
+      close: סגירה
+      disallow_ads: לחסום פרסומות
+    index: 
+      actives: פעיל
+      filter: חיפוש קבוצות
+      name: שם
+      pendings: בהמתנה
+      request_group: בקשת קבוצה חדשה
+      title: קבוצות
+    show: 
+      title: על אודות %{name}

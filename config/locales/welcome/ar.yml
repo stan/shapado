@@ -1,0 +1,13 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: OsamaK
+ar: 
+  welcome: 
+    confirm_age: 
+      over_18: عمري أكثر من 18
+      under_18: عمري أقل من 18
+    feedback: 
+      feedback_description: الوصف
+      feedback_title: العنوان
+      title: أرسل ملاحظاتك

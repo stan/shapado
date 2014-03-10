@@ -1,0 +1,27 @@
+# Messages for Ingush (ГӀалгӀай)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Sapral Mikail
+inh: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Жопдалараш
+        body: Яздам
+        language: Мотт
+        tags: Йоазонаш
+        views: БIаргтассараш
+    models: 
+      question: Хаттар
+      questions: Хаттараш
+  questions: 
+    new: 
+      title: Хаттар Iочуязаде
+    retag_form: 
+      title: Йоазонаш кердаяккха
+    tags: 
+      filter: Йоазонаш лаха
+      title: Йоазонаш
+    unanswered: 
+      expert: Iилмадаьш
+      my_tags: Са йоазонаш

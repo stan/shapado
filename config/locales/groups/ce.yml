@@ -1,0 +1,15 @@
+# Messages for Chechen (нохчийн)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Sasan700
+# Author: Умар
+ce: 
+  activerecord: 
+    attributes: 
+      group: 
+        state: Хьал
+  groups: 
+    group: 
+      close: ДӀачӀагӀа
+    index: 
+      filter: Тобанаш лахар

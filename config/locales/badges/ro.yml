@@ -1,0 +1,15 @@
+# Messages for Romanian (română)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: KlaudiuMihaila
+ro: 
+  badges: 
+    index: 
+      bronze: Bronz
+      gold: Aur
+      silver: Argint
+    shared: 
+      guru: 
+        name: Guru
+      pioneer: 
+        name: Pionier

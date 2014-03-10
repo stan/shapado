@@ -1,0 +1,9 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+eu: 
+  invitations: 
+    accept: 
+      done: Egina!
+      welcome: Ongi etorri

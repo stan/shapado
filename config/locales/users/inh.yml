@@ -1,0 +1,15 @@
+# Messages for Ingush (ГӀалгӀай)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Sapral Mikail
+inh: 
+  activerecord: 
+    attributes: 
+      user: 
+        email: Д-фошт
+        language: Мотт
+        login: Дакъалаьцархочунна цIи
+        password: КъайладоагIа
+    models: 
+      user: Дакъалаьцархо
+      users: Дакъалаьцархой

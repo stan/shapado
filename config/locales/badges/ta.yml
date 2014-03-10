@@ -1,0 +1,24 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aswn
+# Author: TRYPPN
+ta: 
+  badges: 
+    shared: 
+      famous_question: 
+        name: பிரபலமான கேள்வி
+      good_answer: 
+        name: நல்ல பதில்
+      good_question: 
+        name: நல்ல கேள்வி
+      guru: 
+        name: குரு
+      investor: 
+        name: முதலீட்டாளர்
+      nice_answer: 
+        name: நல்ல பதில்
+      nice_question: 
+        name: நல்ல கேள்வி
+      student: 
+        name: மாணவர்

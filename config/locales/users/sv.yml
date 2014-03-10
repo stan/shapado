@@ -1,0 +1,46 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Jopparn
+# Author: Lokal Profil
+# Author: WikiPhoenix
+sv: 
+  activerecord: 
+    attributes: 
+      user: 
+        activation_code: Aktiveringskod
+        age: Ålder
+        asked_by: frågat av
+        birthday: Födelsedag
+        current_password: Nuvarande lösenord
+        email: E-post
+        language: Språk
+        login: Användarnamn
+        name: Riktigt namn
+        password: Lösenord
+        password_confirmation: Lösenordsbekräftelse
+        timezone: Tidszon
+        website: Webbplats
+    models: 
+      user: Användare
+      users: Användare
+  users: 
+    actions: 
+      vote_down: Rösta ner
+      vote_up: Rösta upp
+    create: 
+      flash_notice: Tack för att du registrerat dig!
+    edit: 
+      submit: Spara
+      title: Inställningar
+    form: 
+      activities_notification: Få meddelanden via e-post om systemaktiviteter som tjänade emblem, nya anhängare, etc.
+    index: 
+      filter: Sök efter användare
+      name: Namn
+      title: Alla användare
+    new: 
+      submit: Skapa ett konto
+    show: 
+      title: Användare %{user}
+      views: visningar

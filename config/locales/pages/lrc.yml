@@ -1,0 +1,18 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  activerecord: 
+    attributes: 
+      page: 
+        js: جاوا اسكريپت
+    models: 
+      page: بلگه
+      pages: بلگیا
+  pages: 
+    index: 
+      title: سيائه بلگيا
+      wiki: ويكی
+    new: 
+      title: بلگه نو

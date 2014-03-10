@@ -1,0 +1,10 @@
+# Messages for Telugu (తెలుగు)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Veeven
+te: 
+  themes: 
+    show: 
+      apply: ఆపాదించు
+      text_color: పాఠ్యపు రంగు
+      try: ప్రయత్నించి చూడు

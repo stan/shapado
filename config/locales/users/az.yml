@@ -1,0 +1,30 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+az: 
+  activerecord: 
+    attributes: 
+      user: 
+        age: Yaş
+        birthday: Doğum günü
+        current_password: Cari parol
+        email: E-poçt
+        language: Dil
+        login: İstifadəçi adı
+        name: Əsl adı
+        password: Parol
+        website: Vebsayt
+    models: 
+      user: İstifadəçi
+      users: İstifadəçilər
+  users: 
+    edit: 
+      submit: Saxla
+    index: 
+      name: Ad
+    top_user: 
+      profile: Profil
+    user_mini: 
+      admin: "[ İdarəçi ]"
+      editor: "[ Redaktor ]"

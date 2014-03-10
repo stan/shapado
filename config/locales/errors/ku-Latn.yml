@@ -1,0 +1,9 @@
+# Messages for Kurdish (Latin script) (Kurdî (latînî)‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: George Animal
+ku-Latn: 
+  errors: 
+    not_found: 
+      title: Rûpel nehate dîtin.
+    search: Lêbigere

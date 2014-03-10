@@ -1,0 +1,13 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: TRYPPN
+ta: 
+  close_requests: 
+    form: 
+      spam: வீண்செய்தி
+    model: 
+      attributes: 
+        comment: கருத்து
+        reason: காரணம்
+        user: பயனர்

@@ -1,0 +1,16 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  admin: 
+    moderate: 
+      index: 
+        all: Wszystko
+        content: Zawartość
+        item_title: Tytuł
+        title: Moderuj
+  moderate: 
+    questions: 
+      flagged: 
+        filters: "Filtry:"

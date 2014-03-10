@@ -1,0 +1,25 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Persi racne
+      index: 
+        all: Pêro
+        ban: Wedarnê
+        content: Tede este
+        item_title: Sername
+        need_tags: Fına etiket ke
+      opening: 
+        title: Persi ake
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Wedariya
+        filters: "Avrêci:"
+        unbanned: Nêwedariya
+      subtabs: 
+        flagged: Nışan biyo

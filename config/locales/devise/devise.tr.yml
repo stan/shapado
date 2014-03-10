@@ -1,0 +1,12 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Incelemeelemani
+# Author: Szoszv
+tr: 
+  devise: 
+    sessions: 
+      link: Oturum aç
+      sign_out: Oturumu kapat
+      signed_in: Oturum açıldı.
+      signed_out: Oturum kapatıldı.

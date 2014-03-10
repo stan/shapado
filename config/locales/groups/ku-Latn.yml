@@ -1,0 +1,26 @@
+# Messages for Kurdish (Latin script) (Kurdî (latînî)‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: George Animal
+ku-Latn: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: Danasîn
+        language: Zimanê standart
+        legend: Ravek
+        logo: Logo
+        name: Nav
+        subdomain: URL
+    models: 
+      group: Kom
+  groups: 
+    group: 
+      about: Derbarê
+      accept_group: Vê grûpê qebûl bike
+      close: Bigre
+      close_group: Vê komê bigre
+    index: 
+      filter: Li koman bigere
+      name: Nav
+      title: Kom

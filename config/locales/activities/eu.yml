@@ -1,0 +1,11 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+eu: 
+  activity: 
+    changed: aldatua
+    created: sortua
+    deleted: ezabatua
+    destroyed: ezabatua
+    updated: eguneratua

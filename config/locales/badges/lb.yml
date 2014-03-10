@@ -1,0 +1,73 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  activerecord: 
+    models: 
+      badge: Badge
+      badges: Badgen
+  badges: 
+    index: 
+      bronze: Bronze
+      gold: Gold
+      silver: Sëlwer
+    shared: 
+      celebrity: 
+        name: Berühmtheet
+      civic_duty: 
+        description: Huet 300-mol ofgestëmmt
+      critic: 
+        description: Huet déi éischte kéier negativ ofgestëmmt
+        name: Kritiker
+      disciplined: 
+        name: Disziplinéiert
+      favorite_answer: 
+        name: Beléifsten Äntwert
+      favorite_question: 
+        name: Beléifste Fro
+      friendly: 
+        name: Frëndlech
+      good_answer: 
+        name: Gutt Äntwert
+      good_question: 
+        name: Gutt Fro
+      great_answer: 
+        name: Formidabel Äntwert
+      great_question: 
+        name: Formidabel Fro
+      guru: 
+        name: Guru
+      inquirer: 
+        description: Huet fir d'éischte kéier eng Fro gestallt
+      interesting_person: 
+        name: Interessant Persoun
+      nice_answer: 
+        name: Gutt Äntwert
+      nice_question: 
+        name: Gutt Fro
+      organizer: 
+        name: Organisateur
+      pioneer: 
+        description: War ee vun den éischte Benotzer deen sech ugemellt hat
+        name: Pionéier
+      popstar: 
+        description: Huet 1000 positiv Stëmmen, a maximal 10 negativ Stëmmen
+        name: Popstar
+      popular_person: 
+        name: Beléift Persoun
+      popular_question: 
+        name: Populär Fro
+      rockstar: 
+        description: Huet 1000 positiv Stëmmen, a maximal 10 negativ Stëmmmen
+        name: Rockstar
+      service_medal: 
+        description: Huet 300 positiv Stëmmen
+      student: 
+        name: Student
+      supporter: 
+        description: Huet déi éischte kéier positiv ofgestëmmt
+        name: Supporter
+    show: 
+      earned: verdéngt
+      title: Badge %{type}

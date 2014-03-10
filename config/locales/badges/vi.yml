@@ -1,0 +1,27 @@
+# Messages for Vietnamese (Tiếng Việt)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tuankiet65
+vi: 
+  badges: 
+    index: 
+      all_tooltip: Hiển thị tất cả các huy hiệu vàng, bạc và đồng.
+      bronze: Đồng
+      bronze_tooltip: Huy hiệu đồng rất dễ để có và thường động viên người dùng tiếp tục đóng góp.
+      description: Bạn càng đóng góp bằng cách hỏi hay trả lời các câu hỏi, bạn càng nhận được nhiều huy hiệu hơn. Các huy hiệu của bạn sẽ xuất hiện trong trang hồ sơ của bạn.
+      general: Huy hiệu thông thường
+      general_tooltip: Hiển thị tất cả các huy hiệu được xác định trước.
+      gold: Vàng
+      gold_tooltip: Huy hiệu vàng là loại huy hiệu lớn nhất và cũng khó có được nhất. Chỉ có một số người dùng có nó.
+      silver: Bạc
+      silver_tooltip: Huy hiệu bạc được dành cho các thành viên tích cực đã hoạt động trong một thời gian dài.
+      tags_tooltip: Khi các câu hỏi được dán nhãn X có câu trả lời với hơn 100 lượt bầu chọn, một huy hiệu X được tạo ra với tên của nhãn đó.
+      title: Huy hiệu
+    shared: 
+      rockstar: 
+        name: Ngôi sao
+    show: 
+      earned: đã kiếm được
+      for_tag_bronze: 200 lượt bầu chọn trong nhãn %{tag}
+      for_tag_gold: 1000 lượt bầu chọn trong nhãn %{tag}
+      for_tag_silver: 400 lượt bầu chọn trong nhãn %{tag}

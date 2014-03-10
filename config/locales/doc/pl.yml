@@ -1,0 +1,26 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Faren
+# Author: Ty221
+# Author: Woytecr
+pl: 
+  doc: 
+    chat: 
+      title: Wsparcie chatowe
+    plans: 
+      basic: Podstawowe
+      custom_analytics: Statystyki ruchu
+      custom_domain: Własna domena
+      custom_html: Własny HTML
+      custom_ui: W pełni konfigurowalny interfejs użytkownika
+      free_plan: darmowy plan
+      maximum: Maksimum
+      month: miesiąc
+      optimum: Optymalne
+      plans: Plany
+      plus: Plus
+      premium: Premium
+      private: Prywatne
+      title: Plany i ceny
+      we_offer: Oferujemy również

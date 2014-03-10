@@ -1,0 +1,12 @@
+# Messages for Silesian (ślůnski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Byulent
+szl: 
+  devise: 
+    registrations: 
+      link: Twůř kůnta
+    sessions: 
+      link: Lůgowańy
+      signed_in: Ježeś zalůgowany.
+      signed_out: Ježeś wylůgowany.

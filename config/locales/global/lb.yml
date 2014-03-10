@@ -1,0 +1,48 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  feeds: 
+    share_on_twitter: Twitter, Facebook a méi...
+  global: 
+    actions: Aktiounen
+    active: Aktivéieren
+    by: vum
+    by_semi: "Vum:"
+    current: Aktuell
+    group_not_found: D'Säit %{url} gëtt et net
+    or: oder
+    please_login: Loggt Iech w.e.g. an
+    previous: Vireg
+    size: Gréisst
+    unknown_place: Onbekannt
+  models: 
+    question: D'Fro
+  preferred_languages: 
+    user: Meng léifste Sproochen
+  roles: 
+    owner: Besëtzer
+  scaffold: 
+    add: Derbäisetzen
+    are_you_sure: Sidd Dir sécher?
+    back: Zréck
+    cancel: Ofbriechen
+    close: Zoumaachen
+    create: Maachen
+    destroy: Läschen
+    details: Detailer
+    edit: Änneren
+    more: Méi …
+    save: Späicheren
+    send: Schécken
+    show: Weisen
+    sure: Sidd Dir sécher datt Dir dëse %{model} läsche wëllt?
+    update: Aktualiséieren
+  time: 
+    today: haut
+    yesterday: gëschter
+  views: 
+    pagination: 
+      first: Éischt
+      last: Lescht

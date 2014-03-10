@@ -1,0 +1,9 @@
+# Messages for Latvian (latviešu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Edgars2007
+lv: 
+  activerecord: 
+    attributes: 
+      group: 
+        legend: Apzīmējumi

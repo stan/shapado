@@ -1,0 +1,23 @@
+# Messages for Marathi (मराठी)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Htt
+mr: 
+  badges: 
+    shared: 
+      addict: 
+        name: व्यसनी
+      editor: 
+        name: संपादक
+      good_answer: 
+        name: चांगले उत्तर
+      good_question: 
+        name: चांगला प्रश्न
+      guru: 
+        name: गुरू
+      popular_person: 
+        name: लोकप्रिय व्यक्ति
+      supporter: 
+        name: समर्थक
+      tutor: 
+        name: मार्गदर्शक

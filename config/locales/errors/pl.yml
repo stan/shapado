@@ -1,0 +1,12 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  errors: 
+    forbidden: 
+      title: Dostęp zabroniony
+    go_to: Idź do strony %{link}
+    not_found: 
+      title: Strona nie znaleziona.
+    search: Szukaj

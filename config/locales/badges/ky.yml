@@ -1,0 +1,89 @@
+# Messages for Kyrgyz (Кыргызча)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Growingup
+ky: 
+  activerecord: 
+    models: 
+      badge: Бедж
+      badges: Бедждер
+  badges: 
+    index: 
+      bronze: Коло
+      gold: Алтын
+      silver: Күмүш
+    shared: 
+      altruist: 
+        name: Альтруист
+      autobiographer: 
+        name: Өмүр баянчы
+      benefactor: 
+        name: Колдоочу
+      celebrity: 
+        name: Атактуу киши
+      citizen_patrol: 
+        name: Патрулдоочу
+      civic_duty: 
+        name: Жарандык милдет
+      cleanup: 
+        name: Тазалоо
+      commentator: 
+        name: Комментатор
+      critic: 
+        name: Критик
+      disciplined: 
+        name: Тартиптүү
+      editor: 
+        name: Редактор
+      fanatic: 
+        name: Фанатик
+      friendly: 
+        name: Достук
+      good_answer: 
+        name: Жакшы жооп
+      good_question: 
+        name: Жакшы суроо
+      great_answer: 
+        name: Мыкты жооп
+      great_question: 
+        name: Мыкты суроо
+      guru: 
+        name: Гуру
+      interesting_person: 
+        name: Кызыктуу инсан
+      investor: 
+        name: Инвестор
+      necromancer: 
+        name: Некромант
+      nice_answer: 
+        name: Жакшы жооп
+      nice_question: 
+        name: Жакшы суроо
+      organizer: 
+        name: Уюштуруучу
+      pioneer: 
+        name: Пионер
+      popstar: 
+        name: Эстрада жылдызы
+      popular_person: 
+        name: Популярдуу инсан
+      popular_question: 
+        name: Популярдуу суроолор
+      promoter: 
+        name: Промоутер
+      rockstar: 
+        name: Рок-жылдыз
+      scholar: 
+        name: Эрудит
+      self-learner: 
+        name: Өзү үйрөнгөн
+      stellar_question: 
+        name: Жылдыздуу суроо
+      student: 
+        name: Студент
+      supporter: 
+        name: Жардамчы
+      tutor: 
+        name: Репетитор
+    show: 
+      earned: иштеп табылды

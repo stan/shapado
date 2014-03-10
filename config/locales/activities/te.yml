@@ -1,0 +1,9 @@
+# Messages for Telugu (తెలుగు)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Veeven
+te: 
+  activerecord: 
+    models: 
+      activities: కార్యకలాపాలు
+      activity: కార్యకలాపం

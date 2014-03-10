@@ -1,0 +1,31 @@
+# Messages for Tigrinya (ትግርኛ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tigrigna1
+ti: 
+  activerecord: 
+    attributes: 
+      user: 
+        age: ዕድመ
+        birthday: ዕለት-ልደት
+        fullname: ምሉእ ስም
+        login: ስም ኣባልነት
+        name: ትኽክል ስም
+        password: መሕለፊ-ቃል
+  users: 
+    create: 
+      flash_notice: ስለ ምምዝጋብካ ነመስግን!
+    form: 
+      send_answers_to_twitter: መልስታተይ ናብ ትዊተር ስደድ
+      show_more_lang: ካልኦት ቋንቋታት ኣርኢ
+    index: 
+      name: ስም
+      near: ኣብ ጥቓኻ
+      near_tooltip: ኣብ ኣከባቢኻ ዝርከቡ ተጠቀምቲ
+      newest: ዝሓደሰ
+      oldest: ዝኣረገ
+    new: 
+      submit: ተመዝገብ
+    show: 
+      follow: ስዓብ
+      views: ትርኢታት

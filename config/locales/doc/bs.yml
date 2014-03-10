@@ -1,0 +1,19 @@
+# Messages for Bosnian (bosanski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Edinwiki
+bs: 
+  doc: 
+    plans: 
+      basic: Osnovno
+      free_plan: besplatan paket
+      maximum: Maksimalno
+      month: mjesec
+      optimum: Optimalno
+      plans: Paketi
+      plus: Plus
+      premium: Premijum
+      private: Privatno
+      title: Paketi i cijene
+      user: korisnik
+      we_offer: Također nudimo

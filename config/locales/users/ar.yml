@@ -1,0 +1,32 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: OsamaK
+ar: 
+  activerecord: 
+    attributes: 
+      user: 
+        activation_code: رمز التنشيط
+        age: العمر
+        birthday: عيد الميلاد
+        email: البريد الإلكتروني
+        fullname: الاسم الكامل
+        language: اللغة
+        language_filter: رشّح حسب اللغة
+        login: اسم المستخدم
+        name: الاسم الحقيقي
+        password: كلمة السر
+        timezone: المنطقة الزمنية
+        website: موقع الوب
+  users: 
+    anonymous_form: 
+      never_shown: لن يُعرض أبدا
+    edit: 
+      submit: احفظ
+      title: الإعدادات
+    index: 
+      name: الاسم
+      newest: الأحدث
+      oldest: الأقدم
+    new: 
+      submit: سجّل

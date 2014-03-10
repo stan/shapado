@@ -1,0 +1,26 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AZISS
+# Author: Cekli829
+az: 
+  activerecord: 
+    attributes: 
+      group: 
+        domain: Domen
+        language: Dil
+        logo: Loqo
+        name: Ad
+    models: 
+      group: Qrup
+      groups: Qruplar
+  groups: 
+    form: 
+      any_language: Hər
+    group: 
+      about: Haqqında
+      close: Bağlı
+    index: 
+      actives: Aktivdir
+      name: Ad
+      title: Qruplar

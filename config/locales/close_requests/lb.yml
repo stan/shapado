@@ -1,0 +1,14 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  close_requests: 
+    form: 
+      no_question: Keng Fro
+      not_relevant: Net relevant
+    model: 
+      attributes: 
+        comment: Bemierkung
+        reason: Grond
+        user: Benotzer

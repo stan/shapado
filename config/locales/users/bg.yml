@@ -1,0 +1,25 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  activerecord: 
+    attributes: 
+      user: 
+        activation_code: Код за активиране
+        age: Възраст
+        birthday: Рожден ден
+        current_password: Текуща парола
+        email: Е-поща
+        language: Език
+        login: Потребителско име
+        name: Истинско име
+        password: Парола
+        password_confirmation: Потвърждаване на паролата
+        website: Уебсайт
+    models: 
+      user: Потребител
+      users: Потребители
+  users: 
+    index: 
+      title: Всички потребители

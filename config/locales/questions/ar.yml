@@ -1,0 +1,23 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Meno25
+# Author: OsamaK
+ar: 
+  activerecord: 
+    attributes: 
+      question: 
+        language: اللغة
+  questions: 
+    answer: 
+      add_comment: أضف تعليقا...
+    index: 
+      title: جميع الأسئلة
+    move: 
+      submit: انقل!
+    new: 
+      title: اطرح سؤالا
+    retag_form: 
+      cancel: إلغاء
+    show: 
+      open: افتح

@@ -1,0 +1,50 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Faren
+# Author: Woytecr
+pl: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: Opis
+        domain: Domena
+        enable_latex: Włącz LaTeX poprzez jqmath (szybki, ale nie w pełni funkcjonalny)
+        group_created_by: utworzony przez
+        language: Język domyślny
+        languages: Dodatkowe Języki
+        legend: Legenda
+        logo: Logo
+        may_contain_adult_content: Niniejsza strona może zawierać treści dla dorosłych
+        name: Nazwa
+        owner: Ta grupa została utworzona przez %{login}
+        registered_only: Tylko zarejestrowane osoby mogą uzyskać dostęp do witryny
+        state: Województwo
+        subdomain: Adres URL
+    models: 
+      duplicate_domain_message: Niestety, ta domena jest już zajęta.
+      group: Grupa
+      groups: Grupy
+      reputation_rewards_key: Nieprawidłowy klucz
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Przepraszamy, coś poszło nie tak. Proszę spróbować ponownie.
+    edit: 
+      title: Edycja grupy
+    form: 
+      any_language: Dowolny
+    group: 
+      about: Informacje
+      accept_group: Zaakceptuj tę grupę
+      allow_ads: Zezwalaj na reklamy
+      close: Zamknij
+      close_group: Zamknij tę grupę
+      disallow_ads: Nie zezwalaj na reklamy
+    index: 
+      create_your_own: utwórz własną grupę
+      name: Nazwa
+      title: Grupy
+    show: 
+      group_closed: Ta grupa została zamknięta.
+      title: O %{name}
+      visit_group: Odwiedź tę grupę

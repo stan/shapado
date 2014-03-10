@@ -1,0 +1,9 @@
+# Messages for Tetum (tetun)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: MF-Warburg
+tet: 
+  answers: 
+    form: 
+      answer_label: Hatán pergunta
+      submit: Reposta

@@ -1,0 +1,9 @@
+# Messages for Bengali (বাংলা)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ehsanulhb
+bn: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: বিবরণ

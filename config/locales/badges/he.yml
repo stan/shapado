@@ -1,0 +1,13 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  badges: 
+    index: 
+      bronze: ברונזה
+      gold: זהב
+      silver: כסף
+    shared: 
+      peer_pressure: 
+        name: לחץ חברתי

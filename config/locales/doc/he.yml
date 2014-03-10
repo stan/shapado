@@ -1,0 +1,12 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  doc: 
+    chat: 
+      title: צ׳אט תמיכה
+    plans: 
+      month: חודש
+      support: תמיכה
+      title: תכניות ותעריפים

@@ -1,0 +1,21 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  devise: 
+    failure: 
+      locked: Äre Kont ass gespaart.
+    mailer: 
+      confirm_account: 
+        welcome: Wëllkomm
+      hello: Salut
+      reset_password: 
+        link: Mäi Passwuert änneren
+    passwords: 
+      link: Passwuert vergiess?
+    registrations: 
+      updated: Dir hutt Äre Benotzerkont aktualiséiert.
+  errors: 
+    messages: 
+      not_found: net fonnt

@@ -1,0 +1,39 @@
+# Messages for Indonesian (Bahasa Indonesia)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aldnonymous
+id: 
+  questions: 
+    answer_toolbar: 
+      flagged_by_you: Ditandai oleh Anda
+    index: 
+      active: Aktif
+      ask_question: Ajukan pertanyaan
+      empty: Belum ada yang memberikan pertanyaan. Jadilah yang pertama!
+      help_to_answer: Bantu kami menjawab
+      hot: Hangat
+      newest: Terbaru
+      oldest: Terlama
+      unanswered_questions: Pertanyaan yang belum di-jawab
+      votes: Suara
+    show: 
+      accepted_tooltip: Salah satu jawaban telah diterima sebagai jawaban yang tepat.
+      another_answers: Jawaban lain
+      answers: Jawaban
+      asked_on: ditanyakan pada
+      flags: Dilaporkan sebagai
+      follow_tooltip: Ikuti pertanyaan ini
+      history: Riwayat
+      last_activity: Aktivitas terakhir
+      more_actions: Aksi lebih
+      related_questions: Pertanyaan terkait
+      share: Bagikan pertanyaan ini di
+      share_on: Bagikan pertanyaan ini di %{site}
+      solution: Solusi
+      to_answer_question: untuk menjawab pertanyaan ini
+      unfollow_tooltip: Berhenti mengikuti pertanyaan ini
+      viewed: Telah ditinjau
+    toolbar: 
+      answer_by_mail: Jawab melalui surel
+      more_actions: Aksi lebih
+      requests: Permohonan

@@ -1,0 +1,10 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Pono i ka hōʻoia
+        title: Hoʻouna i nā lekauila hōʻoia

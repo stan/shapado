@@ -1,0 +1,15 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  doc: 
+    plans: 
+      basic: Basic
+      maximum: Maximum
+      month: mes
+      optimum: Optimal
+      plans: Plans
+      private: Privat
+      support: Supòrt
+      user: utilizaire

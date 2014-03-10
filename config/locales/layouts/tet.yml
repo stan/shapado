@@ -1,0 +1,12 @@
+# Messages for Tetum (tetun)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: MF-Warburg
+tet: 
+  layouts: 
+    application: 
+      languages: Lian sira
+      pages: Pájina sira
+      search: Buka
+    manage: 
+      pages: Pájina sira

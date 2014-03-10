@@ -1,0 +1,26 @@
+# Messages for Latin American Spanish (español de America Latina)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fitoschido
+es-419: 
+  devise: 
+    confirmations: 
+      confirmed: Su cuenta se ha confirmado. Ahora ha iniciado sesión.
+      send_instructions: Recibirá un correo electrónico con instrucciones acerca de cómo confirmar su cuenta en algunos minutos.
+    passwords: 
+      link: ¿Olvidó su contraseña?
+      send_instructions: Recibirá un correo electrónico con instrucciones acerca de cómo restablecer su contraseña en algunos minutos.
+      updated: Su contraseña ha cambiado. Ahora ha iniciado sesión.
+    registrations: 
+      destroyed: ¡Nos vemos! Su cuenta se ha cancelado. Esperamos verlo de nuevo pronto.
+      link: Registrarse
+      signed_up: Se ha registrado.
+      updated: Ha actualizado su cuenta.
+    sessions: 
+      link: Iniciar sesión
+      signed_in: Sesión iniciada.
+      signed_out: Sesión finalizada.
+    unlocks: 
+      link: ¿No recibió las instrucciones de desbloqueo?
+      send_instructions: Recibirá un correo electrónico con instrucciones acerca de cómo desbloqear su cuenta en algunos minutos.
+      unlocked: Su cuenta se ha desbloqueado. Ahora ha iniciado sesión.

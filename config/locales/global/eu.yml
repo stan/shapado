@@ -1,0 +1,22 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: An13sa
+# Author: Subi
+eu: 
+  global: 
+    alphabetically: Alfabetikoki
+  models: 
+    question: Galdera
+  scaffold: 
+    cancel: Utzi
+    close: Itxi
+    destroy: Ezabatu
+    edit: Aldatu
+    more: Gehiago ...
+    save: Gorde
+    update: Eguneratu
+  time: 
+    ago: Duela %{time}
+    today: gaur
+    yesterday: atzo

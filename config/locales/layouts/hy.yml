@@ -1,0 +1,8 @@
+# Messages for Armenian (Հայերեն)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chaojoker
+hy: 
+  layouts: 
+    application: 
+      random_question: Պատահական հարց

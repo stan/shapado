@@ -1,0 +1,23 @@
+# Messages for Afrikaans (Afrikaans)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Naudefj
+af: 
+  activerecord: 
+    models: 
+      badge: Balkie
+      badges: Balkies
+  badges: 
+    shared: 
+      cleanup: 
+        name: Opruiming
+      friendly: 
+        name: Vriendelik
+      nice_question: 
+        name: Goeie vraag
+      organizer: 
+        name: Organiseerder
+      peer_pressure: 
+        name: Groepsdruk
+    show: 
+      earned: verdien

@@ -1,0 +1,20 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  comments: 
+    create: 
+      flash_notice: Mahalo no kāu kaumanaʻo
+    edit: 
+      title: Hoʻololi kaumanaʻo
+    shared: 
+      add_comment: Hoʻohui kaumanaʻo...
+      comment_submit: Kaumanaʻo
+      reply: Pane
+      said: wahi a
+    update: 
+      flash_notice: Ua hoʻopuka hou kūlia i kēia kaumanaʻo
+  models: 
+    comment: Kaumanaʻo
+    comments: Nā Kaumanaʻo

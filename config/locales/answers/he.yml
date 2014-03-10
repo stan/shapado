@@ -1,0 +1,18 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  activerecord: 
+    attributes: 
+      answer: 
+        link: קישור
+    models: 
+      answer: תשובה
+      answers: תשובות
+  answers: 
+    create: 
+      flash_notice: רב תודות!
+    form: 
+      comment_submit: תגובה
+      submit: תשובה

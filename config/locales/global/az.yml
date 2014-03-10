@@ -1,0 +1,38 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+# Author: Erdemaslancan
+az: 
+  feeds: 
+    share_on_twitter: Twitter, Facebook və digər...
+  global: 
+    blog: Bloq
+    home: Ana səhifə
+    next_button: Növbəti
+    open: Açıq
+    size: Həcm
+  preferred_languages: 
+    any: Hər
+  scaffold: 
+    add: Əlavə et
+    back: Əvvəlki
+    cancel: Ləğv et
+    close: Bağla
+    create: Yarat
+    destroy: Sil
+    details: Detallar
+    edit: Redaktə
+    more: Daha ətraflı...
+    save: Qeyd et
+    send: Göndər
+    show: Göstər
+    update: Yenilə
+  time: 
+    today: bu gün
+    yesterday: dünən
+  views: 
+    pagination: 
+      first: Birinci
+      last: Sonuncu
+      truncate: ...

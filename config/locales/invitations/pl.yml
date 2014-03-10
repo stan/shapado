@@ -1,0 +1,15 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  invitations: 
+    accept: 
+      create_account_step2: Utwórz konto
+      done: Gotowe!
+      facebook_connect: Połącz ze swoim kontem Facebook
+      final_step: Ostatni krok (2 z 2)
+      follow_things: Śledź edtykiety i ludzi
+      other_connect: lub użyj jednego z nich.
+      twitter_connect: Połącz ze swoim kontem Twitter
+      welcome: Witamy

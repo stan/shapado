@@ -1,0 +1,18 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+eu: 
+  activerecord: 
+    attributes: 
+      question: 
+        language: Hizkuntza
+  questions: 
+    answer: 
+      favorite: Gorde
+    index: 
+      has_followers: 
+        one: Jarraitzaile %{count}
+        other: "%{count} jarraitzaile"
+    show: 
+      history: Historia

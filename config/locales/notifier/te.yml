@@ -1,0 +1,23 @@
+# Messages for Telugu (తెలుగు)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Veeven
+te: 
+  notifier: 
+    earned_badge: 
+      message2: "బాడ్జీ వివరణ:"
+      message3: మీ %{user_page} వద్ద మీరు మీ అన్ని బాడ్జీలను చూడవచ్చు
+    favorited: 
+      message2: "మీ ప్రశ్న యొక్క పాఠ్యం:"
+      message3: "దాన్ని మీరు ఇక్కడ చూడవచ్చు:"
+    global: 
+      hi: హాయ్ %{user},
+      user_page: వాడుకరి పుట
+    new_feedback: 
+      message3: "ఈమెయిలు చిరునామా: %{email}"
+      message4: "విషయం: %{subject}"
+    new_invitation: 
+      message2: "%{group} జట్టు."
+    report: 
+      message2: "%{date} నుండి"
+      message8: "%{link} వద్ద మీ గుంపుని దర్శించండి"

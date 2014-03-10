@@ -1,0 +1,10 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Luckas
+pt-PT: 
+  themes: 
+    edit: 
+      title: Editar tema
+    show: 
+      apply: Aplicar

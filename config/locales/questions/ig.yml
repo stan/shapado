@@ -1,0 +1,32 @@
+# Messages for Igbo (Igbo)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ukabia
+ig: 
+  activerecord: 
+    attributes: 
+      question: 
+        asked_by: Onye júrú bụ
+        body: Àhú
+        closed: Mèchịrị
+        language: Ásụ̀sụ̀
+        title: Íshí edemede
+        updated_by: oganírú shí
+        votes: Votu
+    models: 
+      question: Ájújú
+      questions: Ájújú
+  questions: 
+    answer: 
+      add_comment: Tìnyé nkȯkwá...
+    index: 
+      active: Dí ndu
+      ask_question: Juó ájújú
+      hot: Ȯkü
+    move: 
+      submit: Páfụ!
+    retag_form: 
+      cancel: Emekwàlà
+    show: 
+      answers: Nza okwu
+      close: Mèchí

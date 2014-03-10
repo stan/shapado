@@ -1,0 +1,12 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  notifier: 
+    global: 
+      hi: "%{user} سلامونه،"
+      hi_no_user: سلامونه،
+      user_page: کارن مخ
+    new_feedback: 
+      message3: "برېښليک پته: %{email}"

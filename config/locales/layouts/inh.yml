@@ -1,0 +1,9 @@
+# Messages for Ingush (ГӀалгӀай)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Sapral Mikail
+inh: 
+  layouts: 
+    application: 
+      languages: Метташ
+      pages: ОагIувнаш

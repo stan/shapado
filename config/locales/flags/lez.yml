@@ -1,0 +1,9 @@
+# Messages for Lezghian (лезги)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Namik
+lez: 
+  activerecord: 
+    models: 
+      flag: Пайдах
+      flags: Пайдахар

@@ -1,0 +1,11 @@
+# Messages for Kurdish (Latin script) (Kurdî (latînî)‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: George Animal
+ku-Latn: 
+  admin: 
+    moderate: 
+      index: 
+        all: Hemû
+        content: Naverok
+        item_title: Sernav

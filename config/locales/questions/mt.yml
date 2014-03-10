@@ -1,0 +1,10 @@
+# Messages for Maltese (Malti)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chrisportelli
+mt: 
+  questions: 
+    index: 
+      ask_question: Agħmel domanda
+    new: 
+      title: Agħmel domanda

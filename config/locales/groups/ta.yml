@@ -1,0 +1,36 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aswn
+# Author: Shanmugamp7
+# Author: TRYPPN
+ta: 
+  activerecord: 
+    attributes: 
+      group: 
+        description: விளக்கம்
+        name: பெயர்
+    models: 
+      group: குழு
+      groups: குழுக்கள்
+  groups: 
+    form: 
+      any_language: ஏதாவது
+    group: 
+      about: விவரம்
+      accept_group: இந்த குழுவை ஏற்கவும்
+      allow_ads: விளம்பரங்களை அனுமதி
+      close: மூடு
+      close_group: இந்த குழுவை மூடவும்
+      disallow_ads: விளம்பரங்களை அனுமதிக்காதே
+    index: 
+      actives: இயக்கத்திலுள்ள
+      most_active: மிகவும் சுறுசுறுப்பான
+      name: பெயர்
+      title: குழுக்கள்
+    show: 
+      accept_group: இந்த குழுவை ஏற்கவும்
+      close_group: இந்த குழுவை மூடவும்
+      group_closed: இந்த குழு மூடப்பட்டுவிட்டது
+      title: "%{name} பற்றி"
+      visit_group: இந்த குழுவை பார்க்கவும்

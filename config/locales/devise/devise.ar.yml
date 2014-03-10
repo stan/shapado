@@ -1,0 +1,10 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: OsamaK
+ar: 
+  devise: 
+    passwords: 
+      link: أنسيت كلمة السر؟
+    sessions: 
+      link: لُج

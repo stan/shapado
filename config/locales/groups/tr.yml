@@ -1,0 +1,16 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Khutuck
+# Author: Szoszv
+tr: 
+  activerecord: 
+    attributes: 
+      group: 
+        language: Varsayılan Dil
+    models: 
+      group: Grup
+  groups: 
+    index: 
+      pendings: Beklemede

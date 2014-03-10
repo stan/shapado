@@ -1,0 +1,13 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  wiki: 
+    history: 
+      previous_versions: Versiyonê verêni
+      version: Versiyon
+      version_summary: Xulasaya versiyoni
+    model: 
+      attributes: 
+        message: Xulasa

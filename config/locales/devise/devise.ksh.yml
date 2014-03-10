@@ -1,0 +1,9 @@
+# Messages for Colognian (Ripoarisch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rentenirer
+ksh: 
+  devise: 
+    mailer: 
+      confirm_account: 
+        welcome: Wellkumme!

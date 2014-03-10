@@ -1,0 +1,27 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  welcome: 
+    confirm_age: 
+      notice: Hiki iā ʻoe ke hele wale i kēia ʻaoʻao inā he 18 makahiki kāu aiʻole loaʻa iā ʻoe nā makahiki makua i kāu noho ʻāina aiʻole kahi e komo i kēia ʻaoʻao.
+      over_18: He 18 makahiki kaʻu
+      under_18: Aʻohe aʻu 18 makahiki
+      warning: "E AKAHELE: Loaʻa paha i kēia ʻaoʻao nā hana kola."
+    feedback: 
+      captcha_error: E ʻoluʻolu, e kikokiko pono i ke kapakā a hoʻolako i kekahi wahinoho lekauila pono.
+      captcha_notice: Mahalo no kāu manaʻo, e hoʻi me kekahi pane.
+      email_description: E ʻoluʻolu, e hoʻolako i kāu wahinoho lekauila no ka pane ʻana o kāu pūlono
+      feedback_description: Hōʻike ʻAno
+      feedback_title: Poʻo Inoa
+      title: Hoʻouna i kāu manaʻo
+    index: 
+      active: ʻEleu
+      browse_all_or_by_tags: ʻIke i ka %{full_list_of_questions} aiʻole e %{browse_by_tags}
+      browse_by_tags: huli e nā lepili
+      create_own_site: Haku i kāu kahua Nīnaupane no 8 kekona no ka ʻukuʻole
+      full_list_of_questions: papahelu nīnau apau
+      hot: Makemake nui ʻia
+      quick_question: E nīnau, a e loaʻa ana iā mākou ka pane
+      recent_questions: Nīnau hou

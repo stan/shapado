@@ -1,0 +1,17 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  activerecord: 
+    models: 
+      badge: Значка
+      badges: Значки
+  badges: 
+    index: 
+      title: значки
+    shared: 
+      commentator: 
+        name: Коментатор
+      editor: 
+        name: Редактор

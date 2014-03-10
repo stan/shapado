@@ -1,0 +1,15 @@
+# Messages for Norwegian Bokmål (norsk bokmål)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Nghtwlkr
+nb: 
+  admin: 
+    manage: 
+      content: 
+        top_bar: Topplinje
+        top_bar_tip: Skriv inn en lenke per linje
+      properties: 
+        general: 
+          title: Gruppeegenskaper
+        share: 
+          title: Del

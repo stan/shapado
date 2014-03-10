@@ -1,0 +1,9 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  errors: 
+    forbidden: 
+      title: הגישה נדחתה
+    search: חיפוש

@@ -1,0 +1,11 @@
+# Messages for Kyrgyz (Кыргызча)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Growingup
+ky: 
+  activity: 
+    changed: өзгөртүлдү
+    created: жаратылды
+    deleted: өчүрүлдү
+    destroyed: өчүрүлдү
+    updated: жаңыртылды

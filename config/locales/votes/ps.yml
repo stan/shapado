@@ -1,0 +1,12 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  activerecord: 
+    models: 
+      vote: رايه ورکول
+      votes: رايې
+  votes: 
+    create: 
+      flash_notice: ستاسې له رايې نه مننه!

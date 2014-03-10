@@ -1,0 +1,31 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  layouts: 
+    application: 
+      all: همه
+      by_me: وا مه
+      faq: اف ای كيو
+      followed: نهاگردی
+      forgot: د ویر رئته؟
+      home: سرآسونه
+      languages: زونيا
+      log_in: اومائن د سیستم
+      logout: د سيستم دراومائن
+      now: ایسه!
+      pages: بلگیا
+      search: پی جوری
+      settings: تنظيمات
+      signup: ثوت نام كردن
+      subscribe: اندوم بین
+      users: کاروریا
+      welcome_from: خوش اومایت! شما تونیت
+    manage: 
+      access: "پذيرشت:"
+      content: محتويات
+      general: کلی
+      invoices: بی دنگیا
+      members: اندومیا
+      pages: بلگیا

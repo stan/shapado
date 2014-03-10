@@ -1,0 +1,18 @@
+# Messages for Czech (čeština)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chmee2
+cs: 
+  close_requests: 
+    form: 
+      close_with_reason: Uzavřít tuto otázku pomocí tohoto důvodu
+      no_question: Není otázka
+      not_relevant: Není relevantní
+      ot: Mimo téma
+      request_closing_details: Žádost uzavřít tuto otázku
+      spam: spam
+    model: 
+      attributes: 
+        comment: Komentář
+        reason: Důvod
+        user: Uživatel

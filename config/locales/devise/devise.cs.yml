@@ -1,0 +1,37 @@
+# Messages for Czech (čeština)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chmee2
+cs: 
+  devise: 
+    failure: 
+      inactive: Váš účet nebyl dosud aktivován.
+      invalid: Neplatná e-mailová adresa nebo heslo.
+      locked: Váš účet je uzamčen.
+      timeout: Vaše sezení vypršelo, prosím, přihlaste se znovu pokračovat.
+      unauthenticated: Musíte se přihlásit, nebo zaregistrovat předtím, než budete pokračovat.
+      unconfirmed: Musíte potvrdit váš účet, než budete pokračovat.
+    mailer: 
+      confirm_account: 
+        welcome: Vítejte
+      hello: Ahoj
+      reset_password: 
+        link: Změnit heslo
+    passwords: 
+      link: Zapomněli jste heslo?
+      updated: Vaše heslo bylo změněno. Jste nyní přihlášeni.
+    registrations: 
+      link: Zaregistrovat se
+    sessions: 
+      link: Přihlásit se
+      new: 
+        remember_me: Zapamatuj si mě
+      registered_only: Musíte být přihlášen pro zobrazení obsahu.
+      sign_out: Odhlásit se
+      signed_in: Úspěšně přihlášen.
+      signed_out: Úspěšně odhlášeni.
+  errors: 
+    messages: 
+      already_confirmed: byl již potvrzen
+      not_found: nenalezeno
+      not_locked: nebyla zamčená

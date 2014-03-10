@@ -1,0 +1,15 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+# Author: Xabier Armendaritz
+eu: 
+  wiki: 
+    history: 
+      current_version: Oraingo bertsioa
+      previous_versions: Aurreko bertsioak
+      title: Historia (%{count})
+      version: Bertsioa
+    model: 
+      attributes: 
+        message: Laburpena

@@ -1,0 +1,18 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Hamilton Abreu
+# Author: Shirayuki
+qqq: 
+  doc: 
+    plans: 
+      basic: "{{Identical|Basic}}"
+      custom_html: "{{Identical|Custom HTML}}"
+      maximum: "{{Identical|Maximum}}"
+      month: "{{Identical|Month}}"
+      private: "{{Identical|Private}}"
+      small_basic: "{{Identical|Getting started}}"
+      start_monetizing: "\"monetizing\" should be interpreted here as \"earning money\""
+      support: "{{Identical|Support}}"
+      user: "{{Identical|User}}"

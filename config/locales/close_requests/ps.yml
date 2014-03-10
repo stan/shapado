@@ -1,0 +1,17 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  close_requests: 
+    index: 
+      title: د تړل شويو غوښتنو لړليک
+    model: 
+      attributes: 
+        comment: تبصره
+        reason: سبب
+        user: کارن
+      messages: 
+        already_requested: تاسې د پخوا نه د دې پوښتنې د تړلو غوښتنه کړې
+      name: غوښتنه بندول
+      prural_name: غوښتنې بندول

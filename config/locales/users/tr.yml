@@ -1,0 +1,61 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Emperyan
+# Author: Erdemaslancan
+tr: 
+  activerecord: 
+    attributes: 
+      user: 
+        age: Yaş
+        avatar: Profil resmi
+        birthday: Doğum günü
+        current_password: Geçerli şifre
+        email: E-posta
+        fullname: Tam ad
+        language: Dil
+        language_filter: Dile göre süzgeç uygulama
+        login: Kullanıcı adı
+        name: Gerçek ad
+        password: Şifre
+        password_confirmation: Şifre doğrulama
+        timezone: Zaman dilimi
+        website: Veb site
+    models: 
+      user: Kullanıcı
+      users: Kullanıcılar
+  users: 
+    change_password: 
+      submit: Şifremi değiştir
+      title: Şifreyi değiştir
+    edit: 
+      submit: Kaydet
+      title: Ayarlar
+    form: 
+      desktop_notification: Masaüstü bildirimleri
+      information: Bilgi
+      notifications: Bildirimler
+      show_more_lang: Daha fazla dilde göster
+    index: 
+      filter: Kullanıcıları ara
+      name: Ad
+      near_tooltip: Size yakın olan kullanıcılar
+      newest: En yeni
+      oldest: En eski
+      title: Tüm kullanıcılar
+    new: 
+      submit: Kaydol
+    show: 
+      edit_profile: Profili düzenle
+      follow: İzle
+    top_user: 
+      connect: Bağlan
+      profile: Profil
+    user_bar: 
+      create_account: Hesap açın
+      not_logged_in: Oturum açmadınız
+      signed_as: Oturum açıldı
+    user_mini: 
+      admin: "[ Yönetici ]"
+      editor: "[ Editör ]"
+      mod: "[ Moderatör ]"

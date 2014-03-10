@@ -1,0 +1,12 @@
+# Messages for Ancient Greek (Ἀρχαία ἑλληνικὴ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crazymadlover
+grc: 
+  activerecord: 
+    attributes: 
+      question: 
+        language: Γλῶττα
+  questions: 
+    retag_form: 
+      cancel: Ἀκυροῦν

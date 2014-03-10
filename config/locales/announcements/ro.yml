@@ -1,0 +1,10 @@
+# Messages for Romanian (română)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: KlaudiuMihaila
+ro: 
+  announcements: 
+    actions: 
+      title: Acțiuni
+    index: 
+      title: Anunțuri

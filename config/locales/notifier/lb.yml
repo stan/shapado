@@ -1,0 +1,21 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+# Author: Soued031
+lb: 
+  notifier: 
+    favorited: 
+      message2: "D'Fro war:"
+      message3: "Dir kënnt et hei gesinn:"
+    give_advice: 
+      message2: "Fir ze äntwerten, klickt just äntwerten op dëse Message hei:"
+    global: 
+      hi: Salut %{user},
+      hi_no_user: Salut,
+      user_page: Benotzersäit
+    new_feedback: 
+      message3: "E-Mail-Adress: %{email}"
+      message4: "Sujet: %{subject}"
+    report: 
+      message2: Zënter %{date}

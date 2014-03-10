@@ -1,0 +1,11 @@
+# Messages for Hebrew (עברית)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: YaronSh
+he: 
+  close_requests: 
+    model: 
+      attributes: 
+        comment: תגובה
+        reason: סיבה
+        user: משתמש

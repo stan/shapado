@@ -1,0 +1,15 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  admin: 
+    manage: 
+      content: 
+        footer: Fousszeil
+        top_bar_tip: Gitt e Link pro Linn an
+      edit_card: 
+        button: Är Kreditkaart aktualiséieren
+      properties: 
+        constrains: 
+          title: Ufuerderungen

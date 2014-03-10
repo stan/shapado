@@ -1,0 +1,11 @@
+# Messages for German (formal address) (Deutsch (Sie-Form)‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de-formal: 
+  flags: 
+    destroy: 
+      flash_notice: Ihre Kennzeichen wurde erfolgreich zurückgenommen.
+    model: 
+      messages: 
+        already_requested: Sie haben dieses %{model} bereits gekennzeichnet

@@ -1,0 +1,18 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: "{{Identical|Reason}}"
+    models: 
+      flag: "{{Identical|Flag}}"
+      flags: "{{Identical|Flag}}"
+  flags: 
+    form: 
+      spam: "{{Identical|Spam}}"
+    new: 
+      title: "{{Identical|Flag}}"

@@ -1,0 +1,12 @@
+# Messages for Romanian (română)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: KlaudiuMihaila
+ro: 
+  activerecord: 
+    attributes: 
+      answer: 
+        created_at: Creat la
+  answers: 
+    create: 
+      flash_notice: Mulțumesc!

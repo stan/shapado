@@ -1,0 +1,19 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Hydra
+# Author: Shirayuki
+# Author: Siebrand
+qqq: 
+  welcome: 
+    feedback: 
+      feedback_description: "{{Identical|Description}}"
+      feedback_title: "{{Identical|Title}}"
+    index: 
+      active: "{{Identical|Active}}"
+      browse_all_or_by_tags: "Parameters:\n* full_list_of_questions is {{msg-shapado|Welcome-welcome.index.full list of questions}}\n* browse_by_tags is {{msg-shapado|Welcome-welcome.index.browse by tags}}"
+      browse_by_tags: Substituted in {{msg-shapado|Welcome-welcome.index.browse_all_or_by_tags}}
+      create_own_site: This message is found on the button found at the bottom of the main page (http://www.shapado.com). "<nowiki>&amp;</nowiki>" = "&"
+      full_list_of_questions: Substituted in {{msg-shapado|Welcome-welcome.index.browse_all_or_by_tags}}
+      hot: "{{Identical|Hot}}"

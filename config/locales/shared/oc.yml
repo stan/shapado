@@ -1,0 +1,27 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  shared: 
+    date: Data
+    description: Descripcion
+    empty: 
+      themes: 
+        description: 
+          action_link: ara
+    filter: "Filtre :"
+    language: "Lenga :"
+    languages: "Lengas :"
+    login_drop_down: 
+      with_facebook: amb Facebook
+      with_google: amb Google
+      with_identica: amb Identi.ca
+      with_linked_in: amb LinkedIn
+      with_openid: OpenID
+      with_twitter: amb Twitter
+    name: Nom
+    topbar: 
+      admin: Administrator
+      user_page: Ma pagina
+    view_mode: "Mòde d'afichatge :"

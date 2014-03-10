@@ -1,0 +1,20 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  devise: 
+    mailer: 
+      confirm_account: 
+        welcome: Benvenguda
+      hello: Bonjorn
+      reset_password: 
+        link: Modificar mon senhal
+    registrations: 
+      link: Crear un compte
+    sessions: 
+      link: S’identificar
+      sign_out: Desconnexion
+  errors: 
+    messages: 
+      not_found: pas trobat

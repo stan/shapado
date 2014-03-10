@@ -1,0 +1,10 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: An13sa
+eu: 
+  close_requests: 
+    model: 
+      attributes: 
+        reason: Arrazoia
+        user: Erabiltzailea

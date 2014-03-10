@@ -1,0 +1,17 @@
+# Messages for Chechen (нохчийн)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Sasan700
+# Author: Умар
+ce: 
+  activerecord: 
+    attributes: 
+      answer: 
+        link: Хьажораг
+  answers: 
+    create: 
+      flash_notice: Баркалла!
+    form: 
+      submit: Жоп ло
+    revert: 
+      title: Цаоьшу жоп

@@ -1,0 +1,70 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Gorizon
+# Author: Mirzali
+diq: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Cewabi
+        asked_by: persayen
+        body: Bezne
+        closed: Racneya
+        created_at: Pers kerd
+        language: Zıwan
+        tags: Etiketi
+        title: Sername
+        views: Vinayışi
+        votes: Reyi
+    models: 
+      question: Pers
+      questions: Persi
+  questions: 
+    answer: 
+      add_comment: Vatış deke
+      favorite: Qeyd ke
+      flag: Desmal
+    form: 
+      remove_attachment: Hewad
+    index: 
+      active: Aktiv
+      ask_question: Çiyê pers bıke
+      hot: Germe
+      newest: Tewr newe
+      oldest: Tewr kehan
+      votes: Reyi
+    move: 
+      submit: Bere!
+    new: 
+      how_to_ask: Seni ke pers keno
+      title: Çiyê pers bıke
+    question: 
+      answer_verb: Cewab
+      retag: Fına etiket ke
+    retag: 
+      title: Fına etiket ke
+    retag_form: 
+      cancel: Bıtexelne
+    revert: 
+      title: Ravêr persayış
+    shared: 
+      flag: Desmal
+    show: 
+      answers: Cewabi
+      ban: Wedarnê
+      close: Racnê
+      edit_request: Wastışi bıvurnê
+      flag: Desmal
+      history: Ravêrden
+      open: Ake
+      solution: Hel
+      unban: Mewedarnê
+    tags: 
+      title: Etiketi
+    toolbar: 
+      requests: Wazteni
+    unanswered: 
+      expert: Zanayey
+      my_tags: Etiketê mı

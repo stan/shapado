@@ -1,0 +1,42 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mutarjem horr
+# Author: OsamaK
+ar: 
+  badges: 
+    shared: 
+      celebrity: 
+        name: مشهور
+      commentator: 
+        name: معلق
+      critic: 
+        name: ناقد
+      editor: 
+        name: محرر
+      favorite_question: 
+        name: سؤال محبوب
+      good_answer: 
+        name: إجابة جيدة
+      good_question: 
+        name: سؤال جيد
+      great_answer: 
+        name: إجابة رائعة
+      great_question: 
+        name: سؤال رائع
+      necromancer: 
+        name: جديد
+      nice_answer: 
+        name: إجابة جيدة
+      nice_question: 
+        name: سؤال لطيف
+      popular_question: 
+        name: سؤال مشهور
+      scholar: 
+        name: عالِم
+      stellar_question: 
+        name: سؤال ممتاز
+      student: 
+        name: طالب
+    show: 
+      earned: مربوحة

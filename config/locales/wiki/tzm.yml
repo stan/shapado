@@ -1,0 +1,11 @@
+# Messages for Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tifinaghes
+tzm: 
+  wiki: 
+    actions: 
+      all_history: ⵓⵖⴰⵍ ⵖⵔ ⴰⵎⵣⵔⵓⵢ
+      back_to_question: ⵓⵖⴰⵍ ⵖⵔ ⵉⵙⵇⵙⵉⵜⵏ
+    history: 
+      title: ⴰⵎⵣⵔⵓⵢ (%{count})

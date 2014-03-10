@@ -1,0 +1,13 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Rol
+  members: 
+    index: 
+      title: Ezayê grube da %{name}'s
+      title_isolate: Ezayê %{name}

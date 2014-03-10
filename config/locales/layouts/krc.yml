@@ -1,0 +1,9 @@
+# Messages for Karachay-Balkar (къарачай-малкъар)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Iltever
+krc: 
+  layouts: 
+    application: 
+      languages: Тилле
+      logout: Чыгъыу

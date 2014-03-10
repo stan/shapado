@@ -1,0 +1,13 @@
+# Messages for Tetum (tetun)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: MF-Warburg
+tet: 
+  activerecord: 
+    attributes: 
+      user: 
+        language: Lian
+        login: Naran uza-na'in
+  users: 
+    index: 
+      name: Naran

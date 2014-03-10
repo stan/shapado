@@ -1,0 +1,27 @@
+# Messages for Kyrgyz (Кыргызча)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Growingup
+ky: 
+  devise: 
+    mailer: 
+      confirm_account: 
+        welcome: Кош келиңиз
+      hello: Саламатсызбы
+      reset_password: 
+        link: Сырсөздү өзгөртүү
+    passwords: 
+      link: Сырсөздү унуттуңузбу?
+    registrations: 
+      link: Каттоо
+    sessions: 
+      link: Кирүү
+      new: 
+        openid_url: Сиздин OpenID URL-дарегиңиз
+        remember_me: Мени эске сактоо
+      sign_out: Чыгуу
+      signed_in: Сиз ийгиликтүү кирдиңиз.
+      signed_out: Сиз ийгиликтүү чыктыңыз.
+  errors: 
+    messages: 
+      not_found: табылган жок

@@ -1,0 +1,13 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        message: Messaç
+  announcements: 
+    actions: 
+      delete: Gjave
+      title: Azions

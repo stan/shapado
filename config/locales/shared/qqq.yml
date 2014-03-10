@@ -1,0 +1,29 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+# Author: Siebrand
+qqq: 
+  shared: 
+    date: "{{Identical|Date}}"
+    description: "{{Identical|Description}}"
+    empty: 
+      default: 
+        description: 
+          text: "Parameters:\n* %{action_link} is replaced with the contents of {{msg-shapado|Shared-shared.empty.questions.description.action link}}"
+      filtered_by_language_questions: 
+        description: 
+          text: "{{Optional}}"
+      filtered_questions: 
+        description: 
+          text: "{{Optional}}"
+    filter: "{{Identical|Filter}}"
+    language: "{{Identical|Language}}"
+    languages: "{{Identical|Language}}"
+    login_drop_down: 
+      with_openid: "{{Identical|OpenID}}"
+    name: "{{Identical|Name}}"
+    topbar: 
+      admin: "{{Identical|Admin}}"
+      user_page: "{{Identical|My pages}}"

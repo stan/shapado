@@ -1,0 +1,17 @@
+# Messages for Sorani Kurdish (کوردی)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Calak
+ckb: 
+  activerecord: 
+    attributes: 
+      answer: 
+        link: بەستەر
+    models: 
+      answer: وەڵام
+      answers: وەڵامەکان
+  answers: 
+    create: 
+      flash_notice: سپاس!
+    form: 
+      submit: وەڵام

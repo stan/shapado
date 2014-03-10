@@ -1,0 +1,28 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  activerecord: 
+    attributes: 
+      group: 
+        domain: پوشگیر
+        group_created_by: راس بیه وا
+        name: نوم
+        subdomain: يو آر ال
+    models: 
+      default_tags_message: کلیت نامتعور
+      group: گرو
+      groups: گرويا
+      reputation_rewards_key: کلیت نامعتور
+  groups: 
+    edit: 
+      title: گرو تونه ویرایشت بکید
+    form: 
+      any_language: هرکوم
+    group: 
+      about: دباره
+      close: بسن
+    index: 
+      name: نوم
+      title: گرويا

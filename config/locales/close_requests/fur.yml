@@ -1,0 +1,17 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  close_requests: 
+    form: 
+      dupe: Duplicât
+      no_question: No je une domande
+      not_relevant: Cence rilevance
+      ot: Fûr teme
+      request_closing_details: Richieste par sierâ cheste domande
+    model: 
+      attributes: 
+        comment: Coment
+        reason: Reson
+        user: Utent

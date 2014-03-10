@@ -1,0 +1,12 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Rûl
+  members: 
+    index: 
+      manage_members_title: Gjestìs i membris

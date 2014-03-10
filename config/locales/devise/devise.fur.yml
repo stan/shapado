@@ -1,0 +1,14 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  devise: 
+    passwords: 
+      link: Âstu dismenteât la password?
+    registrations: 
+      link: Regjistriti
+    sessions: 
+      link: Jentre
+      signed_in: Jentrât.
+      signed_out: Jessût.

@@ -1,0 +1,16 @@
+# Messages for Kurdish (Latin script) (Kurdî (latînî)‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: George Animal
+ku-Latn: 
+  scaffold: 
+    add: Lê zêde bike
+    cancel: Betal bike
+    close: Bigre
+    create: Çêke
+    destroy: Jê bibe
+    edit: Biguherîne
+    send: Bişîne
+    show: Nîşan bide
+  time: 
+    today: îro

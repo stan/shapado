@@ -1,0 +1,8 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: An13sa
+eu: 
+  answers: 
+    create: 
+      flash_notice: Eskerrikasko!

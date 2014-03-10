@@ -1,0 +1,21 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  admin: 
+    moderate: 
+      index: 
+        all: Tutte
+        content: Condenute
+        item_title: Titole
+  moderate: 
+    questions: 
+      flagged: 
+        filters: "Filtre:"
+      subtabs: 
+        flagged: Signate
+        flagged_tooltip: Domande signate da l'utinde
+        retag: Abbesògne de tag
+        retag_tooltip: Domande senza tag
+        to_close: Richieste de chiusure

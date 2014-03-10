@@ -1,0 +1,21 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Mirzali
+diq: 
+  doc: 
+    chat: 
+      title: Destekê Mıhebeti
+    plans: 
+      basic: Bıngeh
+      free_plan: plano bênırğ
+      maximum: Maksimum
+      month: aşme
+      optimum: Optimum
+      plans: Plani
+      plus: Zêde
+      premium: Prim
+      private: Xısusi
+      support: Destek
+      user: karber

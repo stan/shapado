@@ -1,0 +1,8 @@
+# Messages for Maltese (Malti)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Chrisportelli
+mt: 
+  layouts: 
+    application: 
+      ask_question: Saqsi mistoqsija

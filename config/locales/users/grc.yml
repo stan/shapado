@@ -1,0 +1,9 @@
+# Messages for Ancient Greek (Ἀρχαία ἑλληνικὴ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crazymadlover
+grc: 
+  activerecord: 
+    attributes: 
+      user: 
+        language: Γλῶττα

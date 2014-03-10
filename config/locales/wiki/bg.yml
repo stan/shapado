@@ -1,0 +1,13 @@
+# Messages for Bulgarian (български)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DCLXVI
+bg: 
+  wiki: 
+    history: 
+      current_version: Текуща версия
+      previous_versions: Предишни версии
+      version: Версия
+    model: 
+      attributes: 
+        message: Резюме

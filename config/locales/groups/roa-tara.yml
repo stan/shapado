@@ -1,0 +1,28 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  groups: 
+    form: 
+      any_language: Tutte
+    group: 
+      about: Sus a
+      accept_group: Accette stu gruppe
+      allow_ads: Permette pubblecetà
+      close: Achiude
+      close_group: Achiude stu gruppe
+      disallow_ads: Nò permettere 'a pubblecetà
+    index: 
+      actives: Attive
+      filter: Cirche le gruppe
+      most_active: Cchiù attive
+      name: Nome
+      pendings: Appese
+      request_group: Richiede 'nu gruppe nuève
+      title: Gruppe
+    show: 
+      title: Sus a %{name}
+      visit_group: Visite stu gruppe
+    top_grouplist: 
+      active_site: "Site attive:"

@@ -1,0 +1,13 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  activerecord: 
+    models: 
+      favorite: Puni
+      favorites: Nā Puni
+  favorites: 
+    create: 
+      success: Ua hoʻohui ʻia kēia nīnau i kāu mau puni.
+      unauthenticated: Pono ʻoe i kekahi moʻokāki no ka hoʻohui ʻana o nā puni.

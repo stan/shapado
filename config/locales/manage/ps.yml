@@ -1,0 +1,24 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  admin: 
+    manage: 
+      access: 
+        title: لاسرسی
+      invitations: 
+        invite: خلک بلل
+        title: بلنې
+      properties: 
+        constrains: 
+          title: غوښتنې
+        general: 
+          title: د ډلې ځانتياوې
+        invite: 
+          invite: خلک بلل
+        share: 
+          title: شريکول
+      top_admin: 
+        site: وېبځی
+        title: پازوال

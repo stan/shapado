@@ -1,0 +1,15 @@
+# Messages for Telugu (తెలుగు)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Veeven
+te: 
+  devise: 
+    mailer: 
+      confirm_account: 
+        welcome: స్వాగతం
+      hello: హలో
+    passwords: 
+      link: సంకేతపదాన్ని మర్చిపోయారా?
+  errors: 
+    messages: 
+      not_found: కనబడలేదు

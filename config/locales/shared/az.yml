@@ -1,0 +1,14 @@
+# Messages for Azerbaijani (azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+az: 
+  shared: 
+    date: Tarix
+    description: Təsvir
+    filter: "Süzgəc:"
+    language: "Dil:"
+    name: Ad
+    topbar: 
+      admin: İdarəçi
+      user_page: Mənim səhifəm

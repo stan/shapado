@@ -1,0 +1,20 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+# Author: Siebrand
+qqq: 
+  notifier: 
+    earned_badge: 
+      message3: "Parameters:\n* %{user_page} is a link with {{msg-shapado|Notifier-notifier.global.user_page}} as title."
+    follow: 
+      message2: "Parameters:\n* %{user_page} is a link with {{msg-shapado|Notifier-notifier.global.user_page}} as title."
+    global: 
+      hi: "{{Identical|Hi}}"
+      hi_no_user: "{{Identical|Hi}}"
+    new_answer: 
+      message: "Parameters:\n* %{user} is a username, for example \"Dani\".\n* %{new_answer} is an answer, for example \"I do not know, but we could build a machine for finding the question\".\n* %{question} is a question, for example \"What is the question to which the answer is '42'?\""
+    new_feedback: 
+      message3: "{{Identical|E-mail address}}"
+      message4: "{{Identical|Subject}}"

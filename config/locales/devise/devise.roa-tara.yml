@@ -1,0 +1,33 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  devise: 
+    failure: 
+      locked: "'U cunde tune jè bloccate."
+    mailer: 
+      confirm_account: 
+        welcome: Bovègne
+      confirmation_instructions: 
+        subject: "'Struziune de conferme"
+      hello: Cià
+      unlock_instructions: 
+        subject: "'Struziune de sblocche"
+    passwords: 
+      link: E' scurdate 'a passuord?
+    registrations: 
+      link: Reggistrate
+    sessions: 
+      link: Tràse
+      new: 
+        openid_url: L'URL toje de OpenID
+        remember_me: Arrecuèrdeme
+      registered_only: Tu à trasè pe 'ndrucà 'u condenute.
+      sign_out: Isse
+      signed_in: E' trasute!
+      signed_out: E' assute fore.
+      signin_group: Tràse jndr'à %{group}
+  errors: 
+    messages: 
+      not_found: none acchiate

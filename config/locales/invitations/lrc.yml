@@ -1,0 +1,10 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  invitations: 
+    accept: 
+      create_account_step2: حساو راست بكيد
+      done: انجوم بی!
+      welcome: خوش اومايت

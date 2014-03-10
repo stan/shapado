@@ -1,0 +1,26 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  admin: 
+    manage: 
+      access: 
+        title: Dostęp
+      invitations: 
+        invitations: Wysłane zaproszenia
+        title: Zaproszenia
+      properties: 
+        constrains: 
+          title: Wymagania
+        general: 
+          title: Właściwości grupy
+        share: 
+          title: Udostępnij
+        tag_your_tweets: 
+          ends_with_example: "np. #shapado"
+          starts_with_example: "np. #qa"
+        title: Właściwości grupy
+      top_admin: 
+        site: Strona
+        title: Administrator

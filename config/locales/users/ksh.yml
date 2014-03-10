@@ -1,0 +1,12 @@
+# Messages for Colognian (Ripoarisch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Purodha
+ksh: 
+  activerecord: 
+    models: 
+      user: Metmaacher
+      users: Metmaacher
+  users: 
+    show: 
+      title: Metmaacher %{user}

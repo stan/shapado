@@ -1,0 +1,12 @@
+# Messages for Esperanto (Esperanto)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gufulo
+eo: 
+  widgets: 
+    pages: 
+      description: Ĉi tiu fenestraĵo montras liston de vikiaj paĝo
+      title: Vikiaj paĝoj
+    tag_cloud: 
+      description: Ĉi tiu fenestraĵo montras etikedan nubon
+      title: Etikeda nubo

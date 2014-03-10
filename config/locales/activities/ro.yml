@@ -1,0 +1,9 @@
+# Messages for Romanian (română)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: KlaudiuMihaila
+ro: 
+  activerecord: 
+    models: 
+      activities: Activități
+      activity: Activitate

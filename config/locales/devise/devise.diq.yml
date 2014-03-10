@@ -1,0 +1,21 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Mirzali
+diq: 
+  devise: 
+    mailer: 
+      confirm_account: 
+        welcome: Xeyr amey
+      hello: Merheba
+    passwords: 
+      link: Parola xo vira kerda?
+    registrations: 
+      link: Qeyd be
+    sessions: 
+      link: Cı kewe
+      new: 
+        openid_url: OpenID URLê şıma
+        remember_me: Mı biya xo viri
+      sign_out: Bıveciye

@@ -1,0 +1,27 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Mirzali
+diq: 
+  shared: 
+    date: Deme
+    description: Şınasnayış
+    empty: 
+      themes: 
+        description: 
+          action_link: newke
+    filter: "Avrêc:"
+    language: "Zıwan:"
+    languages: "Zıwani:"
+    login_drop_down: 
+      with_facebook: ya Facebook
+      with_google: ya Google
+      with_identica: ya Identi.ca
+      with_linked_in: ya LinkedIn
+      with_openid: OpenID
+      with_twitter: ya Twitter
+    name: Name
+    topbar: 
+      admin: Admin
+      user_page: Pela mı

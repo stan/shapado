@@ -1,0 +1,22 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lokal Profil
+# Author: WikiPhoenix
+sv: 
+  notifier: 
+    earned_badge: 
+      message1: Du har tjänat ett %{badge}-emblem på %{app}
+      message2: "Emblembeskrivning:"
+      message3: Du kan se alla dina emblem på din %{user_page}
+    global: 
+      hi: Hej %{user},
+      user_page: användarsida
+    report: 
+      message2: Sedan %{date}
+      message3: "%{questions} frågor skapades"
+      message4: "%{answers} svar skapades"
+      message5: "%{votes} röster gjordes"
+      message6: "%{badges} emblem tilldelades"
+      message7: Kontot har %{users} användare.
+      message8: Besök din grupp på %{link}

@@ -1,0 +1,10 @@
+# Messages for Chechen (нохчийн)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Умар
+ce: 
+  wiki: 
+    actions: 
+      show_diff: Хаьржина версеш муха ю хьажа
+    history: 
+      current_version: Карара верси

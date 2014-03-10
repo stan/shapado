@@ -1,0 +1,9 @@
+# Messages for Telugu (తెలుగు)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Veeven
+te: 
+  searches: 
+    index: 
+      empty: మీ అన్వేషణకి సరిపోలే ప్రశ్నలు ఏవీ లేవు.
+      tags: ఈ ట్యాగులలో

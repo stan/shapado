@@ -1,0 +1,12 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  errors: 
+    forbidden: 
+      title: "{{Identical|Access denied}}"
+    not_found: 
+      title: "{{Identical|Page not found}}"
+    search: "{{Identical|Search}}"

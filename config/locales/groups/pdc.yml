@@ -1,0 +1,17 @@
+# Messages for Deitsch (Deitsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Xqt
+pdc: 
+  activerecord: 
+    attributes: 
+      group: 
+        language: Schprooch
+        name: Naame
+    models: 
+      groups: Druppe
+  groups: 
+    group: 
+      about: Iwwer
+    index: 
+      name: Naame

@@ -1,0 +1,22 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  widgets: 
+    about: 
+      title: Iwwer
+    ask_question: 
+      ask: Froen
+    groups: 
+      title: Rezent Gruppen
+    index: 
+      question_widgets: Fro
+      type: "Typ:"
+    pages: 
+      new: Nei Säit derbäisetzen
+      title: Wiki-Säiten
+    top_users: 
+      title: Top 5 Benotzer
+    users: 
+      title: Rezent Benotzer

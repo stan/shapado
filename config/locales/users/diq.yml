@@ -1,0 +1,70 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+# Author: Marmase
+# Author: Mirzali
+diq: 
+  activerecord: 
+    attributes: 
+      user: 
+        age: Sere
+        asked_by: persayen
+        avatar: Resimê profili
+        birthday: Roc biyayen
+        current_password: Parolaya newkên
+        fullname: Name pêro
+        language: Zıwan
+        last_logged_at: vineya
+        login: Nameyê karberi
+        name: Nameyo raştay
+        password: Parola
+        password_confirmation: Parola raştkerdış
+        reputation: Nam
+        timezone: Warey saete
+        website: Websita
+    models: 
+      user: Karber
+      users: Karberi
+  users: 
+    actions: 
+      flag: Desmal
+      vote_down: Nêgırot
+      vote_up: Gırot
+    change_password: 
+      submit: Parola mı bıvurne
+      title: Parola bıvurne
+    edit: 
+      submit: Qeyd ke
+      title: Eyari
+    form: 
+      desktop_notification: Xeberdarenê Serê masi
+      information: Zanışe
+      notifications: Mengeney
+    index: 
+      name: Name
+      newest: Tewr newe
+      oldest: Tewr kehan
+      reputation: Nam
+      title: Karberi pêro
+    new: 
+      join_group: Dekewê %{group}
+      submit: Qeyd be
+    show: 
+      edit_profile: Profili bıvurnê
+      follow: Pıpaw
+      followers: Pıpawê
+      following: Pawêno
+      title: Karber %{user}
+      unfollow: Mepaw
+      views: vinayışi
+    top_user: 
+      connect: Grebe
+      my_karma: "Karmay mı: %{karma}"
+      profile: Profile
+    user_bar: 
+      not_logged_in: Şıma cıkewtış nêvıraşto
+    user_mini: 
+      admin: "[ Admin ]"
+      editor: "[ Editor ]"
+      mod: "[ Moderator ]"

@@ -1,0 +1,29 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RajeshPandey
+ne: 
+  questions: 
+    answer_toolbar: 
+      flagged_by_you: तपाइद्वारा चिनो लगाइएको
+    disallow_spam: 
+      error: तपाइले अर्को प्रश्न प्रकाशन गर्नुभन्दा पहिले २० मिनेट पर्खिनुपर्छ ।
+    history: 
+      back: ← प्रश्नमा फर्किने
+    index: 
+      active: सक्रिय
+      ask_question: प्रश्न सोध्नुहोस
+      empty: कसैले पनि कुनैपनि प्रश्न सोधेको छैन। तपाइ पहिलो हुनुहोस !
+      help_to_answer: हामीलाइ उत्तर दिन सहायता गर्नुहोस
+      hot: तातो
+      hot_tooltip: पछिल्ला ५ दिनमा सबैभन्दा बढि सक्रिय प्रश्नहरू
+      newest: सबैभन्दा नयाँ
+      oldest: सबैभन्दा पुरानो
+      title: सबै प्रश्नहरू
+      unanswered_questions: अनुत्तरित प्रश्नहरू
+      votes: मतहरू
+    toolbar: 
+      answer_by_mail: इमेल द्वारा उत्तर दिनुहोस
+      more_actions: अन्य कामहरू
+      requests: अनुरोधहरू
+      your_close_request: तपाइको नजिकैको अनुरोध

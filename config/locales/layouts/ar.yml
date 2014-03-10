@@ -1,0 +1,13 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Meno25
+# Author: OsamaK
+ar: 
+  layouts: 
+    application: 
+      ask_question: اطرح سؤالا
+      log_in: تسجيل الدخول
+      search: بحث
+      settings: الإعدادات
+      title: أسئلة وأجوبة

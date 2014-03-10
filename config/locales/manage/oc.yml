@@ -1,0 +1,32 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  admin: 
+    manage: 
+      access: 
+        title: Accès
+      content: 
+        footer: pè de pagina
+        head: entèsta
+      invitations: 
+        title: Convits
+      properties: 
+        ask_from_twitter: 
+          question_must_include_example: "per exemple #iAsk"
+        constrains: 
+          title: Contrenchas
+        invitations: 
+          resend_button: Renviar
+          revoke_button: Revocar
+        rewards: 
+          title: Recompensas
+        share: 
+          title: Partejatz
+        tag_your_tweets: 
+          ends_with_example: "exemple : #shapado"
+          starts_with_example: "exemple : #qa"
+      top_admin: 
+        site: Site
+        title: Administrator

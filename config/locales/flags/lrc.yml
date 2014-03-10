@@ -1,0 +1,15 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: دليل
+    models: 
+      flag: بیرق
+      flags: بیرقیا
+  flags: 
+    form: 
+      spam: اسپم

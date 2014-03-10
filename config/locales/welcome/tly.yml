@@ -1,0 +1,12 @@
+# Messages for толышә зывон (толышә зывон)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Гусейн
+tly: 
+  welcome: 
+    feedback: 
+      feedback_description: Тәсвир
+      feedback_title: Ном
+    index: 
+      browse_all_or_by_tags: Дијәкән %{full_list_of_questions} јаанки%{browse_by_tags}
+      browse_by_tags: де нышонон дијә карде

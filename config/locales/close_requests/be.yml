@@ -1,0 +1,9 @@
+# Messages for Belarusian (беларуская)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Тест
+be: 
+  close_requests: 
+    model: 
+      attributes: 
+        reason: Прычына

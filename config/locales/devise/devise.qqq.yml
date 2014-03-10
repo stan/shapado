@@ -1,0 +1,19 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  devise: 
+    mailer: 
+      confirm_account: 
+        welcome: "{{Identical|Welcome}}"
+    passwords: 
+      link: "{{Identical|Forgot password}}"
+    registrations: 
+      link: "{{Identical|Sign up}}"
+    sessions: 
+      link: "{{Identical|Sign in}}"
+      new: 
+        remember_me: "{{Identical|Remember me}}"
+      sign_out: "{{Identical|Sign out}}"

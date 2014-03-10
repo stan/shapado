@@ -1,0 +1,14 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Nemo bis
+# Author: Shirayuki
+qqq: 
+  themes: 
+    form: 
+      questions_show_html: "The \"question show\" is the name of the page that shows a given question, <code>/questions/how-to-install-ubuntu</code> for example, and the questions index is the page that lists all questions: <code>/questions</code>."
+      submit_update: "{{Identical|Update theme}}"
+      update: "{{Identical|Update theme}}"
+    show: 
+      apply: "{{Identical|Apply}}"

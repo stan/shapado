@@ -1,0 +1,10 @@
+# Messages for Colognian (Ripoarisch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Purodha
+ksh: 
+  activerecord: 
+    attributes: 
+      question: 
+        title: Tittel
+        updated_at: Op der neue Shtand jebraat

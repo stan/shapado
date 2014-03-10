@@ -1,0 +1,26 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  layouts: 
+    application: 
+      all: All
+      ask_question: Fro stellen
+      forgot: Vergiess?
+      languages: Sproochen
+      now: elo!
+      pages: Säiten
+      questions: Froen
+      search: Sichen
+      settings: Astellungen
+      title: Froen an Äntwerten
+      unanswered: Net beäntwert
+      users: Benotzer
+    manage: 
+      actions: Aktioun
+      invitations: Invitatiounen
+      invoices: Rechnungen
+      members: Memberen
+      pages: Säiten
+      stats: Statistiken

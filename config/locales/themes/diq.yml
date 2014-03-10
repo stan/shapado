@@ -1,0 +1,16 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  themes: 
+    edit: 
+      title: Tema bıvurne
+    form: 
+      submit_update: Tema newe ke
+    show: 
+      apply: Dezge ke
+      main_color: Dawtey seri
+      modules_color: Dawtey moduli
+      text_color: Dawtey metni
+      try: Fına cerbne

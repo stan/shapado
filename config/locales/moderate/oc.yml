@@ -1,0 +1,17 @@
+# Messages for Occitan (occitan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cedric31
+oc: 
+  admin: 
+    moderate: 
+      index: 
+        all: Totes
+        ban: Bandir
+        content: Contengut
+        item_title: Títol
+  moderate: 
+    questions: 
+      flagged: 
+        filters: "Filtres :"
+        unbanned: Autorizat

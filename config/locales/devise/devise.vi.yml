@@ -1,0 +1,32 @@
+# Messages for Vietnamese (Tiếng Việt)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tuankiet65
+vi: 
+  devise: 
+    failure: 
+      inactive: Tài khoản của bạn chưa được kích hoạt.
+      invalid: Địa chỉ e-mail hay mật khẩu không hợp lệ.
+      invalid_token: Khóa xác thực không hợp lệ.
+      locked: Tài khoản của bạn đã bị khóa.
+      timeout: Phiên làm việc đã hết hạn, xin đăng nhập lại để tiếp tục.
+      unauthenticated: Bạn cần phải đăng nhập hoặc đăng ký trước khi tiếp tục.
+      unconfirmed: Bạn cần phải xác nhận tài khoản của bạn trước khi tiếp tục.
+    passwords: 
+      send_button: Gửi cho tôi hướng dẫn đặt lại mật khẩu
+      send_instructions: Bạn sẽ nhận được e-mail với các hướng dẫn để đặt lại mật khẩu của bạn trong vài phút.
+    sessions: 
+      link: Đăng nhập
+      new: 
+        openid_url: Địa chỉ OpenID của bạn
+        remember_me: Nhớ thông tin đăng nhập của tôi
+      registered_only: Bạn phải đăng nhập để xem nội dung.
+      sign_out: Đăng xuất
+      signed_in: Đăng nhập thành công.
+      signed_out: Đăng xuất thành công.
+      signin_group: Đăng nhập vào %{group}
+  errors: 
+    messages: 
+      already_confirmed: đã được xác nhận trước đây
+      not_found: không tìm thấy
+      not_locked: không bị khóa

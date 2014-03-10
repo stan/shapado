@@ -1,0 +1,16 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  themes: 
+    edit: 
+      title: Cange 'u teme
+    form: 
+      submit_update: Aggiorne 'u teme
+    ready: 
+      success: "'U teme tune ste pronde!"
+    show: 
+      apply: Appleche
+      main_color: Culore prengepàle
+      try: Pruève

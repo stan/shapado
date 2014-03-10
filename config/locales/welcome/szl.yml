@@ -1,0 +1,9 @@
+# Messages for Silesian (ślůnski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Byulent
+szl: 
+  welcome: 
+    feedback: 
+      feedback_description: Uopis
+      feedback_title: Titel

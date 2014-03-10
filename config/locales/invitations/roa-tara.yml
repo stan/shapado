@@ -1,0 +1,15 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  invitations: 
+    accept: 
+      create_account: Ccreje 'nu cunde (1 de 2)
+      welcome: Bovègne
+    create: 
+      flash_notice: L'invite tune onne state mannate cu successe.
+    resend: 
+      flash_notice: L'invite tune ha state remannate cu successe.
+    revoke: 
+      flash_notice: L'invite tune ha state scettate cu successe.

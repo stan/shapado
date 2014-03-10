@@ -1,0 +1,19 @@
+# Messages for Bengali (বাংলা)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RIPENDIL
+# Author: Tauhid16
+bn: 
+  badges: 
+    index: 
+      all_tooltip: সব সোনালী, রুপালী এবং ব্রোঞ্জের ব্যাজ দেখাও।
+      bronze: ব্রোঞ্জ
+      general: সাধারণ ব্যাজসমূহ
+      general_tooltip: সব পূর্বনির্ধারিত ব্যাজসমূহ দেখাও।
+      gold: সোনা
+      silver: রুপা
+      tags: টীকা ব্যাজসমূহ
+      title: ব্যাজসমূহ
+    shared: 
+      supporter: 
+        name: সমর্থক

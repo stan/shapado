@@ -1,0 +1,9 @@
+# Messages for Luxembourgish (Lëtzebuergesch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Robby
+lb: 
+  searches: 
+    form: 
+      clear: Eidel maachen
+      search_box_title: Kuckt no ob Är Fro scho gestallt gouf

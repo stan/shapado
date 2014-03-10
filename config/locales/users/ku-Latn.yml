@@ -1,0 +1,23 @@
+# Messages for Kurdish (Latin script) (Kurdî (latînî)‎)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: George Animal
+ku-Latn: 
+  activerecord: 
+    attributes: 
+      user: 
+        birthday: Rojbûn
+        email: E-name
+        language: Ziman
+        login: Navê bikarhêner
+        password: " Şîfre"
+        website: Malper
+    models: 
+      user: Bikarhêner
+      users: Bikarhêneran
+  users: 
+    index: 
+      name: Nav
+      title: Hemû bikarhêneran
+    user_mini: 
+      admin: "[ Rêveber ]"

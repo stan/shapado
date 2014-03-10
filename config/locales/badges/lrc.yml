@@ -1,0 +1,78 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  badges: 
+    index: 
+      bronze: برنز
+      general: نشونه یا عادی
+      gold: طلا
+      silver: نرقه
+      tags: تگ نشونه یا
+      title: نشونه یا
+    shared: 
+      celebrity: 
+        description: بیشتر د 100 گله دماله رو وه دس بیارتو
+        name: جشن
+      citizen_patrol: 
+        name: گشت شری
+      cleanup: 
+        name: تمیس کردن
+      commentator: 
+        description: 10 گل نظر وه جا بنیت
+      critic: 
+        name: بحرانی
+      editor: 
+        name: ويرايشتگر
+      effort_medal: 
+        description: 100 گله رائ خو بیئریت
+        name: نشون کوششت
+      famous_question: 
+        description: وه جواویایی که 10000 گل دیئه بینه جواو بیئتو
+      favorite_answer: 
+        name: جواو دلحا
+      friendly: 
+        name: دوستونه
+      good_answer: 
+        name: جواو خو
+      great_answer: 
+        name: جواو گپ
+      great_question: 
+        name: سوال گپ
+      guru: 
+        name: استاد
+      inquirer: 
+        description: سی اولی بار وه سوال جواو بیتو
+      investor: 
+        name: سرمایه نه
+      merit_medal: 
+        description: بیشتر د 200 رای خو بیئریت
+        name: نشون کاردونی
+      nice_answer: 
+        name: جواو خو
+      nice_question: 
+        name: سوال خو
+      notable_question: 
+        description: وه سوالی که 2500 گل دیئه بیه جواو بیتو
+        name: سوال نیسنی
+      organizer: 
+        name: سازمان راس کو
+      pioneer: 
+        name: پیش من
+      popular_person: 
+        description: بیشتر د 50 تا دماله رو وه دس بیارتو
+        name: آئم نوم دیار
+      popular_question: 
+        description: وه جواویایی که 1000 گل دیئه بینه جواو بیئتو
+        name: سوال نیسنی
+      promoter: 
+        name: پیشبر
+      scholar: 
+        name: مئن جور
+      self-learner: 
+        name: خود یادگر
+      student: 
+        name: دونسمن پی جور
+    show: 
+      earned: وه دس اومائه

@@ -1,0 +1,10 @@
+# Messages for Latgalian (latgaļu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dark Eagle
+ltg: 
+  layouts: 
+    application: 
+      pages: Puslopys
+    manage: 
+      pages: Puslopys

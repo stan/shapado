@@ -1,0 +1,12 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Meno25
+# Author: OsamaK
+ar: 
+  sessions: 
+    new: 
+      log_in: تسجيل الدخول
+      remember_me: تذكّرني
+      sign_in: لُج
+      signup: سجّل

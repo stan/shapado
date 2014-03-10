@@ -1,0 +1,41 @@
+# Messages for لوری (لوری)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mogoeilor
+lrc: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: جواویا
+        asked_by: جواو دئیه بیه وا
+        body: لش
+        closed: بسه
+        created_at: جواو دئیه
+        language: زون
+        title: سرتال
+        updated_at: روزآمد بیه
+        views: ديئنيا
+        votes: رای یا
+    models: 
+      question: سوال
+      questions: سوالیا
+  questions: 
+    index: 
+      ask_question: د سوال جؤاو دئين
+      hot: داخ
+      newest: تازه تري
+      oldest: قديمي تري
+    move: 
+      submit: جاوه جا بوئيت
+    new: 
+      title: د سوال جؤاو دئين
+    question: 
+      answer_verb: جواو
+    show: 
+      answers: جواویا
+      ban: جلوگری
+      close: بسن
+      flag: بیرق
+      history: ويرگار
+      open: واز
+      viewed: دیئه بیه

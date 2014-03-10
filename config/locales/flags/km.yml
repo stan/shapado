@@ -1,0 +1,14 @@
+# Messages for Khmer (ភាសាខ្មែរ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Sovichet
+km: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: មូល​ហេតុ
+  flags: 
+    create: 
+      flash_error: អ្នក​មិន​អាច​ដាក់​ទង់​នៅ​របស់​នេះ​បានទេ
+    form: 
+      spam: មិន​បាន​ការ

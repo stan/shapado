@@ -1,0 +1,12 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+eu: 
+  activerecord: 
+    attributes: 
+      group: 
+        name: Izena
+        subdomain: URL
+    models: 
+      groups: Taldeak

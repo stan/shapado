@@ -1,0 +1,9 @@
+# Messages for Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tifinaghes
+tzm: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        message: ⵜⴰⴱⵔⴰⵜ

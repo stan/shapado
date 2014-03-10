@@ -1,0 +1,10 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  searches: 
+    form: 
+      clear: Wyczyść
+    index: 
+      advanced_search: wyszukiwanie zaawansowane

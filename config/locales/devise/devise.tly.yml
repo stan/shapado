@@ -1,0 +1,10 @@
+# Messages for толышә зывон (толышә зывон)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Гусейн
+tly: 
+  devise: 
+    mailer: 
+      confirm_account: 
+        welcome: Хәш омәјшон
+      hello: Сәлом Алејкум

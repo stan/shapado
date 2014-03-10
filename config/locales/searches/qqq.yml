@@ -1,0 +1,10 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+qqq: 
+  searches: 
+    form: 
+      clear: "{{Identical|Clear}}"
+    index: 
+      advanced_search: "{{Identical|Advanced search}}"

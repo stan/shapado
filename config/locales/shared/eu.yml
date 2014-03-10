@@ -1,0 +1,17 @@
+# Messages for Basque (euskara)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Subi
+eu: 
+  shared: 
+    any_lang: Edozein hizkuntza
+    date: Data
+    description: Deskribapena
+    empty: 
+      themes: 
+        description: 
+          action_link: orain
+    filter: "Iragazkia:"
+    language: "Hizkuntza:"
+    languages: "Hizkuntzak:"
+    name: Izena

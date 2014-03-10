@@ -1,0 +1,22 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aswn
+# Author: TRYPPN
+ta: 
+  layouts: 
+    application: 
+      home: முகப்பு
+      languages: மொழிகள்
+      log_in: புகுபதிகை
+      logout: விடுபதிகை
+      moderate: மிதமான
+      now: இப்பொழுது !
+      pages: பக்கங்கள்
+      search: தேடுக
+      users: பயனர்கள்
+    manage: 
+      actions: செயல்கள்
+      general: பொதுவான
+      members: உறுப்பினர்கள்
+      pages: பக்கங்கள்

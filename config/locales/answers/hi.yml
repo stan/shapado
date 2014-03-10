@@ -1,0 +1,31 @@
+# Messages for Hindi (हिन्दी)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Siddhartha Ghai
+# Author: Venky2834
+hi: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: उत्तर का शरीर
+        created_at: निर्माण का समय
+        link: लिंक
+    models: 
+      answer: उत्तर
+      answers: उत्तर
+  answers: 
+    create: 
+      annon_notice: उपयोगकर्ता पहले से पंजीकृत है, कृपया लोग इन करें।
+      flash_error: "आपके उत्तर को जोड़ते वक़्त कुछ गलत हो गया।\n  याद रखें कि:\n -खाली और दोहराए गए जवाब की अनुमति नहीं है\n -आपको दूसरा जवाब देने से पूर्व २० सेकेंड तक प्रतीक्षा करने की ज़रूरत है।\n -आप प्रति प्रश्न केवल एक उत्तर पोस्ट कर सकते हैं।"
+      flash_notice: धन्यवाद!
+    edit: 
+      title: उत्तर का संपादन हो रहा है
+    form: 
+      answer_label: सवाल का जवाब दें
+      comment_label: इस जवाब पर टिप्पणी करें
+      comment_submit: टिप्पणी
+      submit: उत्तर
+    revert: 
+      title: उत्तर पलटिये
+    update: 
+      flash_notice: उत्तर का सफलतापूर्वक अद्यतन कर दिया गया।

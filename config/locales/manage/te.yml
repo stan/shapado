@@ -1,0 +1,30 @@
+# Messages for Telugu (తెలుగు)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Veeven
+te: 
+  admin: 
+    manage: 
+      content: 
+        question_help: ప్రశ్న సహాయం
+        top_bar_tip: పంక్తికి ఒక లంకె చొప్పున ఇవ్వండి
+      invitations: 
+        title: ఆహ్వానాలు
+      properties: 
+        ask_from_twitter: 
+          question_must_include_example: ఉదా॥#iAsk
+        constrains: 
+          title: ఆవశ్యకాలు
+        domain: 
+          warning: మీరు నిజంగానే మీ డొమైనుని మార్చుకోవాలనుకుంటున్నారా?
+        general: 
+          title: గుంపు లక్షణాలు
+        share: 
+          title: పంచుకోండి
+        tag_your_tweets: 
+          ends_with_example: ఉదా॥#shapado
+          starts_with_example: ఉదా॥#qa
+        twitter_account: 
+          twitter_account: ట్విట్టర్ ఖాతా
+      social: 
+        twitter_account: ట్విట్టర్ ఖాతా

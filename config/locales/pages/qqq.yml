@@ -1,0 +1,18 @@
+# Messages for Message documentation (Message documentation)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Shirayuki
+qqq: 
+  activerecord: 
+    models: 
+      page: "{{Identical|Page}}"
+      pages: "{{Identical|Page}}"
+  pages: 
+    actions: 
+      edit_page: "{{Identical|Edit page}}"
+      title: "{{Identical|Action}}"
+    index: 
+      wiki: "{{Identical|Wiki}}"
+    new: 
+      title: "{{Identical|New page}}"

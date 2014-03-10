@@ -1,0 +1,41 @@
+# Messages for Asturian (asturianu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Xuacu
+ast: 
+  groups: 
+    downgrade: 
+      notice: Abandonó la suscripción correutamente, agora ta usando'l nuesu plan de baldre.
+    group: 
+      about: Tocante a
+      accept_group: Aceutar esti grupu
+      allow_ads: Permitir anuncios
+      close: Zarrar
+      close_group: Zarrar esti grupu
+      disallow_ads: Nun permitir anuncios
+    index: 
+      actives: Activos
+      create_your_own: crear el so grupu propiu
+      description: Esta ye la llista de grupos públicos que se crearon. Use la entrada de gueta d'abaxo pa filtriar los grupos. Tamién pue %{link}.
+      filter: Buscar grupos
+      most_active: Más activos
+      name: Nome
+      pendings: Pendientes
+      request_group: Pidir un grupu nuevu
+      title: Grupos
+    new: 
+      title: Crear el so grupu
+    show: 
+      accept_group: Aceutar esti grupu
+      accept_group_with_custom_ads: Aceptar el grupu y permitir anuncios personalizaos
+      close_group: Zarrar esti grupu
+      group_awaiting_acceptance: Esti grupu ta esperando qu'un moderador lu acepte.
+      group_closed: Esti grupu zarróse.
+      title: Tocante a %{name}
+      visit_group: Visitar esti grupu
+    top_grouplist: 
+      active_site: "Sitiu activu:"
+    update: 
+      notice: El so grupu anovóse correutamente.
+    upgrade: 
+      error: Yá ta suscritu a esti plan

@@ -1,0 +1,33 @@
+# Messages for Bosnian (bosanski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Edinwiki
+bs: 
+  devise: 
+    failure: 
+      inactive: Vaš nalog još nije aktiviran.
+      invalid: Neispravna e-mail adresa ili lozinka.
+      invalid_token: Neispravna oznaka za potvrdu.
+      locked: Vaš nalog je zaključan.
+      timeout: Sesija je istekla. Prijavite se ponovo da nastavite.
+    mailer: 
+      confirm_account: 
+        welcome: Dobrodošli
+      hello: Pozdrav
+    passwords: 
+      send_button: Pošalji mi uputstvo za obnavljanje lozinke
+    registrations: 
+      link: Upiši se
+    sessions: 
+      link: Prijavi se
+      new: 
+        openid_url: Vaš OpenID URL
+        remember_me: Zapamti me
+      registered_only: Morate biti prijavljeni da bi vidjeli sadržaj.
+      sign_out: Odjavi se
+      signed_in: Prijavljeni ste.
+      signed_out: Odjavljeni ste.
+      signin_group: Prijavite se na %{group}
+  errors: 
+    messages: 
+      not_found: nije pronađeno

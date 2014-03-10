@@ -1,0 +1,13 @@
+# Messages for Hawaiian (Hawai`i)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kolonahe
+haw: 
+  tags: 
+    index: 
+      filter: Huli no nā lepili
+    show: 
+      title: "Nā nīnau e lepili ʻia: %{tags}"
+    show_json: 
+      edit_it: Hoʻohui i kekahi hōʻike ʻano no kēia lepili.
+      no_description: ʻAʻohe hōʻike ʻano no kēia lepili.

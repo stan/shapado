@@ -1,0 +1,14 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aswn
+ta: 
+  devise: 
+    mailer: 
+      confirm_account: 
+        welcome: வருக ! வணக்கம் !
+      hello: வணக்கம்
+      reset_password: 
+        link: என் கடவுச்சொல்லை மாற்று
+    sessions: 
+      link: புகுபதிகை

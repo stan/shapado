@@ -1,0 +1,18 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  activerecord: 
+    models: 
+      vote: Głosuj
+      votes: Głosy
+  votes: 
+    create: 
+      flash_error: Nie możesz tego oceniać
+      flash_notice: Dziękujemy za oddanie głosu!
+      unauthenticated: Anonimowi użytkownicy nie mogą głosować
+    model: 
+      messages: 
+        closed_question: Nie możesz oceniać postów należących do zamknietego pytania
+        vote_down_comment: Komentarze nie mogą być przegłosowane

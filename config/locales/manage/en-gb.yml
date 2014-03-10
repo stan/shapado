@@ -1,0 +1,9 @@
+# Messages for British English (British English)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+en-gb: 
+  admin: 
+    manage: 
+      appearance: 
+        title: Pick and customise your theme
